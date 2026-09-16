@@ -1,0 +1,50 @@
+# Roblox Studio and Rojo build artifacts
+/build/
+/dist/
+/*.rbxl
+/*.rbxlx
+/*.rbxm
+/*.rbxmx
+/*.sourcemap.json
+
+# Local tool caches and generated state
+/.rokit/
+/.luau-lsp/
+/.selene/
+
+# VS Code local workspace state
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.toml
+*.local.lua
+.secrets/
+.credentials/
+credentials.json
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
