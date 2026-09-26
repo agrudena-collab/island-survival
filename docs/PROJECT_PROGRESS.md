@@ -1,6 +1,6 @@
 # Project progress and architecture
 
-Last updated: 2026-09-26 18:08 MSK  
+Last updated: 2026-09-26 22:16 MSK
 Project: Steal a Dad  
 Repository: agrudena-collab/island-survival  
 Project owner: Yaroslav
@@ -27,7 +27,7 @@ For every status change, record the branch, Pull Request, verification evidence,
 | --- | --- | --- | --- |
 | Repository structure and development rules | DONE | `AGENTS.md`, `docs/DEVELOPMENT_RULES.md` | Preserve existing Rojo mappings and server authority |
 | Session player profile and Cash API | DONE | Pull Request 2 merged into `main`; main commit `22fd210` | Keep API compatible |
-| Cash persistence through DataStore | READY FOR REVIEW | Branch `feature/player-data-persistence-m2`; commit `dbf66fe`; Studio reload retained `Cash = 400`; no DataStore error was visible in the supplied Output | Create and review the Pull Request into `main` |
+| Cash persistence through DataStore | DONE | Pull Request #3 merged into `main`; merge commit `ef5e1f6`; implementation commit `dbf66fe`; Studio reload retained Cash | Start M3 — Server base assignment |
 | Partner Cash HUD | PLANNED | Assigned two-day partner plan | Implement in `feature/ui-cash-hud-m1` |
 | Partner map blockout | PLANNED | Assigned two-day partner plan | Implement in `feature/map-blockout-m1` |
 | Server base assignment | PLANNED | Owner two-day plan | Start after persistence is merged |
@@ -103,7 +103,7 @@ The MVP is configured for eight players, so the blockout contains eight bases.
 
 | ID | Day | Task | Branch | Allowed files | Status | Depends on |
 | --- | --- | --- | --- | --- | --- | --- |
-| OWNER-01 | 1 | Create, review, and merge the Cash persistence Pull Request | `feature/player-data-persistence-m2` | `src/server/Services/PlayerDataService.lua` | READY FOR REVIEW | None |
+| OWNER-01 | 1 | Create, review, and merge the Cash persistence Pull Request | `feature/player-data-persistence-m2` | `src/server/Services/PlayerDataService.lua` | DONE | None |
 | OWNER-02 | 1 | Implement server base assignment and release | `feature/base-assignment-m3` | `BaseService.lua`, required BaseId methods in `PlayerDataService.lua` | PLANNED | OWNER-01 |
 | OWNER-03 | 2 | Review partner Cash HUD | Partner Pull Request | Review only | PLANNED | PARTNER-01 |
 | OWNER-04 | 2 | Validate the map naming contract | Partner Pull Request | Review only | PLANNED | PARTNER-02 |
@@ -153,7 +153,7 @@ The order below is provisional. A milestone starts only after dependencies and a
 | Milestone | Purpose | Dependency | Status |
 | --- | --- | --- | --- |
 | M1 | Session profile and Cash API | Project bootstrap | DONE |
-| M2 | Persistent Cash | M1 | READY FOR REVIEW |
+| M2 | Persistent Cash | M1 | DONE |
 | M3 | Server base assignment | M2 and map contract | PLANNED |
 | M4 | Dad catalog and server spawning | M3 | PLANNED |
 | M5 | Server-validated Dad purchase and Cash spending | M4 | PLANNED |
@@ -195,9 +195,9 @@ Copy this section when a task changes status:
 
 ## Immediate next actions
 
-1. Open and review the Pull Request for `feature/player-data-persistence-m2`.
-2. Merge it only after confirming the diff and completed Studio test.
-3. Update local `main`.
-4. Start `feature/base-assignment-m3`.
-5. Receive the partner's PARTNER-01 evidence and review the HUD Pull Request.
+1. Complete and merge the Pull Request for `docs/project-progress-tracker`.
+2. Update local `main`.
+3. Create `feature/base-assignment-m3`.
+4. Receive the partner's PARTNER-01 evidence and review the HUD Pull Request.
+5. Receive the partner's PARTNER-02 evidence and review the map blockout Pull Request against the naming contract.
 6. Update this tracker after every reviewed merge.
