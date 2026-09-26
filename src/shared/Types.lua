@@ -5,6 +5,8 @@ export type PlayerData = {
 	BaseId: string?,
 }
 
+export type PlayerProfile = PlayerData
+
 export type DadDefinition = {
 	Id: string,
 	DisplayName: string,
