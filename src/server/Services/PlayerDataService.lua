@@ -6,6 +6,7 @@ local Config = require(ReplicatedStorage:WaitForChild("Shared"):WaitForChild("Co
 
 local PlayerDataService = {}
 local profiles = {}
+local profileLoadedCallbacks = {}
 local loading = {}
 local saving = {}
 local removing = {}
@@ -117,6 +118,9 @@ local function loadProfile(player)
 	profiles[userId] = profile
 	createLeaderstats(player, profile.Cash)
 	loading[userId] = nil
+	for _, callback in ipairs(profileLoadedCallbacks) do
+		task.spawn(callback, player)
+	end
 
 	return profile
 end
@@ -224,6 +228,24 @@ end
 
 function PlayerDataService.GetData(player)
 	return getProfile(player)
+end
+
+function PlayerDataService.OnProfileLoaded(callback)
+	table.insert(profileLoadedCallbacks, callback)
+	for _, player in ipairs(Players:GetPlayers()) do
+		if profiles[player.UserId] then
+			task.spawn(callback, player)
+		end
+	end
+end
+
+function PlayerDataService.SetBaseId(player, baseId)
+	local profile = getProfile(player)
+	if not profile or (baseId ~= nil and type(baseId) ~= "string") then
+		return false
+	end
+	profile.BaseId = baseId
+	return true
 end
 
 function PlayerDataService.GetCash(player)
