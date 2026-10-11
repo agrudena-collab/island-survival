@@ -1,0 +1,13165 @@
+{
+"note": "bbox = [Xmin,Xmax,Dmin,Dmax,Hmin,Hmax] in logical studs",
+"components": [
+{
+"name": "Structure_Floor_Base",
+"group": "Structure",
+"material": "GDH_STONE",
+"collision": "collide",
+"bbox": [
+-15.0,
+15.0,
+4.0,
+30.0,
+-0.3,
+-0.04
+]
+},
+{
+"name": "Structure_Floor_TilesA",
+"group": "Structure",
+"material": "GDH_WHITE",
+"collision": "collide",
+"bbox": [
+-15.0,
+15.0,
+4.0,
+30.0,
+-0.04,
+0.0
+]
+},
+{
+"name": "Structure_Floor_TilesB",
+"group": "Structure",
+"material": "GDH_STONE",
+"collision": "collide",
+"bbox": [
+-15.0,
+15.0,
+4.0,
+30.0,
+-0.04,
+0.0
+]
+},
+{
+"name": "Structure_Floor_EntryNotch",
+"group": "Structure",
+"material": "GDH_STONE",
+"collision": "collide",
+"bbox": [
+-5.0,
+5.0,
+4.0,
+5.2,
+-0.3,
+0.0
+]
+},
+{
+"name": "Structure_Wall_E0_01",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-12.0,
+-11.0,
+4.0,
+4.4,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E0_02",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-11.0,
+-6.4,
+4.0,
+4.4,
+0.0,
+3.4
+]
+},
+{
+"name": "Structure_Wall_E0_03",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-11.0,
+-6.4,
+4.0,
+4.4,
+8.2,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E0_04",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-6.4,
+-5.0,
+4.0,
+4.4,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_WallPlate_E0",
+"group": "Structure",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-12.0,
+-5.0,
+4.0,
+4.4,
+11.5,
+11.8
+]
+},
+{
+"name": "Structure_Wall_E1_01",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-5.4,
+-5.0,
+4.0,
+5.2,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_WallPlate_E1",
+"group": "Structure",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-5.4,
+-5.0,
+4.0,
+5.2,
+11.5,
+11.8
+]
+},
+{
+"name": "Structure_Wall_E2_01",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-5.0,
+-4.2,
+5.2,
+5.6,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E2_02",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-4.2,
+4.2,
+5.2,
+5.6,
+9.4,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E2_03",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+4.2,
+5.0,
+5.2,
+5.6,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_WallPlate_E2",
+"group": "Structure",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-5.0,
+5.0,
+5.2,
+5.6,
+11.5,
+11.8
+]
+},
+{
+"name": "Structure_Wall_E3_01",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+5.0,
+5.4,
+4.0,
+5.2,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_WallPlate_E3",
+"group": "Structure",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+5.0,
+5.4,
+4.0,
+5.2,
+11.5,
+11.8
+]
+},
+{
+"name": "Structure_Wall_E4_01",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+5.0,
+6.4,
+4.0,
+4.4,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E4_02",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+6.4,
+11.0,
+4.0,
+4.4,
+0.0,
+3.4
+]
+},
+{
+"name": "Structure_Wall_E4_03",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+6.4,
+11.0,
+4.0,
+4.4,
+8.2,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E4_04",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+11.0,
+12.0,
+4.0,
+4.4,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_WallPlate_E4",
+"group": "Structure",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+5.0,
+12.0,
+4.0,
+4.4,
+11.5,
+11.8
+]
+},
+{
+"name": "Structure_Wall_E5_01",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+11.717,
+12.439,
+4.0,
+4.722,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E5_02",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+12.156,
+14.561,
+4.439,
+6.844,
+0.0,
+3.4
+]
+},
+{
+"name": "Structure_Wall_E5_03",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+12.156,
+14.561,
+4.439,
+6.844,
+8.2,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E5_04",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+14.278,
+15.0,
+6.561,
+7.283,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_WallPlate_E5",
+"group": "Structure",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+11.717,
+15.0,
+4.0,
+7.283,
+11.5,
+11.8
+]
+},
+{
+"name": "Structure_Wall_E6_01",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+14.6,
+15.0,
+7.0,
+12.5,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E6_02",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+14.6,
+15.0,
+12.5,
+19.5,
+0.0,
+4.4
+]
+},
+{
+"name": "Structure_Wall_E6_03",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+14.6,
+15.0,
+12.5,
+19.5,
+8.8,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E6_04",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+14.6,
+15.0,
+19.5,
+30.0,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_WallPlate_E6",
+"group": "Structure",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+14.6,
+15.0,
+7.0,
+30.0,
+11.5,
+11.8
+]
+},
+{
+"name": "Structure_Wall_E7_01",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+10.8,
+15.0,
+29.6,
+30.0,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E7_02",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+5.8,
+10.8,
+29.6,
+30.0,
+0.0,
+4.4
+]
+},
+{
+"name": "Structure_Wall_E7_03",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+5.8,
+10.8,
+29.6,
+30.0,
+8.8,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E7_04",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+4.2,
+5.8,
+29.6,
+30.0,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E7_05",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-4.2,
+4.2,
+29.6,
+30.0,
+9.4,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E7_06",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-5.5,
+-4.2,
+29.6,
+30.0,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E7_07",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-12.5,
+-5.5,
+29.6,
+30.0,
+0.0,
+4.2
+]
+},
+{
+"name": "Structure_Wall_E7_08",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-12.5,
+-5.5,
+29.6,
+30.0,
+8.6,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E7_09",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-15.0,
+-12.5,
+29.6,
+30.0,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_WallPlate_E7",
+"group": "Structure",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-15.0,
+15.0,
+29.6,
+30.0,
+11.5,
+11.8
+]
+},
+{
+"name": "Structure_Wall_E8_01",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-15.0,
+-14.6,
+20.5,
+30.0,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E8_02",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-15.0,
+-14.6,
+13.5,
+20.5,
+0.0,
+4.2
+]
+},
+{
+"name": "Structure_Wall_E8_03",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-15.0,
+-14.6,
+13.5,
+20.5,
+8.6,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E8_04",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-15.0,
+-14.6,
+7.0,
+13.5,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_WallPlate_E8",
+"group": "Structure",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-15.0,
+-14.6,
+7.0,
+30.0,
+11.5,
+11.8
+]
+},
+{
+"name": "Structure_Wall_E9_01",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-15.0,
+-14.278,
+6.561,
+7.283,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E9_02",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-14.561,
+-12.156,
+4.439,
+6.844,
+0.0,
+3.4
+]
+},
+{
+"name": "Structure_Wall_E9_03",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-14.561,
+-12.156,
+4.439,
+6.844,
+8.2,
+11.5
+]
+},
+{
+"name": "Structure_Wall_E9_04",
+"group": "Structure",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-12.439,
+-11.717,
+4.0,
+4.722,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_WallPlate_E9",
+"group": "Structure",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-15.0,
+-11.717,
+4.0,
+7.283,
+11.5,
+11.8
+]
+},
+{
+"name": "Structure_CornerPost_01",
+"group": "Structure",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-12.424,
+-11.576,
+3.576,
+4.424,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_CornerPost_02",
+"group": "Structure",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-5.3,
+-4.7,
+3.7,
+4.3,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_CornerPost_03",
+"group": "Structure",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-5.3,
+-4.7,
+4.9,
+5.5,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_CornerPost_04",
+"group": "Structure",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+4.7,
+5.3,
+4.9,
+5.5,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_CornerPost_05",
+"group": "Structure",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+4.7,
+5.3,
+3.7,
+4.3,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_CornerPost_06",
+"group": "Structure",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+11.576,
+12.424,
+3.576,
+4.424,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_CornerPost_07",
+"group": "Structure",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+14.576,
+15.424,
+6.576,
+7.424,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_CornerPost_08",
+"group": "Structure",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+14.7,
+15.3,
+29.7,
+30.3,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_CornerPost_09",
+"group": "Structure",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-15.3,
+-14.7,
+29.7,
+30.3,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_CornerPost_10",
+"group": "Structure",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-15.424,
+-14.576,
+6.576,
+7.424,
+0.0,
+11.5
+]
+},
+{
+"name": "Structure_BrickMortar_E0_0",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+-12.0,
+-5.0,
+3.9,
+4.0,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E0_0_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+-12.0,
+-5.0,
+3.88,
+4.0,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E0_0_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+-11.988,
+-5.0,
+3.88,
+4.0,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_BrickMortar_E1_0",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+-5.0,
+-4.9,
+4.0,
+5.2,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E1_0_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+-5.0,
+-4.88,
+4.0,
+5.2,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E1_0_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+-5.0,
+-4.88,
+4.013,
+5.188,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_BrickMortar_E2_0",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+-5.0,
+-4.45,
+5.1,
+5.2,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E2_0_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+-5.0,
+-4.45,
+5.08,
+5.2,
+0.363,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E2_0_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+-4.988,
+-4.45,
+5.08,
+5.2,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_BrickMortar_E2_94",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+4.45,
+5.0,
+5.1,
+5.2,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E2_94_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+4.45,
+5.0,
+5.08,
+5.2,
+0.363,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E2_94_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+4.463,
+5.0,
+5.08,
+5.2,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_BrickMortar_E3_0",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+4.9,
+5.0,
+4.0,
+5.2,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E3_0_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+4.88,
+5.0,
+4.0,
+5.2,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E3_0_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+4.88,
+5.0,
+4.013,
+5.188,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_BrickMortar_E4_0",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+5.0,
+12.0,
+3.9,
+4.0,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E4_0_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+5.0,
+12.0,
+3.88,
+4.0,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E4_0_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+5.012,
+12.0,
+3.88,
+4.0,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_BrickMortar_E5_0",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+12.0,
+15.071,
+3.929,
+7.0,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E5_0_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+12.0,
+15.085,
+3.915,
+7.0,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E5_0_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+12.009,
+15.085,
+3.924,
+7.0,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_BrickMortar_E6_0",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+15.0,
+15.1,
+7.0,
+30.0,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E6_0_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+15.0,
+15.12,
+7.0,
+30.0,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E6_0_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+15.0,
+15.12,
+7.013,
+30.0,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_BrickMortar_E7_0",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+4.45,
+15.0,
+30.0,
+30.1,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E7_0_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+4.45,
+15.0,
+30.0,
+30.12,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E7_0_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+4.45,
+14.988,
+30.0,
+30.12,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_BrickMortar_E7_194",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+-15.0,
+-4.45,
+30.0,
+30.1,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E7_194_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+-15.0,
+-4.45,
+30.0,
+30.12,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E7_194_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+-15.0,
+-4.463,
+30.0,
+30.12,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_BrickMortar_E8_0",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+-15.1,
+-15.0,
+7.0,
+30.0,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E8_0_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+-15.12,
+-15.0,
+7.0,
+30.0,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E8_0_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+-15.12,
+-15.0,
+7.0,
+29.988,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_BrickMortar_E9_0",
+"group": "Structure",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+-15.071,
+-12.0,
+3.929,
+7.0,
+0.0,
+1.4
+]
+},
+{
+"name": "Structure_Brick_E9_0_Light",
+"group": "Structure",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+-15.085,
+-12.0,
+3.915,
+7.0,
+0.013,
+1.388
+]
+},
+{
+"name": "Structure_Brick_E9_0_Dark",
+"group": "Structure",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+-15.076,
+-12.0,
+3.915,
+6.991,
+0.013,
+1.388
+]
+},
+{
+"name": "Roof_Hip_Front",
+"group": "Roof",
+"material": "GDH_ROOF",
+"collision": "collide",
+"bbox": [
+-12.6,
+12.6,
+3.0,
+17.069,
+11.591,
+16.4
+]
+},
+{
+"name": "Roof_Hip_Rear",
+"group": "Roof",
+"material": "GDH_ROOF",
+"collision": "collide",
+"bbox": [
+-15.8,
+15.8,
+16.93,
+30.8,
+11.591,
+16.4
+]
+},
+{
+"name": "Roof_Hip_Right",
+"group": "Roof",
+"material": "GDH_ROOF",
+"collision": "collide",
+"bbox": [
+3.92,
+15.8,
+6.2,
+30.8,
+11.595,
+16.4
+]
+},
+{
+"name": "Roof_Hip_Left",
+"group": "Roof",
+"material": "GDH_ROOF",
+"collision": "collide",
+"bbox": [
+-15.8,
+-3.92,
+6.2,
+30.8,
+11.595,
+16.4
+]
+},
+{
+"name": "Roof_Hip_ChamferR",
+"group": "Roof",
+"material": "GDH_ROOF",
+"collision": "collide",
+"bbox": [
+3.957,
+15.8,
+3.0,
+17.043,
+11.589,
+16.4
+]
+},
+{
+"name": "Roof_Hip_ChamferL",
+"group": "Roof",
+"material": "GDH_ROOF",
+"collision": "collide",
+"bbox": [
+-15.8,
+-3.957,
+3.0,
+17.043,
+11.589,
+16.4
+]
+},
+{
+"name": "Roof_Fascia_01",
+"group": "Roof",
+"material": "GDH_ROOF_EDGE",
+"collision": "collide",
+"bbox": [
+-12.6,
+12.6,
+3.0,
+3.25,
+11.35,
+11.8
+]
+},
+{
+"name": "Roof_Fascia_02",
+"group": "Roof",
+"material": "GDH_ROOF_EDGE",
+"collision": "collide",
+"bbox": [
+12.423,
+15.8,
+3.0,
+6.377,
+11.35,
+11.8
+]
+},
+{
+"name": "Roof_Fascia_03",
+"group": "Roof",
+"material": "GDH_ROOF_EDGE",
+"collision": "collide",
+"bbox": [
+15.55,
+15.8,
+6.2,
+30.8,
+11.35,
+11.8
+]
+},
+{
+"name": "Roof_Fascia_04",
+"group": "Roof",
+"material": "GDH_ROOF_EDGE",
+"collision": "collide",
+"bbox": [
+-15.8,
+15.8,
+30.55,
+30.8,
+11.35,
+11.8
+]
+},
+{
+"name": "Roof_Fascia_05",
+"group": "Roof",
+"material": "GDH_ROOF_EDGE",
+"collision": "collide",
+"bbox": [
+-15.8,
+-15.55,
+6.2,
+30.8,
+11.35,
+11.8
+]
+},
+{
+"name": "Roof_Fascia_06",
+"group": "Roof",
+"material": "GDH_ROOF_EDGE",
+"collision": "collide",
+"bbox": [
+-15.8,
+-12.423,
+3.0,
+6.377,
+11.35,
+11.8
+]
+},
+{
+"name": "Roof_Ridge_Cap",
+"group": "Roof",
+"material": "GDH_ROOF_EDGE",
+"collision": "collide",
+"bbox": [
+-4.0,
+4.0,
+16.825,
+17.175,
+16.4,
+16.52
+]
+},
+{
+"name": "Roof_Chimney_Body",
+"group": "Roof",
+"material": "GDH_BRICK",
+"collision": "collide",
+"bbox": [
+11.3,
+12.7,
+27.7,
+29.1,
+11.8,
+17.6
+]
+},
+{
+"name": "Roof_Chimney_Bands",
+"group": "Roof",
+"material": "GDH_BRICK_DARK",
+"collision": "collide",
+"bbox": [
+11.28,
+12.72,
+27.68,
+29.12,
+12.5,
+17.05
+]
+},
+{
+"name": "Roof_Chimney_Cap",
+"group": "Roof",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.15,
+12.85,
+27.55,
+29.25,
+17.6,
+17.8
+]
+},
+{
+"name": "Roof_Chimney_Opening",
+"group": "Roof",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+11.65,
+12.35,
+28.05,
+28.75,
+17.8,
+17.82
+]
+},
+{
+"name": "Window_FrontL_FrameLow",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-11.2,
+-6.2,
+3.82,
+4.0,
+3.2,
+3.4
+]
+},
+{
+"name": "Window_FrontL_FrameHigh",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-11.2,
+-6.2,
+3.82,
+4.0,
+8.2,
+8.4
+]
+},
+{
+"name": "Window_FrontL_FrameL",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-11.2,
+-11.0,
+3.82,
+4.0,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_FrontL_FrameR",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-6.4,
+-6.2,
+3.82,
+4.0,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_FrontL_Sill",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-11.25,
+-6.15,
+3.6,
+4.0,
+2.95,
+3.2
+]
+},
+{
+"name": "Window_FrontL_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+-11.0,
+-6.4,
+4.185,
+4.215,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_FrontL_Mullion_1",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-8.76,
+-8.64,
+4.1,
+4.3,
+3.4,
+8.2
+]
+},
+{
+"name": "Door_Front_FrameL",
+"group": "Openings",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-4.45,
+-4.2,
+5.1,
+5.58,
+0.0,
+9.65
+]
+},
+{
+"name": "Door_Front_FrameR",
+"group": "Openings",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+4.2,
+4.45,
+5.1,
+5.58,
+0.0,
+9.65
+]
+},
+{
+"name": "Door_Front_FrameHead",
+"group": "Openings",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-4.45,
+4.45,
+5.1,
+5.58,
+9.4,
+9.65
+]
+},
+{
+"name": "Door_Front_Threshold",
+"group": "Openings",
+"material": "GDH_STONE",
+"collision": "noncollide",
+"bbox": [
+-4.2,
+4.2,
+5.2,
+5.6,
+-0.01,
+0.0
+]
+},
+{
+"name": "Door_Front_LeafL_StileHinge",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-4.542,
+-4.106,
+4.685,
+5.434,
+0.1,
+9.3
+]
+},
+{
+"name": "Door_Front_LeafL_StileFree",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-5.679,
+-5.243,
+1.56,
+2.31,
+0.1,
+9.3
+]
+},
+{
+"name": "Door_Front_LeafL_RailLow",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-5.431,
+-4.354,
+2.241,
+4.753,
+0.1,
+1.8
+]
+},
+{
+"name": "Door_Front_LeafL_RailHigh",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-5.431,
+-4.354,
+2.241,
+4.753,
+8.0,
+9.3
+]
+},
+{
+"name": "Door_Front_LeafL_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+-5.351,
+-4.434,
+2.27,
+4.724,
+1.8,
+8.0
+]
+},
+{
+"name": "Door_Front_LeafL_Pull",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-5.905,
+-5.542,
+1.91,
+2.124,
+4.175,
+4.825
+]
+},
+{
+"name": "Door_Front_LeafL_HingeLow",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-4.373,
+-4.068,
+5.239,
+5.448,
+1.11,
+1.29
+]
+},
+{
+"name": "Door_Front_LeafL_HingeHigh",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-4.373,
+-4.068,
+5.239,
+5.448,
+7.91,
+8.09
+]
+},
+{
+"name": "Door_Front_LeafR_StileHinge",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+4.106,
+4.542,
+4.685,
+5.434,
+0.1,
+9.3
+]
+},
+{
+"name": "Door_Front_LeafR_StileFree",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+5.243,
+5.679,
+1.56,
+2.31,
+0.1,
+9.3
+]
+},
+{
+"name": "Door_Front_LeafR_RailLow",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+4.354,
+5.431,
+2.241,
+4.753,
+0.1,
+1.8
+]
+},
+{
+"name": "Door_Front_LeafR_RailHigh",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+4.354,
+5.431,
+2.241,
+4.753,
+8.0,
+9.3
+]
+},
+{
+"name": "Door_Front_LeafR_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+4.434,
+5.351,
+2.27,
+4.724,
+1.8,
+8.0
+]
+},
+{
+"name": "Door_Front_LeafR_Pull",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+5.026,
+5.389,
+1.722,
+1.936,
+4.175,
+4.825
+]
+},
+{
+"name": "Door_Front_LeafR_HingeLow",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+4.068,
+4.373,
+5.239,
+5.448,
+1.11,
+1.29
+]
+},
+{
+"name": "Door_Front_LeafR_HingeHigh",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+4.068,
+4.373,
+5.239,
+5.448,
+7.91,
+8.09
+]
+},
+{
+"name": "Window_FrontR_FrameLow",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+6.2,
+11.2,
+3.82,
+4.0,
+3.2,
+3.4
+]
+},
+{
+"name": "Window_FrontR_FrameHigh",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+6.2,
+11.2,
+3.82,
+4.0,
+8.2,
+8.4
+]
+},
+{
+"name": "Window_FrontR_FrameL",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+6.2,
+6.4,
+3.82,
+4.0,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_FrontR_FrameR",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+11.0,
+11.2,
+3.82,
+4.0,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_FrontR_Sill",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+6.15,
+11.25,
+3.6,
+4.0,
+2.95,
+3.2
+]
+},
+{
+"name": "Window_FrontR_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+6.4,
+11.0,
+4.185,
+4.215,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_FrontR_Mullion_1",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+8.64,
+8.76,
+4.1,
+4.3,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_ChamferR_FrameLow",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+12.298,
+14.829,
+4.171,
+6.702,
+3.2,
+3.4
+]
+},
+{
+"name": "Window_ChamferR_FrameHigh",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+12.298,
+14.829,
+4.171,
+6.702,
+8.2,
+8.4
+]
+},
+{
+"name": "Window_ChamferR_FrameL",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+12.298,
+12.567,
+4.171,
+4.439,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_ChamferR_FrameR",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+14.561,
+14.829,
+6.433,
+6.702,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_ChamferR_Sill",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+12.263,
+15.02,
+3.98,
+6.737,
+2.95,
+3.2
+]
+},
+{
+"name": "Window_ChamferR_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+12.287,
+14.43,
+4.57,
+6.713,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_ChamferR_Mullion_1",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+13.245,
+13.472,
+5.528,
+5.755,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_Right_FrameLow",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+15.0,
+15.18,
+12.3,
+19.7,
+4.2,
+4.4
+]
+},
+{
+"name": "Window_Right_FrameHigh",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+15.0,
+15.18,
+12.3,
+19.7,
+8.8,
+9.0
+]
+},
+{
+"name": "Window_Right_FrameL",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+15.0,
+15.18,
+12.3,
+12.5,
+4.4,
+8.8
+]
+},
+{
+"name": "Window_Right_FrameR",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+15.0,
+15.18,
+19.5,
+19.7,
+4.4,
+8.8
+]
+},
+{
+"name": "Window_Right_Sill",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+15.0,
+15.4,
+12.25,
+19.75,
+3.95,
+4.2
+]
+},
+{
+"name": "Window_Right_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+14.785,
+14.815,
+12.5,
+19.5,
+4.4,
+8.8
+]
+},
+{
+"name": "Window_Right_Mullion_1",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+14.7,
+14.9,
+14.773,
+14.893,
+4.4,
+8.8
+]
+},
+{
+"name": "Window_Right_Mullion_2",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+14.7,
+14.9,
+17.107,
+17.227,
+4.4,
+8.8
+]
+},
+{
+"name": "Window_RearR_FrameLow",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+5.6,
+11.0,
+30.0,
+30.18,
+4.2,
+4.4
+]
+},
+{
+"name": "Window_RearR_FrameHigh",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+5.6,
+11.0,
+30.0,
+30.18,
+8.8,
+9.0
+]
+},
+{
+"name": "Window_RearR_FrameL",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+10.8,
+11.0,
+30.0,
+30.18,
+4.4,
+8.8
+]
+},
+{
+"name": "Window_RearR_FrameR",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+5.6,
+5.8,
+30.0,
+30.18,
+4.4,
+8.8
+]
+},
+{
+"name": "Window_RearR_Sill",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+5.55,
+11.05,
+30.0,
+30.4,
+3.95,
+4.2
+]
+},
+{
+"name": "Window_RearR_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+5.8,
+10.8,
+29.785,
+29.815,
+4.4,
+8.8
+]
+},
+{
+"name": "Window_RearR_Mullion_1",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+8.24,
+8.36,
+29.7,
+29.9,
+4.4,
+8.8
+]
+},
+{
+"name": "Door_Rear_FrameL",
+"group": "Openings",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+4.2,
+4.45,
+29.62,
+30.1,
+0.0,
+9.65
+]
+},
+{
+"name": "Door_Rear_FrameR",
+"group": "Openings",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-4.45,
+-4.2,
+29.62,
+30.1,
+0.0,
+9.65
+]
+},
+{
+"name": "Door_Rear_FrameHead",
+"group": "Openings",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-4.45,
+4.45,
+29.62,
+30.1,
+9.4,
+9.65
+]
+},
+{
+"name": "Door_Rear_Threshold",
+"group": "Openings",
+"material": "GDH_STONE",
+"collision": "noncollide",
+"bbox": [
+-4.2,
+4.2,
+29.6,
+30.0,
+-0.01,
+0.0
+]
+},
+{
+"name": "Door_Rear_LeafL_StileHinge",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+4.106,
+4.542,
+29.766,
+30.515,
+0.1,
+9.3
+]
+},
+{
+"name": "Door_Rear_LeafL_StileFree",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+5.243,
+5.679,
+32.89,
+33.64,
+0.1,
+9.3
+]
+},
+{
+"name": "Door_Rear_LeafL_RailLow",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+4.354,
+5.431,
+30.447,
+32.959,
+0.1,
+1.8
+]
+},
+{
+"name": "Door_Rear_LeafL_RailHigh",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+4.354,
+5.431,
+30.447,
+32.959,
+8.0,
+9.3
+]
+},
+{
+"name": "Door_Rear_LeafL_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+4.434,
+5.351,
+30.476,
+32.93,
+1.8,
+8.0
+]
+},
+{
+"name": "Door_Rear_LeafL_Pull",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+5.542,
+5.905,
+33.076,
+33.29,
+4.175,
+4.825
+]
+},
+{
+"name": "Door_Rear_LeafL_HingeLow",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+4.068,
+4.373,
+29.752,
+29.961,
+1.11,
+1.29
+]
+},
+{
+"name": "Door_Rear_LeafL_HingeHigh",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+4.068,
+4.373,
+29.752,
+29.961,
+7.91,
+8.09
+]
+},
+{
+"name": "Door_Rear_LeafR_StileHinge",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-4.542,
+-4.106,
+29.766,
+30.515,
+0.1,
+9.3
+]
+},
+{
+"name": "Door_Rear_LeafR_StileFree",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-5.679,
+-5.243,
+32.89,
+33.64,
+0.1,
+9.3
+]
+},
+{
+"name": "Door_Rear_LeafR_RailLow",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-5.431,
+-4.354,
+30.447,
+32.959,
+0.1,
+1.8
+]
+},
+{
+"name": "Door_Rear_LeafR_RailHigh",
+"group": "Openings",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-5.431,
+-4.354,
+30.447,
+32.959,
+8.0,
+9.3
+]
+},
+{
+"name": "Door_Rear_LeafR_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+-5.351,
+-4.434,
+30.476,
+32.93,
+1.8,
+8.0
+]
+},
+{
+"name": "Door_Rear_LeafR_Pull",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-5.389,
+-5.026,
+33.264,
+33.478,
+4.175,
+4.825
+]
+},
+{
+"name": "Door_Rear_LeafR_HingeLow",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-4.373,
+-4.068,
+29.752,
+29.961,
+1.11,
+1.29
+]
+},
+{
+"name": "Door_Rear_LeafR_HingeHigh",
+"group": "Openings",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-4.373,
+-4.068,
+29.752,
+29.961,
+7.91,
+8.09
+]
+},
+{
+"name": "Window_RearL_FrameLow",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-12.7,
+-5.3,
+30.0,
+30.18,
+4.0,
+4.2
+]
+},
+{
+"name": "Window_RearL_FrameHigh",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-12.7,
+-5.3,
+30.0,
+30.18,
+8.6,
+8.8
+]
+},
+{
+"name": "Window_RearL_FrameL",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-5.5,
+-5.3,
+30.0,
+30.18,
+4.2,
+8.6
+]
+},
+{
+"name": "Window_RearL_FrameR",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-12.7,
+-12.5,
+30.0,
+30.18,
+4.2,
+8.6
+]
+},
+{
+"name": "Window_RearL_Sill",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-12.75,
+-5.25,
+30.0,
+30.4,
+3.75,
+4.0
+]
+},
+{
+"name": "Window_RearL_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+-12.5,
+-5.5,
+29.785,
+29.815,
+4.2,
+8.6
+]
+},
+{
+"name": "Window_RearL_Mullion_1",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-7.893,
+-7.773,
+29.7,
+29.9,
+4.2,
+8.6
+]
+},
+{
+"name": "Window_RearL_Mullion_2",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-10.227,
+-10.107,
+29.7,
+29.9,
+4.2,
+8.6
+]
+},
+{
+"name": "Window_Left_FrameLow",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-15.18,
+-15.0,
+13.3,
+20.7,
+4.0,
+4.2
+]
+},
+{
+"name": "Window_Left_FrameHigh",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-15.18,
+-15.0,
+13.3,
+20.7,
+8.6,
+8.8
+]
+},
+{
+"name": "Window_Left_FrameL",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-15.18,
+-15.0,
+20.5,
+20.7,
+4.2,
+8.6
+]
+},
+{
+"name": "Window_Left_FrameR",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-15.18,
+-15.0,
+13.3,
+13.5,
+4.2,
+8.6
+]
+},
+{
+"name": "Window_Left_Sill",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-15.4,
+-15.0,
+13.25,
+20.75,
+3.75,
+4.0
+]
+},
+{
+"name": "Window_Left_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+-14.815,
+-14.785,
+13.5,
+20.5,
+4.2,
+8.6
+]
+},
+{
+"name": "Window_Left_Mullion_1",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-14.9,
+-14.7,
+18.107,
+18.227,
+4.2,
+8.6
+]
+},
+{
+"name": "Window_Left_Mullion_2",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-14.9,
+-14.7,
+15.773,
+15.893,
+4.2,
+8.6
+]
+},
+{
+"name": "Window_ChamferL_FrameLow",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-14.829,
+-12.298,
+4.171,
+6.702,
+3.2,
+3.4
+]
+},
+{
+"name": "Window_ChamferL_FrameHigh",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-14.829,
+-12.298,
+4.171,
+6.702,
+8.2,
+8.4
+]
+},
+{
+"name": "Window_ChamferL_FrameL",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-14.829,
+-14.561,
+6.433,
+6.702,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_ChamferL_FrameR",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-12.567,
+-12.298,
+4.171,
+4.439,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_ChamferL_Sill",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-15.02,
+-12.263,
+3.98,
+6.737,
+2.95,
+3.2
+]
+},
+{
+"name": "Window_ChamferL_Glass",
+"group": "Openings",
+"material": "GDH_GLASS",
+"collision": "noncollide",
+"bbox": [
+-14.43,
+-12.287,
+4.57,
+6.713,
+3.4,
+8.2
+]
+},
+{
+"name": "Window_ChamferL_Mullion_1",
+"group": "Openings",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-13.472,
+-13.245,
+5.528,
+5.755,
+3.4,
+8.2
+]
+},
+{
+"name": "Sofa_Rear_Foot_LF",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-13.04,
+-12.86,
+23.66,
+23.84,
+0.0,
+0.25
+]
+},
+{
+"name": "Sofa_Rear_Foot_LB",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-13.04,
+-12.86,
+25.16,
+25.34,
+0.0,
+0.25
+]
+},
+{
+"name": "Sofa_Rear_Foot_RF",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-7.14,
+-6.96,
+23.66,
+23.84,
+0.0,
+0.25
+]
+},
+{
+"name": "Sofa_Rear_Foot_RB",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-7.14,
+-6.96,
+25.16,
+25.34,
+0.0,
+0.25
+]
+},
+{
+"name": "Sofa_Rear_Frame",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-13.3,
+-6.7,
+23.4,
+25.6,
+0.25,
+0.6
+]
+},
+{
+"name": "Sofa_Rear_Base",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-13.26,
+-6.74,
+23.44,
+25.56,
+0.6,
+1.05
+]
+},
+{
+"name": "Sofa_Rear_Arm_L",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-13.3,
+-12.85,
+23.4,
+25.6,
+0.6,
+2.25
+]
+},
+{
+"name": "Sofa_Rear_Arm_R",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-7.15,
+-6.7,
+23.4,
+25.6,
+0.6,
+2.25
+]
+},
+{
+"name": "Sofa_Rear_Back",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-12.85,
+-7.15,
+25.3,
+25.6,
+1.05,
+3.1
+]
+},
+{
+"name": "Sofa_Rear_SeatCushion_1",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-12.85,
+-10.977,
+23.54,
+25.26,
+1.05,
+1.35
+]
+},
+{
+"name": "Sofa_Rear_SeatCushion_2",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-10.937,
+-9.063,
+23.54,
+25.26,
+1.05,
+1.35
+]
+},
+{
+"name": "Sofa_Rear_SeatCushion_3",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-9.023,
+-7.15,
+23.54,
+25.26,
+1.05,
+1.35
+]
+},
+{
+"name": "Sofa_Rear_LooseCushion_1",
+"group": "Living",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-12.675,
+-11.825,
+24.88,
+25.28,
+1.419,
+2.281
+]
+},
+{
+"name": "Sofa_Rear_LooseCushion_2",
+"group": "Living",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-8.175,
+-7.325,
+24.88,
+25.28,
+1.419,
+2.281
+]
+},
+{
+"name": "Sofa_Side_Foot_LF",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-6.94,
+-6.76,
+20.36,
+20.54,
+0.0,
+0.25
+]
+},
+{
+"name": "Sofa_Side_Foot_LB",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-5.64,
+-5.46,
+20.36,
+20.54,
+0.0,
+0.25
+]
+},
+{
+"name": "Sofa_Side_Foot_RF",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-6.94,
+-6.76,
+16.46,
+16.64,
+0.0,
+0.25
+]
+},
+{
+"name": "Sofa_Side_Foot_RB",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-5.64,
+-5.46,
+16.46,
+16.64,
+0.0,
+0.25
+]
+},
+{
+"name": "Sofa_Side_Frame",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-7.2,
+-5.2,
+16.2,
+20.8,
+0.25,
+0.6
+]
+},
+{
+"name": "Sofa_Side_Base",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-7.16,
+-5.24,
+16.24,
+20.76,
+0.6,
+1.05
+]
+},
+{
+"name": "Sofa_Side_Arm_L",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-7.2,
+-5.2,
+20.35,
+20.8,
+0.6,
+2.25
+]
+},
+{
+"name": "Sofa_Side_Arm_R",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-7.2,
+-5.2,
+16.2,
+16.65,
+0.6,
+2.25
+]
+},
+{
+"name": "Sofa_Side_Back",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "collide",
+"bbox": [
+-5.5,
+-5.2,
+16.65,
+20.35,
+1.05,
+3.1
+]
+},
+{
+"name": "Sofa_Side_SeatCushion_1",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-7.06,
+-5.54,
+18.52,
+20.35,
+1.05,
+1.35
+]
+},
+{
+"name": "Sofa_Side_SeatCushion_2",
+"group": "Living",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-7.06,
+-5.54,
+16.65,
+18.48,
+1.05,
+1.35
+]
+},
+{
+"name": "Sofa_Side_LooseCushion_1",
+"group": "Living",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+-5.9,
+-5.5,
+19.275,
+20.125,
+1.419,
+2.281
+]
+},
+{
+"name": "Sofa_Side_LooseCushion_2",
+"group": "Living",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-5.9,
+-5.5,
+16.875,
+17.725,
+1.419,
+2.281
+]
+},
+{
+"name": "CoffeeTable_Top",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-11.8,
+-8.2,
+18.6,
+20.8,
+1.44,
+1.6
+]
+},
+{
+"name": "CoffeeTable_Leg_LF",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-11.6,
+-11.4,
+18.8,
+19.0,
+0.0,
+1.44
+]
+},
+{
+"name": "CoffeeTable_Leg_LB",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-11.6,
+-11.4,
+20.4,
+20.6,
+0.0,
+1.44
+]
+},
+{
+"name": "CoffeeTable_Leg_RF",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-8.6,
+-8.4,
+18.8,
+19.0,
+0.0,
+1.44
+]
+},
+{
+"name": "CoffeeTable_Leg_RB",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-8.6,
+-8.4,
+20.4,
+20.6,
+0.0,
+1.44
+]
+},
+{
+"name": "CoffeeTable_Apron_Front",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-11.4,
+-8.6,
+18.85,
+18.95,
+1.19,
+1.44
+]
+},
+{
+"name": "CoffeeTable_Apron_Back",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-11.4,
+-8.6,
+20.45,
+20.55,
+1.19,
+1.44
+]
+},
+{
+"name": "CoffeeTable_Apron_L",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-11.55,
+-11.45,
+19.0,
+20.4,
+1.19,
+1.44
+]
+},
+{
+"name": "CoffeeTable_Apron_R",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-8.55,
+-8.45,
+19.0,
+20.4,
+1.19,
+1.44
+]
+},
+{
+"name": "CoffeePlant_Pot",
+"group": "Living",
+"material": "GDH_PATIO",
+"collision": "noncollide",
+"bbox": [
+-10.962,
+-10.638,
+19.338,
+19.662,
+1.6,
+1.9
+]
+},
+{
+"name": "CoffeePlant_Soil",
+"group": "Living",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-10.89,
+-10.71,
+19.414,
+19.586,
+1.82,
+1.84
+]
+},
+{
+"name": "CoffeePlant_Stem",
+"group": "Living",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-10.825,
+-10.775,
+19.475,
+19.525,
+1.82,
+2.023
+]
+},
+{
+"name": "CoffeePlant_Leaf_1",
+"group": "Living",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-10.809,
+-10.587,
+19.456,
+19.544,
+1.794,
+1.962
+]
+},
+{
+"name": "CoffeePlant_Leaf_2",
+"group": "Living",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-10.864,
+-10.644,
+19.472,
+19.814,
+1.727,
+1.962
+]
+},
+{
+"name": "CoffeePlant_Leaf_3",
+"group": "Living",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-11.049,
+-10.76,
+19.45,
+19.702,
+1.756,
+1.962
+]
+},
+{
+"name": "CoffeePlant_Leaf_4",
+"group": "Living",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-11.011,
+-10.766,
+19.329,
+19.543,
+1.785,
+1.962
+]
+},
+{
+"name": "CoffeePlant_Leaf_5",
+"group": "Living",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-10.866,
+-10.637,
+19.172,
+19.529,
+1.718,
+1.962
+]
+},
+{
+"name": "CoffeeFruitBowl",
+"group": "Living",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-9.7,
+-9.1,
+19.4,
+20.0,
+1.6,
+1.78
+]
+},
+{
+"name": "CoffeeFruit_1",
+"group": "Living",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-9.63,
+-9.41,
+19.54,
+19.76,
+1.67,
+1.89
+]
+},
+{
+"name": "CoffeeFruit_2",
+"group": "Living",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-9.4,
+-9.2,
+19.56,
+19.76,
+1.67,
+1.87
+]
+},
+{
+"name": "CoffeeFruit_3",
+"group": "Living",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-9.49,
+-9.31,
+19.73,
+19.91,
+1.69,
+1.87
+]
+},
+{
+"name": "Rug_Living_Centre",
+"group": "Living",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+-13.95,
+-6.05,
+16.05,
+24.35,
+0.0,
+0.02
+]
+},
+{
+"name": "Rug_Living_Border_N",
+"group": "Living",
+"material": "GDH_STONE",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+-5.8,
+24.35,
+24.6,
+0.0,
+0.02
+]
+},
+{
+"name": "Rug_Living_Border_S",
+"group": "Living",
+"material": "GDH_STONE",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+-5.8,
+15.8,
+16.05,
+0.0,
+0.02
+]
+},
+{
+"name": "Rug_Living_Border_W",
+"group": "Living",
+"material": "GDH_STONE",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+-13.95,
+16.05,
+24.35,
+0.0,
+0.02
+]
+},
+{
+"name": "Rug_Living_Border_E",
+"group": "Living",
+"material": "GDH_STONE",
+"collision": "noncollide",
+"bbox": [
+-6.05,
+-5.8,
+16.05,
+24.35,
+0.0,
+0.02
+]
+},
+{
+"name": "TVCabinet_Foot_AF",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-13.16,
+-13.04,
+14.74,
+14.86,
+0.0,
+0.12
+]
+},
+{
+"name": "TVCabinet_Foot_AB",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-14.26,
+-14.14,
+14.74,
+14.86,
+0.0,
+0.12
+]
+},
+{
+"name": "TVCabinet_Foot_BF",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-13.16,
+-13.04,
+19.14,
+19.26,
+0.0,
+0.12
+]
+},
+{
+"name": "TVCabinet_Foot_BB",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-14.26,
+-14.14,
+19.14,
+19.26,
+0.0,
+0.12
+]
+},
+{
+"name": "TVCabinet_Top",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.4,
+-12.9,
+14.5,
+19.5,
+1.55,
+1.7
+]
+},
+{
+"name": "TVCabinet_Bottom",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.4,
+-12.9,
+14.5,
+19.5,
+0.12,
+0.24
+]
+},
+{
+"name": "TVCabinet_Side_A",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.4,
+-12.9,
+14.5,
+14.62,
+0.24,
+1.55
+]
+},
+{
+"name": "TVCabinet_Side_B",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.4,
+-12.9,
+19.38,
+19.5,
+0.24,
+1.55
+]
+},
+{
+"name": "TVCabinet_Back",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.4,
+-14.32,
+14.62,
+19.38,
+0.24,
+1.55
+]
+},
+{
+"name": "TVCabinet_Shelf",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.35,
+-12.95,
+14.62,
+19.38,
+0.8,
+0.9
+]
+},
+{
+"name": "TVCabinet_Divider_A",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-12.98,
+-12.92,
+16.125,
+16.225,
+0.24,
+1.55
+]
+},
+{
+"name": "TVCabinet_Divider_B",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-12.98,
+-12.92,
+17.775,
+17.875,
+0.24,
+1.55
+]
+},
+{
+"name": "TVCabinet_PanelClosed",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-12.96,
+-12.9,
+17.9,
+19.4,
+0.24,
+1.55
+]
+},
+{
+"name": "TVCabinet_Handle",
+"group": "Living",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-12.9,
+-12.84,
+17.96,
+18.04,
+0.8,
+1.15
+]
+},
+{
+"name": "TV_Stand_L",
+"group": "Living",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+-13.54,
+-13.36,
+15.6,
+15.9,
+1.7,
+1.85
+]
+},
+{
+"name": "TV_Stand_R",
+"group": "Living",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+-13.54,
+-13.36,
+18.1,
+18.4,
+1.7,
+1.85
+]
+},
+{
+"name": "TV_Frame",
+"group": "Living",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+-13.54,
+-13.36,
+14.9,
+19.1,
+1.85,
+4.35
+]
+},
+{
+"name": "TV_Display",
+"group": "Living",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+-13.365,
+-13.335,
+15.02,
+18.98,
+1.97,
+4.23
+]
+},
+{
+"name": "FloorLamp_Base",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-13.55,
+-13.05,
+26.562,
+27.038,
+0.0,
+0.08
+]
+},
+{
+"name": "FloorLamp_Stem",
+"group": "Living",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+-13.35,
+-13.25,
+26.757,
+26.843,
+0.08,
+3.8
+]
+},
+{
+"name": "FloorLamp_Shade",
+"group": "Living",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-13.7,
+-12.9,
+26.42,
+27.18,
+3.8,
+4.5
+]
+},
+{
+"name": "Shelf_Side_A",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.25,
+-13.05,
+9.6,
+9.72,
+0.0,
+3.68
+]
+},
+{
+"name": "Shelf_Side_B",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.25,
+-13.05,
+12.28,
+12.4,
+0.0,
+3.68
+]
+},
+{
+"name": "Shelf_Back",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.25,
+-14.17,
+9.72,
+12.28,
+0.0,
+3.8
+]
+},
+{
+"name": "Shelf_Board_Low",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.25,
+-13.05,
+9.6,
+12.4,
+0.98,
+1.1
+]
+},
+{
+"name": "Shelf_Board_Mid",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.25,
+-13.05,
+9.6,
+12.4,
+2.18,
+2.3
+]
+},
+{
+"name": "Shelf_Board_Top",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.25,
+-13.05,
+9.6,
+12.4,
+3.68,
+3.8
+]
+},
+{
+"name": "Book_1_CoverA",
+"group": "Living",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-13.65,
+-13.15,
+10.24,
+10.27,
+1.1,
+1.8
+]
+},
+{
+"name": "Book_1_CoverB",
+"group": "Living",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-13.65,
+-13.15,
+10.43,
+10.46,
+1.1,
+1.8
+]
+},
+{
+"name": "Book_1_Spine",
+"group": "Living",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-13.65,
+-13.62,
+10.24,
+10.46,
+1.1,
+1.8
+]
+},
+{
+"name": "Book_1_Pages",
+"group": "Living",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-13.605,
+-13.165,
+10.27,
+10.43,
+1.13,
+1.77
+]
+},
+{
+"name": "Book_2_CoverA",
+"group": "Living",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-13.65,
+-13.15,
+10.54,
+10.57,
+1.1,
+1.8
+]
+},
+{
+"name": "Book_2_CoverB",
+"group": "Living",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-13.65,
+-13.15,
+10.73,
+10.76,
+1.1,
+1.8
+]
+},
+{
+"name": "Book_2_Spine",
+"group": "Living",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-13.65,
+-13.62,
+10.54,
+10.76,
+1.1,
+1.8
+]
+},
+{
+"name": "Book_2_Pages",
+"group": "Living",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-13.605,
+-13.165,
+10.57,
+10.73,
+1.13,
+1.77
+]
+},
+{
+"name": "Book_3_CoverA",
+"group": "Living",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-13.65,
+-13.15,
+10.84,
+10.87,
+1.1,
+1.8
+]
+},
+{
+"name": "Book_3_CoverB",
+"group": "Living",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-13.65,
+-13.15,
+11.03,
+11.06,
+1.1,
+1.8
+]
+},
+{
+"name": "Book_3_Spine",
+"group": "Living",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-13.65,
+-13.62,
+10.84,
+11.06,
+1.1,
+1.8
+]
+},
+{
+"name": "Book_3_Pages",
+"group": "Living",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-13.605,
+-13.165,
+10.87,
+11.03,
+1.13,
+1.77
+]
+},
+{
+"name": "Basket_Bottom",
+"group": "Living",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+-13.95,
+-13.15,
+11.275,
+11.925,
+2.3,
+2.36
+]
+},
+{
+"name": "Basket_Wall_Front",
+"group": "Living",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+-13.23,
+-13.15,
+11.275,
+11.925,
+2.36,
+2.85
+]
+},
+{
+"name": "Basket_Wall_Back",
+"group": "Living",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+-13.95,
+-13.87,
+11.275,
+11.925,
+2.36,
+2.85
+]
+},
+{
+"name": "Basket_Wall_L",
+"group": "Living",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+-13.87,
+-13.23,
+11.275,
+11.355,
+2.36,
+2.85
+]
+},
+{
+"name": "Basket_Wall_R",
+"group": "Living",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+-13.87,
+-13.23,
+11.845,
+11.925,
+2.36,
+2.85
+]
+},
+{
+"name": "Basket_Band_1",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-13.155,
+-13.135,
+11.27,
+11.93,
+2.5,
+2.6
+]
+},
+{
+"name": "Basket_Band_2",
+"group": "Living",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-13.155,
+-13.135,
+11.27,
+11.93,
+2.7,
+2.8
+]
+},
+{
+"name": "ToyCar_Body",
+"group": "Living",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-13.06,
+-11.74,
+12.625,
+13.375,
+0.22,
+0.44
+]
+},
+{
+"name": "ToyCar_Cabin",
+"group": "Living",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-12.66,
+-12.04,
+12.67,
+13.33,
+0.44,
+0.66
+]
+},
+{
+"name": "ToyCar_Bumper",
+"group": "Living",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-12.95,
+-11.85,
+12.57,
+12.63,
+0.22,
+0.34
+]
+},
+{
+"name": "ToyCar_Wheel_AF",
+"group": "Living",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+-12.94,
+-12.78,
+12.46,
+12.74,
+0.007,
+0.273
+]
+},
+{
+"name": "ToyCar_Wheel_AB",
+"group": "Living",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+-12.94,
+-12.78,
+13.26,
+13.54,
+0.007,
+0.273
+]
+},
+{
+"name": "ToyCar_Wheel_BF",
+"group": "Living",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+-12.02,
+-11.86,
+12.46,
+12.74,
+0.007,
+0.273
+]
+},
+{
+"name": "ToyCar_Wheel_BB",
+"group": "Living",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+-12.02,
+-11.86,
+13.26,
+13.54,
+0.007,
+0.273
+]
+},
+{
+"name": "ToyBlock_1",
+"group": "Living",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-12.78,
+-12.22,
+11.32,
+11.88,
+0.0,
+0.56
+]
+},
+{
+"name": "ToyBlock_2",
+"group": "Living",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-12.08,
+-11.52,
+11.42,
+11.98,
+0.0,
+0.56
+]
+},
+{
+"name": "ToyBlock_3",
+"group": "Living",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-12.43,
+-11.87,
+12.02,
+12.58,
+0.0,
+0.56
+]
+},
+{
+"name": "Fridge_Foot_AF",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+12.36,
+12.44,
+9.71,
+9.79,
+0.0,
+0.08
+]
+},
+{
+"name": "Fridge_Foot_AB",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+14.36,
+14.44,
+9.71,
+9.79,
+0.0,
+0.08
+]
+},
+{
+"name": "Fridge_Foot_BF",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+12.36,
+12.44,
+7.81,
+7.89,
+0.0,
+0.08
+]
+},
+{
+"name": "Fridge_Foot_BB",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+14.36,
+14.44,
+7.81,
+7.89,
+0.0,
+0.08
+]
+},
+{
+"name": "Fridge_Body",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+12.29,
+14.59,
+7.7,
+9.9,
+0.08,
+5.72
+]
+},
+{
+"name": "Fridge_DoorLow",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+12.19,
+12.27,
+7.75,
+9.85,
+0.15,
+3.86
+]
+},
+{
+"name": "Fridge_DoorHigh",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+12.19,
+12.27,
+7.75,
+9.85,
+3.94,
+5.72
+]
+},
+{
+"name": "Fridge_Seam",
+"group": "Kitchen",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+12.185,
+12.215,
+7.75,
+9.85,
+3.86,
+3.91
+]
+},
+{
+"name": "Fridge_Handle_1",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+12.08,
+12.18,
+9.45,
+9.55,
+2.975,
+3.625
+]
+},
+{
+"name": "Fridge_Handle_2",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+12.08,
+12.18,
+9.45,
+9.55,
+4.125,
+4.775
+]
+},
+{
+"name": "Kitchen_Counter_ToeKick",
+"group": "Kitchen",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+12.91,
+14.41,
+11.1,
+16.9,
+0.0,
+0.12
+]
+},
+{
+"name": "Kitchen_Counter_Base",
+"group": "Kitchen",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+12.99,
+14.49,
+11.1,
+16.9,
+0.12,
+0.24
+]
+},
+{
+"name": "Kitchen_Counter_Divider_1",
+"group": "Kitchen",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+12.85,
+14.55,
+16.88,
+17.0,
+0.24,
+2.82
+]
+},
+{
+"name": "Kitchen_Counter_Divider_2",
+"group": "Kitchen",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+12.85,
+14.55,
+14.94,
+15.06,
+0.24,
+2.82
+]
+},
+{
+"name": "Kitchen_Counter_Divider_3",
+"group": "Kitchen",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+12.85,
+14.55,
+12.94,
+13.06,
+0.24,
+2.82
+]
+},
+{
+"name": "Kitchen_Counter_Divider_4",
+"group": "Kitchen",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+12.85,
+14.55,
+11.0,
+11.12,
+0.24,
+2.82
+]
+},
+{
+"name": "Kitchen_Counter_Back",
+"group": "Kitchen",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+14.5,
+14.58,
+11.0,
+17.0,
+0.24,
+2.82
+]
+},
+{
+"name": "Kitchen_Counter_Drawer_1",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+12.74,
+12.8,
+15.1,
+16.9,
+2.28,
+2.73
+]
+},
+{
+"name": "Kitchen_Counter_Door_1",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+12.74,
+12.8,
+15.1,
+16.9,
+0.3,
+2.2
+]
+},
+{
+"name": "Kitchen_Counter_Handle_Drawer",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+12.66,
+12.74,
+15.825,
+16.175,
+2.45,
+2.52
+]
+},
+{
+"name": "Kitchen_Counter_Handle_1",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+12.66,
+12.74,
+15.125,
+15.475,
+1.7,
+1.77
+]
+},
+{
+"name": "Kitchen_Counter_Door_2",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+12.74,
+12.8,
+13.1,
+14.9,
+0.3,
+2.7
+]
+},
+{
+"name": "Kitchen_Counter_Handle_2",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+12.66,
+12.74,
+13.125,
+13.475,
+1.7,
+1.77
+]
+},
+{
+"name": "Kitchen_Counter_Door_3",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+12.74,
+12.8,
+11.1,
+12.9,
+0.3,
+2.7
+]
+},
+{
+"name": "Kitchen_Counter_Handle_3",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+12.66,
+12.74,
+11.125,
+11.475,
+1.7,
+1.77
+]
+},
+{
+"name": "Kitchen_Countertop_D0",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+12.8,
+14.6,
+11.0,
+11.855,
+2.82,
+3.0
+]
+},
+{
+"name": "Kitchen_Countertop_D1",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+12.8,
+14.6,
+12.745,
+17.0,
+2.82,
+3.0
+]
+},
+{
+"name": "Kitchen_Countertop_X0",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+12.8,
+13.155,
+11.855,
+12.745,
+2.82,
+3.0
+]
+},
+{
+"name": "Kitchen_Countertop_X1",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+14.245,
+14.6,
+11.855,
+12.745,
+2.82,
+3.0
+]
+},
+{
+"name": "Kitchen_Sink_Rim_N",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+13.075,
+14.325,
+12.745,
+12.825,
+2.99,
+3.04
+]
+},
+{
+"name": "Kitchen_Sink_Rim_S",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+13.075,
+14.325,
+11.775,
+11.855,
+2.99,
+3.04
+]
+},
+{
+"name": "Kitchen_Sink_Rim_W",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+13.075,
+13.155,
+11.855,
+12.745,
+2.99,
+3.04
+]
+},
+{
+"name": "Kitchen_Sink_Rim_E",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+14.245,
+14.325,
+11.855,
+12.745,
+2.99,
+3.04
+]
+},
+{
+"name": "Kitchen_Sink_Wall_N",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+13.155,
+14.245,
+12.705,
+12.745,
+2.72,
+3.0
+]
+},
+{
+"name": "Kitchen_Sink_Wall_S",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+13.155,
+14.245,
+11.855,
+11.895,
+2.72,
+3.0
+]
+},
+{
+"name": "Kitchen_Sink_Wall_W",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+13.155,
+13.195,
+11.855,
+12.745,
+2.72,
+3.0
+]
+},
+{
+"name": "Kitchen_Sink_Wall_E",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+14.205,
+14.245,
+11.855,
+12.745,
+2.72,
+3.0
+]
+},
+{
+"name": "Kitchen_Sink_Bottom",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+13.155,
+14.245,
+11.855,
+12.745,
+2.68,
+2.72
+]
+},
+{
+"name": "Kitchen_Faucet_Riser",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+14.16,
+14.24,
+12.26,
+12.34,
+3.04,
+3.69
+]
+},
+{
+"name": "Kitchen_Faucet_Spout",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+13.81,
+14.24,
+12.26,
+12.34,
+3.6,
+3.68
+]
+},
+{
+"name": "Kitchen_Faucet_Nozzle",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "collide",
+"bbox": [
+13.81,
+13.89,
+12.26,
+12.34,
+3.52,
+3.68
+]
+},
+{
+"name": "Kitchen_Faucet_Control",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+14.14,
+14.26,
+12.49,
+12.61,
+3.04,
+3.16
+]
+},
+{
+"name": "Kitchen_Hob_Plate",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+13.05,
+14.35,
+14.575,
+15.825,
+3.0,
+3.08
+]
+},
+{
+"name": "Kitchen_Hob_Burner_1",
+"group": "Kitchen",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+13.51,
+13.89,
+14.71,
+15.09,
+3.08,
+3.1
+]
+},
+{
+"name": "Kitchen_Hob_Burner_2",
+"group": "Kitchen",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+13.51,
+13.89,
+15.31,
+15.69,
+3.08,
+3.1
+]
+},
+{
+"name": "Kitchen_Hob_Control_1",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+13.2,
+13.3,
+14.85,
+14.95,
+3.08,
+3.1
+]
+},
+{
+"name": "Kitchen_Hob_Control_2",
+"group": "Kitchen",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+13.2,
+13.3,
+15.45,
+15.55,
+3.08,
+3.1
+]
+},
+{
+"name": "Kitchen_Pan",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+13.475,
+13.925,
+15.275,
+15.725,
+3.11,
+3.23
+]
+},
+{
+"name": "Kitchen_Pan_Handle",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+13.67,
+13.73,
+15.725,
+16.075,
+3.18,
+3.22
+]
+},
+{
+"name": "Kitchen_Cupboard_Top",
+"group": "Kitchen",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+13.9,
+14.6,
+10.0,
+12.2,
+7.2,
+7.3
+]
+},
+{
+"name": "Kitchen_Cupboard_Base",
+"group": "Kitchen",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+13.9,
+14.6,
+10.0,
+12.2,
+5.7,
+5.8
+]
+},
+{
+"name": "Kitchen_Cupboard_Side_A",
+"group": "Kitchen",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+13.9,
+14.6,
+12.1,
+12.2,
+5.8,
+7.2
+]
+},
+{
+"name": "Kitchen_Cupboard_Side_B",
+"group": "Kitchen",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+13.9,
+14.6,
+10.0,
+10.1,
+5.8,
+7.2
+]
+},
+{
+"name": "Kitchen_Cupboard_Back",
+"group": "Kitchen",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+14.52,
+14.6,
+10.1,
+12.1,
+5.8,
+7.2
+]
+},
+{
+"name": "Kitchen_Cupboard_Door_A",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+13.84,
+13.9,
+11.15,
+12.15,
+5.825,
+7.175
+]
+},
+{
+"name": "Kitchen_Cupboard_Handle_A",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+13.75,
+13.83,
+11.16,
+11.24,
+6.4,
+6.75
+]
+},
+{
+"name": "Kitchen_Cupboard_Door_B",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+13.84,
+13.9,
+10.05,
+11.05,
+5.825,
+7.175
+]
+},
+{
+"name": "Kitchen_Cupboard_Handle_B",
+"group": "Kitchen",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+13.75,
+13.83,
+10.96,
+11.04,
+6.4,
+6.75
+]
+},
+{
+"name": "Kitchen_DishShelf",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+13.95,
+14.6,
+20.0,
+21.4,
+5.3,
+5.42
+]
+},
+{
+"name": "Kitchen_DishShelf_Bracket_1",
+"group": "Kitchen",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+14.4,
+14.6,
+20.21,
+20.29,
+5.1,
+5.3
+]
+},
+{
+"name": "Kitchen_DishShelf_Bracket_2",
+"group": "Kitchen",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+14.4,
+14.6,
+21.11,
+21.19,
+5.1,
+5.3
+]
+},
+{
+"name": "Kitchen_Mug_1",
+"group": "Kitchen",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+14.0,
+14.3,
+20.107,
+20.393,
+5.42,
+5.8
+]
+},
+{
+"name": "Kitchen_Mug_1_HandleTop",
+"group": "Kitchen",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+13.88,
+14.02,
+20.22,
+20.28,
+5.7,
+5.76
+]
+},
+{
+"name": "Kitchen_Mug_1_HandleOuter",
+"group": "Kitchen",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+13.88,
+13.94,
+20.22,
+20.28,
+5.48,
+5.76
+]
+},
+{
+"name": "Kitchen_Mug_1_HandleBottom",
+"group": "Kitchen",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+13.88,
+14.02,
+20.22,
+20.28,
+5.48,
+5.54
+]
+},
+{
+"name": "Kitchen_Mug_2",
+"group": "Kitchen",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+14.0,
+14.3,
+20.557,
+20.843,
+5.42,
+5.8
+]
+},
+{
+"name": "Kitchen_Mug_2_HandleTop",
+"group": "Kitchen",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+13.88,
+14.02,
+20.67,
+20.73,
+5.7,
+5.76
+]
+},
+{
+"name": "Kitchen_Mug_2_HandleOuter",
+"group": "Kitchen",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+13.88,
+13.94,
+20.67,
+20.73,
+5.48,
+5.76
+]
+},
+{
+"name": "Kitchen_Mug_2_HandleBottom",
+"group": "Kitchen",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+13.88,
+14.02,
+20.67,
+20.73,
+5.48,
+5.54
+]
+},
+{
+"name": "Kitchen_Mug_3",
+"group": "Kitchen",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+14.03,
+14.27,
+21.036,
+21.264,
+5.42,
+5.72
+]
+},
+{
+"name": "Kitchen_Mug_3_HandleTop",
+"group": "Kitchen",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+13.91,
+14.05,
+21.12,
+21.18,
+5.62,
+5.68
+]
+},
+{
+"name": "Kitchen_Mug_3_HandleOuter",
+"group": "Kitchen",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+13.91,
+13.97,
+21.12,
+21.18,
+5.48,
+5.68
+]
+},
+{
+"name": "Kitchen_Mug_3_HandleBottom",
+"group": "Kitchen",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+13.91,
+14.05,
+21.12,
+21.18,
+5.48,
+5.54
+]
+},
+{
+"name": "Kitchen_TowelRail",
+"group": "Kitchen",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+12.72,
+12.78,
+16.075,
+16.725,
+2.62,
+2.68
+]
+},
+{
+"name": "Kitchen_TowelRail_Mount_1",
+"group": "Kitchen",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+12.75,
+12.8,
+16.07,
+16.13,
+2.6,
+2.7
+]
+},
+{
+"name": "Kitchen_TowelRail_Mount_2",
+"group": "Kitchen",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+12.75,
+12.8,
+16.67,
+16.73,
+2.6,
+2.7
+]
+},
+{
+"name": "Kitchen_Towel",
+"group": "Kitchen",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+12.71,
+12.75,
+16.125,
+16.675,
+1.8,
+2.66
+]
+},
+{
+"name": "Kitchen_Towel_Fold",
+"group": "Kitchen",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+12.7,
+12.82,
+16.125,
+16.675,
+2.62,
+2.74
+]
+},
+{
+"name": "Kitchen_Towel_Band_1",
+"group": "Kitchen",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+12.7,
+12.71,
+16.125,
+16.675,
+2.0,
+2.08
+]
+},
+{
+"name": "Kitchen_Towel_Band_2",
+"group": "Kitchen",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+12.7,
+12.71,
+16.125,
+16.675,
+2.4,
+2.48
+]
+},
+{
+"name": "Kitchen_Jar_Body",
+"group": "Kitchen",
+"material": "GDH_TRIM",
+"collision": "noncollide",
+"bbox": [
+13.525,
+13.875,
+11.134,
+11.466,
+3.0,
+3.43
+]
+},
+{
+"name": "Kitchen_Jar_Lid",
+"group": "Kitchen",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+13.52,
+13.88,
+11.129,
+11.471,
+3.43,
+3.5
+]
+},
+{
+"name": "DiningTable_Top",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+5.7,
+11.3,
+18.1,
+21.3,
+2.3,
+2.5
+]
+},
+{
+"name": "DiningTable_Leg_LF",
+"group": "Dining",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+5.9,
+6.1,
+18.3,
+18.5,
+0.0,
+2.3
+]
+},
+{
+"name": "DiningTable_Leg_LB",
+"group": "Dining",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+5.9,
+6.1,
+20.9,
+21.1,
+0.0,
+2.3
+]
+},
+{
+"name": "DiningTable_Leg_RF",
+"group": "Dining",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+10.9,
+11.1,
+18.3,
+18.5,
+0.0,
+2.3
+]
+},
+{
+"name": "DiningTable_Leg_RB",
+"group": "Dining",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+10.9,
+11.1,
+20.9,
+21.1,
+0.0,
+2.3
+]
+},
+{
+"name": "DiningTable_Apron_Front",
+"group": "Dining",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+6.1,
+10.9,
+18.35,
+18.45,
+2.05,
+2.3
+]
+},
+{
+"name": "DiningTable_Apron_Back",
+"group": "Dining",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+6.1,
+10.9,
+20.95,
+21.05,
+2.05,
+2.3
+]
+},
+{
+"name": "DiningTable_Apron_L",
+"group": "Dining",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+5.95,
+6.05,
+18.5,
+20.9,
+2.05,
+2.3
+]
+},
+{
+"name": "DiningTable_Apron_R",
+"group": "Dining",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+10.95,
+11.05,
+18.5,
+20.9,
+2.05,
+2.3
+]
+},
+{
+"name": "DiningChair_FrontA_Leg_LF",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+7.415,
+7.545,
+17.455,
+17.585,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_FrontA_Leg_LB",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+7.415,
+7.545,
+16.415,
+16.545,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_FrontA_Leg_RF",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+6.455,
+6.585,
+17.455,
+17.585,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_FrontA_Leg_RB",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+6.455,
+6.585,
+16.415,
+16.545,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_FrontA_Seat",
+"group": "Dining",
+"material": "GDH_RED",
+"collision": "collide",
+"bbox": [
+6.35,
+7.65,
+16.45,
+17.65,
+1.2,
+1.35
+]
+},
+{
+"name": "DiningChair_FrontA_Upright_L",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+7.415,
+7.545,
+16.415,
+16.545,
+1.35,
+2.9
+]
+},
+{
+"name": "DiningChair_FrontA_Upright_R",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+6.455,
+6.585,
+16.415,
+16.545,
+1.35,
+2.9
+]
+},
+{
+"name": "DiningChair_FrontA_BackRailLow",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+6.475,
+7.525,
+16.42,
+16.54,
+1.79,
+2.01
+]
+},
+{
+"name": "DiningChair_FrontA_BackRailHigh",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+6.475,
+7.525,
+16.42,
+16.54,
+2.59,
+2.81
+]
+},
+{
+"name": "DiningChair_FrontB_Leg_LF",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+10.415,
+10.545,
+17.455,
+17.585,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_FrontB_Leg_LB",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+10.415,
+10.545,
+16.415,
+16.545,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_FrontB_Leg_RF",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+9.455,
+9.585,
+17.455,
+17.585,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_FrontB_Leg_RB",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+9.455,
+9.585,
+16.415,
+16.545,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_FrontB_Seat",
+"group": "Dining",
+"material": "GDH_RED",
+"collision": "collide",
+"bbox": [
+9.35,
+10.65,
+16.45,
+17.65,
+1.2,
+1.35
+]
+},
+{
+"name": "DiningChair_FrontB_Upright_L",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+10.415,
+10.545,
+16.415,
+16.545,
+1.35,
+2.9
+]
+},
+{
+"name": "DiningChair_FrontB_Upright_R",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+9.455,
+9.585,
+16.415,
+16.545,
+1.35,
+2.9
+]
+},
+{
+"name": "DiningChair_FrontB_BackRailLow",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+9.475,
+10.525,
+16.42,
+16.54,
+1.79,
+2.01
+]
+},
+{
+"name": "DiningChair_FrontB_BackRailHigh",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+9.475,
+10.525,
+16.42,
+16.54,
+2.59,
+2.81
+]
+},
+{
+"name": "DiningChair_RearA_Leg_LF",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+6.455,
+6.585,
+21.815,
+21.945,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_RearA_Leg_LB",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+6.455,
+6.585,
+22.855,
+22.985,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_RearA_Leg_RF",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+7.415,
+7.545,
+21.815,
+21.945,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_RearA_Leg_RB",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+7.415,
+7.545,
+22.855,
+22.985,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_RearA_Seat",
+"group": "Dining",
+"material": "GDH_RED",
+"collision": "collide",
+"bbox": [
+6.35,
+7.65,
+21.75,
+22.95,
+1.2,
+1.35
+]
+},
+{
+"name": "DiningChair_RearA_Upright_L",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+6.455,
+6.585,
+22.855,
+22.985,
+1.35,
+2.9
+]
+},
+{
+"name": "DiningChair_RearA_Upright_R",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+7.415,
+7.545,
+22.855,
+22.985,
+1.35,
+2.9
+]
+},
+{
+"name": "DiningChair_RearA_BackRailLow",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+6.475,
+7.525,
+22.86,
+22.98,
+1.79,
+2.01
+]
+},
+{
+"name": "DiningChair_RearA_BackRailHigh",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+6.475,
+7.525,
+22.86,
+22.98,
+2.59,
+2.81
+]
+},
+{
+"name": "DiningChair_RearB_Leg_LF",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+9.455,
+9.585,
+21.815,
+21.945,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_RearB_Leg_LB",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+9.455,
+9.585,
+22.855,
+22.985,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_RearB_Leg_RF",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+10.415,
+10.545,
+21.815,
+21.945,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_RearB_Leg_RB",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+10.415,
+10.545,
+22.855,
+22.985,
+0.0,
+1.2
+]
+},
+{
+"name": "DiningChair_RearB_Seat",
+"group": "Dining",
+"material": "GDH_RED",
+"collision": "collide",
+"bbox": [
+9.35,
+10.65,
+21.75,
+22.95,
+1.2,
+1.35
+]
+},
+{
+"name": "DiningChair_RearB_Upright_L",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+9.455,
+9.585,
+22.855,
+22.985,
+1.35,
+2.9
+]
+},
+{
+"name": "DiningChair_RearB_Upright_R",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+10.415,
+10.545,
+22.855,
+22.985,
+1.35,
+2.9
+]
+},
+{
+"name": "DiningChair_RearB_BackRailLow",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+9.475,
+10.525,
+22.86,
+22.98,
+1.79,
+2.01
+]
+},
+{
+"name": "DiningChair_RearB_BackRailHigh",
+"group": "Dining",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+9.475,
+10.525,
+22.86,
+22.98,
+2.59,
+2.81
+]
+},
+{
+"name": "Rug_Dining_Centre",
+"group": "Dining",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+5.05,
+11.95,
+15.95,
+23.45,
+0.0,
+0.02
+]
+},
+{
+"name": "Rug_Dining_Border_N",
+"group": "Dining",
+"material": "GDH_STONE",
+"collision": "noncollide",
+"bbox": [
+4.8,
+12.2,
+23.45,
+23.7,
+0.0,
+0.02
+]
+},
+{
+"name": "Rug_Dining_Border_S",
+"group": "Dining",
+"material": "GDH_STONE",
+"collision": "noncollide",
+"bbox": [
+4.8,
+12.2,
+15.7,
+15.95,
+0.0,
+0.02
+]
+},
+{
+"name": "Rug_Dining_Border_W",
+"group": "Dining",
+"material": "GDH_STONE",
+"collision": "noncollide",
+"bbox": [
+4.8,
+5.05,
+15.95,
+23.45,
+0.0,
+0.02
+]
+},
+{
+"name": "Rug_Dining_Border_E",
+"group": "Dining",
+"material": "GDH_STONE",
+"collision": "noncollide",
+"bbox": [
+11.95,
+12.2,
+15.95,
+23.45,
+0.0,
+0.02
+]
+},
+{
+"name": "DiningPlate_1",
+"group": "Dining",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+6.925,
+7.475,
+18.425,
+18.975,
+2.5,
+2.56
+]
+},
+{
+"name": "DiningPlate_2",
+"group": "Dining",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+9.325,
+9.875,
+18.425,
+18.975,
+2.5,
+2.56
+]
+},
+{
+"name": "DiningPlate_3",
+"group": "Dining",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+6.925,
+7.475,
+20.425,
+20.975,
+2.5,
+2.56
+]
+},
+{
+"name": "DiningPlate_Dad",
+"group": "Dining",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+9.1,
+10.1,
+20.2,
+21.2,
+2.5,
+2.57
+]
+},
+{
+"name": "DiningPlant_Pot",
+"group": "Dining",
+"material": "GDH_PATIO",
+"collision": "noncollide",
+"bbox": [
+8.327,
+8.673,
+19.527,
+19.873,
+2.5,
+2.78
+]
+},
+{
+"name": "DiningPlant_Soil",
+"group": "Dining",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+8.4,
+8.6,
+19.605,
+19.795,
+2.7,
+2.72
+]
+},
+{
+"name": "DiningPlant_Stem",
+"group": "Dining",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+8.475,
+8.525,
+19.675,
+19.725,
+2.7,
+2.902
+]
+},
+{
+"name": "DiningPlant_Leaf_1",
+"group": "Dining",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+8.491,
+8.713,
+19.656,
+19.744,
+2.694,
+2.862
+]
+},
+{
+"name": "DiningPlant_Leaf_2",
+"group": "Dining",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+8.436,
+8.656,
+19.672,
+20.014,
+2.627,
+2.862
+]
+},
+{
+"name": "DiningPlant_Leaf_3",
+"group": "Dining",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+8.251,
+8.54,
+19.65,
+19.902,
+2.656,
+2.862
+]
+},
+{
+"name": "DiningPlant_Leaf_4",
+"group": "Dining",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+8.289,
+8.534,
+19.529,
+19.743,
+2.685,
+2.862
+]
+},
+{
+"name": "DiningPlant_Leaf_5",
+"group": "Dining",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+8.434,
+8.663,
+19.372,
+19.729,
+2.618,
+2.862
+]
+},
+{
+"name": "DiningNapkin_1_A",
+"group": "Dining",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+7.575,
+8.025,
+18.525,
+18.875,
+2.5,
+2.515
+]
+},
+{
+"name": "DiningNapkin_1_B",
+"group": "Dining",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+7.575,
+8.025,
+18.525,
+18.875,
+2.515,
+2.53
+]
+},
+{
+"name": "DiningNapkin_2_A",
+"group": "Dining",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+10.175,
+10.625,
+20.325,
+20.675,
+2.5,
+2.515
+]
+},
+{
+"name": "DiningNapkin_2_B",
+"group": "Dining",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+10.175,
+10.625,
+20.325,
+20.675,
+2.515,
+2.53
+]
+},
+{
+"name": "Prep_Counter_ToeKick",
+"group": "Preparation",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+5.6,
+13.4,
+27.7,
+29.1,
+0.0,
+0.12
+]
+},
+{
+"name": "Prep_Counter_Base",
+"group": "Preparation",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+5.58,
+13.42,
+27.68,
+29.12,
+0.12,
+0.24
+]
+},
+{
+"name": "Prep_Counter_Divider_1",
+"group": "Preparation",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+5.5,
+5.62,
+27.65,
+29.15,
+0.24,
+2.8
+]
+},
+{
+"name": "Prep_Counter_Divider_2",
+"group": "Preparation",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+7.44,
+7.56,
+27.65,
+29.15,
+0.24,
+2.8
+]
+},
+{
+"name": "Prep_Counter_Divider_3",
+"group": "Preparation",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+9.44,
+9.56,
+27.65,
+29.15,
+0.24,
+2.8
+]
+},
+{
+"name": "Prep_Counter_Divider_4",
+"group": "Preparation",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+11.44,
+11.56,
+27.65,
+29.15,
+0.24,
+2.8
+]
+},
+{
+"name": "Prep_Counter_Divider_5",
+"group": "Preparation",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+13.38,
+13.5,
+27.65,
+29.15,
+0.24,
+2.8
+]
+},
+{
+"name": "Prep_Counter_Back",
+"group": "Preparation",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+5.5,
+13.5,
+29.12,
+29.2,
+0.24,
+2.8
+]
+},
+{
+"name": "Prep_Counter_Top",
+"group": "Preparation",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+5.5,
+13.5,
+27.6,
+29.2,
+2.8,
+3.0
+]
+},
+{
+"name": "Prep_Counter_Drawer_1",
+"group": "Preparation",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+5.6,
+7.4,
+27.54,
+27.6,
+2.3,
+2.75
+]
+},
+{
+"name": "Prep_Counter_Door_1",
+"group": "Preparation",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+5.6,
+7.4,
+27.54,
+27.6,
+0.3,
+2.2
+]
+},
+{
+"name": "Prep_Counter_HandleDrawer_1",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+6.325,
+6.675,
+27.46,
+27.54,
+2.48,
+2.55
+]
+},
+{
+"name": "Prep_Counter_HandleDoor_1",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+6.325,
+6.675,
+27.46,
+27.54,
+1.9,
+1.97
+]
+},
+{
+"name": "Prep_Counter_Drawer_2",
+"group": "Preparation",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+7.6,
+9.4,
+27.54,
+27.6,
+2.3,
+2.75
+]
+},
+{
+"name": "Prep_Counter_Door_2",
+"group": "Preparation",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+7.6,
+9.4,
+27.54,
+27.6,
+0.3,
+2.2
+]
+},
+{
+"name": "Prep_Counter_HandleDrawer_2",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+8.325,
+8.675,
+27.46,
+27.54,
+2.48,
+2.55
+]
+},
+{
+"name": "Prep_Counter_HandleDoor_2",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+8.325,
+8.675,
+27.46,
+27.54,
+1.9,
+1.97
+]
+},
+{
+"name": "Prep_Counter_Drawer_3",
+"group": "Preparation",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+9.6,
+11.4,
+27.54,
+27.6,
+2.3,
+2.75
+]
+},
+{
+"name": "Prep_Counter_Door_3",
+"group": "Preparation",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+9.6,
+11.4,
+27.54,
+27.6,
+0.3,
+2.2
+]
+},
+{
+"name": "Prep_Counter_HandleDrawer_3",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+10.325,
+10.675,
+27.46,
+27.54,
+2.48,
+2.55
+]
+},
+{
+"name": "Prep_Counter_HandleDoor_3",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+10.325,
+10.675,
+27.46,
+27.54,
+1.9,
+1.97
+]
+},
+{
+"name": "Prep_Counter_Drawer_4",
+"group": "Preparation",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+11.6,
+13.4,
+27.54,
+27.6,
+2.3,
+2.75
+]
+},
+{
+"name": "Prep_Counter_Door_4",
+"group": "Preparation",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+11.6,
+13.4,
+27.54,
+27.6,
+0.3,
+2.2
+]
+},
+{
+"name": "Prep_Counter_HandleDrawer_4",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+12.325,
+12.675,
+27.46,
+27.54,
+2.48,
+2.55
+]
+},
+{
+"name": "Prep_Counter_HandleDoor_4",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+12.325,
+12.675,
+27.46,
+27.54,
+1.9,
+1.97
+]
+},
+{
+"name": "Prep_CuttingBoard",
+"group": "Preparation",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+6.3,
+7.7,
+27.55,
+28.45,
+3.0,
+3.1
+]
+},
+{
+"name": "Prep_Bowl",
+"group": "Preparation",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+8.1,
+8.7,
+27.9,
+28.5,
+3.0,
+3.25
+]
+},
+{
+"name": "Prep_Tongs_Hinge",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+6.55,
+6.65,
+27.92,
+28.08,
+3.1,
+3.16
+]
+},
+{
+"name": "Prep_Tongs_Arm_1",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+6.6,
+7.32,
+27.88,
+27.94,
+3.1,
+3.16
+]
+},
+{
+"name": "Prep_Tongs_Grip_1",
+"group": "Preparation",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+6.6,
+6.8,
+27.875,
+27.945,
+3.1,
+3.17
+]
+},
+{
+"name": "Prep_Tongs_Tip_1",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+7.32,
+7.47,
+27.85,
+27.97,
+3.1,
+3.14
+]
+},
+{
+"name": "Prep_Tongs_Arm_2",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+6.6,
+7.32,
+28.06,
+28.12,
+3.1,
+3.16
+]
+},
+{
+"name": "Prep_Tongs_Grip_2",
+"group": "Preparation",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+6.6,
+6.8,
+28.055,
+28.125,
+3.1,
+3.17
+]
+},
+{
+"name": "Prep_Tongs_Tip_2",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+7.32,
+7.47,
+28.03,
+28.15,
+3.1,
+3.14
+]
+},
+{
+"name": "Prep_SpiceJar_1_Body",
+"group": "Preparation",
+"material": "GDH_TRIM",
+"collision": "noncollide",
+"bbox": [
+6.28,
+6.52,
+28.78,
+29.02,
+3.0,
+3.31
+]
+},
+{
+"name": "Prep_SpiceJar_1_Lid",
+"group": "Preparation",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+6.275,
+6.525,
+28.775,
+29.025,
+3.31,
+3.38
+]
+},
+{
+"name": "Prep_SpiceJar_1_Label",
+"group": "Preparation",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+6.34,
+6.46,
+28.77,
+28.78,
+3.08,
+3.24
+]
+},
+{
+"name": "Prep_SpiceJar_2_Body",
+"group": "Preparation",
+"material": "GDH_TRIM",
+"collision": "noncollide",
+"bbox": [
+6.88,
+7.12,
+28.78,
+29.02,
+3.0,
+3.31
+]
+},
+{
+"name": "Prep_SpiceJar_2_Lid",
+"group": "Preparation",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+6.875,
+7.125,
+28.775,
+29.025,
+3.31,
+3.38
+]
+},
+{
+"name": "Prep_SpiceJar_2_Label",
+"group": "Preparation",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+6.94,
+7.06,
+28.77,
+28.78,
+3.08,
+3.24
+]
+},
+{
+"name": "Prep_SpiceJar_3_Body",
+"group": "Preparation",
+"material": "GDH_TRIM",
+"collision": "noncollide",
+"bbox": [
+7.48,
+7.72,
+28.78,
+29.02,
+3.0,
+3.31
+]
+},
+{
+"name": "Prep_SpiceJar_3_Lid",
+"group": "Preparation",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+7.475,
+7.725,
+28.775,
+29.025,
+3.31,
+3.38
+]
+},
+{
+"name": "Prep_SpiceJar_3_Label",
+"group": "Preparation",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+7.54,
+7.66,
+28.77,
+28.78,
+3.08,
+3.24
+]
+},
+{
+"name": "Prep_SpiceJar_4_Body",
+"group": "Preparation",
+"material": "GDH_TRIM",
+"collision": "noncollide",
+"bbox": [
+8.08,
+8.32,
+28.78,
+29.02,
+3.0,
+3.31
+]
+},
+{
+"name": "Prep_SpiceJar_4_Lid",
+"group": "Preparation",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+8.075,
+8.325,
+28.775,
+29.025,
+3.31,
+3.38
+]
+},
+{
+"name": "Prep_SpiceJar_4_Label",
+"group": "Preparation",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+8.14,
+8.26,
+28.77,
+28.78,
+3.08,
+3.24
+]
+},
+{
+"name": "Prep_SpiceJar_5_Body",
+"group": "Preparation",
+"material": "GDH_TRIM",
+"collision": "noncollide",
+"bbox": [
+8.68,
+8.92,
+28.78,
+29.02,
+3.0,
+3.31
+]
+},
+{
+"name": "Prep_SpiceJar_5_Lid",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+8.675,
+8.925,
+28.775,
+29.025,
+3.31,
+3.38
+]
+},
+{
+"name": "Prep_SpiceJar_5_Label",
+"group": "Preparation",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+8.74,
+8.86,
+28.77,
+28.78,
+3.08,
+3.24
+]
+},
+{
+"name": "Prep_SecretJar_Body",
+"group": "Preparation",
+"material": "GDH_TRIM",
+"collision": "noncollide",
+"bbox": [
+9.43,
+9.77,
+28.638,
+28.962,
+3.0,
+3.46
+]
+},
+{
+"name": "Prep_SecretJar_Lid",
+"group": "Preparation",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+9.425,
+9.775,
+28.634,
+28.966,
+3.46,
+3.55
+]
+},
+{
+"name": "Prep_SecretJar_StarVert",
+"group": "Preparation",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+9.58,
+9.62,
+28.61,
+28.63,
+3.12,
+3.4
+]
+},
+{
+"name": "Prep_SecretJar_StarHoriz",
+"group": "Preparation",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+9.53,
+9.67,
+28.61,
+28.63,
+3.24,
+3.28
+]
+},
+{
+"name": "Prep_SecretJar_StarDiagA",
+"group": "Preparation",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+9.53,
+9.67,
+28.61,
+28.63,
+3.245,
+3.275
+]
+},
+{
+"name": "Prep_Cooktop_Plate",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.25,
+12.75,
+27.8,
+29.0,
+3.0,
+3.08
+]
+},
+{
+"name": "Prep_Cooktop_Burner_1",
+"group": "Preparation",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+11.475,
+11.825,
+28.225,
+28.575,
+3.08,
+3.1
+]
+},
+{
+"name": "Prep_Cooktop_Burner_2",
+"group": "Preparation",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+12.175,
+12.525,
+28.225,
+28.575,
+3.08,
+3.1
+]
+},
+{
+"name": "Prep_Hood_Shell",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.1,
+12.9,
+27.7,
+29.1,
+4.6,
+5.4
+]
+},
+{
+"name": "Prep_Hood_Rim",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.1,
+12.9,
+27.7,
+27.76,
+4.55,
+4.6
+]
+},
+{
+"name": "Prep_Flue",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.775,
+12.225,
+28.175,
+28.625,
+5.4,
+12.5
+]
+},
+{
+"name": "Prep_Hood_Bracket_1",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.76,
+11.84,
+29.1,
+29.6,
+5.0,
+5.1
+]
+},
+{
+"name": "Prep_Hood_Bracket_2",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+12.16,
+12.24,
+29.1,
+29.6,
+5.0,
+5.1
+]
+},
+{
+"name": "Prep_UtensilRail",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+9.1,
+10.9,
+29.45,
+29.55,
+3.75,
+3.85
+]
+},
+{
+"name": "Prep_UtensilRail_Mount_1",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+9.17,
+9.23,
+29.55,
+29.6,
+3.72,
+3.88
+]
+},
+{
+"name": "Prep_UtensilRail_Mount_2",
+"group": "Preparation",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+10.77,
+10.83,
+29.55,
+29.6,
+3.72,
+3.88
+]
+},
+{
+"name": "Prep_Utensil_Spoon_Hook",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+9.38,
+9.42,
+29.45,
+29.5,
+3.76,
+3.8
+]
+},
+{
+"name": "Prep_Utensil_Spoon_Handle",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+9.38,
+9.42,
+29.395,
+29.445,
+3.4,
+3.76
+]
+},
+{
+"name": "Prep_Utensil_Spoon_Head",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+9.33,
+9.47,
+29.37,
+29.47,
+3.21,
+3.42
+]
+},
+{
+"name": "Prep_Utensil_Spatula_Hook",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+9.98,
+10.02,
+29.45,
+29.5,
+3.76,
+3.8
+]
+},
+{
+"name": "Prep_Utensil_Spatula_Handle",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+9.98,
+10.02,
+29.395,
+29.445,
+3.4,
+3.76
+]
+},
+{
+"name": "Prep_Utensil_Spatula_Head",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+9.9,
+10.1,
+29.395,
+29.445,
+3.22,
+3.42
+]
+},
+{
+"name": "Prep_Utensil_Tongs_Hook",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+10.58,
+10.62,
+29.45,
+29.5,
+3.76,
+3.8
+]
+},
+{
+"name": "Prep_Utensil_Tongs_Arm_1",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+10.525,
+10.575,
+29.395,
+29.445,
+3.21,
+3.76
+]
+},
+{
+"name": "Prep_Utensil_Tongs_Grip_1",
+"group": "Preparation",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+10.522,
+10.578,
+29.39,
+29.45,
+3.55,
+3.75
+]
+},
+{
+"name": "Prep_Utensil_Tongs_Arm_2",
+"group": "Preparation",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+10.625,
+10.675,
+29.395,
+29.445,
+3.21,
+3.76
+]
+},
+{
+"name": "Prep_Utensil_Tongs_Grip_2",
+"group": "Preparation",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+10.622,
+10.678,
+29.39,
+29.45,
+3.55,
+3.75
+]
+},
+{
+"name": "Trophy_Base",
+"group": "StoryProps",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-13.875,
+-13.425,
+10.65,
+11.35,
+3.8,
+3.95
+]
+},
+{
+"name": "Trophy_Stem",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-13.71,
+-13.59,
+10.94,
+11.06,
+3.95,
+4.3
+]
+},
+{
+"name": "Trophy_Sausage_1",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-13.76,
+-13.54,
+10.477,
+10.798,
+4.4,
+4.72
+]
+},
+{
+"name": "Trophy_Sausage_2",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-13.76,
+-13.54,
+10.628,
+10.952,
+4.307,
+4.613
+]
+},
+{
+"name": "Trophy_Sausage_3",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-13.76,
+-13.54,
+10.85,
+11.15,
+4.31,
+4.53
+]
+},
+{
+"name": "Trophy_Sausage_4",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-13.76,
+-13.54,
+11.048,
+11.372,
+4.307,
+4.613
+]
+},
+{
+"name": "Trophy_Sausage_5",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-13.76,
+-13.54,
+11.202,
+11.523,
+4.4,
+4.72
+]
+},
+{
+"name": "Trophy_SausageBand_1",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-13.763,
+-13.537,
+10.805,
+10.835,
+4.3,
+4.52
+]
+},
+{
+"name": "Trophy_SausageBand_2",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-13.763,
+-13.537,
+11.165,
+11.195,
+4.3,
+4.52
+]
+},
+{
+"name": "Drawing_Backing",
+"group": "StoryProps",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+-14.6,
+-14.58,
+9.8,
+12.2,
+5.1,
+6.9
+]
+},
+{
+"name": "Drawing_Paper",
+"group": "StoryProps",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.54,
+9.8,
+12.2,
+5.1,
+6.9
+]
+},
+{
+"name": "Drawing_Border_N",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.48,
+9.68,
+12.32,
+6.9,
+7.02
+]
+},
+{
+"name": "Drawing_Border_S",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.48,
+9.68,
+12.32,
+4.98,
+5.1
+]
+},
+{
+"name": "Drawing_Border_W",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.48,
+9.68,
+9.8,
+5.1,
+6.9
+]
+},
+{
+"name": "Drawing_Border_E",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.48,
+12.2,
+12.32,
+5.1,
+6.9
+]
+},
+{
+"name": "Drawing_Dad_Head",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+10.89,
+11.11,
+6.24,
+6.46
+]
+},
+{
+"name": "Drawing_Dad_Body",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+10.85,
+11.15,
+5.685,
+6.235
+]
+},
+{
+"name": "Drawing_Dad_Leg_1",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+10.9,
+10.96,
+5.5,
+5.8
+]
+},
+{
+"name": "Drawing_Dad_Arm_1",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.56,
+-14.5,
+10.56,
+10.84,
+6.158,
+6.542
+]
+},
+{
+"name": "Drawing_Dad_Leg_2",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+11.04,
+11.1,
+5.5,
+5.8
+]
+},
+{
+"name": "Drawing_Dad_Arm_2",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.56,
+-14.5,
+11.16,
+11.44,
+6.158,
+6.542
+]
+},
+{
+"name": "Drawing_Dad_Tongs",
+"group": "StoryProps",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+11.445,
+11.495,
+6.53,
+6.71
+]
+},
+{
+"name": "Drawing_Figure_1_Head",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+10.29,
+10.41,
+5.71,
+5.83
+]
+},
+{
+"name": "Drawing_Figure_1_Body",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+10.27,
+10.43,
+5.47,
+5.73
+]
+},
+{
+"name": "Drawing_Figure_1_Legs",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+10.3,
+10.4,
+5.345,
+5.495
+]
+},
+{
+"name": "Drawing_Figure_2_Head",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+11.59,
+11.71,
+5.71,
+5.83
+]
+},
+{
+"name": "Drawing_Figure_2_Body",
+"group": "StoryProps",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+11.57,
+11.73,
+5.47,
+5.73
+]
+},
+{
+"name": "Drawing_Figure_2_Legs",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+11.6,
+11.7,
+5.345,
+5.495
+]
+},
+{
+"name": "Drawing_Sun",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+10.04,
+10.26,
+6.49,
+6.71
+]
+},
+{
+"name": "Drawing_SunRay_1",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+10.13,
+10.17,
+6.785,
+6.855
+]
+},
+{
+"name": "Drawing_SunRay_2",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+10.13,
+10.17,
+6.345,
+6.415
+]
+},
+{
+"name": "Drawing_SunRay_3",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+9.895,
+9.965,
+6.58,
+6.62
+]
+},
+{
+"name": "Drawing_SunRay_4",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+10.335,
+10.405,
+6.58,
+6.62
+]
+},
+{
+"name": "Drawing_SunRay_5",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+9.965,
+10.015,
+6.735,
+6.785
+]
+},
+{
+"name": "Drawing_SunRay_6",
+"group": "StoryProps",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+10.285,
+10.335,
+6.415,
+6.465
+]
+},
+{
+"name": "Drawing_Grill_Body",
+"group": "StoryProps",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+11.75,
+12.05,
+5.36,
+5.54
+]
+},
+{
+"name": "Drawing_Grill_Front",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.51,
+11.75,
+12.05,
+5.42,
+5.48
+]
+},
+{
+"name": "Drawing_Grill_Leg_1",
+"group": "StoryProps",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+11.78,
+11.82,
+5.2,
+5.32
+]
+},
+{
+"name": "Drawing_Grill_Leg_2",
+"group": "StoryProps",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-14.54,
+-14.52,
+11.98,
+12.02,
+5.2,
+5.32
+]
+},
+{
+"name": "Photo_1_Backing",
+"group": "StoryProps",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-14.6,
+-14.58,
+21.4,
+22.6,
+5.7,
+6.7
+]
+},
+{
+"name": "Photo_1_Paper",
+"group": "StoryProps",
+"material": "GDH_TRIM",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.53,
+21.5,
+22.5,
+5.8,
+6.6
+]
+},
+{
+"name": "Photo_1_Border_N",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+21.4,
+22.6,
+6.6,
+6.7
+]
+},
+{
+"name": "Photo_1_Border_S",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+21.4,
+22.6,
+5.7,
+5.8
+]
+},
+{
+"name": "Photo_1_Border_W",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+21.4,
+21.5,
+5.8,
+6.6
+]
+},
+{
+"name": "Photo_1_Border_E",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+22.5,
+22.6,
+5.8,
+6.6
+]
+},
+{
+"name": "Photo_1_Head_1",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+21.62,
+21.78,
+6.24,
+6.4
+]
+},
+{
+"name": "Photo_1_Torso_1",
+"group": "StoryProps",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+21.6,
+21.8,
+6.04,
+6.24
+]
+},
+{
+"name": "Photo_1_Head_2",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+21.92,
+22.08,
+6.24,
+6.4
+]
+},
+{
+"name": "Photo_1_Torso_2",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+21.9,
+22.1,
+6.04,
+6.24
+]
+},
+{
+"name": "Photo_1_Head_3",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+22.22,
+22.38,
+6.24,
+6.4
+]
+},
+{
+"name": "Photo_1_Torso_3",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+22.2,
+22.4,
+6.04,
+6.24
+]
+},
+{
+"name": "Photo_2_Backing",
+"group": "StoryProps",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-14.6,
+-14.58,
+23.2,
+24.4,
+5.7,
+6.7
+]
+},
+{
+"name": "Photo_2_Paper",
+"group": "StoryProps",
+"material": "GDH_TRIM",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.53,
+23.3,
+24.3,
+5.8,
+6.6
+]
+},
+{
+"name": "Photo_2_Border_N",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+23.2,
+24.4,
+6.6,
+6.7
+]
+},
+{
+"name": "Photo_2_Border_S",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+23.2,
+24.4,
+5.7,
+5.8
+]
+},
+{
+"name": "Photo_2_Border_W",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+23.2,
+23.3,
+5.8,
+6.6
+]
+},
+{
+"name": "Photo_2_Border_E",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+24.3,
+24.4,
+5.8,
+6.6
+]
+},
+{
+"name": "Photo_2_Head_1",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+23.42,
+23.58,
+6.24,
+6.4
+]
+},
+{
+"name": "Photo_2_Torso_1",
+"group": "StoryProps",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+23.4,
+23.6,
+6.04,
+6.24
+]
+},
+{
+"name": "Photo_2_Head_2",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+23.72,
+23.88,
+6.24,
+6.4
+]
+},
+{
+"name": "Photo_2_Torso_2",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+23.7,
+23.9,
+6.04,
+6.24
+]
+},
+{
+"name": "Photo_2_Head_3",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+24.02,
+24.18,
+6.24,
+6.4
+]
+},
+{
+"name": "Photo_2_Torso_3",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+24.0,
+24.2,
+6.04,
+6.24
+]
+},
+{
+"name": "Photo_3_Backing",
+"group": "StoryProps",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-14.6,
+-14.58,
+25.0,
+26.2,
+5.7,
+6.7
+]
+},
+{
+"name": "Photo_3_Paper",
+"group": "StoryProps",
+"material": "GDH_TRIM",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.53,
+25.1,
+26.1,
+5.8,
+6.6
+]
+},
+{
+"name": "Photo_3_Border_N",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+25.0,
+26.2,
+6.6,
+6.7
+]
+},
+{
+"name": "Photo_3_Border_S",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+25.0,
+26.2,
+5.7,
+5.8
+]
+},
+{
+"name": "Photo_3_Border_W",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+25.0,
+25.1,
+5.8,
+6.6
+]
+},
+{
+"name": "Photo_3_Border_E",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.58,
+-14.49,
+26.1,
+26.2,
+5.8,
+6.6
+]
+},
+{
+"name": "Photo_3_Head_1",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+25.22,
+25.38,
+6.24,
+6.4
+]
+},
+{
+"name": "Photo_3_Torso_1",
+"group": "StoryProps",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+25.2,
+25.4,
+6.04,
+6.24
+]
+},
+{
+"name": "Photo_3_Head_2",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+25.52,
+25.68,
+6.24,
+6.4
+]
+},
+{
+"name": "Photo_3_Torso_2",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+25.5,
+25.7,
+6.04,
+6.24
+]
+},
+{
+"name": "Photo_3_Head_3",
+"group": "StoryProps",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+25.82,
+25.98,
+6.24,
+6.4
+]
+},
+{
+"name": "Photo_3_Torso_3",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+-14.53,
+-14.5,
+25.8,
+26.0,
+6.04,
+6.24
+]
+},
+{
+"name": "Apron_Rail",
+"group": "StoryProps",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+14.44,
+14.6,
+23.4,
+26.0,
+6.0,
+6.22
+]
+},
+{
+"name": "Apron_Hook_1",
+"group": "StoryProps",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+14.28,
+14.44,
+23.66,
+23.74,
+6.07,
+6.15
+]
+},
+{
+"name": "Apron_Hook_2",
+"group": "StoryProps",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+14.28,
+14.44,
+24.56,
+24.64,
+6.07,
+6.15
+]
+},
+{
+"name": "Apron_Hook_3",
+"group": "StoryProps",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+14.28,
+14.44,
+25.56,
+25.64,
+6.07,
+6.15
+]
+},
+{
+"name": "Apron_Adult_Loop",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+14.27,
+14.33,
+24.48,
+24.72,
+5.98,
+6.14
+]
+},
+{
+"name": "Apron_Adult_Bib",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+14.26,
+14.34,
+24.35,
+24.85,
+5.45,
+6.0
+]
+},
+{
+"name": "Apron_Adult_Skirt",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+14.26,
+14.34,
+24.125,
+25.075,
+4.25,
+5.45
+]
+},
+{
+"name": "Apron_Adult_Pocket",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+14.24,
+14.26,
+24.375,
+24.825,
+4.55,
+4.9
+]
+},
+{
+"name": "Apron_Adult_Tie_1",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+14.26,
+14.34,
+24.025,
+24.125,
+5.3,
+5.35
+]
+},
+{
+"name": "Apron_Adult_Tie_2",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+14.26,
+14.34,
+25.075,
+25.175,
+5.3,
+5.35
+]
+},
+{
+"name": "Apron_Child_Loop",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+14.27,
+14.33,
+25.51,
+25.69,
+5.98,
+6.12
+]
+},
+{
+"name": "Apron_Child_Bib",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+14.27,
+14.33,
+25.44,
+25.76,
+5.5,
+6.0
+]
+},
+{
+"name": "Apron_Child_Skirt",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+14.27,
+14.33,
+25.3,
+25.9,
+4.9,
+5.5
+]
+},
+{
+"name": "Apron_Child_Pocket",
+"group": "StoryProps",
+"material": "GDH_BLUE",
+"collision": "noncollide",
+"bbox": [
+14.25,
+14.27,
+25.46,
+25.74,
+5.05,
+5.27
+]
+},
+{
+"name": "Apron_Mitt_Loop",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+14.27,
+14.33,
+23.65,
+23.75,
+5.95,
+6.07
+]
+},
+{
+"name": "Apron_Mitt_Body",
+"group": "StoryProps",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+14.24,
+14.36,
+23.525,
+23.875,
+5.4,
+5.95
+]
+},
+{
+"name": "Apron_Mitt_Thumb",
+"group": "StoryProps",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+14.24,
+14.36,
+23.875,
+23.995,
+5.55,
+5.75
+]
+},
+{
+"name": "Entry_ShoeTray_Base",
+"group": "Entry",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+-7.8,
+-4.6,
+6.3,
+8.3,
+0.0,
+0.06
+]
+},
+{
+"name": "Entry_ShoeTray_Rim_N",
+"group": "Entry",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+-7.8,
+-4.6,
+8.18,
+8.3,
+0.06,
+0.18
+]
+},
+{
+"name": "Entry_ShoeTray_Rim_S",
+"group": "Entry",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+-7.8,
+-4.6,
+6.3,
+6.42,
+0.06,
+0.18
+]
+},
+{
+"name": "Entry_ShoeTray_Rim_W",
+"group": "Entry",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+-7.8,
+-7.68,
+6.42,
+8.18,
+0.06,
+0.18
+]
+},
+{
+"name": "Entry_ShoeTray_Rim_E",
+"group": "Entry",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+-4.72,
+-4.6,
+6.42,
+8.18,
+0.06,
+0.18
+]
+},
+{
+"name": "Entry_ShoeAdult_1",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-7.525,
+-6.675,
+6.6,
+8.0,
+0.2,
+0.62
+]
+},
+{
+"name": "Entry_ShoeAdult_1_Sole",
+"group": "Entry",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+-7.525,
+-6.675,
+6.6,
+8.0,
+0.06,
+0.2
+]
+},
+{
+"name": "Entry_ShoeAdult_2",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-6.575,
+-5.725,
+6.6,
+8.0,
+0.2,
+0.62
+]
+},
+{
+"name": "Entry_ShoeAdult_2_Sole",
+"group": "Entry",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+-6.575,
+-5.725,
+6.6,
+8.0,
+0.06,
+0.2
+]
+},
+{
+"name": "Entry_ShoeChild_1",
+"group": "Entry",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-5.5,
+-5.0,
+6.5,
+7.3,
+0.18,
+0.42
+]
+},
+{
+"name": "Entry_ShoeChild_1_Sole",
+"group": "Entry",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-5.5,
+-5.0,
+6.5,
+7.3,
+0.06,
+0.18
+]
+},
+{
+"name": "Entry_ShoeChild_2",
+"group": "Entry",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+-5.5,
+-5.0,
+7.35,
+8.15,
+0.18,
+0.42
+]
+},
+{
+"name": "Entry_ShoeChild_2_Sole",
+"group": "Entry",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-5.5,
+-5.0,
+7.35,
+8.15,
+0.06,
+0.18
+]
+},
+{
+"name": "Entry_Bag_Body",
+"group": "Entry",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+-10.0,
+-8.8,
+6.875,
+7.725,
+0.0,
+1.2
+]
+},
+{
+"name": "Entry_Bag_Loop_1",
+"group": "Entry",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-9.77,
+-9.63,
+6.92,
+7.68,
+1.2,
+1.5
+]
+},
+{
+"name": "Entry_Bag_Loop_2",
+"group": "Entry",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-9.17,
+-9.03,
+6.92,
+7.68,
+1.2,
+1.5
+]
+},
+{
+"name": "Entry_CoatStrip",
+"group": "Entry",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-5.0,
+-4.85,
+4.25,
+4.95,
+4.9,
+5.1
+]
+},
+{
+"name": "Entry_CoatPeg_1",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-4.85,
+-4.7,
+4.32,
+4.38,
+5.07,
+5.13
+]
+},
+{
+"name": "Entry_CoatPeg_2",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-4.85,
+-4.7,
+4.57,
+4.63,
+5.07,
+5.13
+]
+},
+{
+"name": "Entry_CoatPeg_3",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-4.85,
+-4.7,
+4.82,
+4.88,
+5.07,
+5.13
+]
+},
+{
+"name": "Entry_KeyShelf",
+"group": "Entry",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-5.0,
+-4.7,
+4.25,
+4.95,
+3.5,
+3.6
+]
+},
+{
+"name": "Entry_Key_1_Shaft",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-4.95,
+-4.75,
+4.42,
+4.48,
+3.6,
+3.64
+]
+},
+{
+"name": "Entry_Key_1_Loop",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-4.97,
+-4.89,
+4.42,
+4.48,
+3.6,
+3.66
+]
+},
+{
+"name": "Entry_Key_2_Shaft",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-4.95,
+-4.75,
+4.69,
+4.75,
+3.6,
+3.64
+]
+},
+{
+"name": "Entry_Key_2_Loop",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-4.97,
+-4.89,
+4.69,
+4.75,
+3.6,
+3.66
+]
+},
+{
+"name": "Entry_Lantern_1_Body",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-5.85,
+-5.35,
+3.675,
+3.925,
+5.235,
+5.765
+]
+},
+{
+"name": "Entry_Lantern_1_Cap",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-5.85,
+-5.35,
+3.675,
+3.925,
+5.765,
+5.825
+]
+},
+{
+"name": "Entry_Lantern_1_Base",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-5.85,
+-5.35,
+3.675,
+3.925,
+5.175,
+5.235
+]
+},
+{
+"name": "Entry_Lantern_1_Lens",
+"group": "Entry",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-5.76,
+-5.44,
+3.645,
+3.675,
+5.285,
+5.715
+]
+},
+{
+"name": "Entry_Lantern_1_Bracket",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-5.65,
+-5.55,
+3.925,
+4.0,
+5.7,
+5.8
+]
+},
+{
+"name": "Entry_Lantern_1_Glow",
+"group": "Entry",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-5.68,
+-5.52,
+3.64,
+3.66,
+5.4,
+5.6
+]
+},
+{
+"name": "Entry_Lantern_2_Body",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+5.35,
+5.85,
+3.675,
+3.925,
+5.235,
+5.765
+]
+},
+{
+"name": "Entry_Lantern_2_Cap",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+5.35,
+5.85,
+3.675,
+3.925,
+5.765,
+5.825
+]
+},
+{
+"name": "Entry_Lantern_2_Base",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+5.35,
+5.85,
+3.675,
+3.925,
+5.175,
+5.235
+]
+},
+{
+"name": "Entry_Lantern_2_Lens",
+"group": "Entry",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+5.44,
+5.76,
+3.645,
+3.675,
+5.285,
+5.715
+]
+},
+{
+"name": "Entry_Lantern_2_Bracket",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+5.55,
+5.65,
+3.925,
+4.0,
+5.7,
+5.8
+]
+},
+{
+"name": "Entry_Lantern_2_Glow",
+"group": "Entry",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+5.52,
+5.68,
+3.64,
+3.66,
+5.4,
+5.6
+]
+},
+{
+"name": "Entry_Lantern_3_Body",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-5.45,
+-4.95,
+30.125,
+30.375,
+5.235,
+5.765
+]
+},
+{
+"name": "Entry_Lantern_3_Cap",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-5.45,
+-4.95,
+30.125,
+30.375,
+5.765,
+5.825
+]
+},
+{
+"name": "Entry_Lantern_3_Base",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-5.45,
+-4.95,
+30.125,
+30.375,
+5.175,
+5.235
+]
+},
+{
+"name": "Entry_Lantern_3_Lens",
+"group": "Entry",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-5.36,
+-5.04,
+30.375,
+30.405,
+5.285,
+5.715
+]
+},
+{
+"name": "Entry_Lantern_3_Bracket",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-5.25,
+-5.15,
+30.0,
+30.125,
+5.7,
+5.8
+]
+},
+{
+"name": "Entry_Lantern_3_Glow",
+"group": "Entry",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-5.28,
+-5.12,
+30.39,
+30.41,
+5.4,
+5.6
+]
+},
+{
+"name": "Entry_Lantern_4_Body",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+4.95,
+5.45,
+30.125,
+30.375,
+5.235,
+5.765
+]
+},
+{
+"name": "Entry_Lantern_4_Cap",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+4.95,
+5.45,
+30.125,
+30.375,
+5.765,
+5.825
+]
+},
+{
+"name": "Entry_Lantern_4_Base",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+4.95,
+5.45,
+30.125,
+30.375,
+5.175,
+5.235
+]
+},
+{
+"name": "Entry_Lantern_4_Lens",
+"group": "Entry",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+5.04,
+5.36,
+30.375,
+30.405,
+5.285,
+5.715
+]
+},
+{
+"name": "Entry_Lantern_4_Bracket",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+5.15,
+5.25,
+30.0,
+30.125,
+5.7,
+5.8
+]
+},
+{
+"name": "Entry_Lantern_4_Glow",
+"group": "Entry",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+5.12,
+5.28,
+30.39,
+30.41,
+5.4,
+5.6
+]
+},
+{
+"name": "Entry_Planter_1_Pot",
+"group": "Entry",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-7.14,
+-6.06,
+2.06,
+3.14,
+0.0,
+0.9
+]
+},
+{
+"name": "Entry_Planter_1_Soil",
+"group": "Entry",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-7.04,
+-6.16,
+2.182,
+3.018,
+0.82,
+0.84
+]
+},
+{
+"name": "Entry_Planter_1_Stem",
+"group": "Entry",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-6.625,
+-6.575,
+2.575,
+2.625,
+0.82,
+1.775
+]
+},
+{
+"name": "Entry_Planter_1_Leaf_1",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-6.609,
+-5.936,
+2.46,
+2.74,
+1.763,
+2.246
+]
+},
+{
+"name": "Entry_Planter_1_Leaf_2",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-6.773,
+-5.972,
+2.495,
+3.493,
+1.763,
+2.425
+]
+},
+{
+"name": "Entry_Planter_1_Leaf_3",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-7.153,
+-6.448,
+2.507,
+3.387,
+1.763,
+2.348
+]
+},
+{
+"name": "Entry_Planter_1_Leaf_4",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-7.3,
+-6.591,
+2.452,
+2.748,
+1.763,
+2.272
+]
+},
+{
+"name": "Entry_Planter_1_Leaf_5",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-7.253,
+-6.421,
+1.672,
+2.709,
+1.763,
+2.45
+]
+},
+{
+"name": "Entry_Planter_1_Leaf_6",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-6.759,
+-6.022,
+1.778,
+2.697,
+1.763,
+2.374
+]
+},
+{
+"name": "Entry_Planter_2_Pot",
+"group": "Entry",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+6.06,
+7.14,
+2.06,
+3.14,
+0.0,
+0.9
+]
+},
+{
+"name": "Entry_Planter_2_Soil",
+"group": "Entry",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+6.16,
+7.04,
+2.182,
+3.018,
+0.82,
+0.84
+]
+},
+{
+"name": "Entry_Planter_2_Stem",
+"group": "Entry",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+6.575,
+6.625,
+2.575,
+2.625,
+0.82,
+1.775
+]
+},
+{
+"name": "Entry_Planter_2_Leaf_1",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+6.591,
+7.264,
+2.46,
+2.74,
+1.763,
+2.246
+]
+},
+{
+"name": "Entry_Planter_2_Leaf_2",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+6.427,
+7.228,
+2.495,
+3.493,
+1.763,
+2.425
+]
+},
+{
+"name": "Entry_Planter_2_Leaf_3",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+6.047,
+6.752,
+2.507,
+3.387,
+1.763,
+2.348
+]
+},
+{
+"name": "Entry_Planter_2_Leaf_4",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+5.9,
+6.609,
+2.452,
+2.748,
+1.763,
+2.272
+]
+},
+{
+"name": "Entry_Planter_2_Leaf_5",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+5.947,
+6.779,
+1.672,
+2.709,
+1.763,
+2.45
+]
+},
+{
+"name": "Entry_Planter_2_Leaf_6",
+"group": "Entry",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+6.441,
+7.178,
+1.778,
+2.697,
+1.763,
+2.374
+]
+},
+{
+"name": "Patio_Paving_Base",
+"group": "Patio",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+-15.0,
+15.0,
+30.0,
+40.0,
+-0.2,
+-0.04
+]
+},
+{
+"name": "Patio_Paving_TilesA",
+"group": "Patio",
+"material": "GDH_PATIO",
+"collision": "collide",
+"bbox": [
+-14.988,
+14.988,
+30.012,
+39.988,
+-0.04,
+0.0
+]
+},
+{
+"name": "Patio_Paving_TilesB",
+"group": "Patio",
+"material": "GDH_PATIO_LIGHT",
+"collision": "collide",
+"bbox": [
+-14.988,
+14.988,
+30.012,
+39.988,
+-0.04,
+0.0
+]
+},
+{
+"name": "Patio_RearPath_Base",
+"group": "Patio",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+-4.0,
+4.0,
+40.0,
+47.6,
+-0.2,
+-0.04
+]
+},
+{
+"name": "Patio_RearPath_TilesA",
+"group": "Patio",
+"material": "GDH_STONE",
+"collision": "collide",
+"bbox": [
+-3.985,
+3.985,
+40.015,
+47.585,
+-0.04,
+0.0
+]
+},
+{
+"name": "Patio_RearPath_TilesB",
+"group": "Patio",
+"material": "GDH_PATIO",
+"collision": "collide",
+"bbox": [
+-3.985,
+3.985,
+40.015,
+47.585,
+-0.04,
+0.0
+]
+},
+{
+"name": "Entry_FrontPath_Base",
+"group": "Entry",
+"material": "GDH_MORTAR",
+"collision": "collide",
+"bbox": [
+-4.0,
+4.0,
+0.0,
+4.0,
+-0.2,
+-0.04
+]
+},
+{
+"name": "Entry_FrontPath_TilesA",
+"group": "Entry",
+"material": "GDH_STONE",
+"collision": "collide",
+"bbox": [
+-3.985,
+3.985,
+0.015,
+3.985,
+-0.04,
+0.0
+]
+},
+{
+"name": "Pergola_Post_1",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-14.4,
+-14.0,
+30.5,
+30.9,
+0.0,
+9.6
+]
+},
+{
+"name": "Pergola_Post_2",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+14.0,
+14.4,
+30.5,
+30.9,
+0.0,
+9.6
+]
+},
+{
+"name": "Pergola_Post_3",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-14.4,
+-14.0,
+39.0,
+39.4,
+0.0,
+9.6
+]
+},
+{
+"name": "Pergola_Post_4",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+14.0,
+14.4,
+39.0,
+39.4,
+0.0,
+9.6
+]
+},
+{
+"name": "Pergola_Beam_Front",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.6,
+14.6,
+30.2,
+30.5,
+9.6,
+9.95
+]
+},
+{
+"name": "Pergola_Beam_Rear",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.6,
+14.6,
+39.2,
+39.5,
+9.6,
+9.95
+]
+},
+{
+"name": "Pergola_Beam_Left",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-14.6,
+-14.3,
+30.2,
+39.5,
+9.6,
+9.95
+]
+},
+{
+"name": "Pergola_Beam_Right",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+14.3,
+14.6,
+30.2,
+39.5,
+9.6,
+9.95
+]
+},
+{
+"name": "Pergola_Slat_1",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+14.2,
+30.59,
+30.81,
+9.95,
+10.11
+]
+},
+{
+"name": "Pergola_Slat_2",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+14.2,
+31.534,
+31.754,
+9.95,
+10.11
+]
+},
+{
+"name": "Pergola_Slat_3",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+14.2,
+32.479,
+32.699,
+9.95,
+10.11
+]
+},
+{
+"name": "Pergola_Slat_4",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+14.2,
+33.423,
+33.643,
+9.95,
+10.11
+]
+},
+{
+"name": "Pergola_Slat_5",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+14.2,
+34.368,
+34.588,
+9.95,
+10.11
+]
+},
+{
+"name": "Pergola_Slat_6",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+14.2,
+35.312,
+35.532,
+9.95,
+10.11
+]
+},
+{
+"name": "Pergola_Slat_7",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+14.2,
+36.257,
+36.477,
+9.95,
+10.11
+]
+},
+{
+"name": "Pergola_Slat_8",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+14.2,
+37.201,
+37.421,
+9.95,
+10.11
+]
+},
+{
+"name": "Pergola_Slat_9",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+14.2,
+38.146,
+38.366,
+9.95,
+10.11
+]
+},
+{
+"name": "Pergola_Slat_10",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+-14.2,
+14.2,
+39.09,
+39.31,
+9.95,
+10.11
+]
+},
+{
+"name": "PatioTable_Top",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-12.0,
+-6.0,
+33.9,
+37.3,
+2.4,
+2.6
+]
+},
+{
+"name": "PatioTable_Leg_LF",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-11.8,
+-11.6,
+34.1,
+34.3,
+0.0,
+2.4
+]
+},
+{
+"name": "PatioTable_Leg_LB",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-11.8,
+-11.6,
+36.9,
+37.1,
+0.0,
+2.4
+]
+},
+{
+"name": "PatioTable_Leg_RF",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-6.4,
+-6.2,
+34.1,
+34.3,
+0.0,
+2.4
+]
+},
+{
+"name": "PatioTable_Leg_RB",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-6.4,
+-6.2,
+36.9,
+37.1,
+0.0,
+2.4
+]
+},
+{
+"name": "PatioTable_Apron_Front",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-11.6,
+-6.4,
+34.15,
+34.25,
+2.15,
+2.4
+]
+},
+{
+"name": "PatioTable_Apron_Back",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-11.6,
+-6.4,
+36.95,
+37.05,
+2.15,
+2.4
+]
+},
+{
+"name": "PatioTable_Apron_L",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-11.75,
+-11.65,
+34.3,
+36.9,
+2.15,
+2.4
+]
+},
+{
+"name": "PatioTable_Apron_R",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+-6.35,
+-6.25,
+34.3,
+36.9,
+2.15,
+2.4
+]
+},
+{
+"name": "PatioChair_FrontA_Leg_LF",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-10.185,
+-10.055,
+33.355,
+33.485,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_FrontA_Leg_LB",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-10.185,
+-10.055,
+32.315,
+32.445,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_FrontA_Leg_RF",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-11.145,
+-11.015,
+33.355,
+33.485,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_FrontA_Leg_RB",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-11.145,
+-11.015,
+32.315,
+32.445,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_FrontA_Seat",
+"group": "Patio",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+-11.25,
+-9.95,
+32.35,
+33.55,
+1.2,
+1.35
+]
+},
+{
+"name": "PatioChair_FrontA_Upright_L",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-10.185,
+-10.055,
+32.315,
+32.445,
+1.35,
+2.9
+]
+},
+{
+"name": "PatioChair_FrontA_Upright_R",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-11.145,
+-11.015,
+32.315,
+32.445,
+1.35,
+2.9
+]
+},
+{
+"name": "PatioChair_FrontA_BackRailLow",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-11.125,
+-10.075,
+32.32,
+32.44,
+1.79,
+2.01
+]
+},
+{
+"name": "PatioChair_FrontA_BackRailHigh",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-11.125,
+-10.075,
+32.32,
+32.44,
+2.59,
+2.81
+]
+},
+{
+"name": "PatioChair_FrontB_Leg_LF",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-6.985,
+-6.855,
+33.355,
+33.485,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_FrontB_Leg_LB",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-6.985,
+-6.855,
+32.315,
+32.445,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_FrontB_Leg_RF",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-7.945,
+-7.815,
+33.355,
+33.485,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_FrontB_Leg_RB",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-7.945,
+-7.815,
+32.315,
+32.445,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_FrontB_Seat",
+"group": "Patio",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+-8.05,
+-6.75,
+32.35,
+33.55,
+1.2,
+1.35
+]
+},
+{
+"name": "PatioChair_FrontB_Upright_L",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-6.985,
+-6.855,
+32.315,
+32.445,
+1.35,
+2.9
+]
+},
+{
+"name": "PatioChair_FrontB_Upright_R",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-7.945,
+-7.815,
+32.315,
+32.445,
+1.35,
+2.9
+]
+},
+{
+"name": "PatioChair_FrontB_BackRailLow",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-7.925,
+-6.875,
+32.32,
+32.44,
+1.79,
+2.01
+]
+},
+{
+"name": "PatioChair_FrontB_BackRailHigh",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-7.925,
+-6.875,
+32.32,
+32.44,
+2.59,
+2.81
+]
+},
+{
+"name": "PatioChair_RearA_Leg_LF",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-11.145,
+-11.015,
+37.715,
+37.845,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_RearA_Leg_LB",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-11.145,
+-11.015,
+38.755,
+38.885,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_RearA_Leg_RF",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-10.185,
+-10.055,
+37.715,
+37.845,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_RearA_Leg_RB",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-10.185,
+-10.055,
+38.755,
+38.885,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_RearA_Seat",
+"group": "Patio",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+-11.25,
+-9.95,
+37.65,
+38.85,
+1.2,
+1.35
+]
+},
+{
+"name": "PatioChair_RearA_Upright_L",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-11.145,
+-11.015,
+38.755,
+38.885,
+1.35,
+2.9
+]
+},
+{
+"name": "PatioChair_RearA_Upright_R",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-10.185,
+-10.055,
+38.755,
+38.885,
+1.35,
+2.9
+]
+},
+{
+"name": "PatioChair_RearA_BackRailLow",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-11.125,
+-10.075,
+38.76,
+38.88,
+1.79,
+2.01
+]
+},
+{
+"name": "PatioChair_RearA_BackRailHigh",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-11.125,
+-10.075,
+38.76,
+38.88,
+2.59,
+2.81
+]
+},
+{
+"name": "PatioChair_RearB_Leg_LF",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-7.945,
+-7.815,
+37.715,
+37.845,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_RearB_Leg_LB",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-7.945,
+-7.815,
+38.755,
+38.885,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_RearB_Leg_RF",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-6.985,
+-6.855,
+37.715,
+37.845,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_RearB_Leg_RB",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-6.985,
+-6.855,
+38.755,
+38.885,
+0.0,
+1.2
+]
+},
+{
+"name": "PatioChair_RearB_Seat",
+"group": "Patio",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+-8.05,
+-6.75,
+37.65,
+38.85,
+1.2,
+1.35
+]
+},
+{
+"name": "PatioChair_RearB_Upright_L",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-7.945,
+-7.815,
+38.755,
+38.885,
+1.35,
+2.9
+]
+},
+{
+"name": "PatioChair_RearB_Upright_R",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-6.985,
+-6.855,
+38.755,
+38.885,
+1.35,
+2.9
+]
+},
+{
+"name": "PatioChair_RearB_BackRailLow",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-7.925,
+-6.875,
+38.76,
+38.88,
+1.79,
+2.01
+]
+},
+{
+"name": "PatioChair_RearB_BackRailHigh",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-7.925,
+-6.875,
+38.76,
+38.88,
+2.59,
+2.81
+]
+},
+{
+"name": "PatioPlate_1",
+"group": "Patio",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-10.775,
+-10.225,
+34.325,
+34.875,
+2.6,
+2.66
+]
+},
+{
+"name": "PatioPlate_2",
+"group": "Patio",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-7.875,
+-7.325,
+34.325,
+34.875,
+2.6,
+2.66
+]
+},
+{
+"name": "PatioPlate_3",
+"group": "Patio",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-10.775,
+-10.225,
+36.325,
+36.875,
+2.6,
+2.66
+]
+},
+{
+"name": "PatioPlate_Dad",
+"group": "Patio",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-8.1,
+-7.1,
+36.1,
+37.1,
+2.6,
+2.67
+]
+},
+{
+"name": "PatioCenterPlant_Pot",
+"group": "Patio",
+"material": "GDH_PATIO",
+"collision": "noncollide",
+"bbox": [
+-9.189,
+-8.811,
+35.411,
+35.789,
+2.6,
+2.9
+]
+},
+{
+"name": "PatioCenterPlant_Soil",
+"group": "Patio",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-9.115,
+-8.885,
+35.491,
+35.709,
+2.82,
+2.84
+]
+},
+{
+"name": "PatioCenterPlant_Stem",
+"group": "Patio",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-9.025,
+-8.975,
+35.575,
+35.625,
+2.82,
+3.023
+]
+},
+{
+"name": "PatioCenterPlant_Leaf_1",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-9.009,
+-8.787,
+35.556,
+35.644,
+2.794,
+2.962
+]
+},
+{
+"name": "PatioCenterPlant_Leaf_2",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-9.064,
+-8.844,
+35.572,
+35.914,
+2.727,
+2.962
+]
+},
+{
+"name": "PatioCenterPlant_Leaf_3",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-9.249,
+-8.96,
+35.55,
+35.802,
+2.756,
+2.962
+]
+},
+{
+"name": "PatioCenterPlant_Leaf_4",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-9.211,
+-8.966,
+35.429,
+35.643,
+2.785,
+2.962
+]
+},
+{
+"name": "PatioCenterPlant_Leaf_5",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-9.066,
+-8.837,
+35.272,
+35.629,
+2.718,
+2.962
+]
+},
+{
+"name": "PatioPot_1_Pot",
+"group": "Patio",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+-13.232,
+-12.368,
+30.968,
+31.832,
+0.0,
+0.7
+]
+},
+{
+"name": "PatioPot_1_Soil",
+"group": "Patio",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-13.14,
+-12.46,
+31.077,
+31.723,
+0.62,
+0.64
+]
+},
+{
+"name": "PatioPot_1_Stem",
+"group": "Patio",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-12.825,
+-12.775,
+31.375,
+31.425,
+0.62,
+1.435
+]
+},
+{
+"name": "PatioPot_1_Leaf_1",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-12.809,
+-12.136,
+31.26,
+31.54,
+1.423,
+1.906
+]
+},
+{
+"name": "PatioPot_1_Leaf_2",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-12.984,
+-12.129,
+31.289,
+32.355,
+1.406,
+2.112
+]
+},
+{
+"name": "PatioPot_1_Leaf_3",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-13.378,
+-12.641,
+31.303,
+32.222,
+1.423,
+2.034
+]
+},
+{
+"name": "PatioPot_1_Leaf_4",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-13.509,
+-12.791,
+31.25,
+31.55,
+1.423,
+1.938
+]
+},
+{
+"name": "PatioPot_1_Leaf_5",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-13.503,
+-12.607,
+30.401,
+31.516,
+1.374,
+2.112
+]
+},
+{
+"name": "PatioPot_1_Leaf_6",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-12.968,
+-12.191,
+30.534,
+31.502,
+1.423,
+2.065
+]
+},
+{
+"name": "PatioPot_2_Pot",
+"group": "Patio",
+"material": "GDH_CREAM",
+"collision": "noncollide",
+"bbox": [
+12.368,
+13.232,
+30.968,
+31.832,
+0.0,
+0.7
+]
+},
+{
+"name": "PatioPot_2_Soil",
+"group": "Patio",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+12.46,
+13.14,
+31.077,
+31.723,
+0.62,
+0.64
+]
+},
+{
+"name": "PatioPot_2_Stem",
+"group": "Patio",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+12.775,
+12.825,
+31.375,
+31.425,
+0.62,
+1.435
+]
+},
+{
+"name": "PatioPot_2_Leaf_1",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+12.791,
+13.464,
+31.26,
+31.54,
+1.423,
+1.906
+]
+},
+{
+"name": "PatioPot_2_Leaf_2",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+12.616,
+13.471,
+31.289,
+32.355,
+1.406,
+2.112
+]
+},
+{
+"name": "PatioPot_2_Leaf_3",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+12.222,
+12.959,
+31.303,
+32.222,
+1.423,
+2.034
+]
+},
+{
+"name": "PatioPot_2_Leaf_4",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+12.091,
+12.809,
+31.25,
+31.55,
+1.423,
+1.938
+]
+},
+{
+"name": "PatioPot_2_Leaf_5",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+12.097,
+12.993,
+30.401,
+31.516,
+1.374,
+2.112
+]
+},
+{
+"name": "PatioPot_2_Leaf_6",
+"group": "Patio",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+12.632,
+13.409,
+30.534,
+31.502,
+1.423,
+2.065
+]
+},
+{
+"name": "PatioCabinet_Base",
+"group": "Patio",
+"material": "GDH_WOOD_DARK",
+"collision": "collide",
+"bbox": [
+5.0,
+7.0,
+34.8,
+36.4,
+0.0,
+0.12
+]
+},
+{
+"name": "PatioCabinet_Side_A",
+"group": "Patio",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+5.0,
+5.12,
+34.8,
+36.4,
+0.12,
+2.65
+]
+},
+{
+"name": "PatioCabinet_Side_B",
+"group": "Patio",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+6.88,
+7.0,
+34.8,
+36.4,
+0.12,
+2.65
+]
+},
+{
+"name": "PatioCabinet_Back",
+"group": "Patio",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+5.12,
+6.88,
+36.32,
+36.4,
+0.12,
+2.65
+]
+},
+{
+"name": "PatioCabinet_Divider",
+"group": "Patio",
+"material": "GDH_SAND",
+"collision": "collide",
+"bbox": [
+5.97,
+6.03,
+34.85,
+36.35,
+0.12,
+2.65
+]
+},
+{
+"name": "PatioCabinet_Top",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+5.0,
+7.0,
+34.8,
+36.4,
+2.65,
+2.8
+]
+},
+{
+"name": "PatioCabinet_Door_1",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+5.03,
+5.97,
+34.74,
+34.8,
+0.2,
+2.55
+]
+},
+{
+"name": "PatioCabinet_Handle_1",
+"group": "Patio",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+5.845,
+5.915,
+34.66,
+34.74,
+1.2,
+1.55
+]
+},
+{
+"name": "PatioCabinet_Door_2",
+"group": "Patio",
+"material": "GDH_WOOD",
+"collision": "noncollide",
+"bbox": [
+6.03,
+6.97,
+34.74,
+34.8,
+0.2,
+2.55
+]
+},
+{
+"name": "PatioCabinet_Handle_2",
+"group": "Patio",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+6.085,
+6.155,
+34.66,
+34.74,
+1.2,
+1.55
+]
+},
+{
+"name": "PatioSauce_1_Body",
+"group": "Patio",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+5.575,
+5.825,
+35.475,
+35.725,
+2.8,
+3.28
+]
+},
+{
+"name": "PatioSauce_1_Neck",
+"group": "Patio",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+5.65,
+5.75,
+35.557,
+35.643,
+3.28,
+3.38
+]
+},
+{
+"name": "PatioSauce_1_Cap",
+"group": "Patio",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+5.64,
+5.76,
+35.548,
+35.652,
+3.38,
+3.45
+]
+},
+{
+"name": "PatioSauce_2_Body",
+"group": "Patio",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+6.175,
+6.425,
+35.475,
+35.725,
+2.8,
+3.28
+]
+},
+{
+"name": "PatioSauce_2_Neck",
+"group": "Patio",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+6.25,
+6.35,
+35.557,
+35.643,
+3.28,
+3.38
+]
+},
+{
+"name": "PatioSauce_2_Cap",
+"group": "Patio",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+6.24,
+6.36,
+35.548,
+35.652,
+3.38,
+3.45
+]
+},
+{
+"name": "Grill_Cart_Door_1",
+"group": "Grill",
+"material": "GDH_RED",
+"collision": "collide",
+"bbox": [
+8.075,
+9.925,
+34.6,
+34.66,
+0.7,
+2.0
+]
+},
+{
+"name": "Grill_Cart_Handle_1",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+9.765,
+9.835,
+34.51,
+34.59,
+1.575,
+1.925
+]
+},
+{
+"name": "Grill_Cart_Door_2",
+"group": "Grill",
+"material": "GDH_RED",
+"collision": "collide",
+"bbox": [
+10.075,
+11.925,
+34.6,
+34.66,
+0.7,
+2.0
+]
+},
+{
+"name": "Grill_Cart_Handle_2",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+10.165,
+10.235,
+34.51,
+34.59,
+1.575,
+1.925
+]
+},
+{
+"name": "Grill_Cart_Side_A",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+7.95,
+8.05,
+34.65,
+36.55,
+0.55,
+2.2
+]
+},
+{
+"name": "Grill_Cart_Side_B",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.95,
+12.05,
+34.65,
+36.55,
+0.55,
+2.2
+]
+},
+{
+"name": "Grill_Cart_Back",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.05,
+11.95,
+36.45,
+36.55,
+0.55,
+2.2
+]
+},
+{
+"name": "Grill_Cart_Bottom",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.05,
+11.95,
+34.75,
+36.45,
+0.55,
+0.65
+]
+},
+{
+"name": "Grill_Cart_FrontRail",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.05,
+11.95,
+34.63,
+34.73,
+2.0,
+2.2
+]
+},
+{
+"name": "Grill_Axle_A",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+8.25,
+8.35,
+36.25,
+36.35,
+0.19,
+0.29
+]
+},
+{
+"name": "Grill_Wheel_A",
+"group": "Grill",
+"material": "GDH_BLACK",
+"collision": "collide",
+"bbox": [
+8.225,
+8.375,
+36.075,
+36.525,
+0.011,
+0.439
+]
+},
+{
+"name": "Grill_Foot_A",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.21,
+8.39,
+34.81,
+34.99,
+0.0,
+0.55
+]
+},
+{
+"name": "Grill_Axle_B",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+11.65,
+11.75,
+36.25,
+36.35,
+0.19,
+0.29
+]
+},
+{
+"name": "Grill_Wheel_B",
+"group": "Grill",
+"material": "GDH_BLACK",
+"collision": "collide",
+"bbox": [
+11.625,
+11.775,
+36.075,
+36.525,
+0.011,
+0.439
+]
+},
+{
+"name": "Grill_Foot_B",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.61,
+11.79,
+34.81,
+34.99,
+0.0,
+0.55
+]
+},
+{
+"name": "Grill_Firebox_Bottom",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.3,
+11.7,
+34.7,
+36.5,
+2.2,
+2.3
+]
+},
+{
+"name": "Grill_Firebox_Front",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.3,
+11.7,
+34.7,
+34.8,
+2.3,
+2.85
+]
+},
+{
+"name": "Grill_Firebox_Back",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.3,
+11.7,
+36.4,
+36.5,
+2.3,
+2.85
+]
+},
+{
+"name": "Grill_Firebox_Side_A",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.3,
+8.4,
+34.8,
+36.4,
+2.3,
+2.85
+]
+},
+{
+"name": "Grill_Firebox_Side_B",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.6,
+11.7,
+34.8,
+36.4,
+2.3,
+2.85
+]
+},
+{
+"name": "Grill_Grate_Rail_1",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+8.425,
+11.575,
+34.92,
+34.98,
+2.74,
+2.8
+]
+},
+{
+"name": "Grill_Grate_Rail_2",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+8.425,
+11.575,
+36.22,
+36.28,
+2.74,
+2.8
+]
+},
+{
+"name": "Grill_Grate_Bars",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+8.475,
+11.525,
+34.825,
+36.375,
+2.8,
+2.88
+]
+},
+{
+"name": "Grill_SideShelf_A",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+7.6,
+8.3,
+34.7,
+36.5,
+2.73,
+2.85
+]
+},
+{
+"name": "Grill_SideShelf_B",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.7,
+12.4,
+34.7,
+36.5,
+2.73,
+2.85
+]
+},
+{
+"name": "Grill_Knob_1",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+9.26,
+9.44,
+34.53,
+34.61,
+2.31,
+2.49
+]
+},
+{
+"name": "Grill_Knob_1_Mark",
+"group": "Grill",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+9.325,
+9.375,
+34.52,
+34.54,
+2.37,
+2.44
+]
+},
+{
+"name": "Grill_Knob_2",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+9.91,
+10.09,
+34.53,
+34.61,
+2.31,
+2.49
+]
+},
+{
+"name": "Grill_Knob_2_Mark",
+"group": "Grill",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+9.975,
+10.025,
+34.52,
+34.54,
+2.37,
+2.44
+]
+},
+{
+"name": "Grill_Knob_3",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+10.56,
+10.74,
+34.53,
+34.61,
+2.31,
+2.49
+]
+},
+{
+"name": "Grill_Knob_3_Mark",
+"group": "Grill",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+10.625,
+10.675,
+34.52,
+34.54,
+2.37,
+2.44
+]
+},
+{
+"name": "Grill_Lid_Top",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.2,
+11.8,
+37.209,
+37.626,
+2.711,
+4.645
+]
+},
+{
+"name": "Grill_Lid_Front",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.2,
+11.8,
+36.825,
+37.548,
+4.567,
+4.77
+]
+},
+{
+"name": "Grill_Lid_Back",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.2,
+11.8,
+36.5,
+37.223,
+2.725,
+2.929
+]
+},
+{
+"name": "Grill_Lid_EndA",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.2,
+8.28,
+36.514,
+37.534,
+2.804,
+4.692
+]
+},
+{
+"name": "Grill_Lid_EndB",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.72,
+11.8,
+36.514,
+37.534,
+2.804,
+4.692
+]
+},
+{
+"name": "Grill_LidHandle_Bar",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+9.4,
+10.6,
+37.189,
+37.328,
+4.718,
+4.857
+]
+},
+{
+"name": "Grill_LidHandle_Bracket_1",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+9.375,
+9.525,
+37.183,
+37.328,
+4.689,
+4.857
+]
+},
+{
+"name": "Grill_LidHandle_Bracket_2",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+10.475,
+10.625,
+37.183,
+37.328,
+4.689,
+4.857
+]
+},
+{
+"name": "Grill_LidHinge_1",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+8.7,
+8.9,
+36.4,
+36.6,
+2.75,
+2.9
+]
+},
+{
+"name": "Grill_LidHinge_2",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+11.1,
+11.3,
+36.4,
+36.6,
+2.75,
+2.9
+]
+},
+{
+"name": "Grill_Sausage",
+"group": "Grill",
+"material": "GDH_SAUSAGE",
+"collision": "noncollide",
+"bbox": [
+9.725,
+10.275,
+35.43,
+35.57,
+2.88,
+3.029
+]
+},
+{
+"name": "Grill_Sausage_Band_1",
+"group": "Grill",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+9.868,
+9.892,
+35.429,
+35.571,
+2.88,
+3.025
+]
+},
+{
+"name": "Grill_Sausage_Band_2",
+"group": "Grill",
+"material": "GDH_BLACK",
+"collision": "noncollide",
+"bbox": [
+10.108,
+10.132,
+35.429,
+35.571,
+2.88,
+3.025
+]
+},
+{
+"name": "Grill_TongHook",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+7.67,
+7.73,
+35.87,
+35.93,
+2.55,
+2.61
+]
+},
+{
+"name": "Grill_Tongs_Hinge",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+7.66,
+7.74,
+35.86,
+35.94,
+2.4,
+2.54
+]
+},
+{
+"name": "Grill_Tongs_Arm_1",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+7.605,
+7.655,
+35.875,
+35.925,
+1.95,
+2.45
+]
+},
+{
+"name": "Grill_Tongs_Grip_1",
+"group": "Grill",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+7.602,
+7.658,
+35.872,
+35.927,
+2.25,
+2.45
+]
+},
+{
+"name": "Grill_Tongs_Arm_2",
+"group": "Grill",
+"material": "GDH_SILVER",
+"collision": "noncollide",
+"bbox": [
+7.745,
+7.795,
+35.875,
+35.925,
+1.95,
+2.45
+]
+},
+{
+"name": "Grill_Tongs_Grip_2",
+"group": "Grill",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+7.742,
+7.798,
+35.872,
+35.927,
+2.25,
+2.45
+]
+},
+{
+"name": "Grill_MittHook",
+"group": "Grill",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+12.27,
+12.33,
+35.87,
+35.93,
+2.5,
+2.56
+]
+},
+{
+"name": "Grill_Mitt_Loop",
+"group": "Grill",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+12.28,
+12.32,
+35.88,
+35.92,
+2.4,
+2.5
+]
+},
+{
+"name": "Grill_Mitt_Body",
+"group": "Grill",
+"material": "GDH_SAND",
+"collision": "noncollide",
+"bbox": [
+12.11,
+12.49,
+35.84,
+35.96,
+1.9,
+2.4
+]
+},
+{
+"name": "Grill_Mitt_Thumb",
+"group": "Grill",
+"material": "GDH_RED",
+"collision": "noncollide",
+"bbox": [
+12.48,
+12.6,
+35.85,
+35.95,
+2.1,
+2.3
+]
+},
+{
+"name": "Shrub_Front_1_Base",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-10.8,
+-9.2,
+1.14,
+2.26,
+0.0,
+0.12
+]
+},
+{
+"name": "Shrub_Front_1_Mass_1",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-10.779,
+-9.874,
+1.096,
+2.024,
+0.0,
+0.936
+]
+},
+{
+"name": "Shrub_Front_1_Mass_2",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-10.129,
+-9.224,
+1.341,
+2.269,
+0.0,
+1.056
+]
+},
+{
+"name": "Shrub_Front_1_Mass_3",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-10.429,
+-9.524,
+1.481,
+2.409,
+0.0,
+1.2
+]
+},
+{
+"name": "Shrub_Front_2_Base",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-17.6,
+-16.0,
+3.44,
+4.56,
+0.0,
+0.12
+]
+},
+{
+"name": "Shrub_Front_2_Mass_1",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-17.089,
+-16.184,
+3.186,
+4.114,
+0.0,
+0.936
+]
+},
+{
+"name": "Shrub_Front_2_Mass_2",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-17.334,
+-16.429,
+3.836,
+4.764,
+0.0,
+1.056
+]
+},
+{
+"name": "Shrub_Front_2_Mass_3",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-17.474,
+-16.569,
+3.536,
+4.464,
+0.0,
+1.2
+]
+},
+{
+"name": "Shrub_Front_3_Base",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+9.2,
+10.8,
+1.14,
+2.26,
+0.0,
+0.12
+]
+},
+{
+"name": "Shrub_Front_3_Mass_1",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+9.921,
+10.826,
+1.376,
+2.304,
+0.0,
+0.936
+]
+},
+{
+"name": "Shrub_Front_3_Mass_2",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+9.271,
+10.176,
+1.131,
+2.059,
+0.0,
+1.056
+]
+},
+{
+"name": "Shrub_Front_3_Mass_3",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+9.571,
+10.476,
+0.991,
+1.919,
+0.0,
+1.2
+]
+},
+{
+"name": "Shrub_Front_4_Base",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+16.0,
+17.6,
+3.44,
+4.56,
+0.0,
+0.12
+]
+},
+{
+"name": "Shrub_Front_4_Mass_1",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+16.231,
+17.136,
+3.886,
+4.814,
+0.0,
+0.936
+]
+},
+{
+"name": "Shrub_Front_4_Mass_2",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+16.476,
+17.381,
+3.236,
+4.164,
+0.0,
+1.056
+]
+},
+{
+"name": "Shrub_Front_4_Mass_3",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+16.616,
+17.521,
+3.536,
+4.464,
+0.0,
+1.2
+]
+},
+{
+"name": "Shrub_Side_1_Base",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-19.34,
+-18.06,
+11.2,
+12.8,
+0.0,
+0.12
+]
+},
+{
+"name": "Shrub_Side_1_Mass_1",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-19.47,
+-18.436,
+11.27,
+12.33,
+0.0,
+1.014
+]
+},
+{
+"name": "Shrub_Side_1_Mass_2",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-18.95,
+-17.916,
+11.62,
+12.68,
+0.0,
+1.144
+]
+},
+{
+"name": "Shrub_Side_1_Mass_3",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-19.19,
+-18.156,
+11.82,
+12.88,
+0.0,
+1.3
+]
+},
+{
+"name": "Shrub_Side_2_Base",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-19.34,
+-18.06,
+24.2,
+25.8,
+0.0,
+0.12
+]
+},
+{
+"name": "Shrub_Side_2_Mass_1",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-18.99,
+-17.956,
+24.19,
+25.25,
+0.0,
+1.014
+]
+},
+{
+"name": "Shrub_Side_2_Mass_2",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-19.34,
+-18.306,
+24.71,
+25.77,
+0.0,
+1.144
+]
+},
+{
+"name": "Shrub_Side_2_Mass_3",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-19.54,
+-18.506,
+24.47,
+25.53,
+0.0,
+1.3
+]
+},
+{
+"name": "Shrub_Side_3_Base",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+18.06,
+19.34,
+11.2,
+12.8,
+0.0,
+0.12
+]
+},
+{
+"name": "Shrub_Side_3_Mass_1",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+18.49,
+19.524,
+11.67,
+12.73,
+0.0,
+1.014
+]
+},
+{
+"name": "Shrub_Side_3_Mass_2",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+17.97,
+19.004,
+11.32,
+12.38,
+0.0,
+1.144
+]
+},
+{
+"name": "Shrub_Side_3_Mass_3",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+18.21,
+19.244,
+11.12,
+12.18,
+0.0,
+1.3
+]
+},
+{
+"name": "Shrub_Side_4_Base",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+18.06,
+19.34,
+24.2,
+25.8,
+0.0,
+0.12
+]
+},
+{
+"name": "Shrub_Side_4_Mass_1",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+18.01,
+19.044,
+24.75,
+25.81,
+0.0,
+1.014
+]
+},
+{
+"name": "Shrub_Side_4_Mass_2",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+18.36,
+19.394,
+24.23,
+25.29,
+0.0,
+1.144
+]
+},
+{
+"name": "Shrub_Side_4_Mass_3",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+18.56,
+19.594,
+24.47,
+25.53,
+0.0,
+1.3
+]
+},
+{
+"name": "Tree_1_Trunk",
+"group": "Garden",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+-19.175,
+-18.825,
+6.325,
+6.675,
+0.0,
+3.1
+]
+},
+{
+"name": "Tree_1_Crown_1",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-20.261,
+-18.55,
+5.623,
+7.377,
+2.5,
+4.3
+]
+},
+{
+"name": "Tree_1_Crown_2",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+-19.361,
+-17.65,
+5.723,
+7.477,
+2.8,
+4.6
+]
+},
+{
+"name": "Tree_1_Crown_3",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+-19.811,
+-18.1,
+5.623,
+7.377,
+4.0,
+5.8
+]
+},
+{
+"name": "Tree_1_Branch_1",
+"group": "Garden",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+-19.53,
+-18.92,
+6.42,
+6.58,
+2.6,
+3.1
+]
+},
+{
+"name": "Tree_1_Branch_2",
+"group": "Garden",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+-19.08,
+-18.47,
+6.47,
+6.63,
+2.6,
+3.1
+]
+},
+{
+"name": "Tree_2_Trunk",
+"group": "Garden",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+18.825,
+19.175,
+26.825,
+27.175,
+0.0,
+3.1
+]
+},
+{
+"name": "Tree_2_Crown_1",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+17.739,
+19.45,
+26.123,
+27.877,
+2.5,
+4.3
+]
+},
+{
+"name": "Tree_2_Crown_2",
+"group": "Garden",
+"material": "GDH_GREEN_DARK",
+"collision": "noncollide",
+"bbox": [
+18.639,
+20.35,
+26.223,
+27.977,
+2.8,
+4.6
+]
+},
+{
+"name": "Tree_2_Crown_3",
+"group": "Garden",
+"material": "GDH_GREEN",
+"collision": "noncollide",
+"bbox": [
+18.189,
+19.9,
+26.123,
+27.877,
+4.0,
+5.8
+]
+},
+{
+"name": "Tree_2_Branch_1",
+"group": "Garden",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+18.47,
+19.08,
+26.92,
+27.08,
+2.6,
+3.1
+]
+},
+{
+"name": "Tree_2_Branch_2",
+"group": "Garden",
+"material": "GDH_WOOD_DARK",
+"collision": "noncollide",
+"bbox": [
+18.92,
+19.53,
+26.97,
+27.13,
+2.6,
+3.1
+]
+},
+{
+"name": "PathLantern_1_Stem",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+-4.96,
+-4.84,
+1.34,
+1.46,
+0.0,
+0.8
+]
+},
+{
+"name": "PathLantern_1_Housing",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+-5.1,
+-4.7,
+1.2,
+1.6,
+0.8,
+1.3
+]
+},
+{
+"name": "PathLantern_1_Lens",
+"group": "Entry",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+-5.05,
+-4.75,
+1.19,
+1.61,
+0.87,
+1.23
+]
+},
+{
+"name": "PathLantern_1_Inset",
+"group": "Entry",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+-4.97,
+-4.83,
+1.185,
+1.615,
+0.98,
+1.12
+]
+},
+{
+"name": "PathLantern_2_Stem",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "collide",
+"bbox": [
+4.84,
+4.96,
+1.34,
+1.46,
+0.0,
+0.8
+]
+},
+{
+"name": "PathLantern_2_Housing",
+"group": "Entry",
+"material": "GDH_IRON",
+"collision": "noncollide",
+"bbox": [
+4.7,
+5.1,
+1.2,
+1.6,
+0.8,
+1.3
+]
+},
+{
+"name": "PathLantern_2_Lens",
+"group": "Entry",
+"material": "GDH_WHITE",
+"collision": "noncollide",
+"bbox": [
+4.75,
+5.05,
+1.19,
+1.61,
+0.87,
+1.23
+]
+},
+{
+"name": "PathLantern_2_Inset",
+"group": "Entry",
+"material": "GDH_GOLD",
+"collision": "noncollide",
+"bbox": [
+4.83,
+4.97,
+1.185,
+1.615,
+0.98,
+1.12
+]
+},
+{
+"name": "Fence_Front_L_Posts",
+"group": "Fence",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-21.8,
+-4.2,
+0.4,
+0.8,
+0.0,
+2.2
+]
+},
+{
+"name": "Fence_Front_L_Rails",
+"group": "Fence",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-21.4,
+-4.6,
+0.54,
+0.66,
+0.55,
+1.75
+]
+},
+{
+"name": "Fence_Front_R_Posts",
+"group": "Fence",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+4.2,
+21.8,
+0.4,
+0.8,
+0.0,
+2.2
+]
+},
+{
+"name": "Fence_Front_R_Rails",
+"group": "Fence",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+4.6,
+21.4,
+0.54,
+0.66,
+0.55,
+1.75
+]
+},
+{
+"name": "Fence_Side_L_Posts",
+"group": "Fence",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-21.8,
+-21.4,
+0.8,
+38.0,
+0.0,
+2.2
+]
+},
+{
+"name": "Fence_Side_L_Rails",
+"group": "Fence",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-21.66,
+-21.54,
+1.2,
+37.6,
+0.55,
+1.75
+]
+},
+{
+"name": "Fence_Side_R_Posts",
+"group": "Fence",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+21.4,
+21.8,
+0.8,
+38.0,
+0.0,
+2.2
+]
+},
+{
+"name": "Fence_Side_R_Rails",
+"group": "Fence",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+21.54,
+21.66,
+1.2,
+37.6,
+0.55,
+1.75
+]
+},
+{
+"name": "Fence_Rear_Posts",
+"group": "Fence",
+"material": "GDH_TRIM",
+"collision": "collide",
+"bbox": [
+-14.0,
+14.0,
+47.6,
+48.0,
+0.0,
+2.2
+]
+},
+{
+"name": "Fence_Rear_Rails",
+"group": "Fence",
+"material": "GDH_WOOD",
+"collision": "collide",
+"bbox": [
+-13.6,
+13.6,
+47.74,
+47.86,
+0.55,
+1.75
+]
+},
+{
+"name": "Structure_Ground",
+"group": "Structure",
+"material": "GDH_GREEN",
+"collision": "collide",
+"bbox": [
+-22.0,
+22.0,
+0.0,
+48.0,
+-0.25,
+0.0
+]
+}
+]
+}
