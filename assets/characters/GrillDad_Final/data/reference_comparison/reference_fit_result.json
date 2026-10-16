@@ -1,0 +1,16 @@
+{
+ "iou_after_global_similarity": 0.6879,
+ "scale": 1.3586,
+ "ref_bbox": [
+  0,
+  16,
+  401,
+  381
+ ],
+ "render_bbox": [
+  76,
+  38,
+  327,
+  364
+ ]
+}

@@ -1,0 +1,17 @@
+101267485246216 LeftLowerLeg_Geo type=4 creator=3938337813 public=false
+106657936046974 RightUpperArm_Geo type=4 creator=3938337813 public=false
+108375424221269 Head_Geo type=4 creator=3938337813 public=false
+113836731159448 RightLowerLeg_Geo type=4 creator=3938337813 public=false
+117930489349801 LeftLowerArm_Geo type=4 creator=3938337813 public=false
+118932649425219 GrillTongs_Geo.001 type=4 creator=3938337813 public=false
+122320136961483 RightHand_Geo type=4 creator=3938337813 public=false
+123959707644577 UpperTorso_Geo type=4 creator=3938337813 public=false
+126853515160254 RightFoot_Geo type=4 creator=3938337813 public=false
+71406582100358 LeftUpperArm_Geo type=4 creator=3938337813 public=false
+72797984071787 LeftFoot_Geo type=4 creator=3938337813 public=false
+75273057004166 RightUpperLeg_Geo type=4 creator=3938337813 public=false
+76527267668877 LeftHand_Geo type=4 creator=3938337813 public=false
+81619007545015 base_color_texture type=1 creator=3938337813 public=false
+85270345905494 LeftUpperLeg_Geo type=4 creator=3938337813 public=false
+93435001029164 RightLowerArm_Geo type=4 creator=3938337813 public=false
+98860955272842 LowerTorso_Geo type=4 creator=3938337813 public=false

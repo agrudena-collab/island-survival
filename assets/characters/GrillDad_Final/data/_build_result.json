@@ -1,0 +1,252 @@
+{
+ "bounds_neutral": {
+  "min": [
+   -2.505,
+   -1.185,
+   -0.0
+  ],
+  "max": [
+   2.732,
+   0.8298,
+   6.4
+  ],
+  "height": 6.4
+ },
+ "head_bounds": {
+  "min": [
+   -1.143,
+   -1.04,
+   4.74
+  ],
+  "max": [
+   1.143,
+   0.8298,
+   6.4
+  ]
+ },
+ "tongs_bounds": {
+  "min": [
+   1.8233,
+   -0.71,
+   2.5
+  ],
+  "max": [
+   2.7767,
+   -0.53,
+   5.92
+  ]
+ },
+ "feet_min_h": -0.0,
+ "tris_body": 5776,
+ "tris_tongs": 572,
+ "audit": {
+  "UpperTorso": {
+   "verts": 1436,
+   "tris": 2740,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 12.2246
+  },
+  "LowerTorso": {
+   "verts": 36,
+   "tris": 64,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.7138
+  },
+  "RightUpperLeg": {
+   "verts": 24,
+   "tris": 44,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.0978
+  },
+  "RightLowerLeg": {
+   "verts": 48,
+   "tris": 88,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.766
+  },
+  "RightFoot": {
+   "verts": 72,
+   "tris": 136,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.0272
+  },
+  "LeftUpperLeg": {
+   "verts": 24,
+   "tris": 44,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.0978
+  },
+  "LeftLowerLeg": {
+   "verts": 48,
+   "tris": 88,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.766
+  },
+  "LeftFoot": {
+   "verts": 72,
+   "tris": 136,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.0272
+  },
+  "RightUpperArm": {
+   "verts": 96,
+   "tris": 180,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.7277
+  },
+  "RightLowerArm": {
+   "verts": 40,
+   "tris": 76,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.4491
+  },
+  "LeftUpperArm": {
+   "verts": 96,
+   "tris": 180,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.7277
+  },
+  "LeftLowerArm": {
+   "verts": 58,
+   "tris": 112,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.4198
+  },
+  "RightHand": {
+   "verts": 68,
+   "tris": 130,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.3561
+  },
+  "LeftHand": {
+   "verts": 165,
+   "tris": 326,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.3757
+  },
+  "Head": {
+   "verts": 782,
+   "tris": 1432,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 4.8176
+  },
+  "GrillTongs": {
+   "verts": 304,
+   "tris": 572,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.1356
+  }
+ },
+ "tongs_vs_body": {
+  "LeftHand": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.0173
+  },
+  "LeftLowerArm": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.0247
+  },
+  "LeftUpperArm": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.1188
+  },
+  "UpperTorso": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.6472
+  },
+  "Head": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.8183
+  },
+  "LowerTorso": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.8672
+  },
+  "RightHand": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 3.9257
+  },
+  "LeftUpperLeg": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 1.0662
+  },
+  "LeftFoot": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 2.1366
+  }
+ },
+ "hand_vs_body": {
+  "LeftLowerArm": {
+   "overlapping_triangle_pairs": 44,
+   "min_distance": 0.0
+  },
+  "UpperTorso": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.437
+  },
+  "Head": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 1.459
+  },
+  "LeftUpperArm": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.011
+  }
+ },
+ "torso_vs_parts": {
+  "Head": {
+   "overlapping_triangle_pairs": 8
+  },
+  "LowerTorso": {
+   "overlapping_triangle_pairs": 10
+  },
+  "LeftUpperArm": {
+   "overlapping_triangle_pairs": 20
+  },
+  "RightUpperArm": {
+   "overlapping_triangle_pairs": 39
+  },
+  "RightUpperLeg": {
+   "overlapping_triangle_pairs": 0
+  },
+  "LeftUpperLeg": {
+   "overlapping_triangle_pairs": 0
+  }
+ },
+ "grip_wood_axis_to_hand_surface": [
+  0.0951,
+  0.0951,
+  0.0949,
+  0.0949,
+  0.0949,
+  0.0949,
+  0.0949,
+  0.0949,
+  0.0949,
+  0.0949,
+  0.0948,
+  0.0948,
+  0.0948,
+  0.0948,
+  0.0948,
+  0.0948,
+  0.0948,
+  0.0948
+ ]
+}

@@ -1,0 +1,1704 @@
+{
+ "asset": "GrillDad_Redesign",
+ "components": [
+  {
+   "id": "UT_shirt_body",
+   "owner": "UpperTorso",
+   "tiles": [
+    "SHIRT",
+    "SHIRT_DARK",
+    "SHIRT_LIGHT"
+   ],
+   "faces": 50,
+   "tris": 108,
+   "recipe": "8-point chamfered loft, section 08 rows",
+   "class": "observed+prescribed",
+   "dims": {
+    "rows": [
+     [
+      2.2,
+      2.72,
+      -0.86,
+      0.56,
+      0.13
+     ],
+     [
+      2.65,
+      2.92,
+      -1.0,
+      0.64,
+      0.17
+     ],
+     [
+      3.1,
+      2.95,
+      -1.05,
+      0.68,
+      0.17
+     ],
+     [
+      3.65,
+      2.88,
+      -0.95,
+      0.64,
+      0.16
+     ],
+     [
+      4.15,
+      2.87,
+      -0.74,
+      0.58,
+      0.12
+     ],
+     [
+      4.46,
+      2.65,
+      -0.6,
+      0.51,
+      0.11
+     ],
+     [
+      4.72,
+      2.12,
+      -0.49,
+      0.45,
+      0.09
+     ]
+    ]
+   }
+  },
+  {
+   "id": "UT_neck",
+   "owner": "UpperTorso",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 10,
+   "tris": 28,
+   "recipe": "neck W.72 D.60 H.30 centre (0,.02,4.66)",
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_collar_R",
+   "owner": "UpperTorso",
+   "tiles": [
+    "SHIRT",
+    "SHIRT_DARK",
+    "SHIRT_LIGHT"
+   ],
+   "faces": 5,
+   "tris": 8,
+   "recipe": "collar half, 3 vertices of section 09, .045 thick, .035 ahead of the shirt",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_collar_L",
+   "owner": "UpperTorso",
+   "tiles": [
+    "SHIRT",
+    "SHIRT_DARK",
+    "SHIRT_LIGHT"
+   ],
+   "faces": 5,
+   "tris": 8,
+   "recipe": "collar half, 3 vertices of section 09, .045 thick, .035 ahead of the shirt",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_placket",
+   "owner": "UpperTorso",
+   "tiles": [
+    "SHIRT_DARK"
+   ],
+   "faces": 10,
+   "tris": 20,
+   "recipe": "short placket W.13 H.28 at H4.24",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_apron_front",
+   "owner": "UpperTorso",
+   "tiles": [
+    "APRON",
+    "APRON_DARK",
+    "APRON_LIGHT"
+   ],
+   "faces": 166,
+   "tris": 332,
+   "recipe": "apron slab .045 thick, section 10 table, flat |X|<=.33W then +.12 to the edges, bottom edge arc 1.10 centre / 1.14 corners",
+   "class": "observed+prescribed",
+   "dims": {
+    "rows": [
+     [
+      1.1,
+      2.78,
+      -0.83,
+      0.06
+     ],
+     [
+      1.7,
+      2.91,
+      -0.98,
+      0.07
+     ],
+     [
+      2.3,
+      2.95,
+      -1.06,
+      0.07
+     ],
+     [
+      2.63,
+      2.91,
+      -1.08,
+      0.07
+     ],
+     [
+      3.12,
+      2.83,
+      -1.12,
+      0.07
+     ],
+     [
+      3.62,
+      2.48,
+      -0.99,
+      0.06
+     ],
+     [
+      4.03,
+      2.1,
+      -0.83,
+      0.04
+     ]
+    ]
+   }
+  },
+  {
+   "id": "UT_apron_top_seam",
+   "owner": "UpperTorso",
+   "tiles": [
+    "APRON_SEAM"
+   ],
+   "faces": 26,
+   "tris": 52,
+   "recipe": "apron top edge W2.10 H.045 APRON_SEAM",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_apron_belt",
+   "owner": "UpperTorso",
+   "tiles": [
+    "APRON_DARK",
+    "APRON_SEAM"
+   ],
+   "faces": 18,
+   "tris": 44,
+   "recipe": "apron waistband H2.57..2.77 thick .055, wraps the torso, no buckle",
+   "class": "observed+prescribed",
+   "dims": {
+    "rows": [
+     [
+      2.57,
+      3.0372727272727276,
+      -1.1313636363636363,
+      0.6857777777777778,
+      0.2128888888888889
+     ],
+     [
+      2.67,
+      3.023469387755102,
+      -1.138265306122449,
+      0.7017777777777778,
+      0.22000000000000003
+     ],
+     [
+      2.77,
+      3.0071428571428576,
+      -1.1464285714285714,
+      0.7106666666666668,
+      0.22000000000000003
+     ]
+    ]
+   }
+  },
+  {
+   "id": "UT_strap_R",
+   "owner": "UpperTorso",
+   "tiles": [
+    "APRON",
+    "APRON_DARK"
+   ],
+   "faces": 122,
+   "tris": 252,
+   "recipe": "shoulder strap W.24 thick .05 along the section 11 key points, mirrored",
+   "class": "observed+prescribed",
+   "dims": {
+    "pts": [
+     [
+      0.88,
+      -0.86,
+      3.86
+     ],
+     [
+      1.0,
+      -0.76,
+      4.24
+     ],
+     [
+      1.14,
+      -0.36,
+      4.58
+     ],
+     [
+      1.1,
+      0.32,
+      4.66
+     ],
+     [
+      0.98,
+      0.58,
+      4.1
+     ],
+     [
+      0.93,
+      0.67,
+      2.72
+     ]
+    ]
+   }
+  },
+  {
+   "id": "UT_strap_L",
+   "owner": "UpperTorso",
+   "tiles": [
+    "APRON",
+    "APRON_DARK"
+   ],
+   "faces": 122,
+   "tris": 252,
+   "recipe": "shoulder strap W.24 thick .05 along the section 11 key points, mirrored",
+   "class": "observed+prescribed",
+   "dims": {
+    "pts": [
+     [
+      0.88,
+      -0.86,
+      3.86
+     ],
+     [
+      1.0,
+      -0.76,
+      4.24
+     ],
+     [
+      1.14,
+      -0.36,
+      4.58
+     ],
+     [
+      1.1,
+      0.32,
+      4.66
+     ],
+     [
+      0.98,
+      0.58,
+      4.1
+     ],
+     [
+      0.93,
+      0.67,
+      2.72
+     ]
+    ]
+   }
+  },
+  {
+   "id": "UT_back_knot",
+   "owner": "UpperTorso",
+   "tiles": [
+    "APRON",
+    "APRON_DARK"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "apron back knot .22 x .12 x .18",
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_back_tie_end_-1",
+   "owner": "UpperTorso",
+   "tiles": [
+    "APRON",
+    "APRON_DARK"
+   ],
+   "faces": 6,
+   "tris": 12,
+   "recipe": "flat tie end .14 x .035 x .45 hanging from the knot",
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_back_tie_end_1",
+   "owner": "UpperTorso",
+   "tiles": [
+    "APRON",
+    "APRON_DARK"
+   ],
+   "faces": 6,
+   "tris": 12,
+   "recipe": "flat tie end .14 x .035 x .45 hanging from the knot",
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_rivet_base_R",
+   "owner": "UpperTorso",
+   "tiles": [
+    "GOLD_DARK"
+   ],
+   "faces": 14,
+   "tris": 44,
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_rivet_head_R",
+   "owner": "UpperTorso",
+   "tiles": [
+    "GOLD"
+   ],
+   "faces": 14,
+   "tris": 44,
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_rivet_facet_R",
+   "owner": "UpperTorso",
+   "tiles": [
+    "GOLD_LIGHT"
+   ],
+   "faces": 8,
+   "tris": 20,
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_rivet_base_L",
+   "owner": "UpperTorso",
+   "tiles": [
+    "GOLD_DARK"
+   ],
+   "faces": 14,
+   "tris": 44,
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_rivet_head_L",
+   "owner": "UpperTorso",
+   "tiles": [
+    "GOLD"
+   ],
+   "faces": 14,
+   "tris": 44,
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_rivet_facet_L",
+   "owner": "UpperTorso",
+   "tiles": [
+    "GOLD_LIGHT"
+   ],
+   "faces": 8,
+   "tris": 20,
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_stain_01",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 1: 16-ray outline, centre (-0.52,3.29) bbox 0.43 x 0.28",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_stain_02",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN_DARK"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 2: 16-ray outline, centre (0.54,3.14) bbox 0.48 x 0.48",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_stain_03",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN_LIGHT"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 3: 16-ray outline, centre (1.12,3.48) bbox 0.35 x 0.43",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_stain_04",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 4: 16-ray outline, centre (0.95,2.91) bbox 0.40 x 0.23",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_stain_05",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN_DARK"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 5: 16-ray outline, centre (-0.12,2.57) bbox 0.38 x 0.26",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_stain_06",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN_LIGHT"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 6: 16-ray outline, centre (0.74,2.16) bbox 0.48 x 0.40",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_stain_07",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 7: 16-ray outline, centre (0.39,1.60) bbox 0.74 x 0.55",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_stain_08",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN_DARK"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 8: 16-ray outline, centre (0.85,1.47) bbox 0.39 x 0.38",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_stain_09",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN_LIGHT"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 9: 16-ray outline, centre (1.10,1.87) bbox 0.38 x 0.52",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_stain_10",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 10: 16-ray outline, centre (0.08,1.38) bbox 0.40 x 0.26",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_stain_11",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN_DARK"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 11: 16-ray outline, centre (-0.34,1.83) bbox 0.28 x 0.27",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_stain_12",
+   "owner": "UpperTorso",
+   "tiles": [
+    "STAIN_LIGHT"
+   ],
+   "faces": 60,
+   "tris": 92,
+   "recipe": "stain 12: 16-ray outline, centre (-0.64,2.01) bbox 0.25 x 0.20",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UT_towel_front",
+   "owner": "UpperTorso",
+   "tiles": [
+    "TOWEL",
+    "TOWEL_LIGHT",
+    "TOWEL_RED",
+    "TOWEL_SHADOW"
+   ],
+   "faces": 110,
+   "tris": 220,
+   "recipe": "towel front hanging part W.63 H1.43 (H1.44..2.87), relief per section 14, two TOWEL_RED stripes H1.66..1.74 and H1.82..1.90",
+   "class": "observed+prescribed",
+   "dims": {
+    "relief": [
+     [
+      -0.315,
+      0
+     ],
+     [
+      -0.24,
+      -0.025
+     ],
+     [
+      -0.13,
+      0.008
+     ],
+     [
+      -0.03,
+      -0.02
+     ],
+     [
+      0.09,
+      0.01
+     ],
+     [
+      0.21,
+      -0.02
+     ],
+     [
+      0.315,
+      0
+     ]
+    ],
+    "rows": [
+     1.44,
+     1.66,
+     1.74,
+     1.82,
+     1.9,
+     2.3,
+     2.58,
+     2.87
+    ]
+   }
+  },
+  {
+   "id": "UT_towel_tail",
+   "owner": "UpperTorso",
+   "tiles": [
+    "TOWEL_SHADOW"
+   ],
+   "faces": 6,
+   "tris": 12,
+   "recipe": "short rear tail of the towel H2.58..2.87 (hidden behind the front part)",
+   "class": "prescribed"
+  },
+  {
+   "id": "LT_hip",
+   "owner": "LowerTorso",
+   "tiles": [
+    "PANTS",
+    "PANTS_DARK",
+    "PANTS_LIGHT"
+   ],
+   "faces": 18,
+   "tris": 44,
+   "recipe": "pants hip, section 15 rows",
+   "class": "observed+prescribed",
+   "dims": {
+    "rows": [
+     [
+      1.82,
+      2.3,
+      -0.7,
+      0.48,
+      0.12
+     ],
+     [
+      2.1,
+      2.55,
+      -0.8,
+      0.56,
+      0.14
+     ],
+     [
+      2.34,
+      2.66,
+      -0.84,
+      0.58,
+      0.14
+     ]
+    ]
+   }
+  },
+  {
+   "id": "LT_centre_seam",
+   "owner": "LowerTorso",
+   "tiles": [
+    "PANTS_DARK"
+   ],
+   "faces": 10,
+   "tris": 20,
+   "recipe": "crotch seam W.025 H1.77..2.18",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UL_thigh_Right",
+   "owner": "RightUpperLeg",
+   "tiles": [
+    "PANTS",
+    "PANTS_DARK",
+    "PANTS_LIGHT"
+   ],
+   "faces": 18,
+   "tris": 44,
+   "recipe": "thigh H1.01..2.10, 1.10 x 1.00 -> 1.02 x .93",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "LL_shin_Right",
+   "owner": "RightLowerLeg",
+   "tiles": [
+    "PANTS",
+    "PANTS_DARK",
+    "PANTS_LIGHT"
+   ],
+   "faces": 10,
+   "tris": 28,
+   "recipe": "shin H.48..1.10, 1.01 x .95",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "LL_cuff_Right",
+   "owner": "RightLowerLeg",
+   "tiles": [
+    "PANTS_DARK",
+    "PANTS_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "trouser hem H.60..0.77, 1.06 x 1.00, .025 PANTS_DARK edge",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "FT_sole_Right",
+   "owner": "RightFoot",
+   "tiles": [
+    "SOLE"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "sole H0..0.13, W1.25, D-.935..+.615",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "FT_upper_Right",
+   "owner": "RightFoot",
+   "tiles": [
+    "SHOE",
+    "SHOE_LIGHT",
+    "SOLE"
+   ],
+   "faces": 34,
+   "tris": 76,
+   "recipe": "boot: toe D-.94..-.20 H.13..46, instep/shaft D-.20..55 H.13..66, W1.25 -> 1.08",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UL_thigh_Left",
+   "owner": "LeftUpperLeg",
+   "tiles": [
+    "PANTS",
+    "PANTS_DARK",
+    "PANTS_LIGHT"
+   ],
+   "faces": 18,
+   "tris": 44,
+   "recipe": "thigh H1.01..2.10, 1.10 x 1.00 -> 1.02 x .93",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "LL_shin_Left",
+   "owner": "LeftLowerLeg",
+   "tiles": [
+    "PANTS",
+    "PANTS_DARK",
+    "PANTS_LIGHT"
+   ],
+   "faces": 10,
+   "tris": 28,
+   "recipe": "shin H.48..1.10, 1.01 x .95",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "LL_cuff_Left",
+   "owner": "LeftLowerLeg",
+   "tiles": [
+    "PANTS_DARK",
+    "PANTS_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "trouser hem H.60..0.77, 1.06 x 1.00, .025 PANTS_DARK edge",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "FT_sole_Left",
+   "owner": "LeftFoot",
+   "tiles": [
+    "SOLE"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "sole H0..0.13, W1.25, D-.935..+.615",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "FT_upper_Left",
+   "owner": "LeftFoot",
+   "tiles": [
+    "SHOE",
+    "SHOE_LIGHT",
+    "SOLE"
+   ],
+   "faces": 34,
+   "tris": 76,
+   "recipe": "boot: toe D-.94..-.20 H.13..46, instep/shaft D-.20..55 H.13..66, W1.25 -> 1.08",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UA_sleeve_Right",
+   "owner": "RightUpperArm",
+   "tiles": [
+    "SHIRT",
+    "SHIRT_DARK",
+    "SHIRT_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "short red sleeve t0..0.73, skin section + .05",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UA_cuff_Right",
+   "owner": "RightUpperArm",
+   "tiles": [
+    "SHIRT_DARK",
+    "SHIRT_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "sleeve cuff band .10 along the segment, SHIRT_DARK",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UA_skin_Right",
+   "owner": "RightUpperArm",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "upper-arm skin .94x.88 -> .84x.79 -> .78x.73",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "LA_forearm_Right",
+   "owner": "RightLowerArm",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 34,
+   "tris": 76,
+   "recipe": "forearm .77x.72 -> .70x.65 -> .64x.59, closed caps",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UA_sleeve_Left",
+   "owner": "LeftUpperArm",
+   "tiles": [
+    "SHIRT",
+    "SHIRT_DARK",
+    "SHIRT_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "short red sleeve t0..0.73, skin section + .05",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UA_cuff_Left",
+   "owner": "LeftUpperArm",
+   "tiles": [
+    "SHIRT_DARK",
+    "SHIRT_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "sleeve cuff band .10 along the segment, SHIRT_DARK",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "UA_skin_Left",
+   "owner": "LeftUpperArm",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "upper-arm skin .94x.88 -> .84x.79 -> .78x.73",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "LA_forearm_Left",
+   "owner": "LeftLowerArm",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 34,
+   "tris": 76,
+   "recipe": "forearm .77x.72 -> .70x.65 -> .64x.59, closed caps",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HAND_Right",
+   "owner": "RightHand",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 46,
+   "tris": 132,
+   "recipe": "free right hand block .75 x .68 x .73, inner thumb, lower notch .14 x .19 x .18 (boolean EXACT)",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HAND_Left",
+   "owner": "LeftHand",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 129,
+   "tris": 326,
+   "recipe": "grip hand .78 x .74 x .82 at G; capsule channel (W.40 D.23, widening with the branches, clearance .02), rear slot W.06, thumb pad, 3 finger grooves (boolean EXACT)",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_shell",
+   "owner": "Head",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 42,
+   "tris": 92,
+   "recipe": "head shell W1.88 D1.50 H1.66 (4.74..6.40), front plane D-.74, cheeks -.78 at H5.12, jaw to X+/-.83",
+   "class": "observed+prescribed",
+   "dims": {
+    "rows": [
+     [
+      4.74,
+      1.5,
+      -0.62,
+      0.6,
+      0.13
+     ],
+     [
+      4.98,
+      1.74,
+      -0.74,
+      0.76,
+      0.14
+     ],
+     [
+      5.12,
+      1.86,
+      -0.78,
+      0.76,
+      0.14
+     ],
+     [
+      5.4,
+      1.88,
+      -0.74,
+      0.76,
+      0.14
+     ],
+     [
+      6.28,
+      1.88,
+      -0.74,
+      0.76,
+      0.12
+     ],
+     [
+      6.4,
+      1.62,
+      -0.62,
+      0.64,
+      0.12
+     ]
+    ]
+   }
+  },
+  {
+   "id": "HD_ear_R",
+   "owner": "Head",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "ear .27 x .32 x .43, bevel .045",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_ear_recess_R",
+   "owner": "Head",
+   "tiles": [
+    "SKIN_SHADOW"
+   ],
+   "faces": 6,
+   "tris": 12,
+   "recipe": "ear recess W.12 H.22 depth .045 (flat shadow facet)",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_eye_white_R",
+   "owner": "Head",
+   "tiles": [
+    "EYE_WHITE"
+   ],
+   "faces": 14,
+   "tris": 44,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_iris_R",
+   "owner": "Head",
+   "tiles": [
+    "IRIS"
+   ],
+   "faces": 12,
+   "tris": 36,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_pupil_R",
+   "owner": "Head",
+   "tiles": [
+    "PUPIL"
+   ],
+   "faces": 10,
+   "tris": 28,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_glint_R",
+   "owner": "Head",
+   "tiles": [
+    "EYE_WHITE"
+   ],
+   "faces": 6,
+   "tris": 12,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_brow_R",
+   "owner": "Head",
+   "tiles": [
+    "BROW"
+   ],
+   "faces": 12,
+   "tris": 20,
+   "recipe": "heavy brow W.60 H.18, depth .09, inner end lowered (stern)",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_nostril_R",
+   "owner": "Head",
+   "tiles": [
+    "SKIN_SHADOW"
+   ],
+   "faces": 6,
+   "tris": 12,
+   "recipe": "nostril facet .035 x .02",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_ear_L",
+   "owner": "Head",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "ear .27 x .32 x .43, bevel .045",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_ear_recess_L",
+   "owner": "Head",
+   "tiles": [
+    "SKIN_SHADOW"
+   ],
+   "faces": 6,
+   "tris": 12,
+   "recipe": "ear recess W.12 H.22 depth .045 (flat shadow facet)",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_eye_white_L",
+   "owner": "Head",
+   "tiles": [
+    "EYE_WHITE"
+   ],
+   "faces": 14,
+   "tris": 44,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_iris_L",
+   "owner": "Head",
+   "tiles": [
+    "IRIS"
+   ],
+   "faces": 12,
+   "tris": 36,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_pupil_L",
+   "owner": "Head",
+   "tiles": [
+    "PUPIL"
+   ],
+   "faces": 10,
+   "tris": 28,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_glint_L",
+   "owner": "Head",
+   "tiles": [
+    "EYE_WHITE"
+   ],
+   "faces": 6,
+   "tris": 12,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_brow_L",
+   "owner": "Head",
+   "tiles": [
+    "BROW"
+   ],
+   "faces": 12,
+   "tris": 20,
+   "recipe": "heavy brow W.60 H.18, depth .09, inner end lowered (stern)",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_nostril_L",
+   "owner": "Head",
+   "tiles": [
+    "SKIN_SHADOW"
+   ],
+   "faces": 6,
+   "tris": 12,
+   "recipe": "nostril facet .035 x .02",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_nose",
+   "owner": "Head",
+   "tiles": [
+    "NOSE",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "nose: root (0,-.78,5.70), tip (0,-1.02,5.52), W.42 H.31 proud .28",
+   "class": "observed+prescribed",
+   "dims": {
+    "rows": [
+     [
+      5.39,
+      0.4,
+      -1.0,
+      -0.6,
+      0.06
+     ],
+     [
+      5.52,
+      0.42,
+      -1.02,
+      -0.6,
+      0.06
+     ],
+     [
+      5.62,
+      0.34,
+      -0.9,
+      -0.6,
+      0.05
+     ],
+     [
+      5.7,
+      0.2,
+      -0.8,
+      -0.6,
+      0.04
+     ]
+    ]
+   }
+  },
+  {
+   "id": "HD_mouth",
+   "owner": "Head",
+   "tiles": [
+    "MOUTH"
+   ],
+   "faces": 12,
+   "tris": 20,
+   "recipe": "closed mouth line W.45 H.035 at H5.05",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_lip",
+   "owner": "Head",
+   "tiles": [
+    "LIP"
+   ],
+   "faces": 12,
+   "tris": 20,
+   "recipe": "lower lip .035 at H5.00",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_moustache_R_L1",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 40,
+   "tris": 62,
+   "recipe": "moustache lobe level 1 (outline x1.00, front D-0.79), upturned outer tip",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_moustache_R_L2",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 40,
+   "tris": 62,
+   "recipe": "moustache lobe level 2 (outline x0.80, front D-0.96), upturned outer tip",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_moustache_R_L3",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 40,
+   "tris": 62,
+   "recipe": "moustache lobe level 3 (outline x0.52, front D-1.04), upturned outer tip",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_moustache_L_L1",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 40,
+   "tris": 62,
+   "recipe": "moustache lobe level 1 (outline x1.00, front D-0.79), upturned outer tip",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_moustache_L_L2",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 40,
+   "tris": 62,
+   "recipe": "moustache lobe level 2 (outline x0.80, front D-0.96), upturned outer tip",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_moustache_L_L3",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 40,
+   "tris": 62,
+   "recipe": "moustache lobe level 3 (outline x0.52, front D-1.04), upturned outer tip",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_hair_side_low_R",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "temple block layer 1, D-.30..+.26",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_hair_side_up_R",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "temple block layer 2, top H6.10",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_sideburn_R",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "lower sideburn H5.52..5.83, behind the ear",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_hair_side_low_L",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "temple block layer 1, D-.30..+.26",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_hair_side_up_L",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "temple block layer 2, top H6.10",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_sideburn_L",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "lower sideburn H5.52..5.83, behind the ear",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "HD_hair_rear_U",
+   "owner": "Head",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 30,
+   "tris": 60,
+   "recipe": "low rear U band H5.65..5.98, thickness .07",
+   "class": "prescribed"
+  },
+  {
+   "id": "TG_wood_R",
+   "owner": "GrillTongs",
+   "tiles": [
+    "WOOD",
+    "WOOD_DARK",
+    "WOOD_LIGHT"
+   ],
+   "faces": 34,
+   "tris": 76,
+   "recipe": "wooden handle H2.56..4.25, section .13x.16 -> .16x.18, centre u=+/-.055..+.145",
+   "class": "observed+prescribed",
+   "dims": {
+    "levels": [
+     2.56,
+     3.1,
+     3.5,
+     3.9,
+     4.25
+    ]
+   }
+  },
+  {
+   "id": "TG_cap_R",
+   "owner": "GrillTongs",
+   "tiles": [
+    "WOOD_DARK"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "dark end cap H2.50..2.56 W.13 D.16",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "TG_stem_R",
+   "owner": "GrillTongs",
+   "tiles": [
+    "STEEL",
+    "STEEL_DARK",
+    "STEEL_LIGHT"
+   ],
+   "faces": 34,
+   "tris": 76,
+   "recipe": "steel stem H4.17..5.11 (enters the wood .08 and the paddle .06), .075..105 x .085",
+   "class": "observed+prescribed",
+   "dims": {
+    "levels": [
+     4.17,
+     4.3,
+     4.72,
+     5.05,
+     5.11
+    ]
+   }
+  },
+  {
+   "id": "TG_blade_R",
+   "owner": "GrillTongs",
+   "tiles": [
+    "STEEL",
+    "STEEL_DARK",
+    "STEEL_EDGE",
+    "STEEL_LIGHT"
+   ],
+   "faces": 28,
+   "tris": 44,
+   "recipe": "steel paddle thickness .085, profile of section 27, one plane break at 35% width (dD .02)",
+   "class": "observed+prescribed",
+   "dims": {
+    "profile": [
+     [
+      -0.055,
+      5.03
+     ],
+     [
+      -0.18,
+      5.3
+     ],
+     [
+      -0.19,
+      5.67
+     ],
+     [
+      -0.07,
+      5.92
+     ],
+     [
+      0.1,
+      5.82
+     ],
+     [
+      0.18,
+      5.5
+     ],
+     [
+      0.11,
+      5.2
+     ],
+     [
+      0.055,
+      5.03
+     ]
+    ]
+   }
+  },
+  {
+   "id": "TG_wood_L",
+   "owner": "GrillTongs",
+   "tiles": [
+    "WOOD",
+    "WOOD_DARK",
+    "WOOD_LIGHT"
+   ],
+   "faces": 34,
+   "tris": 76,
+   "recipe": "wooden handle H2.56..4.25, section .13x.16 -> .16x.18, centre u=+/-.055..+.145",
+   "class": "observed+prescribed",
+   "dims": {
+    "levels": [
+     2.56,
+     3.1,
+     3.5,
+     3.9,
+     4.25
+    ]
+   }
+  },
+  {
+   "id": "TG_cap_L",
+   "owner": "GrillTongs",
+   "tiles": [
+    "WOOD_DARK"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "dark end cap H2.50..2.56 W.13 D.16",
+   "class": "observed+prescribed"
+  },
+  {
+   "id": "TG_stem_L",
+   "owner": "GrillTongs",
+   "tiles": [
+    "STEEL",
+    "STEEL_DARK",
+    "STEEL_LIGHT"
+   ],
+   "faces": 34,
+   "tris": 76,
+   "recipe": "steel stem H4.17..5.11 (enters the wood .08 and the paddle .06), .075..105 x .085",
+   "class": "observed+prescribed",
+   "dims": {
+    "levels": [
+     4.17,
+     4.3,
+     4.72,
+     5.05,
+     5.11
+    ]
+   }
+  },
+  {
+   "id": "TG_blade_L",
+   "owner": "GrillTongs",
+   "tiles": [
+    "STEEL",
+    "STEEL_DARK",
+    "STEEL_EDGE",
+    "STEEL_LIGHT"
+   ],
+   "faces": 28,
+   "tris": 44,
+   "recipe": "steel paddle thickness .085, profile of section 27, one plane break at 35% width (dD .02)",
+   "class": "observed+prescribed",
+   "dims": {
+    "profile": [
+     [
+      -0.055,
+      5.03
+     ],
+     [
+      -0.18,
+      5.3
+     ],
+     [
+      -0.19,
+      5.67
+     ],
+     [
+      -0.07,
+      5.92
+     ],
+     [
+      0.1,
+      5.82
+     ],
+     [
+      0.18,
+      5.5
+     ],
+     [
+      0.11,
+      5.2
+     ],
+     [
+      0.055,
+      5.03
+     ]
+    ]
+   }
+  },
+  {
+   "id": "TG_bridge",
+   "owner": "GrillTongs",
+   "tiles": [
+    "STEEL"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "lower bridge W.12 D.07 H.08",
+   "class": "prescribed"
+  }
+ ],
+ "part_totals": {
+  "UpperTorso": {
+   "components": 33,
+   "tris": 2740,
+   "verts": 1436
+  },
+  "LowerTorso": {
+   "components": 2,
+   "tris": 64,
+   "verts": 36
+  },
+  "RightUpperLeg": {
+   "components": 1,
+   "tris": 44,
+   "verts": 24
+  },
+  "RightLowerLeg": {
+   "components": 2,
+   "tris": 88,
+   "verts": 48
+  },
+  "RightFoot": {
+   "components": 2,
+   "tris": 136,
+   "verts": 72
+  },
+  "LeftUpperLeg": {
+   "components": 1,
+   "tris": 44,
+   "verts": 24
+  },
+  "LeftLowerLeg": {
+   "components": 2,
+   "tris": 88,
+   "verts": 48
+  },
+  "LeftFoot": {
+   "components": 2,
+   "tris": 136,
+   "verts": 72
+  },
+  "RightUpperArm": {
+   "components": 3,
+   "tris": 180,
+   "verts": 96
+  },
+  "RightLowerArm": {
+   "components": 1,
+   "tris": 76,
+   "verts": 40
+  },
+  "LeftUpperArm": {
+   "components": 3,
+   "tris": 180,
+   "verts": 96
+  },
+  "LeftLowerArm": {
+   "components": 1,
+   "tris": 112,
+   "verts": 58
+  },
+  "RightHand": {
+   "components": 1,
+   "tris": 130,
+   "verts": 68
+  },
+  "LeftHand": {
+   "components": 1,
+   "tris": 326,
+   "verts": 165
+  },
+  "Head": {
+   "components": 33,
+   "tris": 1432,
+   "verts": 782
+  },
+  "GrillTongs": {
+   "components": 9,
+   "tris": 572,
+   "verts": 304
+  }
+ },
+ "mesh_names": {
+  "UpperTorso": "UpperTorso_Geo",
+  "LowerTorso": "LowerTorso_Geo",
+  "RightUpperLeg": "RightUpperLeg_Geo",
+  "RightLowerLeg": "RightLowerLeg_Geo",
+  "RightFoot": "RightFoot_Geo",
+  "LeftUpperLeg": "LeftUpperLeg_Geo",
+  "LeftLowerLeg": "LeftLowerLeg_Geo",
+  "LeftFoot": "LeftFoot_Geo",
+  "RightUpperArm": "RightUpperArm_Geo",
+  "RightLowerArm": "RightLowerArm_Geo",
+  "LeftUpperArm": "LeftUpperArm_Geo",
+  "LeftLowerArm": "LeftLowerArm_Geo",
+  "RightHand": "RightHand_Geo",
+  "LeftHand": "LeftHand_Geo",
+  "Head": "Head_Geo",
+  "GrillTongs": "GrillTongs_Geo"
+ }
+}

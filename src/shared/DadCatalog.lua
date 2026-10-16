@@ -63,6 +63,8 @@ local DadCatalog: { DadDefinition } = {
 	},
 	{
 		Id = "GrillDad",
+		-- Final approved art: ServerStorage.GrillDadFinal (assets/characters/GrillDad_Final). The overlay fields below are unused for it.
+		ModelAsset = "GrillDadFinal",
 		DisplayName = "Grill Dad",
 		Rarity = "Uncommon",
 		Cost = 220,

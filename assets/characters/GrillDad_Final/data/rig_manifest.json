@@ -1,0 +1,348 @@
+{
+ "asset": "GrillDad_Redesign",
+ "frame": {
+  "logical": "(X,D,H) forward=-D, anatomical LEFT=+X (tongs hand), towel on the anatomical RIGHT (X<0)",
+  "roblox_position": "(-X, H, D)"
+ },
+ "bones": [
+  {
+   "name": "Root",
+   "parent": null,
+   "head_logical": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "head_roblox": [
+    -0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "HumanoidRootNode",
+   "parent": "Root",
+   "head_logical": [
+    0.0,
+    0.0,
+    2.05
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    2.55
+   ],
+   "head_roblox": [
+    -0.0,
+    2.05,
+    0.0
+   ]
+  },
+  {
+   "name": "LowerTorso",
+   "parent": "HumanoidRootNode",
+   "head_logical": [
+    0.0,
+    0.0,
+    2.05
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    2.32
+   ],
+   "head_roblox": [
+    -0.0,
+    2.05,
+    0.0
+   ]
+  },
+  {
+   "name": "UpperTorso",
+   "parent": "LowerTorso",
+   "head_logical": [
+    0.0,
+    0.0,
+    2.32
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    4.7
+   ],
+   "head_roblox": [
+    -0.0,
+    2.32,
+    0.0
+   ]
+  },
+  {
+   "name": "Head",
+   "parent": "UpperTorso",
+   "head_logical": [
+    0.0,
+    0.0,
+    4.7
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    6.4
+   ],
+   "head_roblox": [
+    -0.0,
+    4.7,
+    0.0
+   ]
+  },
+  {
+   "name": "RightUpperArm",
+   "parent": "UpperTorso",
+   "head_logical": [
+    -1.7,
+    0.0,
+    4.46
+   ],
+   "tail_logical": [
+    -1.92,
+    -0.02,
+    3.23
+   ],
+   "head_roblox": [
+    1.7,
+    4.46,
+    0.0
+   ]
+  },
+  {
+   "name": "RightLowerArm",
+   "parent": "RightUpperArm",
+   "head_logical": [
+    -1.92,
+    -0.02,
+    3.23
+   ],
+   "tail_logical": [
+    -2.08,
+    -0.06,
+    2.28
+   ],
+   "head_roblox": [
+    1.92,
+    3.23,
+    -0.02
+   ]
+  },
+  {
+   "name": "RightHand",
+   "parent": "RightLowerArm",
+   "head_logical": [
+    -2.08,
+    -0.06,
+    2.28
+   ],
+   "tail_logical": [
+    -2.08,
+    -0.06,
+    1.6
+   ],
+   "head_roblox": [
+    2.08,
+    2.28,
+    -0.06
+   ]
+  },
+  {
+   "name": "RightUpperLeg",
+   "parent": "LowerTorso",
+   "head_logical": [
+    -0.66,
+    0.02,
+    2.05
+   ],
+   "tail_logical": [
+    -0.66,
+    0.02,
+    1.05
+   ],
+   "head_roblox": [
+    0.66,
+    2.05,
+    0.02
+   ]
+  },
+  {
+   "name": "RightLowerLeg",
+   "parent": "RightUpperLeg",
+   "head_logical": [
+    -0.66,
+    0.02,
+    1.05
+   ],
+   "tail_logical": [
+    -0.66,
+    0.02,
+    0.45
+   ],
+   "head_roblox": [
+    0.66,
+    1.05,
+    0.02
+   ]
+  },
+  {
+   "name": "RightFoot",
+   "parent": "RightLowerLeg",
+   "head_logical": [
+    -0.66,
+    0.02,
+    0.45
+   ],
+   "tail_logical": [
+    -0.66,
+    -0.76,
+    0.12
+   ],
+   "head_roblox": [
+    0.66,
+    0.45,
+    0.02
+   ]
+  },
+  {
+   "name": "LeftUpperArm",
+   "parent": "UpperTorso",
+   "head_logical": [
+    1.7,
+    0.0,
+    4.46
+   ],
+   "tail_logical": [
+    2.3625,
+    0.3683,
+    3.4664
+   ],
+   "head_roblox": [
+    -1.7,
+    4.46,
+    0.0
+   ]
+  },
+  {
+   "name": "LeftLowerArm",
+   "parent": "LeftUpperArm",
+   "head_logical": [
+    2.3625,
+    0.3683,
+    3.4664
+   ],
+   "tail_logical": [
+    2.04,
+    -0.54,
+    3.44
+   ],
+   "head_roblox": [
+    -2.3625,
+    3.4664,
+    0.3683
+   ]
+  },
+  {
+   "name": "LeftHand",
+   "parent": "LeftLowerArm",
+   "head_logical": [
+    2.04,
+    -0.54,
+    3.44
+   ],
+   "tail_logical": [
+    2.3,
+    -0.62,
+    3.5
+   ],
+   "head_roblox": [
+    -2.04,
+    3.44,
+    -0.54
+   ]
+  },
+  {
+   "name": "LeftUpperLeg",
+   "parent": "LowerTorso",
+   "head_logical": [
+    0.66,
+    0.02,
+    2.05
+   ],
+   "tail_logical": [
+    0.66,
+    0.02,
+    1.05
+   ],
+   "head_roblox": [
+    -0.66,
+    2.05,
+    0.02
+   ]
+  },
+  {
+   "name": "LeftLowerLeg",
+   "parent": "LeftUpperLeg",
+   "head_logical": [
+    0.66,
+    0.02,
+    1.05
+   ],
+   "tail_logical": [
+    0.66,
+    0.02,
+    0.45
+   ],
+   "head_roblox": [
+    -0.66,
+    1.05,
+    0.02
+   ]
+  },
+  {
+   "name": "LeftFoot",
+   "parent": "LeftLowerLeg",
+   "head_logical": [
+    0.66,
+    0.02,
+    0.45
+   ],
+   "tail_logical": [
+    0.66,
+    -0.76,
+    0.12
+   ],
+   "head_roblox": [
+    -0.66,
+    0.45,
+    0.02
+   ]
+  }
+ ],
+ "props": {
+  "GrillTongs": {
+   "mount": "TongsGrip WeldConstraint LeftHand -> GrillTongs",
+   "origin_logical": [
+    2.3,
+    -0.62,
+    3.5
+   ],
+   "grip_world": [
+    2.3,
+    -0.62,
+    3.5
+   ]
+  }
+ },
+ "weights": "100% own bone (rigid style); rest pose == HoldTongs"
+}

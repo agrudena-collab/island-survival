@@ -1,0 +1,916 @@
+{
+ "asset": "GrillDad_Redesign",
+ "character": "Grill Dad (04, Uncommon)",
+ "units": "studs",
+ "neutral_height": 6.4,
+ "built_height": 6.4,
+ "tables": {
+  "UpperTorso": [
+   [
+    2.2,
+    2.72,
+    -0.86,
+    0.56,
+    0.13
+   ],
+   [
+    2.65,
+    2.92,
+    -1.0,
+    0.64,
+    0.17
+   ],
+   [
+    3.1,
+    2.95,
+    -1.05,
+    0.68,
+    0.17
+   ],
+   [
+    3.65,
+    2.88,
+    -0.95,
+    0.64,
+    0.16
+   ],
+   [
+    4.15,
+    2.87,
+    -0.74,
+    0.58,
+    0.12
+   ],
+   [
+    4.46,
+    2.65,
+    -0.6,
+    0.51,
+    0.11
+   ],
+   [
+    4.72,
+    2.12,
+    -0.49,
+    0.45,
+    0.09
+   ]
+  ],
+  "LowerTorso": [
+   [
+    1.82,
+    2.3,
+    -0.7,
+    0.48,
+    0.12
+   ],
+   [
+    2.1,
+    2.55,
+    -0.8,
+    0.56,
+    0.14
+   ],
+   [
+    2.34,
+    2.66,
+    -0.84,
+    0.58,
+    0.14
+   ]
+  ],
+  "Head": [
+   [
+    4.74,
+    1.5,
+    -0.62,
+    0.6,
+    0.13
+   ],
+   [
+    4.98,
+    1.74,
+    -0.74,
+    0.76,
+    0.14
+   ],
+   [
+    5.12,
+    1.86,
+    -0.78,
+    0.76,
+    0.14
+   ],
+   [
+    5.4,
+    1.88,
+    -0.74,
+    0.76,
+    0.14
+   ],
+   [
+    6.28,
+    1.88,
+    -0.74,
+    0.76,
+    0.12
+   ],
+   [
+    6.4,
+    1.62,
+    -0.62,
+    0.64,
+    0.12
+   ]
+  ],
+  "Apron": [
+   [
+    1.1,
+    2.78,
+    -0.83,
+    0.06
+   ],
+   [
+    1.7,
+    2.91,
+    -0.98,
+    0.07
+   ],
+   [
+    2.3,
+    2.95,
+    -1.06,
+    0.07
+   ],
+   [
+    2.63,
+    2.91,
+    -1.08,
+    0.07
+   ],
+   [
+    3.12,
+    2.83,
+    -1.12,
+    0.07
+   ],
+   [
+    3.62,
+    2.48,
+    -0.99,
+    0.06
+   ],
+   [
+    4.03,
+    2.1,
+    -0.83,
+    0.04
+   ]
+  ],
+  "Stains": [
+   [
+    -0.52,
+    3.29,
+    0.43,
+    0.28
+   ],
+   [
+    0.54,
+    3.14,
+    0.48,
+    0.48
+   ],
+   [
+    1.12,
+    3.48,
+    0.35,
+    0.43
+   ],
+   [
+    0.95,
+    2.91,
+    0.4,
+    0.23
+   ],
+   [
+    -0.12,
+    2.57,
+    0.38,
+    0.26
+   ],
+   [
+    0.74,
+    2.16,
+    0.48,
+    0.4
+   ],
+   [
+    0.39,
+    1.6,
+    0.74,
+    0.55
+   ],
+   [
+    0.85,
+    1.47,
+    0.39,
+    0.38
+   ],
+   [
+    1.1,
+    1.87,
+    0.38,
+    0.52
+   ],
+   [
+    0.08,
+    1.38,
+    0.4,
+    0.26
+   ],
+   [
+    -0.34,
+    1.83,
+    0.28,
+    0.27
+   ],
+   [
+    -0.64,
+    2.01,
+    0.25,
+    0.2
+   ]
+  ]
+ },
+ "joints_built": {
+  "Root": [
+   0,
+   0,
+   2.05
+  ],
+  "Waist": [
+   0,
+   0,
+   2.32
+  ],
+  "Neck": [
+   0,
+   0,
+   4.7
+  ],
+  "RightShoulder": [
+   -1.7000000476837158,
+   0.0,
+   4.460000038146973
+  ],
+  "RightElbow": [
+   -1.9199999570846558,
+   -0.019999999552965164,
+   3.2300000190734863
+  ],
+  "RightWrist": [
+   -2.0799999237060547,
+   -0.05999999865889549,
+   2.2799999713897705
+  ],
+  "LeftShoulder": [
+   1.7000000476837158,
+   0.0,
+   4.460000038146973
+  ],
+  "LeftElbow": [
+   2.362504720687866,
+   0.36829036474227905,
+   3.4664459228515625
+  ],
+  "LeftWrist": [
+   2.0399999618530273,
+   -0.5400000214576721,
+   3.440000057220459
+  ],
+  "RightHip": [
+   -0.66,
+   0.02,
+   2.05
+  ],
+  "RightKnee": [
+   -0.66,
+   0.02,
+   1.05
+  ],
+  "RightAnkle": [
+   -0.66,
+   0.02,
+   0.45
+  ],
+  "LeftHip": [
+   0.66,
+   0.02,
+   2.05
+  ],
+  "LeftKnee": [
+   0.66,
+   0.02,
+   1.05
+  ],
+  "LeftAnkle": [
+   0.66,
+   0.02,
+   0.45
+  ]
+ },
+ "joints_bind_neutral": {
+  "RightShoulder": [
+   -1.7,
+   0.0,
+   4.46
+  ],
+  "RightElbow": [
+   -1.92,
+   -0.02,
+   3.23
+  ],
+  "RightWrist": [
+   -2.08,
+   -0.06,
+   2.28
+  ],
+  "LeftShoulder": [
+   1.7,
+   0.0,
+   4.46
+  ],
+  "LeftElbow": [
+   1.92,
+   -0.02,
+   3.23
+  ],
+  "LeftWrist": [
+   2.08,
+   -0.06,
+   2.28
+  ]
+ },
+ "left_arm_ik": {
+  "shoulder": [
+   1.7,
+   0.0,
+   4.46
+  ],
+  "wrist_target": [
+   2.04,
+   -0.54,
+   3.44
+  ],
+  "pole": [
+   2.6,
+   0.7,
+   3.25
+  ],
+  "elbow": [
+   2.362504721,
+   0.368290365,
+   3.466445923
+  ],
+  "upper_len": 1.2496799405,
+  "lower_len": 0.9642095638,
+  "check_len_upper": 1.2496799655,
+  "check_len_lower": 0.9642095787
+ },
+ "grip_center": [
+  2.3,
+  -0.62,
+  3.5
+ ],
+ "tongs_branch_u": [
+  [
+   2.56,
+   0.055
+  ],
+  [
+   3.1,
+   0.08
+  ],
+  [
+   3.5,
+   0.1
+  ],
+  [
+   4.25,
+   0.145
+  ],
+  [
+   4.3,
+   0.15
+  ],
+  [
+   4.72,
+   0.21
+  ],
+  [
+   5.05,
+   0.265
+  ],
+  [
+   5.45,
+   0.31
+  ],
+  [
+   5.92,
+   0.325
+  ]
+ ],
+ "tongs_origin": [
+  2.3,
+  -0.62,
+  3.5
+ ],
+ "palette": [
+  {
+   "index": 0,
+   "name": "SKIN",
+   "hex": "#F2A16E"
+  },
+  {
+   "index": 1,
+   "name": "SKIN_LIGHT",
+   "hex": "#FFBC89"
+  },
+  {
+   "index": 2,
+   "name": "SKIN_SHADOW",
+   "hex": "#CC7D50"
+  },
+  {
+   "index": 3,
+   "name": "NOSE",
+   "hex": "#EF8A61"
+  },
+  {
+   "index": 4,
+   "name": "SHIRT",
+   "hex": "#C6252C"
+  },
+  {
+   "index": 5,
+   "name": "SHIRT_LIGHT",
+   "hex": "#E64442"
+  },
+  {
+   "index": 6,
+   "name": "SHIRT_DARK",
+   "hex": "#951B24"
+  },
+  {
+   "index": 7,
+   "name": "SHIRT_SEAM",
+   "hex": "#AF2029"
+  },
+  {
+   "index": 8,
+   "name": "APRON",
+   "hex": "#29272B"
+  },
+  {
+   "index": 9,
+   "name": "APRON_LIGHT",
+   "hex": "#38353A"
+  },
+  {
+   "index": 10,
+   "name": "APRON_DARK",
+   "hex": "#1F1E22"
+  },
+  {
+   "index": 11,
+   "name": "APRON_SEAM",
+   "hex": "#454047"
+  },
+  {
+   "index": 12,
+   "name": "STAIN",
+   "hex": "#51443F"
+  },
+  {
+   "index": 13,
+   "name": "STAIN_LIGHT",
+   "hex": "#605047"
+  },
+  {
+   "index": 14,
+   "name": "STAIN_DARK",
+   "hex": "#403737"
+  },
+  {
+   "index": 15,
+   "name": "PANTS",
+   "hex": "#242328"
+  },
+  {
+   "index": 16,
+   "name": "PANTS_LIGHT",
+   "hex": "#343238"
+  },
+  {
+   "index": 17,
+   "name": "PANTS_DARK",
+   "hex": "#19191E"
+  },
+  {
+   "index": 18,
+   "name": "SHOE",
+   "hex": "#222126"
+  },
+  {
+   "index": 19,
+   "name": "SHOE_LIGHT",
+   "hex": "#39363C"
+  },
+  {
+   "index": 20,
+   "name": "SOLE",
+   "hex": "#151519"
+  },
+  {
+   "index": 21,
+   "name": "HAIR",
+   "hex": "#242026"
+  },
+  {
+   "index": 22,
+   "name": "HAIR_LIGHT",
+   "hex": "#373037"
+  },
+  {
+   "index": 23,
+   "name": "HAIR_DARK",
+   "hex": "#17161B"
+  },
+  {
+   "index": 24,
+   "name": "BROW",
+   "hex": "#252126"
+  },
+  {
+   "index": 25,
+   "name": "EYE_WHITE",
+   "hex": "#FFF2DD"
+  },
+  {
+   "index": 26,
+   "name": "PUPIL",
+   "hex": "#151516"
+  },
+  {
+   "index": 27,
+   "name": "IRIS",
+   "hex": "#4A3930"
+  },
+  {
+   "index": 28,
+   "name": "MOUTH",
+   "hex": "#63362A"
+  },
+  {
+   "index": 29,
+   "name": "LIP",
+   "hex": "#CF815B"
+  },
+  {
+   "index": 30,
+   "name": "GOLD",
+   "hex": "#DBAC3C"
+  },
+  {
+   "index": 31,
+   "name": "GOLD_LIGHT",
+   "hex": "#F4D064"
+  },
+  {
+   "index": 32,
+   "name": "GOLD_DARK",
+   "hex": "#9D7126"
+  },
+  {
+   "index": 33,
+   "name": "TOWEL",
+   "hex": "#F3EADD"
+  },
+  {
+   "index": 34,
+   "name": "TOWEL_LIGHT",
+   "hex": "#FFF9ED"
+  },
+  {
+   "index": 35,
+   "name": "TOWEL_SHADOW",
+   "hex": "#CFC5B7"
+  },
+  {
+   "index": 36,
+   "name": "TOWEL_RED",
+   "hex": "#C93532"
+  },
+  {
+   "index": 37,
+   "name": "WOOD",
+   "hex": "#71431F"
+  },
+  {
+   "index": 38,
+   "name": "WOOD_LIGHT",
+   "hex": "#925D2D"
+  },
+  {
+   "index": 39,
+   "name": "WOOD_DARK",
+   "hex": "#492B18"
+  },
+  {
+   "index": 40,
+   "name": "STEEL",
+   "hex": "#92929D"
+  },
+  {
+   "index": 41,
+   "name": "STEEL_LIGHT",
+   "hex": "#C4C4CA"
+  },
+  {
+   "index": 42,
+   "name": "STEEL_DARK",
+   "hex": "#656571"
+  },
+  {
+   "index": 43,
+   "name": "STEEL_EDGE",
+   "hex": "#E0DDE1"
+  }
+ ],
+ "counts": {
+  "body_tris": 5776,
+  "tongs_tris": 572
+ },
+ "deviations_from_prompt": [
+  "Left arm is built directly in the HoldTongs pose (rest == pose); the neutral bind joints are stored in joints_bind_neutral.",
+  "Forearm end is buried -0.03 behind the wrist and carved by the same channel as the hand.",
+  "Thumb pad centre D is -.935 instead of -.91 so that it protrudes .035 from the front face.",
+  "Paddles are not yawed by +/-8 deg and the wooden top ends are not tilted by 5 deg (both optional in the prompt).",
+  "Rear hair U band keeps a constant top H5.98 (the prompt lowers it to 5.88 at the centre).",
+  "No spring coils on the bridge (optional).",
+  "Apron belt is a closed wrap of the whole torso at H2.57..2.77; the towel rear tail is a short hidden sheet.",
+  "Strap front ends follow the real apron surface (D computed) instead of the literal key point D-.86."
+ ],
+ "measured": {
+  "bounds_neutral": {
+   "min": [
+    -2.505,
+    -1.185,
+    -0.0
+   ],
+   "max": [
+    2.732,
+    0.8298,
+    6.4
+   ],
+   "height": 6.4
+  },
+  "head_bounds": {
+   "min": [
+    -1.143,
+    -1.04,
+    4.74
+   ],
+   "max": [
+    1.143,
+    0.8298,
+    6.4
+   ]
+  },
+  "tongs_bounds": {
+   "min": [
+    1.8233,
+    -0.71,
+    2.5
+   ],
+   "max": [
+    2.7767,
+    -0.53,
+    5.92
+   ]
+  },
+  "feet_min_h": -0.0,
+  "tris_body": 5776,
+  "tris_tongs": 572,
+  "audit": {
+   "UpperTorso": {
+    "verts": 1436,
+    "tris": 2740,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 12.2246
+   },
+   "LowerTorso": {
+    "verts": 36,
+    "tris": 64,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.7138
+   },
+   "RightUpperLeg": {
+    "verts": 24,
+    "tris": 44,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.0978
+   },
+   "RightLowerLeg": {
+    "verts": 48,
+    "tris": 88,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.766
+   },
+   "RightFoot": {
+    "verts": 72,
+    "tris": 136,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.0272
+   },
+   "LeftUpperLeg": {
+    "verts": 24,
+    "tris": 44,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.0978
+   },
+   "LeftLowerLeg": {
+    "verts": 48,
+    "tris": 88,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.766
+   },
+   "LeftFoot": {
+    "verts": 72,
+    "tris": 136,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.0272
+   },
+   "RightUpperArm": {
+    "verts": 96,
+    "tris": 180,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.7277
+   },
+   "RightLowerArm": {
+    "verts": 40,
+    "tris": 76,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.4491
+   },
+   "LeftUpperArm": {
+    "verts": 96,
+    "tris": 180,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.7277
+   },
+   "LeftLowerArm": {
+    "verts": 58,
+    "tris": 112,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.4198
+   },
+   "RightHand": {
+    "verts": 68,
+    "tris": 130,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.3561
+   },
+   "LeftHand": {
+    "verts": 165,
+    "tris": 326,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.3757
+   },
+   "Head": {
+    "verts": 782,
+    "tris": 1432,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 4.8176
+   },
+   "GrillTongs": {
+    "verts": 304,
+    "tris": 572,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.1356
+   }
+  },
+  "tongs_vs_body": {
+   "LeftHand": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.0173
+   },
+   "LeftLowerArm": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.0247
+   },
+   "LeftUpperArm": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.1188
+   },
+   "UpperTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.6472
+   },
+   "Head": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.8183
+   },
+   "LowerTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.8672
+   },
+   "RightHand": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 3.9257
+   },
+   "LeftUpperLeg": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 1.0662
+   },
+   "LeftFoot": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 2.1366
+   }
+  },
+  "hand_vs_body": {
+   "LeftLowerArm": {
+    "overlapping_triangle_pairs": 44,
+    "min_distance": 0.0
+   },
+   "UpperTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.437
+   },
+   "Head": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 1.459
+   },
+   "LeftUpperArm": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.011
+   }
+  },
+  "torso_vs_parts": {
+   "Head": {
+    "overlapping_triangle_pairs": 8
+   },
+   "LowerTorso": {
+    "overlapping_triangle_pairs": 10
+   },
+   "LeftUpperArm": {
+    "overlapping_triangle_pairs": 20
+   },
+   "RightUpperArm": {
+    "overlapping_triangle_pairs": 39
+   },
+   "RightUpperLeg": {
+    "overlapping_triangle_pairs": 0
+   },
+   "LeftUpperLeg": {
+    "overlapping_triangle_pairs": 0
+   }
+  },
+  "grip_wood_axis_to_hand_surface": [
+   0.0951,
+   0.0951,
+   0.0949,
+   0.0949,
+   0.0949,
+   0.0949,
+   0.0949,
+   0.0949,
+   0.0949,
+   0.0949,
+   0.0948,
+   0.0948,
+   0.0948,
+   0.0948,
+   0.0948,
+   0.0948,
+   0.0948,
+   0.0948
+  ]
+ }
+}

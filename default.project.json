@@ -33,6 +33,9 @@
       },
       "FishermanDadFinal": {
         "$path": "assets/characters/FishermanDad_Final/model/FishermanDad_Final.rbxm"
+      },
+      "GrillDadFinal": {
+        "$path": "assets/characters/GrillDad_Final/model/GrillDad_Final.rbxm"
       }
     }
   }
