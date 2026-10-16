@@ -1,0 +1,277 @@
+{
+ "bounds_neutral": {
+  "min": [
+   -2.44,
+   -1.2836,
+   0.0
+  ],
+  "max": [
+   2.6,
+   1.03,
+   6.4
+  ],
+  "height": 6.4
+ },
+ "head_bounds": {
+  "min": [
+   -1.4,
+   -1.15,
+   4.22
+  ],
+  "max": [
+   1.4,
+   1.03,
+   6.4
+  ]
+ },
+ "rod_bounds": {
+  "min": [
+   2.105,
+   -0.9452,
+   0.1
+  ],
+  "max": [
+   3.2269,
+   -0.41,
+   7.3529
+  ]
+ },
+ "bucket_bounds": {
+  "min": [
+   2.39,
+   -0.4956,
+   0.0
+  ],
+  "max": [
+   3.61,
+   0.68,
+   1.16
+  ]
+ },
+ "feet_min_h": 0.0,
+ "tris_body": 6840,
+ "tris_rod": 2084,
+ "tris_bucket": 588,
+ "audit": {
+  "UpperTorso": {
+   "verts": 704,
+   "tris": 1264,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 10.2578
+  },
+  "LowerTorso": {
+   "verts": 276,
+   "tris": 488,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 2.9881
+  },
+  "RightUpperLeg": {
+   "verts": 110,
+   "tris": 196,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.1329
+  },
+  "RightLowerLeg": {
+   "verts": 48,
+   "tris": 88,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.5853
+  },
+  "RightFoot": {
+   "verts": 88,
+   "tris": 164,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.2023
+  },
+  "LeftUpperLeg": {
+   "verts": 24,
+   "tris": 44,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.0965
+  },
+  "LeftLowerLeg": {
+   "verts": 48,
+   "tris": 88,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.5853
+  },
+  "LeftFoot": {
+   "verts": 88,
+   "tris": 164,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.2023
+  },
+  "RightUpperArm": {
+   "verts": 96,
+   "tris": 180,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.5158
+  },
+  "RightLowerArm": {
+   "verts": 40,
+   "tris": 76,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.4035
+  },
+  "LeftUpperArm": {
+   "verts": 96,
+   "tris": 180,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.5158
+  },
+  "LeftLowerArm": {
+   "verts": 71,
+   "tris": 138,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.3844
+  },
+  "RightHand": {
+   "verts": 66,
+   "tris": 128,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.3153
+  },
+  "LeftHand": {
+   "verts": 179,
+   "tris": 354,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.3546
+  },
+  "Head": {
+   "verts": 1758,
+   "tris": 3288,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 6.2091
+  },
+  "FishingRod": {
+   "verts": 1126,
+   "tris": 2084,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.2048
+  },
+  "Bucket": {
+   "verts": 306,
+   "tris": 588,
+   "open_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.2792
+  }
+ },
+ "rod_vs_body": {
+  "LeftHand": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.0062
+  },
+  "LeftLowerArm": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.0062
+  },
+  "LeftUpperArm": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.2426
+  },
+  "UpperTorso": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.6562
+  },
+  "Head": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 1.1627
+  },
+  "LeftUpperLeg": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.9217
+  },
+  "LeftFoot": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.815
+  },
+  "RightHand": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 3.7988
+  },
+  "Bucket": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.5043
+  }
+ },
+ "bucket_vs_body": {
+  "LeftFoot": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 1.2175
+  },
+  "LeftLowerLeg": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 1.1888
+  },
+  "LeftUpperLeg": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 1.207
+  },
+  "RightFoot": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 2.5232
+  },
+  "LowerTorso": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 1.361
+  },
+  "FishingRod": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.438
+  }
+ },
+ "hand_vs_body": {
+  "LeftLowerArm": {
+   "overlapping_triangle_pairs": 45,
+   "min_distance": 0.0
+  },
+  "UpperTorso": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 0.3855
+  },
+  "Head": {
+   "overlapping_triangle_pairs": 0,
+   "min_distance": 1.1612
+  },
+  "LeftUpperArm": {
+   "overlapping_triangle_pairs": 29,
+   "min_distance": 0.0006
+  }
+ },
+ "grip_clearance_h3.10_3.90": [
+  0.0102,
+  0.0109,
+  0.0115,
+  0.012,
+  0.0127,
+  0.0134,
+  0.0138,
+  0.0146,
+  0.0153,
+  0.0157,
+  0.0161,
+  0.0169,
+  0.0171,
+  0.0177,
+  0.0185,
+  0.0187,
+  0.0195
+ ]
+}

@@ -1,0 +1,606 @@
+{
+ "asset": "FishermanDad_Redesign (review)",
+ "studio_imported": "2026-10-16 FBX -> 3D Importer (Upload to Roblox unchecked in the dialog; Studio still produced rbxassetid ids)",
+ "frame": "Roblox studs; soles Y=0; HRP (0,2.92,0)",
+ "pose": "HoldRod (left arm built in pose; rest == pose)",
+ "MeshParts": {
+  "Head": {
+   "MeshId": "rbxassetid://136406887308888",
+   "Size": [
+    2.8,
+    2.18,
+    2.18
+   ],
+   "Position": [
+    0.0,
+    5.31,
+    -0.06
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "LeftFoot": {
+   "MeshId": "rbxassetid://106156479774617",
+   "Size": [
+    1.26,
+    0.72,
+    1.55
+   ],
+   "Position": [
+    -0.66,
+    0.36,
+    -0.16
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "LeftHand": {
+   "MeshId": "rbxassetid://97940023152820",
+   "Size": [
+    0.73,
+    0.8,
+    0.71
+   ],
+   "Position": [
+    -2.235,
+    3.5,
+    -0.665
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "LeftLowerArm": {
+   "MeshId": "rbxassetid://115457837301930",
+   "Size": [
+    0.7884,
+    0.9268,
+    1.1132
+   ],
+   "Position": [
+    -2.056,
+    3.2629,
+    -0.134
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "LeftLowerLeg": {
+   "MeshId": "rbxassetid://139749000461418",
+   "Size": [
+    1.1,
+    0.4185,
+    1.0523
+   ],
+   "Position": [
+    -0.66,
+    0.8198,
+    0.0057
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "LeftUpperArm": {
+   "MeshId": "rbxassetid://80705347793063",
+   "Size": [
+    1.2467,
+    1.5173,
+    1.1558
+   ],
+   "Position": [
+    -1.8112,
+    3.6788,
+    0.0954
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "LeftUpperLeg": {
+   "MeshId": "rbxassetid://124252425654878",
+   "Size": [
+    1.12,
+    1.0505,
+    1.0199
+   ],
+   "Position": [
+    -0.66,
+    1.4702,
+    0.0207
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "LowerTorso": {
+   "MeshId": "rbxassetid://74769569678817",
+   "Size": [
+    2.77,
+    0.73,
+    1.6927
+   ],
+   "Position": [
+    0.0,
+    1.915,
+    -0.1814
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "RightFoot": {
+   "MeshId": "rbxassetid://136967344547519",
+   "Size": [
+    1.26,
+    0.72,
+    1.55
+   ],
+   "Position": [
+    0.66,
+    0.36,
+    -0.16
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "RightHand": {
+   "MeshId": "rbxassetid://107655116827912",
+   "Size": [
+    0.76,
+    0.7,
+    0.66
+   ],
+   "Position": [
+    2.06,
+    1.89,
+    -0.12
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "RightLowerArm": {
+   "MeshId": "rbxassetid://77597670293943",
+   "Size": [
+    0.8417,
+    1.0546,
+    0.6995
+   ],
+   "Position": [
+    1.9279,
+    2.6211,
+    -0.0313
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "RightLowerLeg": {
+   "MeshId": "rbxassetid://118613139433321",
+   "Size": [
+    1.1,
+    0.4185,
+    1.0523
+   ],
+   "Position": [
+    0.66,
+    0.8198,
+    0.0057
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "RightUpperArm": {
+   "MeshId": "rbxassetid://108818086082623",
+   "Size": [
+    1.1388,
+    1.3363,
+    0.9473
+   ],
+   "Position": [
+    1.7352,
+    3.6138,
+    -0.016
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "RightUpperLeg": {
+   "MeshId": "rbxassetid://108017010156922",
+   "Size": [
+    1.12,
+    1.0505,
+    1.1614
+   ],
+   "Position": [
+    0.66,
+    1.4702,
+    -0.05
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "UpperTorso": {
+   "MeshId": "rbxassetid://121041854916481",
+   "Size": [
+    3.0292,
+    2.31,
+    2.0079
+   ],
+   "Position": [
+    0.0,
+    3.275,
+    -0.2797
+   ],
+   "TextureID": "",
+   "ColorMap": "rbxassetid://74175639299471",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "HumanoidRootPart": {
+   "MeshId": "",
+   "Size": [
+    2.0,
+    2.0,
+    1.0
+   ],
+   "Position": [
+    0.0,
+    2.92,
+    0.0
+   ],
+   "TextureID": "",
+   "ColorMap": "",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "FishingRod": {
+   "MeshId": "rbxassetid://75949606945072",
+   "Size": [
+    1.1219,
+    7.2529,
+    0.5352
+   ],
+   "Position": [
+    -2.666,
+    3.7265,
+    -0.6775
+   ],
+   "TextureID": "rbxassetid://74175639299471",
+   "ColorMap": "",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  },
+  "Bucket": {
+   "MeshId": "rbxassetid://87994940468968",
+   "Size": [
+    1.22,
+    1.16,
+    1.1756
+   ],
+   "Position": [
+    -3.0,
+    0.58,
+    0.092
+   ],
+   "TextureID": "rbxassetid://74175639299471",
+   "ColorMap": "",
+   "Color": [
+    0.6392,
+    0.6353,
+    0.6471
+   ]
+  }
+ },
+ "Joints": {
+  "Neck": {
+   "child": "Head",
+   "link": "UpperTorso->Head",
+   "Attachment0_pos": [
+    -2.5670868808447267e-07,
+    1.0250005722045898,
+    0.2796623408794403
+   ],
+   "Attachment1_pos": [
+    -2.5670868808447267e-07,
+    -1.0099997520446777,
+    0.059998780488967896
+   ]
+  },
+  "LeftAnkle": {
+   "child": "LeftFoot",
+   "link": "LeftLowerLeg->LeftFoot",
+   "Attachment0_pos": [
+    -5.960464477539063e-08,
+    -0.369811475276947,
+    -0.005660613067448139
+   ],
+   "Attachment1_pos": [
+    -1.1920928955078125e-07,
+    0.08999994397163391,
+    0.1599997729063034
+   ]
+  },
+  "LeftWrist": {
+   "child": "LeftHand",
+   "link": "LeftLowerArm->LeftHand",
+   "Attachment0_pos": [
+    0.07603943347930908,
+    0.17712020874023438,
+    -0.43598729372024536
+   ],
+   "Attachment1_pos": [
+    0.2549997568130493,
+    -0.06000089645385742,
+    0.09499943256378174
+   ]
+  },
+  "LeftElbow": {
+   "child": "LeftLowerArm",
+   "link": "LeftUpperArm->LeftLowerArm",
+   "Attachment0_pos": [
+    -0.2640063762664795,
+    -0.5372264385223389,
+    0.16145825386047363
+   ],
+   "Attachment1_pos": [
+    -0.01920604705810547,
+    -0.12132954597473145,
+    0.3909069895744324
+   ]
+  },
+  "LeftKnee": {
+   "child": "LeftLowerLeg",
+   "link": "LeftUpperLeg->LeftLowerLeg",
+   "Attachment0_pos": [
+    -5.960464477539063e-08,
+    -0.4901595711708069,
+    -0.010745014064013958
+   ],
+   "Attachment1_pos": [
+    -5.960464477539063e-08,
+    0.16018855571746826,
+    0.004339222796261311
+   ]
+  },
+  "LeftShoulder": {
+   "child": "LeftUpperArm",
+   "link": "UpperTorso->LeftUpperArm",
+   "Attachment0_pos": [
+    -1.6500002145767212,
+    0.8750004768371582,
+    0.2796624004840851
+   ],
+   "Attachment1_pos": [
+    0.1612389087677002,
+    0.471224308013916,
+    -0.09543687850236893
+   ]
+  },
+  "LeftHip": {
+   "child": "LeftUpperLeg",
+   "link": "LowerTorso->LeftUpperLeg",
+   "Attachment0_pos": [
+    -0.660000205039978,
+    0.004999995231628418,
+    0.2013629823923111
+   ],
+   "Attachment1_pos": [
+    -1.7881393432617188e-07,
+    0.4498404264450073,
+    -0.0007453076541423798
+   ]
+  },
+  "Root": {
+   "child": "LowerTorso",
+   "link": "HumanoidRootPart->LowerTorso",
+   "Attachment0_pos": [
+    -1.678517378422839e-07,
+    -1.0,
+    -6.256153710637591e-07
+   ],
+   "Attachment1_pos": [
+    -1.678517378422839e-07,
+    0.004999995231628418,
+    0.18136298656463623
+   ]
+  },
+  "RightAnkle": {
+   "child": "RightFoot",
+   "link": "RightLowerLeg->RightFoot",
+   "Attachment0_pos": [
+    -5.960464477539063e-08,
+    -0.36981135606765747,
+    -0.005660613067448139
+   ],
+   "Attachment1_pos": [
+    0.0,
+    0.09000006318092346,
+    0.1599997729063034
+   ]
+  },
+  "RightWrist": {
+   "child": "RightHand",
+   "link": "RightLowerArm->RightHand",
+   "Attachment0_pos": [
+    0.1021040678024292,
+    -0.44109177589416504,
+    -0.04867091774940491
+   ],
+   "Attachment1_pos": [
+    -0.02999734878540039,
+    0.28999996185302734,
+    0.039999715983867645
+   ]
+  },
+  "RightElbow": {
+   "child": "RightLowerArm",
+   "link": "RightUpperArm->RightLowerArm",
+   "Attachment0_pos": [
+    0.14483702182769775,
+    -0.5637590885162354,
+    -0.013961881399154663
+   ],
+   "Attachment1_pos": [
+    -0.0478973388671875,
+    0.4289078712463379,
+    0.0013285726308822632
+   ]
+  },
+  "RightKnee": {
+   "child": "RightLowerLeg",
+   "link": "RightUpperLeg->RightLowerLeg",
+   "Attachment0_pos": [
+    -5.960464477539063e-08,
+    -0.49015945196151733,
+    0.059960875660181046
+   ],
+   "Attachment1_pos": [
+    -5.960464477539063e-08,
+    0.1601886749267578,
+    0.004339222796261311
+   ]
+  },
+  "RightShoulder": {
+   "child": "RightUpperArm",
+   "link": "UpperTorso->RightUpperArm",
+   "Attachment0_pos": [
+    1.649999737739563,
+    0.8750004768371582,
+    0.2796624004840851
+   ],
+   "Attachment1_pos": [
+    -0.08516454696655273,
+    0.5362415313720703,
+    0.016037512570619583
+   ]
+  },
+  "RightHip": {
+   "child": "RightUpperLeg",
+   "link": "LowerTorso->RightUpperLeg",
+   "Attachment0_pos": [
+    0.6599998474121094,
+    0.005000114440917969,
+    0.2013629823923111
+   ],
+   "Attachment1_pos": [
+    -1.7881393432617188e-07,
+    0.4498405456542969,
+    0.0699605792760849
+   ]
+  },
+  "Waist": {
+   "child": "UpperTorso",
+   "link": "LowerTorso->UpperTorso",
+   "Attachment0_pos": [
+    -1.9058167310959107e-07,
+    0.2650001049041748,
+    0.18136289715766907
+   ],
+   "Attachment1_pos": [
+    -7.137238355880982e-08,
+    -1.0949995517730713,
+    0.2796630263328552
+   ]
+  }
+ },
+ "mounts": {
+  "RodGrip": "WeldConstraint Part0=LeftHand Part1=FishingRod",
+  "BucketMount": "WeldConstraint Part0=HumanoidRootPart Part1=Bucket"
+ },
+ "rel": {
+  "rod_rel_LeftHand": [
+   -0.431,
+   0.2265,
+   -0.0125
+  ],
+  "bucket_rel_HRP": [
+   -3.0,
+   -2.34,
+   0.092
+  ]
+ },
+ "checks_edit": {
+  "worst_joint_error": 2.384e-07,
+  "originalposition_checked": 30,
+  "originalposition_bad": 0,
+  "soles_y": -5.96e-08,
+  "parts": 18,
+  "meshparts": 17,
+  "welds": 2,
+  "anchored_parts": 0
+ }
+}

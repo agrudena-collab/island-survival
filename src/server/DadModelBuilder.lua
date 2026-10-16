@@ -239,13 +239,15 @@ end
 
 -- Moves the model to the given position (feet at the CFrame's Y) and freezes it there.
 -- The rig's parts are unanchored by default, so without this physics can topple it.
+-- Anchor FIRST, then pivot: pivoting an unanchored Humanoid rig only moves its HumanoidRootPart and the
+-- limbs/props are left behind (verified in Studio on the final dads).
 function DadModelBuilder.PlaceAt(model: Model, cframe: CFrame)
-	model:PivotTo(cframe * CFrame.new(0, model:GetAttribute("FeetOffset") or 0, 0))
 	for _, descendant in ipairs(model:GetDescendants()) do
 		if descendant:IsA("BasePart") then
 			descendant.Anchored = true
 		end
 	end
+	model:PivotTo(cframe * CFrame.new(0, model:GetAttribute("FeetOffset") or 0, 0))
 end
 
 -- Convenience for visual review: builds every catalog dad in a grid, spaced apart.

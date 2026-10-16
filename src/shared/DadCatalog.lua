@@ -44,7 +44,9 @@ local DadCatalog: { DadDefinition } = {
 	},
 	{
 		Id = "GardenerDad",
-		DisplayName = "Gardener Dad",
+		-- Third dad slot (Uncommon). Id is kept because saved OwnedDads reference it; the final art is Fisherman Dad (ServerStorage.FishermanDadFinal, assets/characters/FishermanDad_Final).
+		ModelAsset = "FishermanDadFinal",
+		DisplayName = "Fisherman Dad",
 		Rarity = "Uncommon",
 		Cost = 150,
 		IncomePerSecond = 3,

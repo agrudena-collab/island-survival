@@ -30,6 +30,9 @@
       },
       "OfficeDadFinal": {
         "$path": "assets/characters/OfficeDad_Final/model/OfficeDad_Final.rbxm"
+      },
+      "FishermanDadFinal": {
+        "$path": "assets/characters/FishermanDad_Final/model/FishermanDad_Final.rbxm"
       }
     }
   }

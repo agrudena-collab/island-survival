@@ -1,0 +1,930 @@
+{
+ "asset": "FishermanDad_Redesign",
+ "character": "Fisherman Dad (03, Uncommon)",
+ "units": "studs",
+ "neutral_height": 6.4,
+ "built_height": 6.4,
+ "tables": {
+  "UpperTorso": [
+   [
+    2.12,
+    2.6,
+    -0.93,
+    0.55,
+    0.13
+   ],
+   [
+    2.45,
+    2.82,
+    -1.02,
+    0.62,
+    0.16
+   ],
+   [
+    2.95,
+    2.9,
+    -1.04,
+    0.65,
+    0.17
+   ],
+   [
+    3.5,
+    2.78,
+    -0.92,
+    0.62,
+    0.14
+   ],
+   [
+    3.98,
+    2.85,
+    -0.72,
+    0.55,
+    0.12
+   ],
+   [
+    4.25,
+    2.48,
+    -0.58,
+    0.49,
+    0.1
+   ]
+  ],
+  "LowerTorso": [
+   [
+    1.55,
+    2.24,
+    -0.68,
+    0.48,
+    0.12
+   ],
+   [
+    1.92,
+    2.52,
+    -0.82,
+    0.56,
+    0.14
+   ],
+   [
+    2.18,
+    2.62,
+    -0.9,
+    0.56,
+    0.12
+   ]
+  ],
+  "Head": [
+   [
+    4.22,
+    1.4,
+    -0.58,
+    0.5,
+    0.1
+   ],
+   [
+    4.4,
+    1.72,
+    -0.7,
+    0.62,
+    0.12
+   ],
+   [
+    4.7,
+    1.8,
+    -0.7,
+    0.66,
+    0.14
+   ],
+   [
+    5.4,
+    1.8,
+    -0.7,
+    0.66,
+    0.14
+   ],
+   [
+    5.68,
+    1.72,
+    -0.64,
+    0.62,
+    0.12
+   ],
+   [
+    5.78,
+    1.56,
+    -0.56,
+    0.54,
+    0.1
+   ]
+  ],
+  "Belt": [
+   [
+    2.02,
+    2.648461538461538,
+    -0.8957692307692308,
+    0.6050000000000001,
+    0.16230769230769232
+   ],
+   [
+    2.12,
+    2.69,
+    -0.9750000000000001,
+    0.6050000000000001,
+    0.16
+   ],
+   [
+    2.24,
+    2.77,
+    -1.0077272727272728,
+    0.6204545454545455,
+    0.17090909090909093
+   ]
+  ]
+ },
+ "joints_built": {
+  "Root": [
+   0,
+   0,
+   1.92
+  ],
+  "Waist": [
+   0,
+   0,
+   2.18
+  ],
+  "Neck": [
+   0,
+   0,
+   4.3
+  ],
+  "RightShoulder": [
+   -1.649999976158142,
+   0.0,
+   4.150000095367432
+  ],
+  "RightElbow": [
+   -1.8799999952316284,
+   -0.029999999329447746,
+   3.049999952316284
+  ],
+  "RightWrist": [
+   -2.0299999713897705,
+   -0.07999999821186066,
+   2.180000066757202
+  ],
+  "LeftShoulder": [
+   1.649999976158142,
+   0.0,
+   4.150000095367432
+  ],
+  "LeftElbow": [
+   2.075244903564453,
+   0.25689518451690674,
+   3.141549825668335
+  ],
+  "LeftWrist": [
+   1.9800000190734863,
+   -0.5699999928474426,
+   3.440000057220459
+  ],
+  "RightHip": [
+   -0.66,
+   0.02,
+   1.92
+  ],
+  "RightKnee": [
+   -0.66,
+   0.01,
+   0.98
+  ],
+  "RightAnkle": [
+   -0.66,
+   0,
+   0.45
+  ],
+  "LeftHip": [
+   0.66,
+   0.02,
+   1.92
+  ],
+  "LeftKnee": [
+   0.66,
+   0.01,
+   0.98
+  ],
+  "LeftAnkle": [
+   0.66,
+   0,
+   0.45
+  ]
+ },
+ "joints_bind_neutral": {
+  "RightShoulder": [
+   -1.65,
+   0.0,
+   4.15
+  ],
+  "RightElbow": [
+   -1.88,
+   -0.03,
+   3.05
+  ],
+  "RightWrist": [
+   -2.03,
+   -0.08,
+   2.18
+  ],
+  "LeftShoulder": [
+   1.65,
+   0.0,
+   4.15
+  ],
+  "LeftElbow": [
+   1.88,
+   -0.03,
+   3.05
+  ],
+  "LeftWrist": [
+   2.03,
+   -0.08,
+   2.18
+  ]
+ },
+ "left_arm_ik": {
+  "shoulder": [
+   1.65,
+   0.0,
+   4.15
+  ],
+  "wrist_target": [
+   1.98,
+   -0.57,
+   3.44
+  ],
+  "pole": [
+   2.25,
+   0.65,
+   2.7
+  ],
+  "elbow": [
+   2.0752449,
+   0.25689518,
+   3.14154983
+  ],
+  "upper_len": 1.1241887232,
+  "lower_len": 0.8842509639,
+  "check_len_upper": 1.1241887433,
+  "check_len_lower": 0.8842509622
+ },
+ "grip_center": [
+  2.24,
+  -0.65,
+  3.5
+ ],
+ "rod_axis": [
+  [
+   2.2,
+   -0.65,
+   0.1,
+   0.18
+  ],
+  [
+   2.2,
+   -0.65,
+   2.2,
+   0.15
+  ],
+  [
+   2.22,
+   -0.65,
+   2.7,
+   0.115
+  ],
+  [
+   2.24,
+   -0.65,
+   3.5,
+   0.095
+  ],
+  [
+   2.3,
+   -0.65,
+   4.2,
+   0.08
+  ],
+  [
+   2.42,
+   -0.65,
+   5.2,
+   0.064
+  ],
+  [
+   2.67,
+   -0.65,
+   6.35,
+   0.043
+  ],
+  [
+   2.88,
+   -0.65,
+   7.35,
+   0.028
+  ]
+ ],
+ "rod_origin": [
+  2.2,
+  -0.65,
+  0.1
+ ],
+ "bucket_origin": [
+  3.0,
+  0.1,
+  0.0
+ ],
+ "palette": [
+  {
+   "index": 0,
+   "name": "SKIN",
+   "hex": "#F2A06B",
+   "use": "Лицо, шея, руки"
+  },
+  {
+   "index": 1,
+   "name": "SKIN_LIGHT",
+   "hex": "#FFBF88",
+   "use": "Широкие верхние грани кожи"
+  },
+  {
+   "index": 2,
+   "name": "SKIN_SHADOW",
+   "hex": "#C77D4F",
+   "use": "Уши/нижние плоскости"
+  },
+  {
+   "index": 3,
+   "name": "NOSE",
+   "hex": "#EE8D56",
+   "use": "Тёплый крупный нос"
+  },
+  {
+   "index": 4,
+   "name": "SHIRT",
+   "hex": "#E6B341",
+   "use": "Жёлтая рубашка"
+  },
+  {
+   "index": 5,
+   "name": "SHIRT_LIGHT",
+   "hex": "#F4C758",
+   "use": "Плечи/воротник/верхние грани"
+  },
+  {
+   "index": 6,
+   "name": "SHIRT_SHADOW",
+   "hex": "#B88429",
+   "use": "Манжеты и подмышки"
+  },
+  {
+   "index": 7,
+   "name": "SHIRT_SEAM",
+   "hex": "#A97424",
+   "use": "Планка и редкие швы"
+  },
+  {
+   "index": 8,
+   "name": "VEST",
+   "hex": "#65703A",
+   "use": "Оливковый жилет"
+  },
+  {
+   "index": 9,
+   "name": "VEST_LIGHT",
+   "hex": "#7D8547",
+   "use": "Верх клапанов и полей панамы"
+  },
+  {
+   "index": 10,
+   "name": "VEST_DARK",
+   "hex": "#444D29",
+   "use": "Боковые грани карманов/лента панамы"
+  },
+  {
+   "index": 11,
+   "name": "VEST_SEAM",
+   "hex": "#394022",
+   "use": "Тонкие швы"
+  },
+  {
+   "index": 12,
+   "name": "PANTS",
+   "hex": "#5B6335",
+   "use": "Брюки"
+  },
+  {
+   "index": 13,
+   "name": "PANTS_LIGHT",
+   "hex": "#707A42",
+   "use": "Широкие фасеты брюк"
+  },
+  {
+   "index": 14,
+   "name": "PANTS_DARK",
+   "hex": "#3D4428",
+   "use": "Внутренние стороны/швы"
+  },
+  {
+   "index": 15,
+   "name": "CUFF",
+   "hex": "#889052",
+   "use": "Узкий край отворота"
+  },
+  {
+   "index": 16,
+   "name": "BOOT",
+   "hex": "#424A2D",
+   "use": "Резиновые сапоги"
+  },
+  {
+   "index": 17,
+   "name": "BOOT_LIGHT",
+   "hex": "#5A6340",
+   "use": "Верх носка и голенище"
+  },
+  {
+   "index": 18,
+   "name": "BOOT_SOLE",
+   "hex": "#2D3423",
+   "use": "Подошва"
+  },
+  {
+   "index": 19,
+   "name": "HAIR",
+   "hex": "#A6A29A",
+   "use": "Седые волосы и усы"
+  },
+  {
+   "index": 20,
+   "name": "HAIR_LIGHT",
+   "hex": "#C7C3BA",
+   "use": "Верхние пучки усов"
+  },
+  {
+   "index": 21,
+   "name": "HAIR_SHADOW",
+   "hex": "#7E7E79",
+   "use": "Между пучками/затылок"
+  },
+  {
+   "index": 22,
+   "name": "BROW",
+   "hex": "#3B3025",
+   "use": "Брови"
+  },
+  {
+   "index": 23,
+   "name": "EYE_WHITE",
+   "hex": "#FFF7E5",
+   "use": "Белки"
+  },
+  {
+   "index": 24,
+   "name": "IRIS",
+   "hex": "#4E3821",
+   "use": "Радужка"
+  },
+  {
+   "index": 25,
+   "name": "PUPIL",
+   "hex": "#151819",
+   "use": "Зрачок"
+  },
+  {
+   "index": 26,
+   "name": "TEETH",
+   "hex": "#FFF7DE",
+   "use": "Верхняя полоса зубов"
+  },
+  {
+   "index": 27,
+   "name": "MOUTH",
+   "hex": "#6D3828",
+   "use": "Полость улыбки"
+  },
+  {
+   "index": 28,
+   "name": "LIP",
+   "hex": "#BF774C",
+   "use": "Нижний край улыбки"
+  },
+  {
+   "index": 29,
+   "name": "BELT",
+   "hex": "#272923",
+   "use": "Ремень"
+  },
+  {
+   "index": 30,
+   "name": "SILVER",
+   "hex": "#AEB7B6",
+   "use": "Пряжка и мелкая фурнитура"
+  },
+  {
+   "index": 31,
+   "name": "SILVER_LIGHT",
+   "hex": "#D4D9D5",
+   "use": "Светлые грани металла"
+  },
+  {
+   "index": 32,
+   "name": "BUTTON",
+   "hex": "#D5B04D",
+   "use": "Пуговицы и кнопки"
+  },
+  {
+   "index": 33,
+   "name": "ROD",
+   "hex": "#222427",
+   "use": "Удилище"
+  },
+  {
+   "index": 34,
+   "name": "ROD_LIGHT",
+   "hex": "#454848",
+   "use": "Фасеты/обоймы"
+  },
+  {
+   "index": 35,
+   "name": "REEL",
+   "hex": "#191D1F",
+   "use": "Корпус катушки"
+  },
+  {
+   "index": 36,
+   "name": "REEL_LIGHT",
+   "hex": "#343A3D",
+   "use": "Грани корпуса катушки"
+  },
+  {
+   "index": 37,
+   "name": "GOLD",
+   "hex": "#CF9B31",
+   "use": "Шпуля"
+  },
+  {
+   "index": 38,
+   "name": "GOLD_LIGHT",
+   "hex": "#EDC253",
+   "use": "Верх шпули"
+  },
+  {
+   "index": 39,
+   "name": "CORK",
+   "hex": "#A36B2B",
+   "use": "Пробковая рукоять"
+  },
+  {
+   "index": 40,
+   "name": "CORK_LIGHT",
+   "hex": "#C38D43",
+   "use": "Широкие светлые грани пробки"
+  },
+  {
+   "index": 41,
+   "name": "CORK_DARK",
+   "hex": "#795021",
+   "use": "Несколько крупных отметин пробки"
+  },
+  {
+   "index": 42,
+   "name": "LINE",
+   "hex": "#C2D471",
+   "use": "Леска и нижний стержень поплавка"
+  },
+  {
+   "index": 43,
+   "name": "FLOAT_RED",
+   "hex": "#E94F24",
+   "use": "Красные зоны поплавка/приманка"
+  },
+  {
+   "index": 44,
+   "name": "FLOAT_WHITE",
+   "hex": "#FFF3D9",
+   "use": "Светлая полоса поплавка"
+  },
+  {
+   "index": 45,
+   "name": "BUCKET",
+   "hex": "#406C84",
+   "use": "Ведро"
+  },
+  {
+   "index": 46,
+   "name": "BUCKET_LIGHT",
+   "hex": "#5E8BA1",
+   "use": "Светлая сторона/обод"
+  },
+  {
+   "index": 47,
+   "name": "BUCKET_DARK",
+   "hex": "#274C62",
+   "use": "Внутренние стенки и низ ведра"
+  },
+  {
+   "index": 48,
+   "name": "WIRE",
+   "hex": "#A7B2B3",
+   "use": "Дужка ведра/скоба катушки"
+  }
+ ],
+ "counts": {
+  "body_tris": 6840,
+  "rod_tris": 2084,
+  "bucket_tris": 588
+ },
+ "deviations_from_prompt": [
+  "Left arm is built directly in the HoldRod pose (rest == pose); the neutral bind joints are stored in joints_bind_neutral.",
+  "Forearm end is buried 0.16 inside the grip hand (the prescribed wrist lies only .10 inside the hand's inner face).",
+  "Rod shaft uses 8-sided rings throughout (prompt: 8..12 low, 8 top).",
+  "Guide-ring centre lies .025..0.025 from the rod surface for H4.2..6.35 (prescribed offsets): rims overlap the rod wraps; only the top ring has a visible foot.",
+  "The lure centre (-.85,-.85,6.00) lies outside the crown ellipse; it was projected radially onto the crown surface.",
+  "Fishing line runs spool top -> vertical to H3.98 -> guides (so it does not cross the fist) and has dia .012.",
+  "Channel rings are horizontal (not normal) sections: radius .065/cos(tilt) in X, tilt <= 5 deg."
+ ],
+ "measured": {
+  "bounds_neutral": {
+   "min": [
+    -2.44,
+    -1.2836,
+    0.0
+   ],
+   "max": [
+    2.6,
+    1.03,
+    6.4
+   ],
+   "height": 6.4
+  },
+  "head_bounds": {
+   "min": [
+    -1.4,
+    -1.15,
+    4.22
+   ],
+   "max": [
+    1.4,
+    1.03,
+    6.4
+   ]
+  },
+  "rod_bounds": {
+   "min": [
+    2.105,
+    -0.9452,
+    0.1
+   ],
+   "max": [
+    3.2269,
+    -0.41,
+    7.3529
+   ]
+  },
+  "bucket_bounds": {
+   "min": [
+    2.39,
+    -0.4956,
+    0.0
+   ],
+   "max": [
+    3.61,
+    0.68,
+    1.16
+   ]
+  },
+  "feet_min_h": 0.0,
+  "tris_body": 6840,
+  "tris_rod": 2084,
+  "tris_bucket": 588,
+  "audit": {
+   "UpperTorso": {
+    "verts": 704,
+    "tris": 1264,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 10.2578
+   },
+   "LowerTorso": {
+    "verts": 276,
+    "tris": 488,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 2.9881
+   },
+   "RightUpperLeg": {
+    "verts": 110,
+    "tris": 196,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.1329
+   },
+   "RightLowerLeg": {
+    "verts": 48,
+    "tris": 88,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.5853
+   },
+   "RightFoot": {
+    "verts": 88,
+    "tris": 164,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.2023
+   },
+   "LeftUpperLeg": {
+    "verts": 24,
+    "tris": 44,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.0965
+   },
+   "LeftLowerLeg": {
+    "verts": 48,
+    "tris": 88,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.5853
+   },
+   "LeftFoot": {
+    "verts": 88,
+    "tris": 164,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.2023
+   },
+   "RightUpperArm": {
+    "verts": 96,
+    "tris": 180,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.5158
+   },
+   "RightLowerArm": {
+    "verts": 40,
+    "tris": 76,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.4035
+   },
+   "LeftUpperArm": {
+    "verts": 96,
+    "tris": 180,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.5158
+   },
+   "LeftLowerArm": {
+    "verts": 71,
+    "tris": 138,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.3844
+   },
+   "RightHand": {
+    "verts": 66,
+    "tris": 128,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.3153
+   },
+   "LeftHand": {
+    "verts": 179,
+    "tris": 354,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.3546
+   },
+   "Head": {
+    "verts": 1758,
+    "tris": 3288,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 6.2091
+   },
+   "FishingRod": {
+    "verts": 1126,
+    "tris": 2084,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.2048
+   },
+   "Bucket": {
+    "verts": 306,
+    "tris": 588,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.2792
+   }
+  },
+  "rod_vs_body": {
+   "LeftHand": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.0062
+   },
+   "LeftLowerArm": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.0062
+   },
+   "LeftUpperArm": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.2426
+   },
+   "UpperTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.6562
+   },
+   "Head": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 1.1627
+   },
+   "LeftUpperLeg": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.9217
+   },
+   "LeftFoot": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.815
+   },
+   "RightHand": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 3.7988
+   },
+   "Bucket": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.5043
+   }
+  },
+  "bucket_vs_body": {
+   "LeftFoot": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 1.2175
+   },
+   "LeftLowerLeg": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 1.1888
+   },
+   "LeftUpperLeg": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 1.207
+   },
+   "RightFoot": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 2.5232
+   },
+   "LowerTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 1.361
+   },
+   "FishingRod": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.438
+   }
+  },
+  "hand_vs_body": {
+   "LeftLowerArm": {
+    "overlapping_triangle_pairs": 45,
+    "min_distance": 0.0
+   },
+   "UpperTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.3855
+   },
+   "Head": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 1.1612
+   },
+   "LeftUpperArm": {
+    "overlapping_triangle_pairs": 29,
+    "min_distance": 0.0006
+   }
+  },
+  "grip_clearance_h3.10_3.90": [
+   0.0102,
+   0.0109,
+   0.0115,
+   0.012,
+   0.0127,
+   0.0134,
+   0.0138,
+   0.0146,
+   0.0153,
+   0.0157,
+   0.0161,
+   0.0169,
+   0.0171,
+   0.0177,
+   0.0185,
+   0.0187,
+   0.0195
+  ]
+ }
+}
