@@ -19,6 +19,15 @@
         "$className": "Folder",
         "$path": "src/shared"
       }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "DadBaseRig": {
+        "$path": "assets/dads/models/DadBaseRig.rbxm"
+      },
+      "RegularDadFinal": {
+        "$path": "assets/characters/RegularDad_Final/model/RegularDad_Final.rbxm"
+      }
     }
   }
 }

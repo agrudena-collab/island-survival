@@ -1,0 +1,573 @@
+{
+ "atlas": "RegularDad_Palette.png",
+ "size": [
+  256,
+  128
+ ],
+ "tile_px": 32,
+ "columns": 8,
+ "inset_px": 6,
+ "row0_is_top_of_png": true,
+ "tiles": [
+  {
+   "index": 0,
+   "name": "SKIN",
+   "hex": "#EEA16D",
+   "use": "Main face, hands, exposed arms",
+   "col": 0,
+   "row": 0,
+   "uv_patch": [
+    0.0234375,
+    0.796875,
+    0.1015625,
+    0.953125
+   ],
+   "pixel_rect": [
+    6,
+    6,
+    26,
+    26
+   ]
+  },
+  {
+   "index": 1,
+   "name": "SKIN_LIGHT",
+   "hex": "#FFC18A",
+   "use": "Upward and broad lit skin facets",
+   "col": 1,
+   "row": 0,
+   "uv_patch": [
+    0.1484375,
+    0.796875,
+    0.2265625,
+    0.953125
+   ],
+   "pixel_rect": [
+    38,
+    6,
+    58,
+    26
+   ]
+  },
+  {
+   "index": 2,
+   "name": "SKIN_DARK",
+   "hex": "#CD7D4C",
+   "use": "Under nose, inner ears, broad creases",
+   "col": 2,
+   "row": 0,
+   "uv_patch": [
+    0.2734375,
+    0.796875,
+    0.3515625,
+    0.953125
+   ],
+   "pixel_rect": [
+    70,
+    6,
+    90,
+    26
+   ]
+  },
+  {
+   "index": 3,
+   "name": "TEAL",
+   "hex": "#187B84",
+   "use": "Main polo",
+   "col": 3,
+   "row": 0,
+   "uv_patch": [
+    0.3984375,
+    0.796875,
+    0.4765625,
+    0.953125
+   ],
+   "pixel_rect": [
+    102,
+    6,
+    122,
+    26
+   ]
+  },
+  {
+   "index": 4,
+   "name": "TEAL_LIGHT",
+   "hex": "#258E96",
+   "use": "Shoulder/top-facing polo facets",
+   "col": 4,
+   "row": 0,
+   "uv_patch": [
+    0.5234375,
+    0.796875,
+    0.6015625,
+    0.953125
+   ],
+   "pixel_rect": [
+    134,
+    6,
+    154,
+    26
+   ]
+  },
+  {
+   "index": 5,
+   "name": "TEAL_DARK",
+   "hex": "#12616B",
+   "use": "Sleeve cuffs, underarm and hem shade",
+   "col": 5,
+   "row": 0,
+   "uv_patch": [
+    0.6484375,
+    0.796875,
+    0.7265625,
+    0.953125
+   ],
+   "pixel_rect": [
+    166,
+    6,
+    186,
+    26
+   ]
+  },
+  {
+   "index": 6,
+   "name": "JEANS",
+   "hex": "#28558F",
+   "use": "Main denim",
+   "col": 6,
+   "row": 0,
+   "uv_patch": [
+    0.7734375,
+    0.796875,
+    0.8515625,
+    0.953125
+   ],
+   "pixel_rect": [
+    198,
+    6,
+    218,
+    26
+   ]
+  },
+  {
+   "index": 7,
+   "name": "JEANS_LIGHT",
+   "hex": "#366AA8",
+   "use": "Broad front denim planes, cuffs",
+   "col": 7,
+   "row": 0,
+   "uv_patch": [
+    0.8984375,
+    0.796875,
+    0.9765625,
+    0.953125
+   ],
+   "pixel_rect": [
+    230,
+    6,
+    250,
+    26
+   ]
+  },
+  {
+   "index": 8,
+   "name": "JEANS_DARK",
+   "hex": "#1D3D68",
+   "use": "Inner legs, seams and pocket shadow",
+   "col": 0,
+   "row": 1,
+   "uv_patch": [
+    0.0234375,
+    0.546875,
+    0.1015625,
+    0.703125
+   ],
+   "pixel_rect": [
+    6,
+    38,
+    26,
+    58
+   ]
+  },
+  {
+   "index": 9,
+   "name": "HAIR",
+   "hex": "#52301D",
+   "use": "Side hair and eyebrows",
+   "col": 1,
+   "row": 1,
+   "uv_patch": [
+    0.1484375,
+    0.546875,
+    0.2265625,
+    0.703125
+   ],
+   "pixel_rect": [
+    38,
+    38,
+    58,
+    58
+   ]
+  },
+  {
+   "index": 10,
+   "name": "HAIR_DARK",
+   "hex": "#3A2317",
+   "use": "Mustache lower facets and hair recesses",
+   "col": 2,
+   "row": 1,
+   "uv_patch": [
+    0.2734375,
+    0.546875,
+    0.3515625,
+    0.703125
+   ],
+   "pixel_rect": [
+    70,
+    38,
+    90,
+    58
+   ]
+  },
+  {
+   "index": 11,
+   "name": "HAIR_LIGHT",
+   "hex": "#6C4227",
+   "use": "A few broad hair top planes",
+   "col": 3,
+   "row": 1,
+   "uv_patch": [
+    0.3984375,
+    0.546875,
+    0.4765625,
+    0.703125
+   ],
+   "pixel_rect": [
+    102,
+    38,
+    122,
+    58
+   ]
+  },
+  {
+   "index": 12,
+   "name": "BELT",
+   "hex": "#432B1D",
+   "use": "Belt leather",
+   "col": 4,
+   "row": 1,
+   "uv_patch": [
+    0.5234375,
+    0.546875,
+    0.6015625,
+    0.703125
+   ],
+   "pixel_rect": [
+    134,
+    38,
+    154,
+    58
+   ]
+  },
+  {
+   "index": 13,
+   "name": "GOLD",
+   "hex": "#D7A53D",
+   "use": "Buckle, polo button",
+   "col": 5,
+   "row": 1,
+   "uv_patch": [
+    0.6484375,
+    0.546875,
+    0.7265625,
+    0.703125
+   ],
+   "pixel_rect": [
+    166,
+    38,
+    186,
+    58
+   ]
+  },
+  {
+   "index": 14,
+   "name": "SHOE",
+   "hex": "#6C462D",
+   "use": "Shoe uppers",
+   "col": 6,
+   "row": 1,
+   "uv_patch": [
+    0.7734375,
+    0.546875,
+    0.8515625,
+    0.703125
+   ],
+   "pixel_rect": [
+    198,
+    38,
+    218,
+    58
+   ]
+  },
+  {
+   "index": 15,
+   "name": "SHOE_LIGHT",
+   "hex": "#855B3C",
+   "use": "Broad toe/vamp top planes",
+   "col": 7,
+   "row": 1,
+   "uv_patch": [
+    0.8984375,
+    0.546875,
+    0.9765625,
+    0.703125
+   ],
+   "pixel_rect": [
+    230,
+    38,
+    250,
+    58
+   ]
+  },
+  {
+   "index": 16,
+   "name": "SOLE",
+   "hex": "#3B291D",
+   "use": "Sole and heel",
+   "col": 0,
+   "row": 2,
+   "uv_patch": [
+    0.0234375,
+    0.296875,
+    0.1015625,
+    0.453125
+   ],
+   "pixel_rect": [
+    6,
+    70,
+    26,
+    90
+   ]
+  },
+  {
+   "index": 17,
+   "name": "EYE_WHITE",
+   "hex": "#F7F1E5",
+   "use": "Fitted eye whites",
+   "col": 1,
+   "row": 2,
+   "uv_patch": [
+    0.1484375,
+    0.296875,
+    0.2265625,
+    0.453125
+   ],
+   "pixel_rect": [
+    38,
+    70,
+    58,
+    90
+   ]
+  },
+  {
+   "index": 18,
+   "name": "EYE_BLACK",
+   "hex": "#171715",
+   "use": "Pupils and thin eyelid edge",
+   "col": 2,
+   "row": 2,
+   "uv_patch": [
+    0.2734375,
+    0.296875,
+    0.3515625,
+    0.453125
+   ],
+   "pixel_rect": [
+    70,
+    70,
+    90,
+    90
+   ]
+  },
+  {
+   "index": 19,
+   "name": "MUG",
+   "hex": "#EDE5D3",
+   "use": "Ivory ceramic",
+   "col": 3,
+   "row": 2,
+   "uv_patch": [
+    0.3984375,
+    0.296875,
+    0.4765625,
+    0.453125
+   ],
+   "pixel_rect": [
+    102,
+    70,
+    122,
+    90
+   ]
+  },
+  {
+   "index": 20,
+   "name": "MUG_INNER",
+   "hex": "#CEC3AE",
+   "use": "Inner walls and underside shade",
+   "col": 4,
+   "row": 2,
+   "uv_patch": [
+    0.5234375,
+    0.296875,
+    0.6015625,
+    0.453125
+   ],
+   "pixel_rect": [
+    134,
+    70,
+    154,
+    90
+   ]
+  },
+  {
+   "index": 21,
+   "name": "COFFEE",
+   "hex": "#4D2B18",
+   "use": "Plain dark coffee surface",
+   "col": 5,
+   "row": 2,
+   "uv_patch": [
+    0.6484375,
+    0.296875,
+    0.7265625,
+    0.453125
+   ],
+   "pixel_rect": [
+    166,
+    70,
+    186,
+    90
+   ]
+  },
+  {
+   "index": 22,
+   "name": "MOUTH",
+   "hex": "#9A5434",
+   "use": "Closed smirk and lower-lip crease",
+   "col": 6,
+   "row": 2,
+   "uv_patch": [
+    0.7734375,
+    0.296875,
+    0.8515625,
+    0.453125
+   ],
+   "pixel_rect": [
+    198,
+    70,
+    218,
+    90
+   ]
+  },
+  {
+   "index": 23,
+   "name": "SHADOW",
+   "hex": "#6A4734",
+   "use": "Restrained seams only",
+   "col": 7,
+   "row": 2,
+   "uv_patch": [
+    0.8984375,
+    0.296875,
+    0.9765625,
+    0.453125
+   ],
+   "pixel_rect": [
+    230,
+    70,
+    250,
+    90
+   ]
+  },
+  {
+   "index": 24,
+   "name": "BELT_LIGHT",
+   "hex": "#5D493D",
+   "use": "DERIVED: BELT lightened 14% (broad top edge)",
+   "col": 0,
+   "row": 3,
+   "uv_patch": [
+    0.0234375,
+    0.046875,
+    0.1015625,
+    0.203125
+   ],
+   "pixel_rect": [
+    6,
+    102,
+    26,
+    122
+   ]
+  },
+  {
+   "index": 25,
+   "name": "MOUTH_LIGHT",
+   "hex": "#AE765D",
+   "use": "DERIVED: MOUTH lightened 20% (under-lip crease)",
+   "col": 1,
+   "row": 3,
+   "uv_patch": [
+    0.1484375,
+    0.046875,
+    0.2265625,
+    0.203125
+   ],
+   "pixel_rect": [
+    38,
+    102,
+    58,
+    122
+   ]
+  },
+  {
+   "index": 26,
+   "name": "COFFEE_DARK",
+   "hex": "#472816",
+   "use": "DERIVED: COFFEE darkened 8% (meniscus)",
+   "col": 2,
+   "row": 3,
+   "uv_patch": [
+    0.2734375,
+    0.046875,
+    0.3515625,
+    0.203125
+   ],
+   "pixel_rect": [
+    70,
+    102,
+    90,
+    122
+   ]
+  },
+  {
+   "index": 27,
+   "name": "TEAL_HEM",
+   "hex": "#115C66",
+   "use": "DERIVED: TEAL_DARK -5% (hem)",
+   "col": 3,
+   "row": 3,
+   "uv_patch": [
+    0.3984375,
+    0.046875,
+    0.4765625,
+    0.203125
+   ],
+   "pixel_rect": [
+    102,
+    102,
+    122,
+    122
+   ]
+  }
+ ]
+}
