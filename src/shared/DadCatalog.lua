@@ -25,6 +25,8 @@ local DadCatalog: { DadDefinition } = {
 	},
 	{
 		Id = "OfficeDad",
+		-- Final approved art: ServerStorage.OfficeDadFinal (assets/characters/OfficeDad_Final). The overlay fields below are unused for it.
+		ModelAsset = "OfficeDadFinal",
 		DisplayName = "Office Dad",
 		Rarity = "Common",
 		Cost = 75,

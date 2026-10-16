@@ -1,0 +1,573 @@
+{
+ "atlas": "OfficeDad_Palette.png",
+ "size": [
+  256,
+  256
+ ],
+ "tile_px": 32,
+ "columns": 8,
+ "inset_px": 6,
+ "row0_is_top_of_png": true,
+ "tiles": [
+  {
+   "index": 0,
+   "name": "SKIN",
+   "hex": "#F4A16C",
+   "use": "face, hands, arms",
+   "col": 0,
+   "row": 0,
+   "uv_patch": [
+    0.0234375,
+    0.8984375,
+    0.1015625,
+    0.9765625
+   ]
+  },
+  {
+   "index": 1,
+   "name": "SKIN_LIGHT",
+   "hex": "#FFC18E",
+   "use": "lit skin facets",
+   "col": 1,
+   "row": 0,
+   "uv_patch": [
+    0.1484375,
+    0.8984375,
+    0.2265625,
+    0.9765625
+   ]
+  },
+  {
+   "index": 2,
+   "name": "SKIN_SHADOW",
+   "hex": "#C77D55",
+   "use": "under nose / inner ear / creases",
+   "col": 2,
+   "row": 0,
+   "uv_patch": [
+    0.2734375,
+    0.8984375,
+    0.3515625,
+    0.9765625
+   ]
+  },
+  {
+   "index": 3,
+   "name": "NOSE",
+   "hex": "#ED8B56",
+   "use": "nose",
+   "col": 3,
+   "row": 0,
+   "uv_patch": [
+    0.3984375,
+    0.8984375,
+    0.4765625,
+    0.9765625
+   ]
+  },
+  {
+   "index": 4,
+   "name": "HAIR",
+   "hex": "#4B342D",
+   "use": "hair",
+   "col": 4,
+   "row": 0,
+   "uv_patch": [
+    0.5234375,
+    0.8984375,
+    0.6015625,
+    0.9765625
+   ]
+  },
+  {
+   "index": 5,
+   "name": "HAIR_LIGHT",
+   "hex": "#71513D",
+   "use": "hair top planes",
+   "col": 5,
+   "row": 0,
+   "uv_patch": [
+    0.6484375,
+    0.8984375,
+    0.7265625,
+    0.9765625
+   ]
+  },
+  {
+   "index": 6,
+   "name": "HAIR_DARK",
+   "hex": "#2C2528",
+   "use": "hair recesses",
+   "col": 6,
+   "row": 0,
+   "uv_patch": [
+    0.7734375,
+    0.8984375,
+    0.8515625,
+    0.9765625
+   ]
+  },
+  {
+   "index": 7,
+   "name": "MUSTACHE",
+   "hex": "#3A2A24",
+   "use": "mustache",
+   "col": 7,
+   "row": 0,
+   "uv_patch": [
+    0.8984375,
+    0.8984375,
+    0.9765625,
+    0.9765625
+   ]
+  },
+  {
+   "index": 8,
+   "name": "BROW",
+   "hex": "#362922",
+   "use": "brows",
+   "col": 0,
+   "row": 1,
+   "uv_patch": [
+    0.0234375,
+    0.7734375,
+    0.1015625,
+    0.8515625
+   ]
+  },
+  {
+   "index": 9,
+   "name": "GLASSES",
+   "hex": "#161719",
+   "use": "frames",
+   "col": 1,
+   "row": 1,
+   "uv_patch": [
+    0.1484375,
+    0.7734375,
+    0.2265625,
+    0.8515625
+   ]
+  },
+  {
+   "index": 10,
+   "name": "EYE_WHITE",
+   "hex": "#FFF6E4",
+   "use": "eye whites",
+   "col": 2,
+   "row": 1,
+   "uv_patch": [
+    0.2734375,
+    0.7734375,
+    0.3515625,
+    0.8515625
+   ]
+  },
+  {
+   "index": 11,
+   "name": "IRIS",
+   "hex": "#402B18",
+   "use": "iris",
+   "col": 3,
+   "row": 1,
+   "uv_patch": [
+    0.3984375,
+    0.7734375,
+    0.4765625,
+    0.8515625
+   ]
+  },
+  {
+   "index": 12,
+   "name": "PUPIL",
+   "hex": "#0D1111",
+   "use": "pupil",
+   "col": 4,
+   "row": 1,
+   "uv_patch": [
+    0.5234375,
+    0.7734375,
+    0.6015625,
+    0.8515625
+   ]
+  },
+  {
+   "index": 13,
+   "name": "MOUTH",
+   "hex": "#A86244",
+   "use": "mouth",
+   "col": 5,
+   "row": 1,
+   "uv_patch": [
+    0.6484375,
+    0.7734375,
+    0.7265625,
+    0.8515625
+   ]
+  },
+  {
+   "index": 14,
+   "name": "SHIRT",
+   "hex": "#F6E7C8",
+   "use": "shirt",
+   "col": 6,
+   "row": 1,
+   "uv_patch": [
+    0.7734375,
+    0.7734375,
+    0.8515625,
+    0.8515625
+   ]
+  },
+  {
+   "index": 15,
+   "name": "SHIRT_LIGHT",
+   "hex": "#FFF3DA",
+   "use": "shirt top/front facets",
+   "col": 7,
+   "row": 1,
+   "uv_patch": [
+    0.8984375,
+    0.7734375,
+    0.9765625,
+    0.8515625
+   ]
+  },
+  {
+   "index": 16,
+   "name": "SHIRT_SHADOW",
+   "hex": "#DBCAA9",
+   "use": "shirt shade, underside",
+   "col": 0,
+   "row": 2,
+   "uv_patch": [
+    0.0234375,
+    0.6484375,
+    0.1015625,
+    0.7265625
+   ]
+  },
+  {
+   "index": 17,
+   "name": "SHIRT_SEAM",
+   "hex": "#B9A88C",
+   "use": "shirt seams",
+   "col": 1,
+   "row": 2,
+   "uv_patch": [
+    0.1484375,
+    0.6484375,
+    0.2265625,
+    0.7265625
+   ]
+  },
+  {
+   "index": 18,
+   "name": "TIE",
+   "hex": "#91323C",
+   "use": "tie",
+   "col": 2,
+   "row": 2,
+   "uv_patch": [
+    0.2734375,
+    0.6484375,
+    0.3515625,
+    0.7265625
+   ]
+  },
+  {
+   "index": 19,
+   "name": "TIE_LIGHT",
+   "hex": "#B9444C",
+   "use": "tie lit",
+   "col": 3,
+   "row": 2,
+   "uv_patch": [
+    0.3984375,
+    0.6484375,
+    0.4765625,
+    0.7265625
+   ]
+  },
+  {
+   "index": 20,
+   "name": "TIE_DARK",
+   "hex": "#65242E",
+   "use": "tie shade/fold",
+   "col": 4,
+   "row": 2,
+   "uv_patch": [
+    0.5234375,
+    0.6484375,
+    0.6015625,
+    0.7265625
+   ]
+  },
+  {
+   "index": 21,
+   "name": "TROUSER",
+   "hex": "#47403F",
+   "use": "trousers",
+   "col": 5,
+   "row": 2,
+   "uv_patch": [
+    0.6484375,
+    0.6484375,
+    0.7265625,
+    0.7265625
+   ]
+  },
+  {
+   "index": 22,
+   "name": "TROUSER_LIGHT",
+   "hex": "#59504D",
+   "use": "trouser front planes",
+   "col": 6,
+   "row": 2,
+   "uv_patch": [
+    0.7734375,
+    0.6484375,
+    0.8515625,
+    0.7265625
+   ]
+  },
+  {
+   "index": 23,
+   "name": "TROUSER_DARK",
+   "hex": "#302D2F",
+   "use": "trouser seams/shade",
+   "col": 7,
+   "row": 2,
+   "uv_patch": [
+    0.8984375,
+    0.6484375,
+    0.9765625,
+    0.7265625
+   ]
+  },
+  {
+   "index": 24,
+   "name": "BELT",
+   "hex": "#252326",
+   "use": "belt",
+   "col": 0,
+   "row": 3,
+   "uv_patch": [
+    0.0234375,
+    0.5234375,
+    0.1015625,
+    0.6015625
+   ]
+  },
+  {
+   "index": 25,
+   "name": "SILVER",
+   "hex": "#B8B6AD",
+   "use": "buckle",
+   "col": 1,
+   "row": 3,
+   "uv_patch": [
+    0.1484375,
+    0.5234375,
+    0.2265625,
+    0.6015625
+   ]
+  },
+  {
+   "index": 26,
+   "name": "SILVER_LIGHT",
+   "hex": "#E4DFD3",
+   "use": "buckle light",
+   "col": 2,
+   "row": 3,
+   "uv_patch": [
+    0.2734375,
+    0.5234375,
+    0.3515625,
+    0.6015625
+   ]
+  },
+  {
+   "index": 27,
+   "name": "SHOE",
+   "hex": "#202123",
+   "use": "shoes",
+   "col": 3,
+   "row": 3,
+   "uv_patch": [
+    0.3984375,
+    0.5234375,
+    0.4765625,
+    0.6015625
+   ]
+  },
+  {
+   "index": 28,
+   "name": "SHOE_LIGHT",
+   "hex": "#333336",
+   "use": "shoe top planes",
+   "col": 4,
+   "row": 3,
+   "uv_patch": [
+    0.5234375,
+    0.5234375,
+    0.6015625,
+    0.6015625
+   ]
+  },
+  {
+   "index": 29,
+   "name": "SOLE",
+   "hex": "#101114",
+   "use": "soles",
+   "col": 5,
+   "row": 3,
+   "uv_patch": [
+    0.6484375,
+    0.5234375,
+    0.7265625,
+    0.6015625
+   ]
+  },
+  {
+   "index": 30,
+   "name": "CASE",
+   "hex": "#4D2E2B",
+   "use": "briefcase",
+   "col": 6,
+   "row": 3,
+   "uv_patch": [
+    0.7734375,
+    0.5234375,
+    0.8515625,
+    0.6015625
+   ]
+  },
+  {
+   "index": 31,
+   "name": "CASE_SIDE",
+   "hex": "#754528",
+   "use": "briefcase sides",
+   "col": 7,
+   "row": 3,
+   "uv_patch": [
+    0.8984375,
+    0.5234375,
+    0.9765625,
+    0.6015625
+   ]
+  },
+  {
+   "index": 32,
+   "name": "CASE_EDGE",
+   "hex": "#332323",
+   "use": "case seams/edges",
+   "col": 0,
+   "row": 4,
+   "uv_patch": [
+    0.0234375,
+    0.3984375,
+    0.1015625,
+    0.4765625
+   ]
+  },
+  {
+   "index": 33,
+   "name": "BRASS",
+   "hex": "#D8A134",
+   "use": "brass locks",
+   "col": 1,
+   "row": 4,
+   "uv_patch": [
+    0.1484375,
+    0.3984375,
+    0.2265625,
+    0.4765625
+   ]
+  },
+  {
+   "index": 34,
+   "name": "BRASS_SHADOW",
+   "hex": "#9E7024",
+   "use": "brass shade",
+   "col": 2,
+   "row": 4,
+   "uv_patch": [
+    0.2734375,
+    0.3984375,
+    0.3515625,
+    0.4765625
+   ]
+  },
+  {
+   "index": 35,
+   "name": "PEN_BLUE",
+   "hex": "#116591",
+   "use": "pen",
+   "col": 3,
+   "row": 4,
+   "uv_patch": [
+    0.3984375,
+    0.3984375,
+    0.4765625,
+    0.4765625
+   ]
+  },
+  {
+   "index": 36,
+   "name": "PEN_LIGHT",
+   "hex": "#298AB5",
+   "use": "pen light",
+   "col": 4,
+   "row": 4,
+   "uv_patch": [
+    0.5234375,
+    0.3984375,
+    0.6015625,
+    0.4765625
+   ]
+  },
+  {
+   "index": 37,
+   "name": "PEN_DARK",
+   "hex": "#06496E",
+   "use": "pen dark",
+   "col": 5,
+   "row": 4,
+   "uv_patch": [
+    0.6484375,
+    0.3984375,
+    0.7265625,
+    0.4765625
+   ]
+  },
+  {
+   "index": 38,
+   "name": "EYE_GLINT",
+   "hex": "#FFFFFF",
+   "use": "glint",
+   "col": 6,
+   "row": 4,
+   "uv_patch": [
+    0.7734375,
+    0.3984375,
+    0.8515625,
+    0.4765625
+   ]
+  },
+  {
+   "index": 39,
+   "name": "RECESS",
+   "hex": "#684331",
+   "use": "recesses",
+   "col": 7,
+   "row": 4,
+   "uv_patch": [
+    0.8984375,
+    0.3984375,
+    0.9765625,
+    0.4765625
+   ]
+  }
+ ]
+}

@@ -27,6 +27,9 @@
       },
       "RegularDadFinal": {
         "$path": "assets/characters/RegularDad_Final/model/RegularDad_Final.rbxm"
+      },
+      "OfficeDadFinal": {
+        "$path": "assets/characters/OfficeDad_Final/model/OfficeDad_Final.rbxm"
       }
     }
   }

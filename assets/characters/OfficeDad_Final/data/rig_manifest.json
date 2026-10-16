@@ -1,0 +1,351 @@
+{
+ "asset": "OfficeDad_Redesign",
+ "frame": {
+  "logical": "(X,D,H) forward=-D, anatomical RIGHT=-X",
+  "roblox_position": "(-X, H, D)"
+ },
+ "bones": [
+  {
+   "name": "Root",
+   "parent": null,
+   "head_logical": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "head_roblox": [
+    -0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "HumanoidRootNode",
+   "parent": "Root",
+   "head_logical": [
+    0.0,
+    0.0,
+    2.2
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    2.7
+   ],
+   "head_roblox": [
+    -0.0,
+    2.2,
+    0.0
+   ]
+  },
+  {
+   "name": "LowerTorso",
+   "parent": "HumanoidRootNode",
+   "head_logical": [
+    0.0,
+    0.0,
+    2.2
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    2.47
+   ],
+   "head_roblox": [
+    -0.0,
+    2.2,
+    0.0
+   ]
+  },
+  {
+   "name": "UpperTorso",
+   "parent": "LowerTorso",
+   "head_logical": [
+    0.0,
+    0.0,
+    2.47
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    4.34
+   ],
+   "head_roblox": [
+    -0.0,
+    2.47,
+    0.0
+   ]
+  },
+  {
+   "name": "Head",
+   "parent": "UpperTorso",
+   "head_logical": [
+    0.0,
+    0.0,
+    4.34
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    6.4
+   ],
+   "head_roblox": [
+    -0.0,
+    4.34,
+    0.0
+   ]
+  },
+  {
+   "name": "RightUpperArm",
+   "parent": "UpperTorso",
+   "head_logical": [
+    -1.6,
+    0.0,
+    4.15
+   ],
+   "tail_logical": [
+    -1.83,
+    -0.02,
+    3.1
+   ],
+   "head_roblox": [
+    1.6,
+    4.15,
+    0.0
+   ]
+  },
+  {
+   "name": "RightLowerArm",
+   "parent": "RightUpperArm",
+   "head_logical": [
+    -1.83,
+    -0.02,
+    3.1
+   ],
+   "tail_logical": [
+    -1.98,
+    -0.1,
+    2.25
+   ],
+   "head_roblox": [
+    1.83,
+    3.1,
+    -0.02
+   ]
+  },
+  {
+   "name": "RightHand",
+   "parent": "RightLowerArm",
+   "head_logical": [
+    -1.98,
+    -0.1,
+    2.25
+   ],
+   "tail_logical": [
+    -1.98,
+    -0.1,
+    1.57
+   ],
+   "head_roblox": [
+    1.98,
+    2.25,
+    -0.1
+   ]
+  },
+  {
+   "name": "RightUpperLeg",
+   "parent": "LowerTorso",
+   "head_logical": [
+    -0.66,
+    0.02,
+    1.92
+   ],
+   "tail_logical": [
+    -0.66,
+    0.01,
+    0.97
+   ],
+   "head_roblox": [
+    0.66,
+    1.92,
+    0.02
+   ]
+  },
+  {
+   "name": "RightLowerLeg",
+   "parent": "RightUpperLeg",
+   "head_logical": [
+    -0.66,
+    0.01,
+    0.97
+   ],
+   "tail_logical": [
+    -0.66,
+    0.0,
+    0.4
+   ],
+   "head_roblox": [
+    0.66,
+    0.97,
+    0.01
+   ]
+  },
+  {
+   "name": "RightFoot",
+   "parent": "RightLowerLeg",
+   "head_logical": [
+    -0.66,
+    0.0,
+    0.4
+   ],
+   "tail_logical": [
+    -0.66,
+    -0.78,
+    0.12
+   ],
+   "head_roblox": [
+    0.66,
+    0.4,
+    0.0
+   ]
+  },
+  {
+   "name": "LeftUpperArm",
+   "parent": "UpperTorso",
+   "head_logical": [
+    1.6,
+    0.0,
+    4.15
+   ],
+   "tail_logical": [
+    1.83,
+    -0.02,
+    3.1
+   ],
+   "head_roblox": [
+    -1.6,
+    4.15,
+    0.0
+   ]
+  },
+  {
+   "name": "LeftLowerArm",
+   "parent": "LeftUpperArm",
+   "head_logical": [
+    1.83,
+    -0.02,
+    3.1
+   ],
+   "tail_logical": [
+    1.98,
+    -0.1,
+    2.25
+   ],
+   "head_roblox": [
+    -1.83,
+    3.1,
+    -0.02
+   ]
+  },
+  {
+   "name": "LeftHand",
+   "parent": "LeftLowerArm",
+   "head_logical": [
+    1.98,
+    -0.1,
+    2.25
+   ],
+   "tail_logical": [
+    1.98,
+    -0.1,
+    1.57
+   ],
+   "head_roblox": [
+    -1.98,
+    2.25,
+    -0.1
+   ]
+  },
+  {
+   "name": "LeftUpperLeg",
+   "parent": "LowerTorso",
+   "head_logical": [
+    0.66,
+    0.02,
+    1.92
+   ],
+   "tail_logical": [
+    0.66,
+    0.01,
+    0.97
+   ],
+   "head_roblox": [
+    -0.66,
+    1.92,
+    0.02
+   ]
+  },
+  {
+   "name": "LeftLowerLeg",
+   "parent": "LeftUpperLeg",
+   "head_logical": [
+    0.66,
+    0.01,
+    0.97
+   ],
+   "tail_logical": [
+    0.66,
+    0.0,
+    0.4
+   ],
+   "head_roblox": [
+    -0.66,
+    0.97,
+    0.01
+   ]
+  },
+  {
+   "name": "LeftFoot",
+   "parent": "LeftLowerLeg",
+   "head_logical": [
+    0.66,
+    0.0,
+    0.4
+   ],
+   "tail_logical": [
+    0.66,
+    -0.78,
+    0.12
+   ],
+   "head_roblox": [
+    -0.66,
+    0.4,
+    0.0
+   ]
+  }
+ ],
+ "briefcase": {
+  "weight": "RightHand 100%",
+  "grip_world": [
+   -2.2,
+   -0.25,
+   1.94
+  ],
+  "case_origin": [
+   -2.2,
+   -0.25,
+   0.08
+  ],
+  "route": "one WeldConstraint BriefcaseGrip RightHand->Briefcase in Studio"
+ },
+ "weights": "100% own bone (rigid style)",
+ "display_pose": {
+  "head_yaw_deg": 6.0,
+  "head_roll_deg": 1.5
+ }
+}

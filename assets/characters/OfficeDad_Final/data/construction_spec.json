@@ -1,0 +1,688 @@
+{
+ "asset": "OfficeDad_Redesign",
+ "character": "Office Dad (02, Common)",
+ "units": "studs",
+ "neutral_height": 6.4,
+ "built_height": 6.4,
+ "tables": {
+  "UpperTorso": [
+   [
+    2.44,
+    2.58,
+    -0.93,
+    0.56,
+    0.12
+   ],
+   [
+    2.72,
+    2.76,
+    -1.0,
+    0.62,
+    0.14
+   ],
+   [
+    3.15,
+    2.8,
+    -1.02,
+    0.65,
+    0.16
+   ],
+   [
+    3.63,
+    2.72,
+    -0.9,
+    0.61,
+    0.14
+   ],
+   [
+    4.05,
+    2.8,
+    -0.7,
+    0.54,
+    0.12
+   ],
+   [
+    4.3,
+    2.48,
+    -0.57,
+    0.49,
+    0.1
+   ]
+  ],
+  "LowerTorso": [
+   [
+    1.65,
+    2.25,
+    -0.7,
+    0.48,
+    0.14
+   ],
+   [
+    1.92,
+    2.55,
+    -0.82,
+    0.55,
+    0.14
+   ],
+   [
+    2.28,
+    2.68,
+    -0.89,
+    0.59,
+    0.12
+   ],
+   [
+    2.5,
+    2.62,
+    -0.92,
+    0.57,
+    0.1
+   ]
+  ],
+  "Head": [
+   [
+    4.3,
+    1.26,
+    -0.6,
+    0.44,
+    0.14
+   ],
+   [
+    4.5,
+    1.61,
+    -0.7,
+    0.58,
+    0.14
+   ],
+   [
+    5.1,
+    1.8,
+    -0.7,
+    0.64,
+    0.14
+   ],
+   [
+    5.7,
+    1.8,
+    -0.68,
+    0.64,
+    0.12
+   ],
+   [
+    6.03,
+    1.62,
+    -0.58,
+    0.56,
+    0.12
+   ]
+  ],
+  "Nose": [
+   [
+    5.12,
+    0.42,
+    -1.05,
+    -0.72,
+    0.05
+   ],
+   [
+    5.25,
+    0.55,
+    -1.22,
+    -0.72,
+    0.06
+   ],
+   [
+    5.4,
+    0.5,
+    -1.14,
+    -0.72,
+    0.06
+   ],
+   [
+    5.52,
+    0.26,
+    -0.9,
+    -0.74,
+    0.05
+   ],
+   [
+    5.61,
+    0.2,
+    -0.8,
+    -0.74,
+    0.04
+   ]
+  ]
+ },
+ "joints": {
+  "Root": [
+   0,
+   0,
+   2.2
+  ],
+  "Waist": [
+   0,
+   0,
+   2.47
+  ],
+  "Neck": [
+   0,
+   0,
+   4.34
+  ],
+  "RightShoulder": [
+   -1.6,
+   0,
+   4.15
+  ],
+  "RightElbow": [
+   -1.83,
+   -0.02,
+   3.1
+  ],
+  "RightWrist": [
+   -1.98,
+   -0.1,
+   2.25
+  ],
+  "LeftShoulder": [
+   1.6,
+   0,
+   4.15
+  ],
+  "LeftElbow": [
+   1.83,
+   -0.02,
+   3.1
+  ],
+  "LeftWrist": [
+   1.98,
+   -0.1,
+   2.25
+  ],
+  "RightHip": [
+   -0.66,
+   0.02,
+   1.92
+  ],
+  "RightKnee": [
+   -0.66,
+   0.01,
+   0.97
+  ],
+  "RightAnkle": [
+   -0.66,
+   0,
+   0.4
+  ],
+  "LeftHip": [
+   0.66,
+   0.02,
+   1.92
+  ],
+  "LeftKnee": [
+   0.66,
+   0.01,
+   0.97
+  ],
+  "LeftAnkle": [
+   0.66,
+   0,
+   0.4
+  ]
+ },
+ "grip_world": [
+  -2.2,
+  -0.25,
+  1.94
+ ],
+ "case_origin": [
+  -2.2,
+  -0.25,
+  0.08
+ ],
+ "palette": [
+  {
+   "index": 0,
+   "name": "SKIN",
+   "hex": "#F4A16C",
+   "use": "face, hands, arms"
+  },
+  {
+   "index": 1,
+   "name": "SKIN_LIGHT",
+   "hex": "#FFC18E",
+   "use": "lit skin facets"
+  },
+  {
+   "index": 2,
+   "name": "SKIN_SHADOW",
+   "hex": "#C77D55",
+   "use": "under nose / inner ear / creases"
+  },
+  {
+   "index": 3,
+   "name": "NOSE",
+   "hex": "#ED8B56",
+   "use": "nose"
+  },
+  {
+   "index": 4,
+   "name": "HAIR",
+   "hex": "#4B342D",
+   "use": "hair"
+  },
+  {
+   "index": 5,
+   "name": "HAIR_LIGHT",
+   "hex": "#71513D",
+   "use": "hair top planes"
+  },
+  {
+   "index": 6,
+   "name": "HAIR_DARK",
+   "hex": "#2C2528",
+   "use": "hair recesses"
+  },
+  {
+   "index": 7,
+   "name": "MUSTACHE",
+   "hex": "#3A2A24",
+   "use": "mustache"
+  },
+  {
+   "index": 8,
+   "name": "BROW",
+   "hex": "#362922",
+   "use": "brows"
+  },
+  {
+   "index": 9,
+   "name": "GLASSES",
+   "hex": "#161719",
+   "use": "frames"
+  },
+  {
+   "index": 10,
+   "name": "EYE_WHITE",
+   "hex": "#FFF6E4",
+   "use": "eye whites"
+  },
+  {
+   "index": 11,
+   "name": "IRIS",
+   "hex": "#402B18",
+   "use": "iris"
+  },
+  {
+   "index": 12,
+   "name": "PUPIL",
+   "hex": "#0D1111",
+   "use": "pupil"
+  },
+  {
+   "index": 13,
+   "name": "MOUTH",
+   "hex": "#A86244",
+   "use": "mouth"
+  },
+  {
+   "index": 14,
+   "name": "SHIRT",
+   "hex": "#F6E7C8",
+   "use": "shirt"
+  },
+  {
+   "index": 15,
+   "name": "SHIRT_LIGHT",
+   "hex": "#FFF3DA",
+   "use": "shirt top/front facets"
+  },
+  {
+   "index": 16,
+   "name": "SHIRT_SHADOW",
+   "hex": "#DBCAA9",
+   "use": "shirt shade, underside"
+  },
+  {
+   "index": 17,
+   "name": "SHIRT_SEAM",
+   "hex": "#B9A88C",
+   "use": "shirt seams"
+  },
+  {
+   "index": 18,
+   "name": "TIE",
+   "hex": "#91323C",
+   "use": "tie"
+  },
+  {
+   "index": 19,
+   "name": "TIE_LIGHT",
+   "hex": "#B9444C",
+   "use": "tie lit"
+  },
+  {
+   "index": 20,
+   "name": "TIE_DARK",
+   "hex": "#65242E",
+   "use": "tie shade/fold"
+  },
+  {
+   "index": 21,
+   "name": "TROUSER",
+   "hex": "#47403F",
+   "use": "trousers"
+  },
+  {
+   "index": 22,
+   "name": "TROUSER_LIGHT",
+   "hex": "#59504D",
+   "use": "trouser front planes"
+  },
+  {
+   "index": 23,
+   "name": "TROUSER_DARK",
+   "hex": "#302D2F",
+   "use": "trouser seams/shade"
+  },
+  {
+   "index": 24,
+   "name": "BELT",
+   "hex": "#252326",
+   "use": "belt"
+  },
+  {
+   "index": 25,
+   "name": "SILVER",
+   "hex": "#B8B6AD",
+   "use": "buckle"
+  },
+  {
+   "index": 26,
+   "name": "SILVER_LIGHT",
+   "hex": "#E4DFD3",
+   "use": "buckle light"
+  },
+  {
+   "index": 27,
+   "name": "SHOE",
+   "hex": "#202123",
+   "use": "shoes"
+  },
+  {
+   "index": 28,
+   "name": "SHOE_LIGHT",
+   "hex": "#333336",
+   "use": "shoe top planes"
+  },
+  {
+   "index": 29,
+   "name": "SOLE",
+   "hex": "#101114",
+   "use": "soles"
+  },
+  {
+   "index": 30,
+   "name": "CASE",
+   "hex": "#4D2E2B",
+   "use": "briefcase"
+  },
+  {
+   "index": 31,
+   "name": "CASE_SIDE",
+   "hex": "#754528",
+   "use": "briefcase sides"
+  },
+  {
+   "index": 32,
+   "name": "CASE_EDGE",
+   "hex": "#332323",
+   "use": "case seams/edges"
+  },
+  {
+   "index": 33,
+   "name": "BRASS",
+   "hex": "#D8A134",
+   "use": "brass locks"
+  },
+  {
+   "index": 34,
+   "name": "BRASS_SHADOW",
+   "hex": "#9E7024",
+   "use": "brass shade"
+  },
+  {
+   "index": 35,
+   "name": "PEN_BLUE",
+   "hex": "#116591",
+   "use": "pen"
+  },
+  {
+   "index": 36,
+   "name": "PEN_LIGHT",
+   "hex": "#298AB5",
+   "use": "pen light"
+  },
+  {
+   "index": 37,
+   "name": "PEN_DARK",
+   "hex": "#06496E",
+   "use": "pen dark"
+  },
+  {
+   "index": 38,
+   "name": "EYE_GLINT",
+   "hex": "#FFFFFF",
+   "use": "glint"
+  },
+  {
+   "index": 39,
+   "name": "RECESS",
+   "hex": "#684331",
+   "use": "recesses"
+  }
+ ],
+ "counts": {
+  "body_tris": 4173,
+  "case_tris": 276
+ },
+ "deviations_from_prompt": [
+  "PDF text layer lost all Russian text and one hex digit: BRASS #D 8A134 was read as #D8A134; sections were interpreted from numbers and the crop image.",
+  "Head loft rows are chosen to match the prescribed W1.80/D1.34/H1.73 box, jaw 1.61 (the rows are not tabulated in the prompt).",
+  "Hair top blocks are chamfered blocks centred on the section-22 polyline points; scalp mass is a closed loft H5.83..6.19.",
+  "Glasses have no lens geometry (open rims); temple arms are simple two-block arms.",
+  "Hand grip: rectangular channel .14 x .13 through the hand along X plus a front slot, three finger grooves; thumb block at X-1.81.",
+  "Shoe toe-out is 0 (the toe-out line of section 12 is unreadable)."
+ ],
+ "measured": {
+  "bounds_neutral": {
+   "min": [
+    -2.45,
+    -1.22,
+    -0.0
+   ],
+   "max": [
+    2.45,
+    0.87,
+    6.4
+   ],
+   "height": 6.4
+  },
+  "head_bounds": {
+   "min": [
+    -1.125,
+    -1.22,
+    4.3
+   ],
+   "max": [
+    1.075,
+    0.87,
+    6.4
+   ]
+  },
+  "case_bounds": {
+   "min": [
+    -3.085,
+    -0.5315,
+    0.08
+   ],
+   "max": [
+    -1.315,
+    -0.0005,
+    1.995
+   ]
+  },
+  "feet_min_h": -0.0,
+  "tris_body": 4173,
+  "tris_case": 276,
+  "audit": {
+   "UpperTorso": {
+    "verts": 283,
+    "tris": 498,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 7.7884
+   },
+   "LowerTorso": {
+    "verts": 236,
+    "tris": 408,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 3.9572
+   },
+   "Head": {
+    "verts": 1060,
+    "tris": 1836,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 5.5209
+   },
+   "RightUpperArm": {
+    "verts": 72,
+    "tris": 132,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.9443
+   },
+   "RightLowerArm": {
+    "verts": 40,
+    "tris": 76,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.4084
+   },
+   "LeftUpperArm": {
+    "verts": 72,
+    "tris": 132,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.9443
+   },
+   "LeftLowerArm": {
+    "verts": 40,
+    "tris": 76,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.4084
+   },
+   "RightHand": {
+    "verts": 102,
+    "tris": 203,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.2749
+   },
+   "LeftHand": {
+    "verts": 76,
+    "tris": 148,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.2911
+   },
+   "RightUpperLeg": {
+    "verts": 44,
+    "tris": 80,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.9995
+   },
+   "RightLowerLeg": {
+    "verts": 56,
+    "tris": 104,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.7627
+   },
+   "RightFoot": {
+    "verts": 80,
+    "tris": 148,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.8004
+   },
+   "LeftUpperLeg": {
+    "verts": 44,
+    "tris": 80,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.9995
+   },
+   "LeftLowerLeg": {
+    "verts": 56,
+    "tris": 104,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.7627
+   },
+   "LeftFoot": {
+    "verts": 80,
+    "tris": 148,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 0.8004
+   },
+   "Briefcase": {
+    "verts": 176,
+    "tris": 276,
+    "open_edges": 0,
+    "zero_area": 0,
+    "signed_volume": 1.428
+   }
+  },
+  "case_vs_body": {
+   "RightHand": {
+    "overlapping_triangle_pairs": 43,
+    "min_distance": 0.0071
+   },
+   "RightLowerArm": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.2159
+   },
+   "RightUpperLeg": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.1212
+   },
+   "RightLowerLeg": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.105
+   },
+   "LeftHand": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 2.9827
+   },
+   "LowerTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.2117
+   },
+   "UpperTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.7114
+   },
+   "RightFoot": {
+    "overlapping_triangle_pairs": 0,
+    "min_distance": 0.0522
+   }
+  }
+ }
+}

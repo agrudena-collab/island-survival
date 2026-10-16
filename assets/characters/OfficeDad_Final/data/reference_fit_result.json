@@ -1,0 +1,27 @@
+{
+ "prescribed_camera": {
+  "loc": [
+   -7.0,
+   -15.0,
+   7.0
+  ],
+  "lens": 70,
+  "iou": 0.7111
+ },
+ "best_camera": {
+  "loc": [
+   -6.756,
+   -22.076,
+   4.794
+  ],
+  "lens": 90,
+  "iou": 0.7816
+ },
+ "method": "ref mask = |RGB - median border| > 45; render alpha > .5; similarity alignment on bbox height + centre x",
+ "ref_bbox": [
+  0,
+  3,
+  312,
+  369
+ ]
+}
