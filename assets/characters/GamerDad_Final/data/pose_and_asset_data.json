@@ -1,0 +1,2009 @@
+{
+ "source": "studio_snapshot_assembled_HoldCan.json (accepted model, HoldCan pose)",
+ "model": {
+  "hrp": {
+   "cf": [
+    0,
+    3.380000114440918,
+    5.960464477539063e-08,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "size": [
+    2,
+    2,
+    1
+   ]
+  },
+  "rigType": "Enum.HumanoidRigType.R15",
+  "name": "GamerDad_R15",
+  "children": 23,
+  "hipHeight": 2.380000352859497
+ },
+ "parts": [
+  {
+   "name": "Head",
+   "class": "MeshPart",
+   "size": [
+    2.2699999809265137,
+    2,
+    1.8922120332717896
+   ],
+   "meshSize": [
+    2.2699999809265137,
+    2,
+    1.8922120332717896
+   ],
+   "cf": [
+    -5.960464477539063e-08,
+    5.349999904632568,
+    -0.18389403820037842,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": true,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://76907366408196",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://76907366408196": {
+     "name": "Head_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "LeftFoot",
+   "class": "MeshPart",
+   "size": [
+    1.5228722095489502,
+    0.8800003528594971,
+    1.888843059539795
+   ],
+   "meshSize": [
+    1.5228722095489502,
+    0.8800003528594971,
+    1.888843059539795
+   ],
+   "cf": [
+    -1.1374939680099487,
+    0.43999993801116943,
+    -0.26118966937065125,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://85711708907125",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://85711708907125": {
+     "name": "LeftFoot_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "LeftHand",
+   "class": "MeshPart",
+   "size": [
+    0.7400000095367432,
+    0.7199997901916504,
+    0.6500000953674316
+   ],
+   "meshSize": [
+    0.7400000095367432,
+    0.7199997901916504,
+    0.6500000953674316
+   ],
+   "cf": [
+    -1.959999918937683,
+    2.391528367996216,
+    -0.08499988913536072,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://87099661466460",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://87099661466460": {
+     "name": "LeftHand_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "LeftLowerArm",
+   "class": "MeshPart",
+   "size": [
+    0.8641399145126343,
+    0.8638050556182861,
+    0.8220116496086121
+   ],
+   "meshSize": [
+    0.8641399145126343,
+    0.8638050556182861,
+    0.8220116496086121
+   ],
+   "cf": [
+    -1.884247064590454,
+    3.0399746894836426,
+    -0.011005759239196777,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://109787622963928",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://109787622963928": {
+     "name": "LeftLowerArm_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "LeftLowerLeg",
+   "class": "MeshPart",
+   "size": [
+    1.4800000190734863,
+    0.520000159740448,
+    1.159999966621399
+   ],
+   "meshSize": [
+    1.4800000190734863,
+    0.520000159740448,
+    1.159999966621399
+   ],
+   "cf": [
+    -1,
+    1,
+    -0.019999921321868896,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://96135648245642",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://96135648245642": {
+     "name": "LeftLowerLeg_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "LeftUpperArm",
+   "class": "MeshPart",
+   "size": [
+    0.9941132068634033,
+    1.167201280593872,
+    0.9200000762939453
+   ],
+   "meshSize": [
+    0.9941132068634033,
+    1.167201280593872,
+    0.9200000762939453
+   ],
+   "cf": [
+    -1.7298773527145386,
+    3.918613910675049,
+    4.470348358154297e-08,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://89940642676109",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://89940642676109": {
+     "name": "LeftUpperArm_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "LeftUpperLeg",
+   "class": "MeshPart",
+   "size": [
+    1.6699998378753662,
+    1.2500003576278687,
+    1.2200000286102295
+   ],
+   "meshSize": [
+    1.6699998378753662,
+    1.2500003576278687,
+    1.2200000286102295
+   ],
+   "cf": [
+    -0.9049999713897705,
+    1.8450000286102295,
+    -0.019999951124191284,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://81183940528461",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://81183940528461": {
+     "name": "LeftUpperLeg_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "LowerTorso",
+   "class": "MeshPart",
+   "size": [
+    2.9800000190734863,
+    0.450000524520874,
+    1.3200000524520874
+   ],
+   "meshSize": [
+    2.9800000190734863,
+    0.450000524520874,
+    1.3200000524520874
+   ],
+   "cf": [
+    0,
+    2.3249998092651367,
+    -0.024999916553497314,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": true,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://99561828792978",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://99561828792978": {
+     "name": "LowerTorso_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "RightFoot",
+   "class": "MeshPart",
+   "size": [
+    1.522871971130371,
+    0.8800003528594971,
+    1.888843059539795
+   ],
+   "meshSize": [
+    1.522871971130371,
+    0.8800003528594971,
+    1.888843059539795
+   ],
+   "cf": [
+    1.1374940872192383,
+    0.43999993801116943,
+    -0.26118966937065125,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://84647994984668",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://84647994984668": {
+     "name": "RightFoot_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "RightHand",
+   "class": "MeshPart",
+   "size": [
+    0.6999999284744263,
+    0.820000171661377,
+    0.8100000619888306
+   ],
+   "meshSize": [
+    0.6999999284744263,
+    0.820000171661377,
+    0.8100000619888306
+   ],
+   "cf": [
+    2.119999885559082,
+    3.740000009536743,
+    -1.184999942779541,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://76851789596232",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://76851789596232": {
+     "name": "RightHand_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "RightLowerArm",
+   "class": "MeshPart",
+   "size": [
+    0.9969022274017334,
+    1.2011058330535889,
+    1.1350831985473633
+   ],
+   "meshSize": [
+    0.9969022274017334,
+    1.2011058330535889,
+    1.1350831985473633
+   ],
+   "cf": [
+    2.0299072265625,
+    3.5106754302978516,
+    -0.5139265656471252,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://73794803755628",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://73794803755628": {
+     "name": "RightLowerArm_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "RightLowerLeg",
+   "class": "MeshPart",
+   "size": [
+    1.4800000190734863,
+    0.520000159740448,
+    1.159999966621399
+   ],
+   "meshSize": [
+    1.4800000190734863,
+    0.520000159740448,
+    1.159999966621399
+   ],
+   "cf": [
+    1,
+    1,
+    -0.019999921321868896,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://72671632619977",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://72671632619977": {
+     "name": "RightLowerLeg_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "RightUpperArm",
+   "class": "MeshPart",
+   "size": [
+    1.247908115386963,
+    1.7648985385894775,
+    1.0917203426361084
+   ],
+   "meshSize": [
+    1.247908115386963,
+    1.7648985385894775,
+    1.0917203426361084
+   ],
+   "cf": [
+    1.864140510559082,
+    3.792572021484375,
+    -0.04903288185596466,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://75577270889359",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://75577270889359": {
+     "name": "RightUpperArm_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "RightUpperLeg",
+   "class": "MeshPart",
+   "size": [
+    1.6700000762939453,
+    1.2500003576278687,
+    1.2200000286102295
+   ],
+   "meshSize": [
+    1.6700000762939453,
+    1.2500003576278687,
+    1.2200000286102295
+   ],
+   "cf": [
+    0.9050000309944153,
+    1.8450000286102295,
+    -0.019999951124191284,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": false,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://119464730330340",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://119464730330340": {
+     "name": "RightUpperLeg_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "UpperTorso",
+   "class": "MeshPart",
+   "size": [
+    3.0799999237060547,
+    2.130000114440918,
+    1.630000114440918
+   ],
+   "meshSize": [
+    3.0799999237060547,
+    2.130000114440918,
+    1.630000114440918
+   ],
+   "cf": [
+    0,
+    3.4549999237060547,
+    -0.14500001072883606,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": true,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": "rbxassetid://130617102298905",
+   "textureId": "",
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "owners": {
+    "rbxassetid://130617102298905": {
+     "name": "UpperTorso_Geo",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "HumanoidRootPart",
+   "class": "Part",
+   "size": [
+    2,
+    2,
+    1
+   ],
+   "meshSize": null,
+   "cf": [
+    0,
+    3.380000114440918,
+    5.960464477539063e-08,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    0.6392157077789307,
+    0.6352941393852234,
+    0.6470588445663452
+   ],
+   "anchored": false,
+   "massless": false,
+   "cancollide": true,
+   "canquery": true,
+   "cantouch": true,
+   "meshId": null,
+   "textureId": null,
+   "surfaceAppearance": null
+  },
+  {
+   "name": "Headset",
+   "class": "MeshPart",
+   "size": [
+    2.7282655239105225,
+    1.6650004386901855,
+    1.717400312423706
+   ],
+   "meshSize": [
+    2.7282655239105225,
+    1.6650004386901855,
+    1.717400312423706
+   ],
+   "cf": [
+    0,
+    5.567500114440918,
+    -0.3312999904155731,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": true,
+   "cancollide": false,
+   "canquery": false,
+   "cantouch": false,
+   "meshId": "rbxassetid://74498704128202",
+   "textureId": "rbxassetid://96698868209370",
+   "surfaceAppearance": null,
+   "owners": {
+    "rbxassetid://74498704128202": {
+     "name": "Headset_Geo.001",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  },
+  {
+   "name": "EnergyCan",
+   "class": "MeshPart",
+   "size": [
+    0.619999885559082,
+    1.440000057220459,
+    0.6200001239776611
+   ],
+   "meshSize": [
+    0.619999885559082,
+    1.440000057220459,
+    0.6200001239776611
+   ],
+   "cf": [
+    1.6200000047683716,
+    3.859999895095825,
+    -1.3200000524520874,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "anchored": false,
+   "massless": true,
+   "cancollide": false,
+   "canquery": false,
+   "cantouch": false,
+   "meshId": "rbxassetid://87843784320147",
+   "textureId": "rbxassetid://96698868209370",
+   "surfaceAppearance": null,
+   "owners": {
+    "rbxassetid://87843784320147": {
+     "name": "EnergyCan_Geo.001",
+     "assetType": 4,
+     "creatorId": 3938337813,
+     "public": false
+    },
+    "rbxassetid://96698868209370": {
+     "name": "base_color_texture",
+     "assetType": 1,
+     "creatorId": 3938337813,
+     "public": false
+    }
+   }
+  }
+ ],
+ "attachments": [
+  {
+   "name": "NeckRigAttachment",
+   "position": [
+    -3.320494101899385e-07,
+    -0.869999885559082,
+    0.1838926374912262
+   ],
+   "parent": "Head",
+   "originalPosition": [
+    -3.320494101899385e-07,
+    -0.869999885559082,
+    0.1838926374912262
+   ],
+   "world": [
+    -3.916540549653291e-07,
+    4.480000019073486,
+    -1.4007091522216797e-06
+   ]
+  },
+  {
+   "name": "LeftAnkleRigAttachment",
+   "position": [
+    0.11749553680419922,
+    0.22000014781951904,
+    0.2611893117427826
+   ],
+   "parent": "LeftFoot",
+   "originalPosition": [
+    0.11749553680419922,
+    0.22000014781951904,
+    0.2611893117427826
+   ],
+   "world": [
+    -1.0199984312057495,
+    0.6600000858306885,
+    -3.5762786865234375e-07
+   ]
+  },
+  {
+   "name": "LeftWristRigAttachment",
+   "position": [
+    0.01999950408935547,
+    0.2999999523162842,
+    0.04499924182891846
+   ],
+   "parent": "LeftHand",
+   "originalPosition": [
+    0.01999950408935547,
+    0.2999999523162842,
+    0.04499924182891846
+   ],
+   "world": [
+    -1.9400004148483276,
+    2.6915283203125,
+    -0.04000064730644226
+   ]
+  },
+  {
+   "name": "LeftWristRigAttachment",
+   "position": [
+    -0.055753350257873535,
+    -0.3484463691711426,
+    -0.028994888067245483
+   ],
+   "parent": "LeftLowerArm",
+   "originalPosition": [
+    -0.055753350257873535,
+    -0.3484463691711426,
+    -0.028994888067245483
+   ],
+   "world": [
+    -1.9400004148483276,
+    2.6915283203125,
+    -0.04000064730644226
+   ]
+  },
+  {
+   "name": "LeftElbowRigAttachment",
+   "position": [
+    0.044246673583984375,
+    0.363452672958374,
+    0.011004817672073841
+   ],
+   "parent": "LeftLowerArm",
+   "originalPosition": [
+    0.044246673583984375,
+    0.363452672958374,
+    0.011004817672073841
+   ],
+   "world": [
+    -1.8400003910064697,
+    3.4034273624420166,
+    -9.415671229362488e-07
+   ]
+  },
+  {
+   "name": "LeftAnkleRigAttachment",
+   "position": [
+    -0.01999843120574951,
+    -0.3399999141693115,
+    0.019999569281935692
+   ],
+   "parent": "LeftLowerLeg",
+   "originalPosition": [
+    -0.01999843120574951,
+    -0.3399999141693115,
+    0.019999569281935692
+   ],
+   "world": [
+    -1.0199984312057495,
+    0.6600000858306885,
+    -3.520399332046509e-07
+   ]
+  },
+  {
+   "name": "LeftKneeRigAttachment",
+   "position": [
+    9.5367431640625e-07,
+    0.24000036716461182,
+    0.009999468922615051
+   ],
+   "parent": "LeftLowerLeg",
+   "originalPosition": [
+    9.5367431640625e-07,
+    0.24000036716461182,
+    0.009999468922615051
+   ],
+   "world": [
+    -0.9999990463256836,
+    1.2400003671646118,
+    -0.010000452399253845
+   ]
+  },
+  {
+   "name": "LeftElbowRigAttachment",
+   "position": [
+    -0.11012303829193115,
+    -0.5151865482330322,
+    -9.866973869065987e-07
+   ],
+   "parent": "LeftUpperArm",
+   "originalPosition": [
+    -0.11012303829193115,
+    -0.5151865482330322,
+    -9.866973869065987e-07
+   ],
+   "world": [
+    -1.8400003910064697,
+    3.4034273624420166,
+    -9.419939033250557e-07
+   ]
+  },
+  {
+   "name": "LeftShoulderRigAttachment",
+   "position": [
+    0.049877047538757324,
+    0.43138599395751953,
+    -1.4025088148628129e-06
+   ],
+   "parent": "LeftUpperArm",
+   "originalPosition": [
+    0.049877047538757324,
+    0.43138599395751953,
+    -1.4025088148628129e-06
+   ],
+   "world": [
+    -1.6800003051757812,
+    4.349999904632568,
+    -1.35780533128127e-06
+   ]
+  },
+  {
+   "name": "JointRotation",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "parent": "LeftShoulderRigAttachment",
+   "originalPosition": [
+    0.049877047538757324,
+    0.43138599395751953,
+    -1.4025088148628129e-06
+   ],
+   "world": [
+    -1.6800003051757812,
+    4.349999904632568,
+    -1.35780533128127e-06
+   ]
+  },
+  {
+   "name": "LeftKneeRigAttachment",
+   "position": [
+    -0.09499907493591309,
+    -0.6049996614456177,
+    0.009999498724937439
+   ],
+   "parent": "LeftUpperLeg",
+   "originalPosition": [
+    -0.09499907493591309,
+    -0.6049996614456177,
+    0.009999498724937439
+   ],
+   "world": [
+    -0.9999990463256836,
+    1.2400003671646118,
+    -0.010000452399253845
+   ]
+  },
+  {
+   "name": "LeftHipRigAttachment",
+   "position": [
+    0.12499982118606567,
+    0.5350000858306885,
+    0.01999923586845398
+   ],
+   "parent": "LeftUpperLeg",
+   "originalPosition": [
+    0.12499982118606567,
+    0.5350000858306885,
+    0.01999923586845398
+   ],
+   "world": [
+    -0.7800001502037048,
+    2.380000114440918,
+    -7.152557373046875e-07
+   ]
+  },
+  {
+   "name": "WaistRigAttachment",
+   "position": [
+    -2.18556948539117e-07,
+    0.17500019073486328,
+    0.024999162182211876
+   ],
+   "parent": "LowerTorso",
+   "originalPosition": [
+    -2.18556948539117e-07,
+    0.17500019073486328,
+    0.024999162182211876
+   ],
+   "world": [
+    -2.18556948539117e-07,
+    2.5,
+    -7.543712854385376e-07
+   ]
+  },
+  {
+   "name": "RightHipRigAttachment",
+   "position": [
+    0.7799997925758362,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "parent": "LowerTorso",
+   "originalPosition": [
+    0.7799997925758362,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "world": [
+    0.7799997925758362,
+    2.380000114440918,
+    -7.152557373046875e-07
+   ]
+  },
+  {
+   "name": "LeftHipRigAttachment",
+   "position": [
+    -0.7800001502037048,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "parent": "LowerTorso",
+   "originalPosition": [
+    -0.7800001502037048,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "world": [
+    -0.7800001502037048,
+    2.380000114440918,
+    -7.152557373046875e-07
+   ]
+  },
+  {
+   "name": "RootRigAttachment",
+   "position": [
+    -2.080662255821153e-07,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "parent": "LowerTorso",
+   "originalPosition": [
+    -2.080662255821153e-07,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "world": [
+    -2.080662255821153e-07,
+    2.380000114440918,
+    -7.152557373046875e-07
+   ]
+  },
+  {
+   "name": "RightAnkleRigAttachment",
+   "position": [
+    -0.11749577522277832,
+    0.22000029683113098,
+    0.2611893117427826
+   ],
+   "parent": "RightFoot",
+   "originalPosition": [
+    -0.11749577522277832,
+    0.22000029683113098,
+    0.2611893117427826
+   ],
+   "world": [
+    1.01999831199646,
+    0.660000205039978,
+    -3.5762786865234375e-07
+   ]
+  },
+  {
+   "name": "RightWristRigAttachment",
+   "position": [
+    -0.06000041961669922,
+    -0.049302101135253906,
+    0.2344920039176941
+   ],
+   "parent": "RightHand",
+   "originalPosition": [
+    -0.06000041961669922,
+    -0.049302101135253906,
+    0.2344920039176941
+   ],
+   "world": [
+    2.059999465942383,
+    3.6906979084014893,
+    -0.9505079388618469
+   ]
+  },
+  {
+   "name": "RightWristRigAttachment",
+   "position": [
+    0.030092239379882812,
+    0.1800224781036377,
+    -0.4365813136100769
+   ],
+   "parent": "RightLowerArm",
+   "originalPosition": [
+    0.030092239379882812,
+    0.1800224781036377,
+    -0.4365813136100769
+   ],
+   "world": [
+    2.059999465942383,
+    3.6906979084014893,
+    -0.9505078792572021
+   ]
+  },
+  {
+   "name": "RightElbowRigAttachment",
+   "position": [
+    -0.009907722473144531,
+    -0.019977092742919922,
+    0.2539254128932953
+   ],
+   "parent": "RightLowerArm",
+   "originalPosition": [
+    -0.009907722473144531,
+    -0.019977092742919922,
+    0.2539254128932953
+   ],
+   "world": [
+    2.0199995040893555,
+    3.4906983375549316,
+    -0.26000115275382996
+   ]
+  },
+  {
+   "name": "RightAnkleRigAttachment",
+   "position": [
+    0.01999831199645996,
+    -0.3399997353553772,
+    0.019999569281935692
+   ],
+   "parent": "RightLowerLeg",
+   "originalPosition": [
+    0.01999831199645996,
+    -0.3399997353553772,
+    0.019999569281935692
+   ],
+   "world": [
+    1.01999831199646,
+    0.6600002646446228,
+    -3.520399332046509e-07
+   ]
+  },
+  {
+   "name": "RightKneeRigAttachment",
+   "position": [
+    -1.1920928955078125e-06,
+    0.24000048637390137,
+    0.009999468922615051
+   ],
+   "parent": "RightLowerLeg",
+   "originalPosition": [
+    -1.1920928955078125e-06,
+    0.24000048637390137,
+    0.009999468922615051
+   ],
+   "world": [
+    0.9999988079071045,
+    1.2400004863739014,
+    -0.010000452399253845
+   ]
+  },
+  {
+   "name": "RightElbowRigAttachment",
+   "position": [
+    0.15585899353027344,
+    -0.30187368392944336,
+    -0.2109682708978653
+   ],
+   "parent": "RightUpperArm",
+   "originalPosition": [
+    0.15585899353027344,
+    -0.30187368392944336,
+    -0.2109682708978653
+   ],
+   "world": [
+    2.0199995040893555,
+    3.4906983375549316,
+    -0.26000115275382996
+   ]
+  },
+  {
+   "name": "RightShoulderRigAttachment",
+   "position": [
+    -0.18414092063903809,
+    0.5574283599853516,
+    0.04903152585029602
+   ],
+   "parent": "RightUpperArm",
+   "originalPosition": [
+    -0.18414092063903809,
+    0.5574283599853516,
+    0.04903152585029602
+   ],
+   "world": [
+    1.679999589920044,
+    4.350000381469727,
+    -1.3560056686401367e-06
+   ]
+  },
+  {
+   "name": "JointRotation",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "parent": "RightShoulderRigAttachment",
+   "originalPosition": [
+    -0.18414092063903809,
+    0.5574283599853516,
+    0.04903152585029602
+   ],
+   "world": [
+    1.679999589920044,
+    4.350000381469727,
+    -1.3560056686401367e-06
+   ]
+  },
+  {
+   "name": "RightKneeRigAttachment",
+   "position": [
+    0.09499877691268921,
+    -0.6049995422363281,
+    0.009999498724937439
+   ],
+   "parent": "RightUpperLeg",
+   "originalPosition": [
+    0.09499877691268921,
+    -0.6049995422363281,
+    0.009999498724937439
+   ],
+   "world": [
+    0.9999988079071045,
+    1.2400004863739014,
+    -0.010000452399253845
+   ]
+  },
+  {
+   "name": "RightHipRigAttachment",
+   "position": [
+    -0.1250002384185791,
+    0.5350000858306885,
+    0.01999923586845398
+   ],
+   "parent": "RightUpperLeg",
+   "originalPosition": [
+    -0.1250002384185791,
+    0.5350000858306885,
+    0.01999923586845398
+   ],
+   "world": [
+    0.7799997925758362,
+    2.380000114440918,
+    -7.152557373046875e-07
+   ]
+  },
+  {
+   "name": "NeckRigAttachment",
+   "position": [
+    -3.916540549653291e-07,
+    1.0250000953674316,
+    0.14499861001968384
+   ],
+   "parent": "UpperTorso",
+   "originalPosition": [
+    -3.916540549653291e-07,
+    1.0250000953674316,
+    0.14499861001968384
+   ],
+   "world": [
+    -3.916540549653291e-07,
+    4.480000019073486,
+    -1.4007091522216797e-06
+   ]
+  },
+  {
+   "name": "RightShoulderRigAttachment",
+   "position": [
+    1.679999589920044,
+    0.8950004577636719,
+    0.14499865472316742
+   ],
+   "parent": "UpperTorso",
+   "originalPosition": [
+    1.679999589920044,
+    0.8950004577636719,
+    0.14499865472316742
+   ],
+   "world": [
+    1.679999589920044,
+    4.350000381469727,
+    -1.3560056686401367e-06
+   ]
+  },
+  {
+   "name": "JointRotation",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "parent": "RightShoulderRigAttachment",
+   "originalPosition": [
+    1.679999589920044,
+    0.8950004577636719,
+    0.14499865472316742
+   ],
+   "world": [
+    1.679999589920044,
+    4.350000381469727,
+    -1.3560056686401367e-06
+   ]
+  },
+  {
+   "name": "LeftShoulderRigAttachment",
+   "position": [
+    -1.6800003051757812,
+    0.8949999809265137,
+    0.14499865472316742
+   ],
+   "parent": "UpperTorso",
+   "originalPosition": [
+    -1.6800003051757812,
+    0.8949999809265137,
+    0.14499865472316742
+   ],
+   "world": [
+    -1.6800003051757812,
+    4.349999904632568,
+    -1.3560056686401367e-06
+   ]
+  },
+  {
+   "name": "JointRotation",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "parent": "LeftShoulderRigAttachment",
+   "originalPosition": [
+    -1.6800003051757812,
+    0.8949999809265137,
+    0.14499865472316742
+   ],
+   "world": [
+    -1.6800003051757812,
+    4.349999904632568,
+    -1.3560056686401367e-06
+   ]
+  },
+  {
+   "name": "WaistRigAttachment",
+   "position": [
+    -2.18556948539117e-07,
+    -0.9549999237060547,
+    0.14499925076961517
+   ],
+   "parent": "UpperTorso",
+   "originalPosition": [
+    -2.18556948539117e-07,
+    -0.9549999237060547,
+    0.14499925076961517
+   ],
+   "world": [
+    -2.18556948539117e-07,
+    2.5,
+    -7.599592208862305e-07
+   ]
+  },
+  {
+   "name": "RootRigAttachment",
+   "position": [
+    -2.080662255821153e-07,
+    -1,
+    -7.755024853395298e-07
+   ],
+   "parent": "HumanoidRootPart",
+   "originalPosition": [
+    -2.080662255821153e-07,
+    -1,
+    -7.755024853395298e-07
+   ],
+   "world": [
+    -2.080662255821153e-07,
+    2.380000114440918,
+    -7.158978405641392e-07
+   ]
+  }
+ ],
+ "constraints": [
+  {
+   "enabled": true,
+   "part1": "Head",
+   "parent": "Head",
+   "class": "AnimationConstraint",
+   "att1": "NeckRigAttachment",
+   "att0": "NeckRigAttachment",
+   "name": "Neck",
+   "part0": "UpperTorso",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "part1": "LeftFoot",
+   "parent": "LeftFoot",
+   "class": "AnimationConstraint",
+   "att1": "LeftAnkleRigAttachment",
+   "att0": "LeftAnkleRigAttachment",
+   "name": "LeftAnkle",
+   "part0": "LeftLowerLeg",
+   "gap": 5.587935447692871e-09
+  },
+  {
+   "enabled": true,
+   "part1": "LeftHand",
+   "parent": "LeftHand",
+   "class": "AnimationConstraint",
+   "att1": "LeftWristRigAttachment",
+   "att0": "LeftWristRigAttachment",
+   "name": "LeftWrist",
+   "part0": "LeftLowerArm",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "part1": "LeftLowerArm",
+   "parent": "LeftLowerArm",
+   "class": "AnimationConstraint",
+   "att1": "LeftElbowRigAttachment",
+   "att0": "LeftElbowRigAttachment",
+   "name": "LeftElbow",
+   "part0": "LeftUpperArm",
+   "gap": 4.267803888069466e-10
+  },
+  {
+   "enabled": true,
+   "part1": "LeftLowerLeg",
+   "parent": "LeftLowerLeg",
+   "class": "AnimationConstraint",
+   "att1": "LeftKneeRigAttachment",
+   "att0": "LeftKneeRigAttachment",
+   "name": "LeftKnee",
+   "part0": "LeftUpperLeg",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "part1": "LeftUpperArm",
+   "parent": "LeftUpperArm",
+   "class": "AnimationConstraint",
+   "att1": "LeftShoulderRigAttachment",
+   "att0": "LeftShoulderRigAttachment",
+   "name": "LeftShoulder",
+   "part0": "UpperTorso",
+   "gap": 1.7996626411331818e-09
+  },
+  {
+   "enabled": true,
+   "part1": "LeftUpperLeg",
+   "parent": "LeftUpperLeg",
+   "class": "AnimationConstraint",
+   "att1": "LeftHipRigAttachment",
+   "att0": "LeftHipRigAttachment",
+   "name": "LeftHip",
+   "part0": "LowerTorso",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "part1": "LowerTorso",
+   "parent": "LowerTorso",
+   "class": "AnimationConstraint",
+   "att1": "RootRigAttachment",
+   "att0": "RootRigAttachment",
+   "name": "Root",
+   "part0": "HumanoidRootPart",
+   "gap": 6.421032594516873e-10
+  },
+  {
+   "enabled": true,
+   "part1": "RightFoot",
+   "parent": "RightFoot",
+   "class": "AnimationConstraint",
+   "att1": "RightAnkleRigAttachment",
+   "att0": "RightAnkleRigAttachment",
+   "name": "RightAnkle",
+   "part0": "RightLowerLeg",
+   "gap": 5.986600370988526e-08
+  },
+  {
+   "enabled": true,
+   "part1": "RightHand",
+   "parent": "RightHand",
+   "class": "AnimationConstraint",
+   "att1": "RightWristRigAttachment",
+   "att0": "RightWristRigAttachment",
+   "name": "RightWrist",
+   "part0": "RightLowerArm",
+   "gap": 5.960464477539063e-08
+  },
+  {
+   "enabled": true,
+   "part1": "RightLowerArm",
+   "parent": "RightLowerArm",
+   "class": "AnimationConstraint",
+   "att1": "RightElbowRigAttachment",
+   "att0": "RightElbowRigAttachment",
+   "name": "RightElbow",
+   "part0": "RightUpperArm",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "part1": "RightLowerLeg",
+   "parent": "RightLowerLeg",
+   "class": "AnimationConstraint",
+   "att1": "RightKneeRigAttachment",
+   "att0": "RightKneeRigAttachment",
+   "name": "RightKnee",
+   "part0": "RightUpperLeg",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "part1": "RightUpperArm",
+   "parent": "RightUpperArm",
+   "class": "AnimationConstraint",
+   "att1": "RightShoulderRigAttachment",
+   "att0": "RightShoulderRigAttachment",
+   "name": "RightShoulder",
+   "part0": "UpperTorso",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "part1": "RightUpperLeg",
+   "parent": "RightUpperLeg",
+   "class": "AnimationConstraint",
+   "att1": "RightHipRigAttachment",
+   "att0": "RightHipRigAttachment",
+   "name": "RightHip",
+   "part0": "LowerTorso",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "part1": "UpperTorso",
+   "parent": "UpperTorso",
+   "class": "AnimationConstraint",
+   "att1": "WaistRigAttachment",
+   "att0": "WaistRigAttachment",
+   "name": "Waist",
+   "part0": "LowerTorso",
+   "gap": 5.587935447692871e-09
+  },
+  {
+   "enabled": true,
+   "part1": "Headset",
+   "name": "HeadsetMount",
+   "parent": "Headset",
+   "class": "WeldConstraint",
+   "part0": "Head"
+  },
+  {
+   "enabled": true,
+   "part1": "EnergyCan",
+   "name": "CanGrip",
+   "parent": "EnergyCan",
+   "class": "WeldConstraint",
+   "part0": "RightHand"
+  }
+ ],
+ "joints_summary": {
+  "animationConstraints": 15
+ },
+ "finalPose": "HoldCan (static): right forearm raised, EnergyCan in right hand; rest pose == HoldCan; HoldCanPose/NeutralPose CFrame folders stored in the rbxm",
+ "grip": {
+  "joint": "WeldConstraint CanGrip (Part0=RightHand, Part1=EnergyCan)",
+  "canRelRightHand_studs": [
+   -0.5,
+   0.12,
+   -0.135
+  ],
+  "logicalGripPoint_Blender": [
+   -1.93,
+   -1.32,
+   3.74
+  ],
+  "propFlags": "CanCollide/CanQuery/CanTouch=false, Massless=true"
+ },
+ "headsetMount": {
+  "joint": "WeldConstraint HeadsetMount (Part0=Head, Part1=Headset)",
+  "headsetRelHead_studs": [
+   0.0,
+   0.2175,
+   -0.1474
+  ],
+  "propFlags": "CanCollide/CanQuery/CanTouch=false, Massless=true"
+ },
+ "measured_in_studio": {
+  "max_size_diff": 4.944381713833934e-06,
+  "max_centre_diff": 6.894836426241113e-07,
+  "max_attachment_diff": 2.637557983575789e-06,
+  "joint_gap_max": 5.986600370988526e-08,
+  "anchored_parts": []
+ },
+ "assetOwners": {
+  "109787622963928": {
+   "name": "LeftLowerArm_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "119464730330340": {
+   "name": "RightUpperLeg_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "130617102298905": {
+   "name": "UpperTorso_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "72671632619977": {
+   "name": "RightLowerLeg_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "73794803755628": {
+   "name": "RightLowerArm_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "74498704128202": {
+   "name": "Headset_Geo.001",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "75577270889359": {
+   "name": "RightUpperArm_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "76851789596232": {
+   "name": "RightHand_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "76907366408196": {
+   "name": "Head_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "81183940528461": {
+   "name": "LeftUpperLeg_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "84647994984668": {
+   "name": "RightFoot_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "85711708907125": {
+   "name": "LeftFoot_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "87099661466460": {
+   "name": "LeftHand_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "87843784320147": {
+   "name": "EnergyCan_Geo.001",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "89940642676109": {
+   "name": "LeftUpperArm_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "96135648245642": {
+   "name": "LeftLowerLeg_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "96698868209370": {
+   "name": "base_color_texture",
+   "assetType": 1,
+   "creatorId": 3938337813,
+   "public": false
+  },
+  "99561828792978": {
+   "name": "LowerTorso_Geo",
+   "assetType": 4,
+   "creatorId": 3938337813,
+   "public": false
+  }
+ }
+}

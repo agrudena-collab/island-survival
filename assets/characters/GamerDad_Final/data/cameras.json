@@ -1,0 +1,762 @@
+[
+ {
+  "name": "01_matching_front.png",
+  "location": [
+   0.0,
+   -29.8764,
+   6.8561
+  ],
+  "target": [
+   0.0,
+   -0.1,
+   3.2
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 7.15,
+  "lens_mm": null,
+  "resolution": [
+   1600,
+   1600
+  ]
+ },
+ {
+  "name": "02_front.png",
+  "location": [
+   0.0,
+   -30.0269,
+   5.2927
+  ],
+  "target": [
+   0.0,
+   -0.1,
+   3.2
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 7.15,
+  "lens_mm": null,
+  "resolution": [
+   1600,
+   1600
+  ]
+ },
+ {
+  "name": "03_back.png",
+  "location": [
+   0.0,
+   29.8269,
+   5.2927
+  ],
+  "target": [
+   0.0,
+   -0.1,
+   3.2
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 7.15,
+  "lens_mm": null,
+  "resolution": [
+   1600,
+   1600
+  ]
+ },
+ {
+  "name": "04_profile_right.png",
+  "location": [
+   -29.9269,
+   -0.1,
+   5.2927
+  ],
+  "target": [
+   0.0,
+   -0.1,
+   3.2
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 7.15,
+  "lens_mm": null,
+  "resolution": [
+   1600,
+   1600
+  ]
+ },
+ {
+  "name": "05_profile_left.png",
+  "location": [
+   29.9269,
+   -0.1,
+   5.2927
+  ],
+  "target": [
+   0.0,
+   -0.1,
+   3.2
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 7.15,
+  "lens_mm": null,
+  "resolution": [
+   1600,
+   1600
+  ]
+ },
+ {
+  "name": "06_front_q34.png",
+  "location": [
+   -16.9954,
+   -24.372,
+   7.893
+  ],
+  "target": [
+   0.0,
+   -0.1,
+   3.2
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 7.15,
+  "lens_mm": null,
+  "resolution": [
+   1600,
+   1600
+  ]
+ },
+ {
+  "name": "07_rear_q34.png",
+  "location": [
+   16.9954,
+   24.172,
+   7.893
+  ],
+  "target": [
+   0.0,
+   -0.1,
+   3.2
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 7.15,
+  "lens_mm": null,
+  "resolution": [
+   1600,
+   1600
+  ]
+ },
+ {
+  "name": "08_face_front.png",
+  "location": [
+   0.0,
+   -14.2915,
+   5.7386
+  ],
+  "target": [
+   0.0,
+   -0.3,
+   5.25
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 3.2,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "09_face_profile_right.png",
+  "location": [
+   -13.9915,
+   -0.3,
+   5.7386
+  ],
+  "target": [
+   0.0,
+   -0.3,
+   5.25
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 3.2,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "09b_face_q34.png",
+  "location": [
+   -7.3467,
+   -12.0571,
+   7.1984
+  ],
+  "target": [
+   0.0,
+   -0.3,
+   5.25
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 3.2,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "08c_head_top.png",
+  "location": [
+   -1.6377,
+   -4.7995,
+   18.4057
+  ],
+  "target": [
+   0.0,
+   -0.3,
+   5.25
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 3.2,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "08d_head_back.png",
+  "location": [
+   0.0,
+   13.4873,
+   7.6811
+  ],
+  "target": [
+   0.0,
+   -0.3,
+   5.25
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 3.2,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "10_beard_below.png",
+  "location": [
+   -2.6928,
+   -10.5995,
+   -4.6178
+  ],
+  "target": [
+   0.0,
+   -0.55,
+   4.75
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 3.0,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "10b_beard_side.png",
+  "location": [
+   -13.9808,
+   -0.55,
+   5.4827
+  ],
+  "target": [
+   0.0,
+   -0.55,
+   4.75
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 3.0,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "11_shoulder_R.png",
+  "location": [
+   -10.4824,
+   -10.4903,
+   7.2608
+  ],
+  "target": [
+   -1.68,
+   0.0,
+   4.35
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "12_elbow_R_outer.png",
+  "location": [
+   -15.9433,
+   -0.26,
+   4.9541
+  ],
+  "target": [
+   -2.02,
+   -0.26,
+   3.4907
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "12_elbow_R_front.png",
+  "location": [
+   -2.02,
+   -14.1238,
+   5.4391
+  ],
+  "target": [
+   -2.02,
+   -0.26,
+   3.4907
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "12_elbow_R_back.png",
+  "location": [
+   -2.02,
+   13.6038,
+   5.4391
+  ],
+  "target": [
+   -2.02,
+   -0.26,
+   3.4907
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "12_elbow_R_top.png",
+  "location": [
+   -4.1831,
+   -4.0066,
+   16.8055
+  ],
+  "target": [
+   -2.02,
+   -0.26,
+   3.4907
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "12_elbow_R_bottom.png",
+  "location": [
+   -5.52,
+   -6.3222,
+   -8.6337
+  ],
+  "target": [
+   -2.02,
+   -0.26,
+   3.4907
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "11_shoulder_L.png",
+  "location": [
+   10.4824,
+   -10.4903,
+   7.2608
+  ],
+  "target": [
+   1.68,
+   0.0,
+   4.35
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "12_elbow_L_outer.png",
+  "location": [
+   15.7633,
+   -0.0,
+   4.8668
+  ],
+  "target": [
+   1.84,
+   0.0,
+   3.4034
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "12_elbow_L_front.png",
+  "location": [
+   1.84,
+   -13.8638,
+   5.3519
+  ],
+  "target": [
+   1.84,
+   0.0,
+   3.4034
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "12_elbow_L_back.png",
+  "location": [
+   1.84,
+   13.8638,
+   5.3519
+  ],
+  "target": [
+   1.84,
+   0.0,
+   3.4034
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "12_elbow_L_top.png",
+  "location": [
+   4.0031,
+   -3.7466,
+   16.7182
+  ],
+  "target": [
+   1.84,
+   0.0,
+   3.4034
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "12_elbow_L_bottom.png",
+  "location": [
+   5.34,
+   -6.0622,
+   -8.7209
+  ],
+  "target": [
+   1.84,
+   0.0,
+   3.4034
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "13_grip_front.png",
+  "location": [
+   -2.05,
+   -11.0452,
+   4.7953
+  ],
+  "target": [
+   -2.05,
+   -1.1,
+   3.75
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "13b_grip_side_inner.png",
+  "location": [
+   7.8952,
+   -1.1,
+   4.7953
+  ],
+  "target": [
+   -2.05,
+   -1.1,
+   3.75
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "13c_grip_back.png",
+  "location": [
+   -2.05,
+   8.8452,
+   4.7953
+  ],
+  "target": [
+   -2.05,
+   -1.1,
+   3.75
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "13d_grip_top.png",
+  "location": [
+   -2.05,
+   -2.8365,
+   13.5981
+  ],
+  "target": [
+   -2.05,
+   -1.1,
+   3.75
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "14_left_hand.png",
+  "location": [
+   6.9013,
+   -8.676,
+   3.7917
+  ],
+  "target": [
+   1.95,
+   -0.1,
+   2.4
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.8,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "15_shoes.png",
+  "location": [
+   4.1006,
+   -8.9939,
+   3.1192
+  ],
+  "target": [
+   0.0,
+   -0.2,
+   0.7
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 4.2,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "15b_pelvis_front.png",
+  "location": [
+   0.0,
+   -14.0659,
+   2.9766
+  ],
+  "target": [
+   0.0,
+   -0.1,
+   2.0
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 4.2,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "15c_pelvis_back.png",
+  "location": [
+   0.0,
+   13.8659,
+   2.9766
+  ],
+  "target": [
+   0.0,
+   -0.1,
+   2.0
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 4.2,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "16_can_front.png",
+  "location": [
+   -1.62,
+   -11.2956,
+   4.5576
+  ],
+  "target": [
+   -1.62,
+   -1.32,
+   3.86
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.0,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "16b_can_back.png",
+  "location": [
+   -1.62,
+   8.6556,
+   4.5576
+  ],
+  "target": [
+   -1.62,
+   -1.32,
+   3.86
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 2.0,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "16c_can_top.png",
+  "location": [
+   -1.62,
+   -3.0565,
+   13.7081
+  ],
+  "target": [
+   -1.62,
+   -1.32,
+   3.86
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 1.2,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ },
+ {
+  "name": "16d_can_bottom.png",
+  "location": [
+   -1.62,
+   -4.7402,
+   -5.5369
+  ],
+  "target": [
+   -1.62,
+   -1.32,
+   3.86
+  ],
+  "type": "ORTHO",
+  "ortho_scale": 1.2,
+  "lens_mm": null,
+  "resolution": [
+   1200,
+   1200
+  ]
+ }
+]

@@ -1,0 +1,310 @@
+{
+ "studio": "Roblox Studio 0.743 (import: Scale Unit Stud x1, World Forward Front / Up Top, Upload to Roblox unchecked)",
+ "assembled": {
+  "max_size_diff": 4.944381713833934e-06,
+  "max_centre_diff": 6.894836426241113e-07,
+  "max_attachment_diff": 2.637557983575789e-06,
+  "joint_gap_max": 5.986600370988526e-08,
+  "anchored_parts": []
+ },
+ "reopened_same_place": {
+  "max_size_diff": 4.944381713833934e-06,
+  "max_centre_diff": 6.894836426241113e-07,
+  "max_attachment_diff": 2.637557983575789e-06,
+  "joint_gap_max": 5.986600370988526e-08,
+  "anchored_parts": []
+ },
+ "second_clean_place_rbxm": {
+  "note": "Studio places an inserted model on top of the 1-stud SpawnLocation: uniform +1.0 Y offset, relative geometry identical",
+  "max_size_diff": 4.944381713833934e-06,
+  "max_attachment_diff": 1.0000062084197998,
+  "joint_gap_max": 1.1934018573356298e-07,
+  "anchored_parts": []
+ },
+ "pose_controller_edit_mode_copy": {
+  "initial": {
+   "segs": {
+    "Left": {
+     "elbowGap": 4.267803888069466e-10,
+     "wristGap": 0,
+     "lower": 0.720000147819519,
+     "upper": 0.9599997401237488
+    },
+    "Right": {
+     "elbowGap": 0,
+     "wristGap": 5.960464477539063e-08,
+     "lower": 0.7199996113777161,
+     "upper": 0.9599999785423279
+    }
+   },
+   "anchoredAny": false,
+   "parts": 18
+  },
+  "after_neutral": {
+   "leftHandY": 2.391528367996216,
+   "rightHandY": 3.740000009536743,
+   "anchoredAny": false,
+   "maxMoveVsHoldCan": 0,
+   "statesRestored": true,
+   "canRelHand": [
+    -0.5,
+    0.11999988555908203,
+    -0.1350001096725464
+   ],
+   "maxRotVsHoldCan": 0,
+   "segs": {
+    "Left": {
+     "elbowGap": 4.267803888069466e-10,
+     "wristGap": 0,
+     "lower": 0.720000147819519,
+     "upper": 0.9599997401237488
+    },
+    "Right": {
+     "elbowGap": 0,
+     "wristGap": 5.960464477539063e-08,
+     "lower": 0.7199996113777161,
+     "upper": 0.9599999785423279
+    }
+   }
+  },
+  "after_holdcan": {
+   "maxPosDev": 0,
+   "canRelHand": [
+    -0.5,
+    0.11999988555908203,
+    -0.1350001096725464
+   ],
+   "statesRestored": true,
+   "maxRotDev": 0,
+   "segs": {
+    "Left": {
+     "elbowGap": 4.267803888069466e-10,
+     "wristGap": 0,
+     "lower": 0.720000147819519,
+     "upper": 0.9599997401237488
+    },
+    "Right": {
+     "elbowGap": 0,
+     "wristGap": 5.960464477539063e-08,
+     "lower": 0.7199996113777161,
+     "upper": 0.9599999785423279
+    }
+   }
+  },
+  "qafreeze": {
+   "frozenAllAnchored": true,
+   "restoredAfter": true
+  },
+  "error_path": {
+   "applyReturnedOk": false,
+   "err": "CommandBar:119: Workspace.GamerDad_QA_Copy.PoseController_injected:53: injected failure",
+   "injectedSourceChanged": true,
+   "statesRestored": true
+  },
+  "final_back_to_holdcan": {
+   "maxRotDev": 0,
+   "maxPosDev": 0
+  }
+ },
+ "pose_controller_run_mode_copy": {
+  "start_holdcan": {
+   "state": "Enum.HumanoidStateType.Running",
+   "hrpY": 3.380000114440918,
+   "part": "RightUpperLeg",
+   "anchored": 0,
+   "worstVsHoldCan": 2.980232238769531e-07,
+   "segs": {
+    "Left": {
+     "lower": 0.720000147819519,
+     "upper": 0.9599997401237488
+    },
+    "Right": {
+     "lower": 0.7199996113777161,
+     "upper": 0.9599999785423279
+    }
+   }
+  },
+  "neutral_held": {
+   "worstVsNeutral": 2.0955644686182495e-06,
+   "rightHandY": 2.428084373474121,
+   "canRelHand": [
+    -0.5,
+    0.11999988555908203,
+    -0.13500022888183594
+   ],
+   "part": "LeftHand",
+   "anchored": 0,
+   "worstVsHoldCan": 1.9199217557907104,
+   "segs": {
+    "Left": {
+     "lower": 0.7199997901916504,
+     "upper": 0.9600000381469727
+    },
+    "Right": {
+     "lower": 0.7199997901916504,
+     "upper": 0.96000075340271
+    }
+   }
+  },
+  "holdcan_restored": {
+   "rightHandY": 3.740000009536743,
+   "canRelHand": [
+    -0.5,
+    0.11999988555908203,
+    -0.1350001096725464
+   ],
+   "part": "RightUpperLeg",
+   "anchored": 0,
+   "worstVsHoldCan": 2.980232238769531e-07,
+   "segs": {
+    "Left": {
+     "lower": 0.720000147819519,
+     "upper": 0.9599997401237488
+    },
+    "Right": {
+     "lower": 0.7199996113777161,
+     "upper": 0.9599999785423279
+    }
+   }
+  }
+ },
+ "f5_player_unanchored_copy": {
+  "setup": {
+   "dadHipHeight": 2.380000352859497,
+   "player": "Sjsksknfxnd",
+   "playerHrpY": 4,
+   "anchoredPartsInDad": 0
+  },
+  "free_standing": {
+   "state": "Enum.HumanoidStateType.Running",
+   "floorMaterial": "Enum.Material.Plastic",
+   "hrpY": 3.3799996376037598,
+   "part": "RightFoot",
+   "worstRotDev": 0,
+   "worstPosDev": 2.811545414260763e-07,
+   "lowestSoleY": -7.152557373046875e-07
+  },
+  "carry": {
+   "seconds": 32.56547479999426,
+   "maxRootRelShift": 4.3702848415705375e-06,
+   "samples": 2014,
+   "maxPartRelRotDev": 0.0006905339541845024,
+   "jumps": 9,
+   "worstPart": "LeftHand",
+   "canRelHand": [
+    -0.5,
+    0.11999988555908203,
+    -0.13499832153320312
+   ],
+   "travelledStuds": 2.279205560684204,
+   "maxPartRelPosDev": 8.74183933774475e-06,
+   "commandedTurnsDeg": 900,
+   "totalYawRad": 15.707963414976394
+  },
+  "placed": {
+   "state": "Enum.HumanoidStateType.Running",
+   "lowestBeforePlacement": 1.0000046491622925,
+   "worstPosDev": 2.6037407678813906e-06,
+   "part": "Headset",
+   "worstRotDev": 0,
+   "error": 3.5762786865234375e-07,
+   "lowestAfterPlacementAndSettle": -3.5762786865234375e-07
+  },
+  "end": {
+   "anchoredParts": 0
+  }
+ },
+ "notes": [
+  "Edit mode: Apply(Neutral) cannot persist (enabled constraints re-snap the assembly); in Run/Play the pose HELD (see pose_controller_run_mode_copy.neutral_held)",
+  "the player's client controller overrides Humanoid:Move on the server, so the F5 carry QA drives the player with explicit yaw turns, velocity and jumps; the player travelled only about 2.3 studs",
+  "the QA weld model->player is a test fixture, not an implemented theft mechanic"
+ ],
+ "asset_ids": {
+  "Head": {
+   "meshId": "rbxassetid://76907366408196",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "LeftFoot": {
+   "meshId": "rbxassetid://85711708907125",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "LeftHand": {
+   "meshId": "rbxassetid://87099661466460",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "LeftLowerArm": {
+   "meshId": "rbxassetid://109787622963928",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "LeftLowerLeg": {
+   "meshId": "rbxassetid://96135648245642",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "LeftUpperArm": {
+   "meshId": "rbxassetid://89940642676109",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "LeftUpperLeg": {
+   "meshId": "rbxassetid://81183940528461",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "LowerTorso": {
+   "meshId": "rbxassetid://99561828792978",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "RightFoot": {
+   "meshId": "rbxassetid://84647994984668",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "RightHand": {
+   "meshId": "rbxassetid://76851789596232",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "RightLowerArm": {
+   "meshId": "rbxassetid://73794803755628",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "RightLowerLeg": {
+   "meshId": "rbxassetid://72671632619977",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "RightUpperArm": {
+   "meshId": "rbxassetid://75577270889359",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "RightUpperLeg": {
+   "meshId": "rbxassetid://119464730330340",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "UpperTorso": {
+   "meshId": "rbxassetid://130617102298905",
+   "textureId": "",
+   "surfaceAppearanceColorMap": "rbxassetid://96698868209370"
+  },
+  "Headset": {
+   "meshId": "rbxassetid://74498704128202",
+   "textureId": "rbxassetid://96698868209370",
+   "surfaceAppearanceColorMap": null
+  },
+  "EnergyCan": {
+   "meshId": "rbxassetid://87843784320147",
+   "textureId": "rbxassetid://96698868209370",
+   "surfaceAppearanceColorMap": null
+  }
+ },
+ "owner_account_of_assets": "3938337813 (the Studio account; Studio assigns rbxassetid even with Upload unchecked); access of other players NOT verified"
+}

@@ -1,0 +1,45 @@
+﻿  18:02:37.483   ▶ [Roblox][CorePackages.Packages._Index.UIBlox.UIBlox.Logger] [UIBlox - Warning] - FoundationProvider not found. Please ensure that the FoundationProvider is present in the component tree.
+CorePackages.Packages._Index.UIBlox.UIBlox.App.Style.AppStyleProvider:178 function AppStyleProvider
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberHooks.new:3196 function renderWithHooks
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:209 function renderWithHooks
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1577 function mountIndeterminateComponent
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:3485 function beginWork
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:255
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1977
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1953
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1896
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:915
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:860
+CorePackages.Packages._Index.Scheduler.Scheduler.Scheduler:320
+CorePackages.Packages._Index.Scheduler.Scheduler.Scheduler:268
+CorePackages.Packages._Index.Scheduler.Scheduler.forks.SchedulerHostConfig.default:260 function doWork
+CorePackages.Packages._Index.Scheduler.Scheduler.forks.SchedulerHostConfig.default:296 function performWorkUntilDeadline
+ (x2)  -  Client
+  18:02:37.564  ContentId: rbxassetid://203785492 failed due to: Asset type does not match requested type  -  Studio
+  18:02:37.666  GDRT|start_holdcan|{"state":"Enum.HumanoidStateType.Running","hrpY":3.380000114440918,"part":"RightUpperLeg","anchored":0,"worstVsHoldCan":2.980232238769531e-7,"segs":{"Left":{"lower":0.720000147819519,"upper":0.9599997401237488},"Right":{"lower":0.7199996113777161,"upper":0.9599999785423279}}}  -  Server - GD_QA_PoseRuntime:3
+  18:02:37.671   ▶ [Roblox][CorePackages.Packages._Index.UIBlox.UIBlox.Logger] [UIBlox - Warning] - FoundationProvider not found. Please ensure that the FoundationProvider is present in the component tree.
+CorePackages.Packages._Index.UIBlox.UIBlox.App.Style.AppStyleProvider:178 function AppStyleProvider
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberHooks.new:3196 function renderWithHooks
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:209 function renderWithHooks
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1577 function mountIndeterminateComponent
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:3485 function beginWork
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:255
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1977
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1953
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1896
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:915
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:860
+CorePackages.Packages._Index.Scheduler.Scheduler.Scheduler:320
+CorePackages.Packages._Index.Scheduler.Scheduler.Scheduler:268
+CorePackages.Packages._Index.Scheduler.Scheduler.forks.SchedulerHostConfig.default:260 function doWork
+CorePackages.Packages._Index.Scheduler.Scheduler.forks.SchedulerHostConfig.default:296 function performWorkUntilDeadline
+ (x3)  -  Client
+  18:02:39.185  GDRT|neutral_held|{"worstVsNeutral":0.0000020955644686182497,"rightHandY":2.428084373474121,"canRelHand":[-0.5,0.11999988555908203,-0.13500022888183595],"part":"LeftHand","anchored":0,"worstVsHoldCan":1.9199217557907105,"segs":{"Left":{"lower":0.7199997901916504,"upper":0.9600000381469727},"Right":{"lower":0.7199997901916504,"upper":0.96000075340271}}}  -  Server - GD_QA_PoseRuntime:3
+  18:02:39.726  GDF5|setup|{"dadHipHeight":2.380000352859497,"player":"Sjsksknfxnd","playerHrpY":4,"anchoredPartsInDad":0}  -  Server - GD_QA_F5:5
+  18:02:40.700  GDRT|holdcan_restored|{"rightHandY":3.740000009536743,"canRelHand":[-0.5,0.11999988555908203,-0.1350001096725464],"part":"RightUpperLeg","anchored":0,"worstVsHoldCan":2.980232238769531e-7,"segs":{"Left":{"lower":0.720000147819519,"upper":0.9599997401237488},"Right":{"lower":0.7199996113777161,"upper":0.9599999785423279}}}  -  Server - GD_QA_PoseRuntime:3
+  18:02:40.700  GDRT_DONE  -  Server - GD_QA_PoseRuntime:55
+  18:02:41.734  GDF5|free_standing|{"state":"Enum.HumanoidStateType.Running","floorMaterial":"Enum.Material.Plastic","hrpY":3.3799996376037599,"part":"RightFoot","worstRotDev":0,"worstPosDev":2.811545414260763e-7,"lowestSoleY":-7.152557373046875e-7}  -  Server - GD_QA_F5:5
+  18:03:16.316  GDF5|carry|{"seconds":32.56547479999426,"maxRootRelShift":0.0000043702848415705379,"samples":2014,"maxPartRelRotDev":0.0006905339541845024,"jumps":9,"worstPart":"LeftHand","canRelHand":[-0.5,0.11999988555908203,-0.13499832153320313],"travelledStuds":2.279205560684204,"maxPartRelPosDev":0.00000874183933774475,"commandedTurnsDeg":900,"totalYawRad":15.707963414976394}  -  Server - GD_QA_F5:5
+  18:03:19.832  GDF5|placed|{"state":"Enum.HumanoidStateType.Running","lowestBeforePlacement":1.0000046491622925,"worstPosDev":0.0000026037407678813908,"part":"Headset","worstRotDev":0,"error":3.5762786865234377e-7,"lowestAfterPlacementAndSettle":-3.5762786865234377e-7}  -  Server - GD_QA_F5:5
+  18:03:19.832  GDF5|end|{"anchoredParts":0}  -  Server - GD_QA_F5:5
+  18:03:19.832  GDF5_DONE  -  Server - GD_QA_F5:133

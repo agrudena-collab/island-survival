@@ -1,0 +1,392 @@
+{
+ "tag": "final",
+ "silhouette_iou": 0.8278,
+ "model_mask_height_px": 1458,
+ "reference_mask_height_px": 740,
+ "scale_ref_to_model": 1.9703,
+ "landmark_median_over_height": 0.0125,
+ "landmark_max_over_height": 0.035,
+ "landmarks": [
+  {
+   "landmark": "hair_top",
+   "reference_px": [
+    882,
+    70
+   ],
+   "reference_in_model_px": [
+    809.9,
+    90.8
+   ],
+   "model_px": [
+    800.0,
+    96.3
+   ],
+   "error_px": 11.3,
+   "error_over_height": 0.0077,
+   "model_point_XDH": [
+    0,
+    0.05,
+    6.35
+   ]
+  },
+  {
+   "landmark": "headset_left",
+   "reference_px": [
+    734,
+    201
+   ],
+   "reference_in_model_px": [
+    518.3,
+    348.9
+   ],
+   "model_px": [
+    509.1,
+    300.8
+   ],
+   "error_px": 49.0,
+   "error_over_height": 0.0336,
+   "model_point_XDH": [
+    -1.3,
+    -0.04,
+    5.44
+   ]
+  },
+  {
+   "landmark": "headset_right",
+   "reference_px": [
+    1016,
+    201
+   ],
+   "reference_in_model_px": [
+    1073.9,
+    348.9
+   ],
+   "model_px": [
+    1090.9,
+    300.8
+   ],
+   "error_px": 51.0,
+   "error_over_height": 0.035,
+   "model_point_XDH": [
+    1.3,
+    -0.04,
+    5.44
+   ]
+  },
+  {
+   "landmark": "beard_bottom",
+   "reference_px": [
+    878,
+    304
+   ],
+   "reference_in_model_px": [
+    802.0,
+    551.9
+   ],
+   "model_px": [
+    800.0,
+    569.1
+   ],
+   "error_px": 17.4,
+   "error_over_height": 0.0119,
+   "model_point_XDH": [
+    0,
+    -1.0,
+    4.35
+   ]
+  },
+  {
+   "landmark": "brow_inner_R",
+   "reference_px": [
+    858,
+    184
+   ],
+   "reference_in_model_px": [
+    762.6,
+    315.4
+   ],
+   "model_px": [
+    777.6,
+    293.7
+   ],
+   "error_px": 26.4,
+   "error_over_height": 0.0181,
+   "model_point_XDH": [
+    -0.1,
+    -0.755,
+    5.56
+   ]
+  },
+  {
+   "landmark": "brow_inner_L",
+   "reference_px": [
+    900,
+    184
+   ],
+   "reference_in_model_px": [
+    845.3,
+    315.4
+   ],
+   "model_px": [
+    822.4,
+    293.7
+   ],
+   "error_px": 31.6,
+   "error_over_height": 0.0217,
+   "model_point_XDH": [
+    0.1,
+    -0.755,
+    5.56
+   ]
+  },
+  {
+   "landmark": "nose_tip",
+   "reference_px": [
+    879,
+    219
+   ],
+   "reference_in_model_px": [
+    803.9,
+    384.4
+   ],
+   "model_px": [
+    800.0,
+    399.4
+   ],
+   "error_px": 15.5,
+   "error_over_height": 0.0107,
+   "model_point_XDH": [
+    0,
+    -1.13,
+    5.13
+   ]
+  },
+  {
+   "landmark": "sweat_left_hem",
+   "reference_px": [
+    710,
+    513
+   ],
+   "reference_in_model_px": [
+    471.0,
+    963.7
+   ],
+   "model_px": [
+    462.1,
+    973.2
+   ],
+   "error_px": 13.1,
+   "error_over_height": 0.009,
+   "model_point_XDH": [
+    -1.51,
+    -0.1,
+    2.42
+   ]
+  },
+  {
+   "landmark": "sweat_right_hem",
+   "reference_px": [
+    1050,
+    513
+   ],
+   "reference_in_model_px": [
+    1140.9,
+    963.7
+   ],
+   "model_px": [
+    1137.9,
+    973.2
+   ],
+   "error_px": 10.0,
+   "error_over_height": 0.0069,
+   "model_point_XDH": [
+    1.51,
+    -0.1,
+    2.42
+   ]
+  },
+  {
+   "landmark": "logo_center",
+   "reference_px": [
+    877,
+    372
+   ],
+   "reference_in_model_px": [
+    800.0,
+    685.8
+   ],
+   "model_px": [
+    800.0,
+    697.4
+   ],
+   "error_px": 11.6,
+   "error_over_height": 0.008,
+   "model_point_XDH": [
+    0,
+    -0.9,
+    3.76
+   ]
+  },
+  {
+   "landmark": "shorts_hem_R",
+   "reference_px": [
+    746,
+    653
+   ],
+   "reference_in_model_px": [
+    541.9,
+    1239.5
+   ],
+   "model_px": [
+    576.2,
+    1259.5
+   ],
+   "error_px": 39.7,
+   "error_over_height": 0.0273,
+   "model_point_XDH": [
+    -1.0,
+    -0.58,
+    1.19
+   ]
+  },
+  {
+   "landmark": "shorts_hem_L",
+   "reference_px": [
+    975,
+    654
+   ],
+   "reference_in_model_px": [
+    993.1,
+    1241.5
+   ],
+   "model_px": [
+    1023.8,
+    1259.5
+   ],
+   "error_px": 35.6,
+   "error_over_height": 0.0244,
+   "model_point_XDH": [
+    1.0,
+    -0.58,
+    1.19
+   ]
+  },
+  {
+   "landmark": "shoe_sole_R",
+   "reference_px": [
+    742,
+    791
+   ],
+   "reference_in_model_px": [
+    534.0,
+    1511.4
+   ],
+   "model_px": [
+    545.5,
+    1515.5
+   ],
+   "error_px": 12.2,
+   "error_over_height": 0.0083,
+   "model_point_XDH": [
+    -1.1375,
+    -0.275,
+    0.0
+   ]
+  },
+  {
+   "landmark": "shoe_sole_L",
+   "reference_px": [
+    992,
+    791
+   ],
+   "reference_in_model_px": [
+    1026.6,
+    1511.4
+   ],
+   "model_px": [
+    1054.5,
+    1515.5
+   ],
+   "error_px": 28.3,
+   "error_over_height": 0.0194,
+   "model_point_XDH": [
+    1.1375,
+    -0.275,
+    0.0
+   ]
+  },
+  {
+   "landmark": "can_top",
+   "reference_px": [
+    704,
+    280
+   ],
+   "reference_in_model_px": [
+    459.1,
+    504.6
+   ],
+   "model_px": [
+    437.5,
+    526.8
+   ],
+   "error_px": 31.0,
+   "error_over_height": 0.0213,
+   "model_point_XDH": [
+    -1.62,
+    -1.32,
+    4.58
+   ]
+  },
+  {
+   "landmark": "can_bottom",
+   "reference_px": [
+    698,
+    448
+   ],
+   "reference_in_model_px": [
+    447.3,
+    835.6
+   ],
+   "model_px": [
+    437.5,
+    846.6
+   ],
+   "error_px": 14.8,
+   "error_over_height": 0.0101,
+   "model_point_XDH": [
+    -1.62,
+    -1.32,
+    3.14
+   ]
+  },
+  {
+   "landmark": "free_hand_bottom",
+   "reference_px": [
+    1111,
+    563
+   ],
+   "reference_in_model_px": [
+    1261.0,
+    1062.2
+   ],
+   "model_px": [
+    1243.1,
+    1059.0
+   ],
+   "error_px": 18.2,
+   "error_over_height": 0.0125,
+   "model_point_XDH": [
+    1.98,
+    -0.08,
+    2.0315
+   ]
+  }
+ ],
+ "alignment": "scale = model mask height / reference mask height; soles bottom row and logo X matched; ortho camera yaw 0, elevation 7, target (0,-0.1,3.2), ortho_scale 7.15, 1600x1600",
+ "targets": {
+  "iou": 0.9,
+  "landmark_median": 0.008,
+  "landmark_max": 0.02,
+  "note": "targets are assigned, not achieved results"
+ }
+}

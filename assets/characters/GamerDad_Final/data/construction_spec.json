@@ -1,0 +1,749 @@
+{
+ "asset": "GamerDad_Sweatshirt_Review",
+ "character": "Gamer Dad (05, Rare) - sweatshirt version",
+ "units": "studs",
+ "plan_height": 6.4,
+ "built_height": 6.4,
+ "joints": {
+  "Root": [
+   0.0,
+   0.0,
+   2.38
+  ],
+  "Waist": [
+   0.0,
+   0.0,
+   2.5
+  ],
+  "Neck": [
+   0.0,
+   0.0,
+   4.48
+  ],
+  "RightShoulder": [
+   -1.68,
+   0.0,
+   4.35
+  ],
+  "RightElbow": [
+   -2.02,
+   -0.26,
+   3.4906979576423662
+  ],
+  "RightWrist": [
+   -2.06,
+   -0.9505070600652826,
+   3.6906979576423664
+  ],
+  "LeftShoulder": [
+   1.68,
+   0.0,
+   4.35
+  ],
+  "LeftElbow": [
+   1.8399999999999999,
+   0.0,
+   3.4034272347040613
+  ],
+  "LeftWrist": [
+   1.94,
+   -0.04,
+   2.691528365481754
+  ],
+  "RightHip": [
+   -0.78,
+   0.0,
+   2.38
+  ],
+  "LeftHip": [
+   0.78,
+   0.0,
+   2.38
+  ],
+  "RightKnee": [
+   -1.0,
+   -0.01,
+   1.24
+  ],
+  "LeftKnee": [
+   1.0,
+   -0.01,
+   1.24
+  ],
+  "RightAnkle": [
+   -1.02,
+   0.0,
+   0.66
+  ],
+  "LeftAnkle": [
+   1.02,
+   0.0,
+   0.66
+  ]
+ },
+ "arm_lengths": {
+  "upper": 0.96,
+  "lower": 0.72
+ },
+ "joint_length_errors": {
+  "Right_upper": 4.842877210364804e-10,
+  "Right_lower": 6.5085219436156194e-09,
+  "Left_upper": 2.8619542291608013e-08,
+  "Left_lower": 4.118942353859012e-08
+ },
+ "hand_centres": {
+  "Right": [
+   -2.12,
+   -1.1,
+   3.74
+  ],
+  "Left": [
+   1.98,
+   -0.08,
+   2.3915283654817543
+  ]
+ },
+ "can": {
+  "center": [
+   -1.62,
+   -1.32,
+   3.86
+  ],
+  "radius": 0.31,
+  "height": 1.44,
+  "grip_world": [
+   -1.93,
+   -1.32,
+   3.74
+  ],
+  "grip_orientation_blender": "identity",
+  "wrist_right": [
+   -2.06,
+   -0.9505070600652826,
+   3.6906979576423664
+  ],
+  "palm_recess_radius": 0.328,
+  "opening_direction": "+X"
+ },
+ "palette": [
+  {
+   "index": 0,
+   "name": "SKIN",
+   "hex": "#F4AA73"
+  },
+  {
+   "index": 1,
+   "name": "SKIN_LIGHT",
+   "hex": "#FFC38E"
+  },
+  {
+   "index": 2,
+   "name": "SKIN_SHADOW",
+   "hex": "#D98957"
+  },
+  {
+   "index": 3,
+   "name": "NOSE",
+   "hex": "#F09668"
+  },
+  {
+   "index": 4,
+   "name": "BROW",
+   "hex": "#34271F"
+  },
+  {
+   "index": 5,
+   "name": "HAIR",
+   "hex": "#65452F"
+  },
+  {
+   "index": 6,
+   "name": "HAIR_LIGHT",
+   "hex": "#80583A"
+  },
+  {
+   "index": 7,
+   "name": "HAIR_DARK",
+   "hex": "#493224"
+  },
+  {
+   "index": 8,
+   "name": "BEARD",
+   "hex": "#77736F"
+  },
+  {
+   "index": 9,
+   "name": "BEARD_LIGHT",
+   "hex": "#928D86"
+  },
+  {
+   "index": 10,
+   "name": "BEARD_DARK",
+   "hex": "#5D5B58"
+  },
+  {
+   "index": 11,
+   "name": "SWEATSHIRT",
+   "hex": "#7827A8"
+  },
+  {
+   "index": 12,
+   "name": "SWEATSHIRT_LIGHT",
+   "hex": "#8C38B9"
+  },
+  {
+   "index": 13,
+   "name": "SWEATSHIRT_DARK",
+   "hex": "#5D1A86"
+  },
+  {
+   "index": 14,
+   "name": "CUFF",
+   "hex": "#6A2495"
+  },
+  {
+   "index": 15,
+   "name": "SHORTS",
+   "hex": "#302D2C"
+  },
+  {
+   "index": 16,
+   "name": "SHORTS_LIGHT",
+   "hex": "#45403D"
+  },
+  {
+   "index": 17,
+   "name": "SHORTS_DARK",
+   "hex": "#221F20"
+  },
+  {
+   "index": 18,
+   "name": "SHOE",
+   "hex": "#7025A2"
+  },
+  {
+   "index": 19,
+   "name": "SOLE",
+   "hex": "#F4F2ED"
+  },
+  {
+   "index": 20,
+   "name": "SOLE_SHADOW",
+   "hex": "#D4D2CF"
+  },
+  {
+   "index": 21,
+   "name": "HEADSET",
+   "hex": "#1B1E23"
+  },
+  {
+   "index": 22,
+   "name": "HEADSET_PAD",
+   "hex": "#111317"
+  },
+  {
+   "index": 23,
+   "name": "HEADSET_EDGE",
+   "hex": "#31353A"
+  },
+  {
+   "index": 24,
+   "name": "CYAN",
+   "hex": "#00C5E8"
+  },
+  {
+   "index": 25,
+   "name": "CAN_BLUE",
+   "hex": "#0070D9"
+  },
+  {
+   "index": 26,
+   "name": "CAN_LIGHT",
+   "hex": "#009EF0"
+  },
+  {
+   "index": 27,
+   "name": "CAN_DARK",
+   "hex": "#034DB1"
+  },
+  {
+   "index": 28,
+   "name": "SILVER",
+   "hex": "#BDC3C9"
+  },
+  {
+   "index": 29,
+   "name": "SILVER_LIGHT",
+   "hex": "#ECEDEF"
+  },
+  {
+   "index": 30,
+   "name": "EYE_WHITE",
+   "hex": "#FDF6E8"
+  },
+  {
+   "index": 31,
+   "name": "EYE_BLACK",
+   "hex": "#201B18"
+  },
+  {
+   "index": 32,
+   "name": "GAMEPAD",
+   "hex": "#D89DEB"
+  },
+  {
+   "index": 33,
+   "name": "MOUTH",
+   "hex": "#58362B"
+  }
+ ],
+ "elbow": {
+  "Right": {
+   "N": [
+    -0.2853597104549408,
+    -0.8565695881843567,
+    -0.4299515187740326
+   ],
+   "deflection_deg": 88.23646991272767,
+   "contour_K": [
+    [
+     -2.442035436630249,
+     0.053614914417266846,
+     3.146005392074585
+    ],
+    [
+     -1.8723948001861572,
+     -0.017756342887878418,
+     2.9101226329803467
+    ],
+    [
+     -1.7714498043060303,
+     -0.08255136013031006,
+     2.97221302986145
+    ],
+    [
+     -1.5314562320709229,
+     -0.535913348197937,
+     3.716137647628784
+    ],
+    [
+     -1.5802584886550903,
+     -0.5948931574821472,
+     3.866030216217041
+    ],
+    [
+     -2.1650638580322266,
+     -0.5231319665908813,
+     4.11120080947876
+    ],
+    [
+     -2.2843949794769287,
+     -0.4423742890357971,
+     4.02951192855835
+    ],
+    [
+     -2.4880945682525635,
+     0.007238239049911499,
+     3.2689685821533203
+    ]
+   ],
+   "cross_t_upper": [
+    1.3886146538773414,
+    1.418533122706156,
+    1.3416787948789262,
+    0.6874040311784493,
+    0.5822874702903891,
+    0.549193142781129,
+    0.6466013804595838,
+    1.3040393669127195
+   ],
+   "lower_K_axial": [
+    -0.3730699997395277,
+    -0.40179195161908865,
+    -0.3280118154361844,
+    0.3000921569764614,
+    0.4010040760040283,
+    0.43277448136359453,
+    0.339262992143631,
+    -0.291877755895257
+   ],
+   "lower_match": {
+    "orientation": 1,
+    "shift": 0
+   },
+   "beta_t": [
+    0.6012145520146895,
+    0.7212145520146895
+   ],
+   "upper_len": 0.9599999995157122,
+   "lower_len": 0.7200000065085219
+  },
+  "Left": {
+   "N": [
+    0.15285170078277588,
+    -0.027791209518909454,
+    -0.9878582954406738
+   ],
+   "deflection_deg": 3.56289077367579,
+   "contour_K": [
+    [
+     1.5354695320129395,
+     0.4000000059604645,
+     3.3450539112091064
+    ],
+    [
+     2.148237943649292,
+     0.4000000059604645,
+     3.4398677349090576
+    ],
+    [
+     2.2269339561462402,
+     0.3199999928474426,
+     3.4542951583862305
+    ],
+    [
+     2.2241814136505127,
+     -0.32010820508003235,
+     3.471877098083496
+    ],
+    [
+     2.1446685791015625,
+     -0.40049681067466736,
+     3.4618356227874756
+    ],
+    [
+     1.5314383506774902,
+     -0.4011285901069641,
+     3.3669681549072266
+    ],
+    [
+     1.4521771669387817,
+     -0.3204486668109894,
+     3.3524343967437744
+    ],
+    [
+     1.4560320377349854,
+     0.3199999928474426,
+     3.3350131511688232
+    ]
+   ],
+   "cross_t_upper": [
+    1.0070850314100754,
+    1.0160854865912448,
+    1.0149297592212023,
+    0.996393336135001,
+    0.9929026175618993,
+    0.9838771277737003,
+    0.9850442213098801,
+    1.003606670090791
+   ],
+   "lower_K_axial": [
+    -0.006801718845963478,
+    -0.015441985800862312,
+    -0.014332626014947891,
+    0.003462528809905052,
+    0.006813602522015572,
+    0.015477869659662247,
+    0.01435738056898117,
+    -0.003462478518486023
+   ],
+   "lower_match": {
+    "orientation": 1,
+    "shift": 0
+   },
+   "beta_t": [
+    0.02163593132060248,
+    0.7
+   ],
+   "upper_len": 0.9600000286195423,
+   "lower_len": 0.7199999588105764
+  }
+ },
+ "counts": {
+  "body_tris": 4168,
+  "prop_tris": 1288,
+  "parts": 17,
+  "components_registered": 68
+ },
+ "deviations_from_prompt": [
+  "LL_shorts_edge: spec centre H1.245 (1.22..1.27) lies entirely inside the UpperLeg hem and its bottom face is coplanar with the UL bottom cap; the slab is placed at H1.19..1.23 (top sinks .01 into UpperLeg as the text demands) to give a visible, clean hem line without z-fighting.",
+  "FT_upper: first ring H0.22 is sunk to H0.21 so that the upper bottom does not coincide with the sole top plane.",
+  "HD_moustache: spec centre D-.93 / depth .25 leaves a .125 gap to the skin (skin front D-.68); the back face is extended to D-.70 (centre -.8775, depth .355), front face unchanged at D-1.055.",
+  "HD_beard: the cheek corners of the contour are pulled in (idx 0/9 |X| .94 -> .90, idx 10/16 |X| 1.00 -> .93, symmetric, widest width 1.86 instead of 2.00) because the mic boom of the spec touched the beard corner (clearance .004, required >= .03). Everything else of the contour and both depth formulas is unchanged.",
+  "HD_hair_cap: the spec cone (X_r = r X, D_r = .05 + r(D-.05), H_r = 6.35 + r(Hrim-6.35)) lies inside the skull away from the apex (r=.92 side ring at X=.94 vs head X=1.01), so no hair would be visible. The cap uses 24 angular sections instead of 12 (at 30 deg steps the chords cut the chamfered rear corners of the head and skin shows through), the rim heights 6.01/5.29/4.74, the top H6.35 with ONE apex vertex and the .04 inner surface, but its rings follow the head surface offset outward by .06 (rim) .. .10 (top), 9 levels, and a dome ring."
+ ],
+ "measured": {
+  "bounds_all": {
+   "min": [
+    -2.5284,
+    -1.63,
+    0.0
+   ],
+   "max": [
+    2.33,
+    0.7622,
+    6.4
+   ],
+   "height": 6.4
+  },
+  "bounds_body": {
+   "min": [
+    -2.5284,
+    -1.59,
+    0.0
+   ],
+   "max": [
+    2.33,
+    0.7622,
+    6.35
+   ],
+   "height": 6.35
+  },
+  "feet_min_h": 0.0,
+  "tris_body": 4168,
+  "tris_props": 1288,
+  "tris_total": 5456,
+  "audit": {
+   "UpperTorso": {
+    "verts": 212,
+    "tris": 416,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 9.76599,
+    "uv_outside_0_1": 0
+   },
+   "LowerTorso": {
+    "verts": 80,
+    "tris": 152,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 1.8841,
+    "uv_outside_0_1": 0
+   },
+   "RightUpperLeg": {
+    "verts": 32,
+    "tris": 60,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 2.18209,
+    "uv_outside_0_1": 0
+   },
+   "RightLowerLeg": {
+    "verts": 64,
+    "tris": 120,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 0.29962,
+    "uv_outside_0_1": 0
+   },
+   "LeftUpperLeg": {
+    "verts": 32,
+    "tris": 60,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 2.18209,
+    "uv_outside_0_1": 0
+   },
+   "LeftLowerLeg": {
+    "verts": 64,
+    "tris": 120,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 0.29962,
+    "uv_outside_0_1": 0
+   },
+   "RightFoot": {
+    "verts": 96,
+    "tris": 184,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 1.6151,
+    "uv_outside_0_1": 0
+   },
+   "LeftFoot": {
+    "verts": 96,
+    "tris": 184,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 1.6151,
+    "uv_outside_0_1": 0
+   },
+   "RightUpperArm": {
+    "verts": 64,
+    "tris": 124,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 0.73538,
+    "uv_outside_0_1": 0
+   },
+   "RightLowerArm": {
+    "verts": 88,
+    "tris": 168,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 0.52786,
+    "uv_outside_0_1": 0
+   },
+   "LeftUpperArm": {
+    "verts": 64,
+    "tris": 124,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 0.74011,
+    "uv_outside_0_1": 0
+   },
+   "LeftLowerArm": {
+    "verts": 88,
+    "tris": 168,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 0.50985,
+    "uv_outside_0_1": 0
+   },
+   "RightHand": {
+    "verts": 113,
+    "tris": 222,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 0.31926,
+    "uv_outside_0_1": 0
+   },
+   "LeftHand": {
+    "verts": 100,
+    "tris": 196,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 0.31189,
+    "uv_outside_0_1": 0
+   },
+   "Head": {
+    "verts": 963,
+    "tris": 1870,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 5.1474,
+    "uv_outside_0_1": 0
+   },
+   "Headset": {
+    "verts": 440,
+    "tris": 852,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 0.71479,
+    "uv_outside_0_1": 0
+   },
+   "EnergyCan": {
+    "verts": 220,
+    "tris": 436,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_faces": 0,
+    "signed_volume": 0.41033,
+    "uv_outside_0_1": 0
+   }
+  },
+  "checks": {
+   "EnergyCan_vs_RightHand": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.0165
+   },
+   "EnergyCan_vs_RightLowerArm": {
+    "overlapping_triangle_pairs": 20,
+    "min_vertex_to_surface": 0.0008
+   },
+   "EnergyCan_vs_RightUpperArm": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.417
+   },
+   "EnergyCan_vs_UpperTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.1373
+   },
+   "EnergyCan_vs_Head": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.6166
+   },
+   "EnergyCan_vs_Headset": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.8986
+   },
+   "Headset_vs_Head": {
+    "overlapping_triangle_pairs": 459,
+    "min_vertex_to_surface": 0.0001
+   },
+   "Headset_vs_UpperTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.4103
+   },
+   "LeftHand_vs_LowerTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.1125
+   },
+   "LeftHand_vs_LeftUpperLeg": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.0452
+   },
+   "LeftHand_vs_UpperTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.0777
+   },
+   "RightUpperArm_vs_RightLowerArm": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.0
+   },
+   "LeftUpperArm_vs_LeftLowerArm": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.0
+   },
+   "RightLowerArm_vs_RightHand": {
+    "overlapping_triangle_pairs": 49,
+    "min_vertex_to_surface": 0.0004
+   },
+   "LeftLowerArm_vs_LeftHand": {
+    "overlapping_triangle_pairs": 33,
+    "min_vertex_to_surface": 0.0001
+   },
+   "RightUpperLeg_vs_LeftUpperLeg": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.14
+   },
+   "RightFoot_vs_LeftFoot": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_to_surface": 0.7521
+   },
+   "RightLowerLeg_vs_RightFoot": {
+    "overlapping_triangle_pairs": 10,
+    "min_vertex_to_surface": 0.0194
+   },
+   "UpperTorso_vs_LowerTorso": {
+    "overlapping_triangle_pairs": 47,
+    "min_vertex_to_surface": 0.0
+   },
+   "UpperTorso_vs_RightUpperArm": {
+    "overlapping_triangle_pairs": 21,
+    "min_vertex_to_surface": 0.0036
+   },
+   "UpperTorso_vs_LeftUpperArm": {
+    "overlapping_triangle_pairs": 25,
+    "min_vertex_to_surface": 0.0
+   }
+  },
+  "pose_bones_identity": true
+ }
+}

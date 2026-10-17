@@ -1,0 +1,1395 @@
+{
+ "asset": "GamerDad_Sweatshirt_Review",
+ "components": [
+  {
+   "id": "UT_shell",
+   "owner": "UpperTorso",
+   "kind": "mesh",
+   "tiles": [
+    "SWEATSHIRT",
+    "SWEATSHIRT_DARK",
+    "SWEATSHIRT_LIGHT"
+   ],
+   "faces": 74,
+   "tris": 164,
+   "recipe": "closed loft of 7 chamfered 12-point rings (H,W,Df,Db,c from the spec), centre X=0",
+   "class": "prescribed",
+   "rows": [
+    [
+     2.42,
+     2.98,
+     -0.86,
+     0.64,
+     0.13
+    ],
+    [
+     2.65,
+     3.06,
+     -0.93,
+     0.65,
+     0.15
+    ],
+    [
+     3.1,
+     3.08,
+     -0.96,
+     0.65,
+     0.16
+    ],
+    [
+     3.65,
+     2.98,
+     -0.88,
+     0.63,
+     0.14
+    ],
+    [
+     4.12,
+     2.94,
+     -0.75,
+     0.58,
+     0.13
+    ],
+    [
+     4.4,
+     2.62,
+     -0.57,
+     0.49,
+     0.12
+    ],
+    [
+     4.5,
+     2.12,
+     -0.46,
+     0.42,
+     0.1
+    ]
+   ],
+   "print_faces": 3
+  },
+  {
+   "id": "UT_gamepad",
+   "owner": "UpperTorso",
+   "kind": "texture",
+   "recipe": "flat gamepad print: atlas rect 256,0-512,256, px = 384+204x, py = 128-204h on the actual front faces of UT_shell (window X+/-.60, H3.16..4.36)",
+   "faces": 3,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_hem",
+   "owner": "UpperTorso",
+   "kind": "mesh",
+   "tiles": [
+    "CUFF"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "rib hem 3.02 x 1.55 x .18, bevel .06",
+   "class": "prescribed"
+  },
+  {
+   "id": "UT_crewneck",
+   "owner": "UpperTorso",
+   "kind": "mesh",
+   "tiles": [
+    "CUFF"
+   ],
+   "faces": 64,
+   "tris": 128,
+   "recipe": "closed elliptical band, outer 1.24 x 1.02, inner 1.06 x .84, height .10, 16 segments, CUFF",
+   "class": "prescribed"
+  },
+  {
+   "id": "LT_pelvis",
+   "owner": "LowerTorso",
+   "kind": "mesh",
+   "tiles": [
+    "SHORTS",
+    "SHORTS_DARK",
+    "SHORTS_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "inner closed chamfer box 2.80 x 1.16 x .44, bevel .13, centre X=0",
+   "class": "prescribed"
+  },
+  {
+   "id": "LT_waistband",
+   "owner": "LowerTorso",
+   "kind": "mesh",
+   "tiles": [
+    "SHORTS_DARK"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "waistband 2.98 x 1.32 x .16, bevel .06",
+   "class": "prescribed"
+  },
+  {
+   "id": "LT_seam",
+   "owner": "LowerTorso",
+   "kind": "paint",
+   "recipe": "flat centre seam 0.018 wide x .28 high (H2.16..2.44) painted SHORTS_DARK on the pelvis front, no geometry offset",
+   "faces": 3,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "UL_shorts_Right",
+   "owner": "RightUpperLeg",
+   "kind": "mesh",
+   "tiles": [
+    "SHORTS",
+    "SHORTS_DARK",
+    "SHORTS_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "shorts leg, 4 chamfered rings, bevel .10, no patch pockets",
+   "class": "prescribed",
+   "rows": [
+    [
+     1.22,
+     -1.0,
+     -0.02,
+     1.48,
+     1.16
+    ],
+    [
+     1.6,
+     -0.94,
+     -0.02,
+     1.48,
+     1.2
+    ],
+    [
+     2.36,
+     -0.8,
+     -0.02,
+     1.46,
+     1.22
+    ],
+    [
+     2.47,
+     -0.78,
+     -0.02,
+     1.42,
+     1.2
+    ]
+   ]
+  },
+  {
+   "id": "LL_skin_Right",
+   "owner": "RightLowerLeg",
+   "kind": "mesh",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "open skin shin .72 x .67 x .52, bevel .07",
+   "class": "prescribed"
+  },
+  {
+   "id": "LL_shorts_edge_Right",
+   "owner": "RightLowerLeg",
+   "kind": "mesh",
+   "tiles": [
+    "SHORTS"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "hem lip 1.48 x 1.16 x .04, bevel .02 (spec centre H1.245 shifted to 1.21, see deviations)",
+   "class": "prescribed"
+  },
+  {
+   "id": "UL_shorts_Left",
+   "owner": "LeftUpperLeg",
+   "kind": "mesh",
+   "tiles": [
+    "SHORTS",
+    "SHORTS_DARK",
+    "SHORTS_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "shorts leg, 4 chamfered rings, bevel .10, no patch pockets",
+   "class": "prescribed",
+   "rows": [
+    [
+     1.22,
+     1.0,
+     -0.02,
+     1.48,
+     1.16
+    ],
+    [
+     1.6,
+     0.94,
+     -0.02,
+     1.48,
+     1.2
+    ],
+    [
+     2.36,
+     0.8,
+     -0.02,
+     1.46,
+     1.22
+    ],
+    [
+     2.47,
+     0.78,
+     -0.02,
+     1.42,
+     1.2
+    ]
+   ]
+  },
+  {
+   "id": "LL_skin_Left",
+   "owner": "LeftLowerLeg",
+   "kind": "mesh",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "open skin shin .72 x .67 x .52, bevel .07",
+   "class": "prescribed"
+  },
+  {
+   "id": "LL_shorts_edge_Left",
+   "owner": "LeftLowerLeg",
+   "kind": "mesh",
+   "tiles": [
+    "SHORTS"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "hem lip 1.48 x 1.16 x .04, bevel .02 (spec centre H1.245 shifted to 1.21, see deviations)",
+   "class": "prescribed"
+  },
+  {
+   "id": "FT_sole_Right",
+   "owner": "RightFoot",
+   "kind": "mesh",
+   "tiles": [
+    "SOLE",
+    "SOLE_SHADOW"
+   ],
+   "faces": 50,
+   "tris": 124,
+   "recipe": "sole 1.32 x 1.75 x .22 (bevel .10) fused with the white toe cap 1.16 x .24 x .28 (bevel .07) by boolean union; yaw -8 deg about the ankle axis",
+   "class": "prescribed"
+  },
+  {
+   "id": "FT_toe_white_Right",
+   "owner": "RightFoot",
+   "kind": "merged",
+   "recipe": "white toe cap fused into FT_sole (boolean union, hidden faces removed)",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "FT_upper_Right",
+   "owner": "RightFoot",
+   "kind": "mesh",
+   "tiles": [
+    "SHOE"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "one closed chamfered loft, 4 rings, bevel .12 (first ring sunk .01 into the sole)",
+   "class": "prescribed",
+   "rows": [
+    [
+     0.22,
+     1.26,
+     -1.1,
+     0.56
+    ],
+    [
+     0.47,
+     1.22,
+     -1.07,
+     0.53
+    ],
+    [
+     0.72,
+     1.1,
+     -0.87,
+     0.47
+    ],
+    [
+     0.88,
+     0.94,
+     -0.48,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "FT_sole_Left",
+   "owner": "LeftFoot",
+   "kind": "mesh",
+   "tiles": [
+    "SOLE",
+    "SOLE_SHADOW"
+   ],
+   "faces": 50,
+   "tris": 124,
+   "recipe": "sole 1.32 x 1.75 x .22 (bevel .10) fused with the white toe cap 1.16 x .24 x .28 (bevel .07) by boolean union; yaw +8 deg about the ankle axis",
+   "class": "prescribed"
+  },
+  {
+   "id": "FT_toe_white_Left",
+   "owner": "LeftFoot",
+   "kind": "merged",
+   "recipe": "white toe cap fused into FT_sole (boolean union, hidden faces removed)",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "FT_upper_Left",
+   "owner": "LeftFoot",
+   "kind": "mesh",
+   "tiles": [
+    "SHOE"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "one closed chamfered loft, 4 rings, bevel .12 (first ring sunk .01 into the sole)",
+   "class": "prescribed",
+   "rows": [
+    [
+     0.22,
+     1.26,
+     -1.1,
+     0.56
+    ],
+    [
+     0.47,
+     1.22,
+     -1.07,
+     0.53
+    ],
+    [
+     0.72,
+     1.1,
+     -0.87,
+     0.47
+    ],
+    [
+     0.88,
+     0.94,
+     -0.48,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "UA_sleeve_Right",
+   "owner": "RightUpperArm",
+   "kind": "mesh",
+   "tiles": [
+    "SWEATSHIRT",
+    "SWEATSHIRT_DARK",
+    "SWEATSHIRT_LIGHT"
+   ],
+   "faces": 66,
+   "tris": 124,
+   "recipe": "sleeve .88x.92 -> .84x.87 -> .78x.80 (bevel .10 -> .08), hidden .08 into the torso, ends on the common elbow mitre plane (8-point contour K)",
+   "class": "prescribed",
+   "sections": [
+    [
+     0.0,
+     0.88,
+     0.92,
+     0.1
+    ],
+    [
+     0.5,
+     0.84,
+     0.87,
+     0.1
+    ],
+    [
+     1.0,
+     0.78,
+     0.8,
+     0.08
+    ]
+   ]
+  },
+  {
+   "id": "LA_sleeve_Right",
+   "owner": "RightLowerArm",
+   "kind": "mesh",
+   "tiles": [
+    "SWEATSHIRT",
+    "SWEATSHIRT_DARK",
+    "SWEATSHIRT_LIGHT"
+   ],
+   "faces": 50,
+   "tris": 108,
+   "recipe": "forearm sleeve: first ring = common contour K, rolled into the own frame; .78x.80 -> .70x.70 (bevel .08), beta from t=0.601 to 0.721; K match o=1 m=0",
+   "class": "prescribed",
+   "sections": [
+    [
+     0.0,
+     0.78,
+     0.8,
+     0.08
+    ],
+    [
+     1.0,
+     0.7,
+     0.7,
+     0.08
+    ]
+   ]
+  },
+  {
+   "id": "LA_cuff_Right",
+   "owner": "RightLowerArm",
+   "kind": "mesh",
+   "tiles": [
+    "CUFF"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "rib cuff t.77..1.02, .76 x .76, bevel .045, CUFF, no ribs",
+   "class": "prescribed"
+  },
+  {
+   "id": "UA_sleeve_Left",
+   "owner": "LeftUpperArm",
+   "kind": "mesh",
+   "tiles": [
+    "SWEATSHIRT",
+    "SWEATSHIRT_DARK",
+    "SWEATSHIRT_LIGHT"
+   ],
+   "faces": 66,
+   "tris": 124,
+   "recipe": "sleeve .88x.92 -> .84x.87 -> .78x.80 (bevel .10 -> .08), hidden .08 into the torso, ends on the common elbow mitre plane (8-point contour K)",
+   "class": "prescribed",
+   "sections": [
+    [
+     0.0,
+     0.88,
+     0.92,
+     0.1
+    ],
+    [
+     0.5,
+     0.84,
+     0.87,
+     0.1
+    ],
+    [
+     1.0,
+     0.78,
+     0.8,
+     0.08
+    ]
+   ]
+  },
+  {
+   "id": "LA_sleeve_Left",
+   "owner": "LeftLowerArm",
+   "kind": "mesh",
+   "tiles": [
+    "SWEATSHIRT",
+    "SWEATSHIRT_DARK",
+    "SWEATSHIRT_LIGHT"
+   ],
+   "faces": 50,
+   "tris": 108,
+   "recipe": "forearm sleeve: first ring = common contour K, rolled into the own frame; .78x.80 -> .70x.70 (bevel .08), beta from t=0.022 to 0.700; K match o=1 m=0",
+   "class": "prescribed",
+   "sections": [
+    [
+     0.0,
+     0.78,
+     0.8,
+     0.08
+    ],
+    [
+     1.0,
+     0.7,
+     0.7,
+     0.08
+    ]
+   ]
+  },
+  {
+   "id": "LA_cuff_Left",
+   "owner": "LeftLowerArm",
+   "kind": "mesh",
+   "tiles": [
+    "CUFF"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "rib cuff t.77..1.02, .76 x .76, bevel .045, CUFF, no ribs",
+   "class": "prescribed"
+  },
+  {
+   "id": "HAND_palm_Right",
+   "owner": "RightHand",
+   "kind": "mesh",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 55,
+   "tris": 164,
+   "recipe": "chamfer box (0.7, 0.64, 0.82) bevel .055 with the fused thumb block (0.18, 0.22, 0.26) bevel .04 (boolean union, one shell)",
+   "class": "prescribed"
+  },
+  {
+   "id": "HAND_thumb_Right",
+   "owner": "RightHand",
+   "kind": "merged",
+   "recipe": "thumb block (0.18, 0.22, 0.26) fused with the palm (boolean union)",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HAND_palm_Left",
+   "owner": "LeftHand",
+   "kind": "mesh",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 54,
+   "tris": 148,
+   "recipe": "chamfer box (0.7, 0.64, 0.72) bevel .055 with the fused thumb block (0.18, 0.22, 0.26) bevel .04 (boolean union, one shell)",
+   "class": "prescribed"
+  },
+  {
+   "id": "HAND_thumb_Left",
+   "owner": "LeftHand",
+   "kind": "merged",
+   "recipe": "thumb block (0.18, 0.22, 0.26) fused with the palm (boolean union)",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HAND_grooves_Right",
+   "owner": "RightHand",
+   "kind": "paint",
+   "recipe": "two flat SKIN_SHADOW lines .008 x .35 at H-.14 and H+.12 on the front face, no geometry",
+   "faces": 3,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HAND_grooves_Left",
+   "owner": "LeftHand",
+   "kind": "paint",
+   "recipe": "two flat SKIN_SHADOW lines .008 x .35 at H-.14 and H+.12 on the front face, no geometry",
+   "faces": 2,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_neck",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "SKIN"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "neck block .72 x .65 x .26, bevel .08 (top hidden in the head, bottom in the sweatshirt)",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_shell",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "SKIN",
+    "SKIN_LIGHT",
+    "SKIN_SHADOW"
+   ],
+   "faces": 74,
+   "tris": 164,
+   "recipe": "closed loft of 7 chamfered 12-point rings (spec head_rows), front faces carry the printed face map",
+   "class": "prescribed",
+   "rows": [
+    [
+     4.6,
+     1.3,
+     -0.52,
+     0.45,
+     0.2
+    ],
+    [
+     4.78,
+     1.75,
+     -0.65,
+     0.58,
+     0.22
+    ],
+    [
+     5.1,
+     1.98,
+     -0.7,
+     0.67,
+     0.24
+    ],
+    [
+     5.6,
+     2.02,
+     -0.72,
+     0.68,
+     0.22
+    ],
+    [
+     5.98,
+     1.92,
+     -0.67,
+     0.65,
+     0.2
+    ],
+    [
+     6.16,
+     1.68,
+     -0.56,
+     0.54,
+     0.18
+    ],
+    [
+     6.22,
+     1.34,
+     -0.45,
+     0.46,
+     0.18
+    ]
+   ],
+   "face_faces": 28
+  },
+  {
+   "id": "HD_eye_white_R",
+   "owner": "Head",
+   "kind": "texture",
+   "recipe": "printed on the actual head front faces, atlas face rect 0,256-256,768 (px = 256(X+1.01)/2.02, py = 256+512(6.22-H)/1.62)",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_eye_white_L",
+   "owner": "Head",
+   "kind": "texture",
+   "recipe": "printed on the actual head front faces, atlas face rect 0,256-256,768 (px = 256(X+1.01)/2.02, py = 256+512(6.22-H)/1.62)",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_iris_R",
+   "owner": "Head",
+   "kind": "texture",
+   "recipe": "printed on the actual head front faces, atlas face rect 0,256-256,768 (px = 256(X+1.01)/2.02, py = 256+512(6.22-H)/1.62)",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_iris_L",
+   "owner": "Head",
+   "kind": "texture",
+   "recipe": "printed on the actual head front faces, atlas face rect 0,256-256,768 (px = 256(X+1.01)/2.02, py = 256+512(6.22-H)/1.62)",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_eye_highlight_R",
+   "owner": "Head",
+   "kind": "texture",
+   "recipe": "printed on the actual head front faces, atlas face rect 0,256-256,768 (px = 256(X+1.01)/2.02, py = 256+512(6.22-H)/1.62)",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_eye_highlight_L",
+   "owner": "Head",
+   "kind": "texture",
+   "recipe": "printed on the actual head front faces, atlas face rect 0,256-256,768 (px = 256(X+1.01)/2.02, py = 256+512(6.22-H)/1.62)",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_mouth",
+   "owner": "Head",
+   "kind": "texture",
+   "recipe": "flat MOUTH line printed in the skin notch of the beard",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_ear_R",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "SKIN"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "ear block .24 x .40 x .50, bevel .065, no helix",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_ear_inner_R",
+   "owner": "Head",
+   "kind": "paint",
+   "recipe": "flat SKIN_SHADOW patch .19 x .25 on the outer ear face (no geometry)",
+   "faces": 1,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_ear_L",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "SKIN"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "ear block .24 x .40 x .50, bevel .065, no helix",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_ear_inner_L",
+   "owner": "Head",
+   "kind": "paint",
+   "recipe": "flat SKIN_SHADOW patch .19 x .25 on the outer ear face (no geometry)",
+   "faces": 1,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_brow_R",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "BROW"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "single bevelled brow bar, endpoints XH (-0.68, 5.7) -> (-0.1, 5.56), thickness .105, height .16, .035 proud, bevel .025",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_brow_L",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "BROW"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "single bevelled brow bar, endpoints XH (0.1, 5.56) -> (0.68, 5.7), thickness .105, height .16, .035 proud, bevel .025",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_nose",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "NOSE"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "closed wedge loft 4 rings, bevel .05",
+   "class": "prescribed",
+   "rows": [
+    [
+     4.99,
+     0.36,
+     -0.98,
+     -0.67
+    ],
+    [
+     5.13,
+     0.53,
+     -1.13,
+     -0.67
+    ],
+    [
+     5.31,
+     0.38,
+     -1.02,
+     -0.68
+    ],
+    [
+     5.45,
+     0.25,
+     -0.88,
+     -0.67
+    ]
+   ]
+  },
+  {
+   "id": "HD_nostrils",
+   "owner": "Head",
+   "kind": "texture",
+   "recipe": "two flat nostril marks printed through the nose atlas map (px = 384+256X/.53, py = 512+128(5.45-H)/.46)",
+   "faces": 0,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_moustache_R",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "BEARD",
+    "BEARD_DARK"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "bevelled lobe .48 x .19, front face D-1.055 (spec), back extended to D-.70 to reach the skin, outer end drop .035, bevel .05",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_moustache_L",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "BEARD",
+    "BEARD_DARK"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "bevelled lobe .48 x .19, front face D-1.055 (spec), back extended to D-.70 to reach the skin, outer end drop .035, bevel .05",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_beard",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "BEARD",
+    "BEARD_DARK",
+    "BEARD_LIGHT"
+   ],
+   "faces": 64,
+   "tris": 102,
+   "recipe": "ONE closed extruded U polygon (17-point XH contour), front D = -1.04+.18(|X|/1)^1.5, rear D = -.45+.55max(0,(|X|-.70)/.30), front rim bevel .065 x 1 segment, no jitter, no shared sup_point",
+   "class": "prescribed",
+   "contour_XH": [
+    [
+     -0.9,
+     5.16
+    ],
+    [
+     -0.75,
+     5.12
+    ],
+    [
+     -0.54,
+     4.98
+    ],
+    [
+     -0.28,
+     4.94
+    ],
+    [
+     -0.28,
+     4.72
+    ],
+    [
+     0.28,
+     4.72
+    ],
+    [
+     0.28,
+     4.94
+    ],
+    [
+     0.54,
+     4.98
+    ],
+    [
+     0.75,
+     5.12
+    ],
+    [
+     0.9,
+     5.16
+    ],
+    [
+     0.93,
+     4.76
+    ],
+    [
+     0.84,
+     4.51
+    ],
+    [
+     0.48,
+     4.38
+    ],
+    [
+     0,
+     4.35
+    ],
+    [
+     -0.48,
+     4.38
+    ],
+    [
+     -0.84,
+     4.51
+    ],
+    [
+     -0.93,
+     4.76
+    ]
+   ]
+  },
+  {
+   "id": "HD_hair_cap",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 504,
+   "tris": 960,
+   "recipe": "ONE closed cap: 24 sections, rim H 6.01/5.29/4.74 (spec), 4 rings (9 levels) following the head surface offset .06..13, dome ring + ONE apex vertex at H6.35, inner surface .04 inward",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_lock_R",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 44,
+   "recipe": "broad bevelled wedge [0.62, 0.25, 0.37] x [-0.47, -0.66, 6.03], roll -14 deg about D, bevel .045, 6-point XH profile",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_lock_C",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 44,
+   "recipe": "broad bevelled wedge [0.43, 0.28, 0.49] x [0.0, -0.73, 5.98], roll +8 deg about D, bevel .045, 6-point XH profile",
+   "class": "prescribed"
+  },
+  {
+   "id": "HD_lock_L",
+   "owner": "Head",
+   "kind": "mesh",
+   "tiles": [
+    "HAIR",
+    "HAIR_DARK",
+    "HAIR_LIGHT"
+   ],
+   "faces": 26,
+   "tris": 44,
+   "recipe": "broad bevelled wedge [0.55, 0.25, 0.31] x [0.43, -0.65, 6.06], roll +12 deg about D, bevel .045, 6-point XH profile",
+   "class": "prescribed"
+  },
+  {
+   "id": "HS_cup_R",
+   "owner": "Headset",
+   "kind": "mesh",
+   "tiles": [
+    "HEADSET"
+   ],
+   "faces": 102,
+   "tris": 236,
+   "recipe": "cylinder dia 1.06, length .24 along n=(-0.9848,-0.1736,0) (10 deg forward), 20 sides, edge bevel .035 (HEADSET_EDGE); flat CYAN ring r .34..44 on the outer end",
+   "class": "prescribed"
+  },
+  {
+   "id": "HS_cyan_R",
+   "owner": "Headset",
+   "kind": "paint",
+   "recipe": "flat annular CYAN colour region r .34..44 on the outer cup end (no torus, no emission)",
+   "faces": 20,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HS_pad_R",
+   "owner": "Headset",
+   "kind": "mesh",
+   "tiles": [
+    "HEADSET_PAD"
+   ],
+   "faces": 22,
+   "tris": 76,
+   "recipe": "soft pad dia 1.02, length .14 along n, centre Ccup-.19n, HEADSET_PAD",
+   "class": "prescribed"
+  },
+  {
+   "id": "HS_cup_L",
+   "owner": "Headset",
+   "kind": "mesh",
+   "tiles": [
+    "HEADSET"
+   ],
+   "faces": 102,
+   "tris": 236,
+   "recipe": "cylinder dia 1.06, length .24 along n=(+0.9848,-0.1736,0) (10 deg forward), 20 sides, edge bevel .035 (HEADSET_EDGE); flat CYAN ring r .34..44 on the outer end",
+   "class": "prescribed"
+  },
+  {
+   "id": "HS_cyan_L",
+   "owner": "Headset",
+   "kind": "paint",
+   "recipe": "flat annular CYAN colour region r .34..44 on the outer cup end (no torus, no emission)",
+   "faces": 20,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "HS_pad_L",
+   "owner": "Headset",
+   "kind": "mesh",
+   "tiles": [
+    "HEADSET_PAD"
+   ],
+   "faces": 22,
+   "tris": 76,
+   "recipe": "soft pad dia 1.02, length .14 along n, centre Ccup-.19n, HEADSET_PAD",
+   "class": "prescribed"
+  },
+  {
+   "id": "HS_band",
+   "owner": "Headset",
+   "kind": "mesh",
+   "tiles": [
+    "HEADSET"
+   ],
+   "faces": 50,
+   "tris": 100,
+   "recipe": "single swept rectangular band, 12 segments, width .26, radial thickness .10, top H6.40",
+   "class": "prescribed"
+  },
+  {
+   "id": "HS_boom",
+   "owner": "Headset",
+   "kind": "mesh",
+   "tiles": [
+    "HEADSET"
+   ],
+   "faces": 32,
+   "tris": 68,
+   "recipe": "one simple 6-sided tube r .035 along the 4-point polyline, corners cut by .04",
+   "class": "prescribed",
+   "points": [
+    [
+     1.1799999475479126,
+     -0.07999999821186066,
+     5.300000190734863
+    ],
+    [
+     1.1200000047683716,
+     -0.6100000143051147,
+     4.980000019073486
+    ],
+    [
+     0.8799999952316284,
+     -1.059999942779541,
+     4.820000171661377
+    ],
+    [
+     0.6700000166893005,
+     -1.1200000047683716,
+     4.809999942779541
+    ]
+   ]
+  },
+  {
+   "id": "HS_mic",
+   "owner": "Headset",
+   "kind": "mesh",
+   "tiles": [
+    "HEADSET_PAD"
+   ],
+   "faces": 26,
+   "tris": 60,
+   "recipe": "mic capsule .25 x .14 x .15, bevel .05",
+   "class": "prescribed"
+  },
+  {
+   "id": "CAN_body",
+   "owner": "EnergyCan",
+   "kind": "mesh",
+   "tiles": [
+    "SILVER"
+   ],
+   "faces": 202,
+   "tris": 436,
+   "recipe": "closed lathe, 11 profile rings x 20 segments (phi=0 towards -D), blue band z-.61..+.54, CAN_LIGHT shoulder, CAN_DARK thin lower zone, SILVER rims",
+   "class": "prescribed",
+   "profile": [
+    [
+     -0.72,
+     0.255
+    ],
+    [
+     -0.7,
+     0.29
+    ],
+    [
+     -0.66,
+     0.31
+    ],
+    [
+     -0.61,
+     0.31
+    ],
+    [
+     0.54,
+     0.31
+    ],
+    [
+     0.62,
+     0.28
+    ],
+    [
+     0.67,
+     0.25
+    ],
+    [
+     0.7,
+     0.265
+    ],
+    [
+     0.72,
+     0.265
+    ],
+    [
+     0.72,
+     0.245
+    ],
+    [
+     0.695,
+     0.245
+    ]
+   ],
+   "wrap_faces": 20,
+   "top_faces": 1
+  },
+  {
+   "id": "CAN_top",
+   "owner": "EnergyCan",
+   "kind": "texture",
+   "recipe": "recessed top cap z+.695 (dia .49) with the printed pull tab, atlas can-top rect 256,256-512,512",
+   "faces": 1,
+   "tris": 0,
+   "class": "prescribed"
+  },
+  {
+   "id": "CAN_bottom",
+   "owner": "EnergyCan",
+   "kind": "mesh",
+   "recipe": "closed bottom end (existing cap face, dia .51), SILVER",
+   "faces": 1,
+   "tris": 18,
+   "class": "prescribed"
+  },
+  {
+   "id": "CAN_lightning",
+   "owner": "EnergyCan",
+   "kind": "texture",
+   "recipe": "white lightning printed on the blue band: px = 768+512*theta/2pi, py = 512(.54-z)/1.15, theta = angle from -D",
+   "faces": 20,
+   "tris": 0,
+   "class": "prescribed"
+  }
+ ],
+ "faces_by_component": {
+  "UT_shell@UpperTorso": 102,
+  "UT_hem@UpperTorso": 26,
+  "UT_crewneck@UpperTorso": 64,
+  "LT_pelvis@LowerTorso": 38,
+  "LT_waistband@LowerTorso": 26,
+  "UL_shorts_Right@RightUpperLeg": 26,
+  "LL_skin_Right@RightLowerLeg": 26,
+  "LL_shorts_edge_Right@RightLowerLeg": 26,
+  "UL_shorts_Left@LeftUpperLeg": 26,
+  "LL_skin_Left@LeftLowerLeg": 26,
+  "LL_shorts_edge_Left@LeftLowerLeg": 26,
+  "FT_sole_Right@RightFoot": 50,
+  "FT_upper_Right@RightFoot": 26,
+  "FT_sole_Left@LeftFoot": 50,
+  "FT_upper_Left@LeftFoot": 26,
+  "UA_sleeve_Right@RightUpperArm": 66,
+  "LA_sleeve_Right@RightLowerArm": 50,
+  "LA_cuff_Right@RightLowerArm": 26,
+  "UA_sleeve_Left@LeftUpperArm": 66,
+  "LA_sleeve_Left@LeftLowerArm": 50,
+  "LA_cuff_Left@LeftLowerArm": 26,
+  "HAND_palm_Right@RightHand": 74,
+  "HAND_palm_Left@LeftHand": 70,
+  "HD_neck@Head": 26,
+  "HD_shell@Head": 74,
+  "HD_ear_R@Head": 31,
+  "HD_ear_L@Head": 31,
+  "HD_brow_R@Head": 26,
+  "HD_brow_L@Head": 26,
+  "HD_nose@Head": 26,
+  "HD_moustache_R@Head": 26,
+  "HD_moustache_L@Head": 26,
+  "HD_beard@Head": 64,
+  "HD_hair_cap@Head": 504,
+  "HD_lock_R@Head": 26,
+  "HD_lock_C@Head": 26,
+  "HD_lock_L@Head": 26,
+  "HS_cup_R@Headset": 102,
+  "HS_pad_R@Headset": 22,
+  "HS_cup_L@Headset": 102,
+  "HS_pad_L@Headset": 22,
+  "HS_band@Headset": 50,
+  "HS_boom@Headset": 32,
+  "HS_mic@Headset": 26,
+  "CAN_body@EnergyCan": 202
+ },
+ "part_totals": {
+  "UpperTorso": {
+   "components": 3,
+   "tris": 416,
+   "verts": 212
+  },
+  "LowerTorso": {
+   "components": 2,
+   "tris": 152,
+   "verts": 80
+  },
+  "RightUpperLeg": {
+   "components": 1,
+   "tris": 60,
+   "verts": 32
+  },
+  "RightLowerLeg": {
+   "components": 2,
+   "tris": 120,
+   "verts": 64
+  },
+  "LeftUpperLeg": {
+   "components": 1,
+   "tris": 60,
+   "verts": 32
+  },
+  "LeftLowerLeg": {
+   "components": 2,
+   "tris": 120,
+   "verts": 64
+  },
+  "RightFoot": {
+   "components": 2,
+   "tris": 184,
+   "verts": 96
+  },
+  "LeftFoot": {
+   "components": 2,
+   "tris": 184,
+   "verts": 96
+  },
+  "RightUpperArm": {
+   "components": 1,
+   "tris": 124,
+   "verts": 64
+  },
+  "RightLowerArm": {
+   "components": 2,
+   "tris": 168,
+   "verts": 88
+  },
+  "LeftUpperArm": {
+   "components": 1,
+   "tris": 124,
+   "verts": 64
+  },
+  "LeftLowerArm": {
+   "components": 2,
+   "tris": 168,
+   "verts": 88
+  },
+  "RightHand": {
+   "components": 1,
+   "tris": 222,
+   "verts": 113
+  },
+  "LeftHand": {
+   "components": 1,
+   "tris": 196,
+   "verts": 100
+  },
+  "Head": {
+   "components": 14,
+   "tris": 1870,
+   "verts": 963
+  },
+  "Headset": {
+   "components": 7,
+   "tris": 852,
+   "verts": 440
+  },
+  "EnergyCan": {
+   "components": 1,
+   "tris": 436,
+   "verts": 220
+  }
+ },
+ "mesh_names": {
+  "UpperTorso": "UpperTorso_Geo",
+  "LowerTorso": "LowerTorso_Geo",
+  "RightUpperLeg": "RightUpperLeg_Geo",
+  "RightLowerLeg": "RightLowerLeg_Geo",
+  "LeftUpperLeg": "LeftUpperLeg_Geo",
+  "LeftLowerLeg": "LeftLowerLeg_Geo",
+  "RightFoot": "RightFoot_Geo",
+  "LeftFoot": "LeftFoot_Geo",
+  "RightUpperArm": "RightUpperArm_Geo",
+  "RightLowerArm": "RightLowerArm_Geo",
+  "LeftUpperArm": "LeftUpperArm_Geo",
+  "LeftLowerArm": "LeftLowerArm_Geo",
+  "RightHand": "RightHand_Geo",
+  "LeftHand": "LeftHand_Geo",
+  "Head": "Head_Geo",
+  "Headset": "Headset_Geo",
+  "EnergyCan": "EnergyCan_Geo"
+ }
+}

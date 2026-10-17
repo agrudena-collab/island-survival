@@ -1,0 +1,508 @@
+{
+ "asset": "GamerDad_Sweatshirt_Review",
+ "frame": {
+  "logical": "(X,D,H) forward=-D, anatomical RIGHT=-X",
+  "roblox_position": "(-X, H, D)"
+ },
+ "bones": [
+  {
+   "name": "Root",
+   "parent": null,
+   "head_logical": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "head_roblox": [
+    -0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "HumanoidRootNode",
+   "parent": "Root",
+   "head_logical": [
+    0.0,
+    0.0,
+    2.38
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    2.88
+   ],
+   "head_roblox": [
+    -0.0,
+    2.38,
+    0.0
+   ]
+  },
+  {
+   "name": "LowerTorso",
+   "parent": "HumanoidRootNode",
+   "head_logical": [
+    0.0,
+    0.0,
+    2.38
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    2.5
+   ],
+   "head_roblox": [
+    -0.0,
+    2.38,
+    0.0
+   ]
+  },
+  {
+   "name": "UpperTorso",
+   "parent": "LowerTorso",
+   "head_logical": [
+    0.0,
+    0.0,
+    2.5
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    4.48
+   ],
+   "head_roblox": [
+    -0.0,
+    2.5,
+    0.0
+   ]
+  },
+  {
+   "name": "Head",
+   "parent": "UpperTorso",
+   "head_logical": [
+    0.0,
+    0.0,
+    4.48
+   ],
+   "tail_logical": [
+    0.0,
+    0.0,
+    6.4
+   ],
+   "head_roblox": [
+    -0.0,
+    4.48,
+    0.0
+   ]
+  },
+  {
+   "name": "RightUpperArm",
+   "parent": "UpperTorso",
+   "head_logical": [
+    -1.68,
+    0.0,
+    4.35
+   ],
+   "tail_logical": [
+    -2.02,
+    -0.26,
+    3.490698
+   ],
+   "head_roblox": [
+    1.68,
+    4.35,
+    0.0
+   ]
+  },
+  {
+   "name": "RightLowerArm",
+   "parent": "RightUpperArm",
+   "head_logical": [
+    -2.02,
+    -0.26,
+    3.490698
+   ],
+   "tail_logical": [
+    -2.06,
+    -0.950507,
+    3.690698
+   ],
+   "head_roblox": [
+    2.02,
+    3.4907,
+    -0.26
+   ]
+  },
+  {
+   "name": "RightHand",
+   "parent": "RightLowerArm",
+   "head_logical": [
+    -2.06,
+    -0.950507,
+    3.690698
+   ],
+   "tail_logical": [
+    -2.06,
+    -0.950507,
+    3.010698
+   ],
+   "head_roblox": [
+    2.06,
+    3.6907,
+    -0.95051
+   ]
+  },
+  {
+   "name": "RightUpperLeg",
+   "parent": "LowerTorso",
+   "head_logical": [
+    -0.78,
+    0.0,
+    2.38
+   ],
+   "tail_logical": [
+    -1.0,
+    -0.01,
+    1.24
+   ],
+   "head_roblox": [
+    0.78,
+    2.38,
+    0.0
+   ]
+  },
+  {
+   "name": "RightLowerLeg",
+   "parent": "RightUpperLeg",
+   "head_logical": [
+    -1.0,
+    -0.01,
+    1.24
+   ],
+   "tail_logical": [
+    -1.02,
+    0.0,
+    0.66
+   ],
+   "head_roblox": [
+    1.0,
+    1.24,
+    -0.01
+   ]
+  },
+  {
+   "name": "RightFoot",
+   "parent": "RightLowerLeg",
+   "head_logical": [
+    -1.02,
+    0.0,
+    0.66
+   ],
+   "tail_logical": [
+    -1.02,
+    -0.78,
+    0.12
+   ],
+   "head_roblox": [
+    1.02,
+    0.66,
+    0.0
+   ]
+  },
+  {
+   "name": "LeftUpperArm",
+   "parent": "UpperTorso",
+   "head_logical": [
+    1.68,
+    0.0,
+    4.35
+   ],
+   "tail_logical": [
+    1.84,
+    0.0,
+    3.403427
+   ],
+   "head_roblox": [
+    -1.68,
+    4.35,
+    0.0
+   ]
+  },
+  {
+   "name": "LeftLowerArm",
+   "parent": "LeftUpperArm",
+   "head_logical": [
+    1.84,
+    0.0,
+    3.403427
+   ],
+   "tail_logical": [
+    1.94,
+    -0.04,
+    2.691528
+   ],
+   "head_roblox": [
+    -1.84,
+    3.40343,
+    0.0
+   ]
+  },
+  {
+   "name": "LeftHand",
+   "parent": "LeftLowerArm",
+   "head_logical": [
+    1.94,
+    -0.04,
+    2.691528
+   ],
+   "tail_logical": [
+    1.94,
+    -0.04,
+    2.011528
+   ],
+   "head_roblox": [
+    -1.94,
+    2.69153,
+    -0.04
+   ]
+  },
+  {
+   "name": "LeftUpperLeg",
+   "parent": "LowerTorso",
+   "head_logical": [
+    0.78,
+    0.0,
+    2.38
+   ],
+   "tail_logical": [
+    1.0,
+    -0.01,
+    1.24
+   ],
+   "head_roblox": [
+    -0.78,
+    2.38,
+    0.0
+   ]
+  },
+  {
+   "name": "LeftLowerLeg",
+   "parent": "LeftUpperLeg",
+   "head_logical": [
+    1.0,
+    -0.01,
+    1.24
+   ],
+   "tail_logical": [
+    1.02,
+    0.0,
+    0.66
+   ],
+   "head_roblox": [
+    -1.0,
+    1.24,
+    -0.01
+   ]
+  },
+  {
+   "name": "LeftFoot",
+   "parent": "LeftLowerLeg",
+   "head_logical": [
+    1.02,
+    0.0,
+    0.66
+   ],
+   "tail_logical": [
+    1.02,
+    -0.78,
+    0.12
+   ],
+   "head_roblox": [
+    -1.02,
+    0.66,
+    0.0
+   ]
+  }
+ ],
+ "part_origin_logical": {
+  "UpperTorso": [
+   0.0,
+   0.0,
+   2.5
+  ],
+  "LowerTorso": [
+   0.0,
+   0.0,
+   2.38
+  ],
+  "RightUpperLeg": [
+   -0.78,
+   0.0,
+   2.38
+  ],
+  "RightLowerLeg": [
+   -1.0,
+   -0.01,
+   1.24
+  ],
+  "LeftUpperLeg": [
+   0.78,
+   0.0,
+   2.38
+  ],
+  "LeftLowerLeg": [
+   1.0,
+   -0.01,
+   1.24
+  ],
+  "RightFoot": [
+   -1.02,
+   0.0,
+   0.66
+  ],
+  "LeftFoot": [
+   1.02,
+   0.0,
+   0.66
+  ],
+  "RightUpperArm": [
+   -1.68,
+   0.0,
+   4.35
+  ],
+  "RightLowerArm": [
+   -2.02,
+   -0.26,
+   3.490698
+  ],
+  "LeftUpperArm": [
+   1.68,
+   0.0,
+   4.35
+  ],
+  "LeftLowerArm": [
+   1.84,
+   0.0,
+   3.403427
+  ],
+  "RightHand": [
+   -2.06,
+   -0.950507,
+   3.690698
+  ],
+  "LeftHand": [
+   1.94,
+   -0.04,
+   2.691528
+  ],
+  "Head": [
+   0.0,
+   0.0,
+   4.48
+  ],
+  "Headset": [
+   0.0,
+   0.0,
+   5.45
+  ],
+  "EnergyCan": [
+   -1.62,
+   -1.32,
+   3.86
+  ]
+ },
+ "part_bbox_centres_logical": {
+  "Head": [
+   0.0,
+   -0.183894,
+   5.35
+  ],
+  "UpperTorso": [
+   0.0,
+   -0.145,
+   3.455
+  ],
+  "LowerTorso": [
+   0.0,
+   -0.025,
+   2.325
+  ],
+  "RightUpperArm": [
+   -1.864141,
+   -0.049033,
+   3.792572
+  ],
+  "RightLowerArm": [
+   -2.029907,
+   -0.513927,
+   3.510675
+  ],
+  "RightHand": [
+   -2.12,
+   -1.185,
+   3.74
+  ],
+  "LeftUpperArm": [
+   1.729877,
+   0.0,
+   3.918614
+  ],
+  "LeftLowerArm": [
+   1.884247,
+   -0.011006,
+   3.039974
+  ],
+  "LeftHand": [
+   1.96,
+   -0.085,
+   2.391528
+  ],
+  "RightUpperLeg": [
+   -0.905,
+   -0.02,
+   1.845
+  ],
+  "RightLowerLeg": [
+   -1.0,
+   -0.02,
+   1.0
+  ],
+  "RightFoot": [
+   -1.137494,
+   -0.26119,
+   0.44
+  ],
+  "LeftUpperLeg": [
+   0.905,
+   -0.02,
+   1.845
+  ],
+  "LeftLowerLeg": [
+   1.0,
+   -0.02,
+   1.0
+  ],
+  "LeftFoot": [
+   1.137494,
+   -0.26119,
+   0.44
+  ],
+  "Headset": [
+   0.0,
+   -0.3313,
+   5.5675
+  ],
+  "EnergyCan": [
+   -1.62,
+   -1.32,
+   3.86
+  ]
+ },
+ "weights": "100% own bone (rigid); Headset -> Head, EnergyCan -> RightHand (props are exported as separate meshes without armature)",
+ "pose": "HoldCan == rest pose (built directly, pose bones identity)"
+}

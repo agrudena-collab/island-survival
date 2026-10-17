@@ -1,0 +1,24 @@
+﻿  20:01:49.548  PlayerDataService has no DataStore; using unsaved default profile for 3938337813  -  Server - PlayerDataService:96
+  20:01:52.015  GDFIN|spawned|{"oldOverlayHits":[],"originalPosition":30,"welds":["WeldConstraint:HeadsetMount:Headset:Head->Headset","WeldConstraint:CanGrip:EnergyCan:RightHand->EnergyCan"],"modelName":"GamerDad","mode":"preview","extraParts":[],"parts":18,"humanoidDisplayName":"Gamer Dad","feetOffset":3.380000114440918,"headsetRelHead":[5.960464477539063e-8,0.2175002098083496,-0.14740562438964845],"labels":["Gamer Dad (Rare)"],"canRelHand":[-0.49999988079071047,0.11999988555908203,-0.13500022888183595],"textureIdParts":2,"canFlags":[false,false,false,true,true],"jointWorstErr":9.610960205463926e-7,"headColor":[1,1,1],"headsetFlags":[false,false,false,true,true],"anchoredParts":18,"soles":-1.1920928955078126e-7,"joints":15,"originalPositionBad":0,"pivot":[0,3.380000114440918,10],"surfaceAppearanceParts":15}  -  Server - GD_FINAL_QA:5
+  20:01:52.217   ▶ [Roblox][CorePackages.Packages._Index.UIBlox.UIBlox.Logger] [UIBlox - Warning] - FoundationProvider not found. Please ensure that the FoundationProvider is present in the component tree.
+CorePackages.Packages._Index.UIBlox.UIBlox.App.Style.AppStyleProvider:178 function AppStyleProvider
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberHooks.new:3196 function renderWithHooks
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:209 function renderWithHooks
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1577 function mountIndeterminateComponent
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:3485 function beginWork
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:255
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1977
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1953
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1896
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:915
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:860
+CorePackages.Packages._Index.Scheduler.Scheduler.Scheduler:320
+CorePackages.Packages._Index.Scheduler.Scheduler.Scheduler:268
+CorePackages.Packages._Index.Scheduler.Scheduler.forks.SchedulerHostConfig.default:260 function doWork
+CorePackages.Packages._Index.Scheduler.Scheduler.forks.SchedulerHostConfig.default:296 function performWorkUntilDeadline
+ (x5)  -  Client
+  20:02:28.919  GDFIN|carry|{"maxJointErr":0.0000013539572591980687,"seconds":33.382563899998789,"worstPart":"Head","maxPartRelRotDevRad":0,"maxHeadRelTorsoDrift":0.000002489876578692929,"samples":2003,"maxModelRelCarrierDrift":0.000001980453362193657,"maxCanRelHandDrift":0.0000019405865714361427,"jumps":9,"maxHeadsetRelHeadDrift":0.0000016004706822059234,"maxHandRelForearmDrift":0.0000017357134538542596,"maxUpTilt":0.0030054450035095217,"travelledStuds":11.898326873779297,"maxPartRelPosDev":0.000002949677309516119,"commandedTurnsDeg":900,"totalYawRad":15.864113291808698}  -  Server - GD_FINAL_QA:5
+  20:02:31.453  GDFIN|replaced|{"hrp":[-14,3.380000114440918,10],"canRelHandDrift":0.0000010728836059570313,"soles":-3.5762786865234377e-7,"partRelDev":0.0000021324806311895374,"state":"Enum.HumanoidStateType.Running","jointErr":0.0000019073486328125,"headsetRelHeadDrift":0.0000010132789611816407}  -  Server - GD_FINAL_QA:5
+  20:02:31.453  GDFIN|end|{"anchoredPartsAfterProductionPlaceAt":18}  -  Server - GD_FINAL_QA:5
+  20:02:31.453  GDFIN_DONE  -  Server - GD_FINAL_QA:225
+

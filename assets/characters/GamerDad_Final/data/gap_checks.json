@@ -1,0 +1,85 @@
+{
+ "pair_clearances": {
+  "beard_vs_mic": {
+   "min_distance": 0.0535,
+   "overlapping_triangle_pairs": 0
+  },
+  "beard_vs_cups": {
+   "min_distance": 0.0002,
+   "overlapping_triangle_pairs": 35
+  },
+  "beard_vs_cup_bodies": {
+   "min_distance": 0.0713,
+   "overlapping_triangle_pairs": 0
+  },
+  "beard_vs_pads": {
+   "min_distance": 0.0002,
+   "overlapping_triangle_pairs": 35
+  },
+  "hair_vs_cup_bodies": {
+   "min_distance": 0.0002,
+   "overlapping_triangle_pairs": 161
+  },
+  "beard_vs_band": {
+   "min_distance": 0.4647,
+   "overlapping_triangle_pairs": 0
+  },
+  "moustache_vs_mic": {
+   "min_distance": 0.088,
+   "overlapping_triangle_pairs": 0
+  },
+  "hair_vs_mic": {
+   "min_distance": 0.0907,
+   "overlapping_triangle_pairs": 0
+  },
+  "hair_vs_cups": {
+   "min_distance": 0.0001,
+   "overlapping_triangle_pairs": 347
+  },
+  "hair_vs_band": {
+   "min_distance": 0.0,
+   "overlapping_triangle_pairs": 195
+  },
+  "can_vs_right_hand": {
+   "min_distance": 0.0165,
+   "overlapping_triangle_pairs": 0
+  },
+  "can_vs_right_forearm": {
+   "min_distance": 0.0008,
+   "overlapping_triangle_pairs": 15
+  },
+  "can_vs_right_cuff": {
+   "min_distance": 0.0036,
+   "overlapping_triangle_pairs": 19
+  },
+  "right_hand_vs_right_cuff": {
+   "min_distance": 0.0008,
+   "overlapping_triangle_pairs": 72
+  },
+  "left_hand_vs_pelvis": {
+   "min_distance": 0.1,
+   "overlapping_triangle_pairs": 0
+  },
+  "left_hand_vs_torso": {
+   "min_distance": 0.0777,
+   "overlapping_triangle_pairs": 0
+  },
+  "beard_vs_head_shell": {
+   "min_distance": 0.0,
+   "overlapping_triangle_pairs": 65
+  }
+ },
+ "self_intersections_per_component": {
+  "beard": 0,
+  "hair_cap": 0,
+  "UA_sleeve_Right": 0,
+  "UA_sleeve_Left": 0,
+  "LA_sleeve_Right": 0,
+  "LA_sleeve_Left": 0,
+  "can": 0,
+  "headset_band": 0,
+  "boom": 0,
+  "UT_shell": 0,
+  "HD_shell": 0
+ }
+}

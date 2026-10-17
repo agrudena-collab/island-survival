@@ -1,0 +1,18 @@
+{
+ "blend": {
+  "objects": 17,
+  "same_names": true,
+  "vertex_hash_equal_all": true,
+  "uv_hash_equal_all": true,
+  "tri_count_differences": {},
+  "max_bbox_diff": 0.0
+ },
+ "fbx": {
+  "objects": 17,
+  "same_names": true,
+  "vertex_hash_equal_all": true,
+  "uv_hash_equal_all": true,
+  "tri_count_differences": {},
+  "max_bbox_diff": 0.0
+ }
+}

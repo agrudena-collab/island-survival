@@ -1,0 +1,2802 @@
+{
+ "stage": "second_place_HoldCan",
+ "model": {
+  "hrp": {
+   "cf": [
+    0,
+    4.380005836486816,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "size": [
+    2,
+    2,
+    1
+   ]
+  },
+  "rigType": "Enum.HumanoidRigType.R15",
+  "name": "GamerDad_R15",
+  "children": 23,
+  "hipHeight": 2.380000352859497
+ },
+ "parts": [
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    -5.960464477539063e-08,
+    6.350005626678467,
+    -0.1838940978050232,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    2.2699999809265137,
+    2,
+    1.8922120332717896
+   ],
+   "size": [
+    2.2699999809265137,
+    2,
+    1.8922120332717896
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://76907366408196",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "Head",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": true,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    -1.1374939680099487,
+    1.4400056600570679,
+    -0.261189728975296,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    1.5228722095489502,
+    0.8800003528594971,
+    1.888843059539795
+   ],
+   "size": [
+    1.5228722095489502,
+    0.8800003528594971,
+    1.888843059539795
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://85711708907125",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "LeftFoot",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    -1.959999918937683,
+    3.3915340900421143,
+    -0.0849999487400055,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    0.7400000095367432,
+    0.7199997901916504,
+    0.6500000953674316
+   ],
+   "size": [
+    0.7400000095367432,
+    0.7199997901916504,
+    0.6500000953674316
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://87099661466460",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "LeftHand",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    -1.884247064590454,
+    4.039980411529541,
+    -0.011005818843841553,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    0.8641399145126343,
+    0.8638050556182861,
+    0.8220116496086121
+   ],
+   "size": [
+    0.8641399145126343,
+    0.8638050556182861,
+    0.8220116496086121
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://109787622963928",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "LeftLowerArm",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    -1,
+    2.0000057220458984,
+    -0.019999980926513672,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    1.4800000190734863,
+    0.520000159740448,
+    1.159999966621399
+   ],
+   "size": [
+    1.4800000190734863,
+    0.520000159740448,
+    1.159999966621399
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://96135648245642",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "LeftLowerLeg",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    -1.7298773527145386,
+    4.918619632720947,
+    -1.4901161193847656e-08,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    0.9941132068634033,
+    1.167201280593872,
+    0.9200000762939453
+   ],
+   "size": [
+    0.9941132068634033,
+    1.167201280593872,
+    0.9200000762939453
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://89940642676109",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "LeftUpperArm",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    -0.9049999713897705,
+    2.845005750656128,
+    -0.02000001072883606,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    1.6699998378753662,
+    1.2500003576278687,
+    1.2200000286102295
+   ],
+   "size": [
+    1.6699998378753662,
+    1.2500003576278687,
+    1.2200000286102295
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://81183940528461",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "LeftUpperLeg",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    0,
+    3.325005531311035,
+    -0.02499997615814209,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    2.9800000190734863,
+    0.450000524520874,
+    1.3200000524520874
+   ],
+   "size": [
+    2.9800000190734863,
+    0.450000524520874,
+    1.3200000524520874
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://99561828792978",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "LowerTorso",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": true,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    1.1374940872192383,
+    1.4400056600570679,
+    -0.261189728975296,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    1.522871971130371,
+    0.8800003528594971,
+    1.888843059539795
+   ],
+   "size": [
+    1.522871971130371,
+    0.8800003528594971,
+    1.888843059539795
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://84647994984668",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "RightFoot",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    2.119999885559082,
+    4.7400054931640625,
+    -1.184999942779541,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    0.6999999284744263,
+    0.820000171661377,
+    0.8100000619888306
+   ],
+   "size": [
+    0.6999999284744263,
+    0.820000171661377,
+    0.8100000619888306
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://76851789596232",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "RightHand",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    2.0299072265625,
+    4.51068115234375,
+    -0.51392662525177,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    0.9969022274017334,
+    1.2011058330535889,
+    1.1350831985473633
+   ],
+   "size": [
+    0.9969022274017334,
+    1.2011058330535889,
+    1.1350831985473633
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://73794803755628",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "RightLowerArm",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    1,
+    2.0000057220458984,
+    -0.019999980926513672,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    1.4800000190734863,
+    0.520000159740448,
+    1.159999966621399
+   ],
+   "size": [
+    1.4800000190734863,
+    0.520000159740448,
+    1.159999966621399
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://72671632619977",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "RightLowerLeg",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    1.864140510559082,
+    4.792577743530273,
+    -0.049032941460609436,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    1.247908115386963,
+    1.7648985385894775,
+    1.0917203426361084
+   ],
+   "size": [
+    1.247908115386963,
+    1.7648985385894775,
+    1.0917203426361084
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://75577270889359",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "RightUpperArm",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    0.9050000309944153,
+    2.845005750656128,
+    -0.02000001072883606,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    1.6700000762939453,
+    1.2500003576278687,
+    1.2200000286102295
+   ],
+   "size": [
+    1.6700000762939453,
+    1.2500003576278687,
+    1.2200000286102295
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://119464730330340",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "RightUpperLeg",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": false,
+   "cf": [
+    0,
+    4.455005645751953,
+    -0.14500007033348083,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    3.0799999237060547,
+    2.130000114440918,
+    1.630000114440918
+   ],
+   "size": [
+    3.0799999237060547,
+    2.130000114440918,
+    1.630000114440918
+   ],
+   "surfaceAppearance": {
+    "colorMap": "rbxassetid://96698868209370"
+   },
+   "meshId": "rbxassetid://130617102298905",
+   "anchored": false,
+   "textureId": "",
+   "cantouch": true,
+   "transparency": 0,
+   "name": "UpperTorso",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": true,
+   "cancollide": true,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "class": "Part",
+   "massless": false,
+   "color": [
+    0.6392157077789307,
+    0.6352941393852234,
+    0.6470588445663452
+   ],
+   "cf": [
+    0,
+    4.380005836486816,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "transparency": 1,
+   "name": "HumanoidRootPart",
+   "cantouch": true,
+   "anchored": false,
+   "canquery": true,
+   "cancollide": true,
+   "size": [
+    2,
+    2,
+    1
+   ]
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": true,
+   "cf": [
+    0,
+    6.567505836486816,
+    -0.3313000500202179,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    2.7282655239105225,
+    1.6650004386901855,
+    1.717400312423706
+   ],
+   "size": [
+    2.7282655239105225,
+    1.6650004386901855,
+    1.717400312423706
+   ],
+   "meshId": "rbxassetid://74498704128202",
+   "anchored": false,
+   "textureId": "rbxassetid://96698868209370",
+   "cantouch": false,
+   "transparency": 0,
+   "name": "Headset",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": false,
+   "cancollide": false,
+   "class": "MeshPart"
+  },
+  {
+   "parent": "GamerDad_R15",
+   "massless": true,
+   "cf": [
+    1.6200000047683716,
+    4.8600053787231445,
+    -1.3200000524520874,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "meshSize": [
+    0.619999885559082,
+    1.440000057220459,
+    0.6200001239776611
+   ],
+   "size": [
+    0.619999885559082,
+    1.440000057220459,
+    0.6200001239776611
+   ],
+   "meshId": "rbxassetid://87843784320147",
+   "anchored": false,
+   "textureId": "rbxassetid://96698868209370",
+   "cantouch": false,
+   "transparency": 0,
+   "name": "EnergyCan",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "doubleSided": false,
+   "canquery": false,
+   "cancollide": false,
+   "class": "MeshPart"
+  }
+ ],
+ "attachments": [
+  {
+   "name": "NeckRigAttachment",
+   "position": [
+    -3.320494101899385e-07,
+    -0.869999885559082,
+    0.1838926374912262
+   ],
+   "parent": "Head",
+   "originalPosition": [
+    -3.320494101899385e-07,
+    -0.869999885559082,
+    0.1838926374912262
+   ],
+   "world": [
+    -3.916540549653291e-07,
+    5.480005741119385,
+    -1.4603137969970703e-06
+   ]
+  },
+  {
+   "name": "LeftAnkleRigAttachment",
+   "position": [
+    0.11749553680419922,
+    0.22000014781951904,
+    0.2611893117427826
+   ],
+   "parent": "LeftFoot",
+   "originalPosition": [
+    0.11749553680419922,
+    0.22000014781951904,
+    0.2611893117427826
+   ],
+   "world": [
+    -1.0199984312057495,
+    1.660005807876587,
+    -4.172325134277344e-07
+   ]
+  },
+  {
+   "name": "LeftWristRigAttachment",
+   "position": [
+    0.01999950408935547,
+    0.2999999523162842,
+    0.04499924182891846
+   ],
+   "parent": "LeftHand",
+   "originalPosition": [
+    0.01999950408935547,
+    0.2999999523162842,
+    0.04499924182891846
+   ],
+   "world": [
+    -1.9400004148483276,
+    3.6915340423583984,
+    -0.040000706911087036
+   ]
+  },
+  {
+   "name": "LeftWristRigAttachment",
+   "position": [
+    -0.055753350257873535,
+    -0.3484463691711426,
+    -0.028994888067245483
+   ],
+   "parent": "LeftLowerArm",
+   "originalPosition": [
+    -0.055753350257873535,
+    -0.3484463691711426,
+    -0.028994888067245483
+   ],
+   "world": [
+    -1.9400004148483276,
+    3.6915340423583984,
+    -0.040000706911087036
+   ]
+  },
+  {
+   "name": "LeftElbowRigAttachment",
+   "position": [
+    0.044246673583984375,
+    0.363452672958374,
+    0.011004817672073841
+   ],
+   "parent": "LeftLowerArm",
+   "originalPosition": [
+    0.044246673583984375,
+    0.363452672958374,
+    0.011004817672073841
+   ],
+   "world": [
+    -1.8400003910064697,
+    4.403432846069336,
+    -1.0011717677116394e-06
+   ]
+  },
+  {
+   "name": "LeftAnkleRigAttachment",
+   "position": [
+    -0.01999843120574951,
+    -0.3399999141693115,
+    0.019999569281935692
+   ],
+   "parent": "LeftLowerLeg",
+   "originalPosition": [
+    -0.01999843120574951,
+    -0.3399999141693115,
+    0.019999569281935692
+   ],
+   "world": [
+    -1.0199984312057495,
+    1.660005807876587,
+    -4.116445779800415e-07
+   ]
+  },
+  {
+   "name": "LeftKneeRigAttachment",
+   "position": [
+    9.5367431640625e-07,
+    0.24000036716461182,
+    0.009999468922615051
+   ],
+   "parent": "LeftLowerLeg",
+   "originalPosition": [
+    9.5367431640625e-07,
+    0.24000036716461182,
+    0.009999468922615051
+   ],
+   "world": [
+    -0.9999990463256836,
+    2.2400059700012207,
+    -0.01000051200389862
+   ]
+  },
+  {
+   "name": "LeftElbowRigAttachment",
+   "position": [
+    -0.11012303829193115,
+    -0.5151865482330322,
+    -9.866973869065987e-07
+   ],
+   "parent": "LeftUpperArm",
+   "originalPosition": [
+    -0.11012303829193115,
+    -0.5151865482330322,
+    -9.866973869065987e-07
+   ],
+   "world": [
+    -1.8400003910064697,
+    4.403432846069336,
+    -1.0015985481004464e-06
+   ]
+  },
+  {
+   "name": "LeftShoulderRigAttachment",
+   "position": [
+    0.049877047538757324,
+    0.43138599395751953,
+    -1.4025088148628129e-06
+   ],
+   "parent": "LeftUpperArm",
+   "originalPosition": [
+    0.049877047538757324,
+    0.43138599395751953,
+    -1.4025088148628129e-06
+   ],
+   "world": [
+    -1.6800003051757812,
+    5.350005626678467,
+    -1.4174099760566605e-06
+   ]
+  },
+  {
+   "name": "JointRotation",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "parent": "LeftShoulderRigAttachment",
+   "originalPosition": [
+    0.049877047538757324,
+    0.43138599395751953,
+    -1.4025088148628129e-06
+   ],
+   "world": [
+    -1.6800003051757812,
+    5.350005626678467,
+    -1.4174099760566605e-06
+   ]
+  },
+  {
+   "name": "LeftKneeRigAttachment",
+   "position": [
+    -0.09499907493591309,
+    -0.6049996614456177,
+    0.009999498724937439
+   ],
+   "parent": "LeftUpperLeg",
+   "originalPosition": [
+    -0.09499907493591309,
+    -0.6049996614456177,
+    0.009999498724937439
+   ],
+   "world": [
+    -0.9999990463256836,
+    2.2400059700012207,
+    -0.01000051200389862
+   ]
+  },
+  {
+   "name": "LeftHipRigAttachment",
+   "position": [
+    0.12499982118606567,
+    0.5350000858306885,
+    0.01999923586845398
+   ],
+   "parent": "LeftUpperLeg",
+   "originalPosition": [
+    0.12499982118606567,
+    0.5350000858306885,
+    0.01999923586845398
+   ],
+   "world": [
+    -0.7800001502037048,
+    3.3800058364868164,
+    -7.748603820800781e-07
+   ]
+  },
+  {
+   "name": "WaistRigAttachment",
+   "position": [
+    -2.18556948539117e-07,
+    0.17500019073486328,
+    0.024999162182211876
+   ],
+   "parent": "LowerTorso",
+   "originalPosition": [
+    -2.18556948539117e-07,
+    0.17500019073486328,
+    0.024999162182211876
+   ],
+   "world": [
+    -2.18556948539117e-07,
+    3.5000057220458984,
+    -8.139759302139282e-07
+   ]
+  },
+  {
+   "name": "RightHipRigAttachment",
+   "position": [
+    0.7799997925758362,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "parent": "LowerTorso",
+   "originalPosition": [
+    0.7799997925758362,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "world": [
+    0.7799997925758362,
+    3.3800058364868164,
+    -7.748603820800781e-07
+   ]
+  },
+  {
+   "name": "LeftHipRigAttachment",
+   "position": [
+    -0.7800001502037048,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "parent": "LowerTorso",
+   "originalPosition": [
+    -0.7800001502037048,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "world": [
+    -0.7800001502037048,
+    3.3800058364868164,
+    -7.748603820800781e-07
+   ]
+  },
+  {
+   "name": "RootRigAttachment",
+   "position": [
+    -2.080662255821153e-07,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "parent": "LowerTorso",
+   "originalPosition": [
+    -2.080662255821153e-07,
+    0.05500030517578125,
+    0.02499920129776001
+   ],
+   "world": [
+    -2.080662255821153e-07,
+    3.3800058364868164,
+    -7.748603820800781e-07
+   ]
+  },
+  {
+   "name": "RightAnkleRigAttachment",
+   "position": [
+    -0.11749577522277832,
+    0.22000029683113098,
+    0.2611893117427826
+   ],
+   "parent": "RightFoot",
+   "originalPosition": [
+    -0.11749577522277832,
+    0.22000029683113098,
+    0.2611893117427826
+   ],
+   "world": [
+    1.01999831199646,
+    1.6600059270858765,
+    -4.172325134277344e-07
+   ]
+  },
+  {
+   "name": "RightWristRigAttachment",
+   "position": [
+    -0.06000041961669922,
+    -0.049302101135253906,
+    0.2344920039176941
+   ],
+   "parent": "RightHand",
+   "originalPosition": [
+    -0.06000041961669922,
+    -0.049302101135253906,
+    0.2344920039176941
+   ],
+   "world": [
+    2.059999465942383,
+    4.690703392028809,
+    -0.9505079388618469
+   ]
+  },
+  {
+   "name": "RightWristRigAttachment",
+   "position": [
+    0.030092239379882812,
+    0.1800224781036377,
+    -0.4365813136100769
+   ],
+   "parent": "RightLowerArm",
+   "originalPosition": [
+    0.030092239379882812,
+    0.1800224781036377,
+    -0.4365813136100769
+   ],
+   "world": [
+    2.059999465942383,
+    4.690703392028809,
+    -0.9505079388618469
+   ]
+  },
+  {
+   "name": "RightElbowRigAttachment",
+   "position": [
+    -0.009907722473144531,
+    -0.019977092742919922,
+    0.2539254128932953
+   ],
+   "parent": "RightLowerArm",
+   "originalPosition": [
+    -0.009907722473144531,
+    -0.019977092742919922,
+    0.2539254128932953
+   ],
+   "world": [
+    2.0199995040893555,
+    4.49070405960083,
+    -0.26000121235847473
+   ]
+  },
+  {
+   "name": "RightAnkleRigAttachment",
+   "position": [
+    0.01999831199645996,
+    -0.3399997353553772,
+    0.019999569281935692
+   ],
+   "parent": "RightLowerLeg",
+   "originalPosition": [
+    0.01999831199645996,
+    -0.3399997353553772,
+    0.019999569281935692
+   ],
+   "world": [
+    1.01999831199646,
+    1.660006046295166,
+    -4.116445779800415e-07
+   ]
+  },
+  {
+   "name": "RightKneeRigAttachment",
+   "position": [
+    -1.1920928955078125e-06,
+    0.24000048637390137,
+    0.009999468922615051
+   ],
+   "parent": "RightLowerLeg",
+   "originalPosition": [
+    -1.1920928955078125e-06,
+    0.24000048637390137,
+    0.009999468922615051
+   ],
+   "world": [
+    0.9999988079071045,
+    2.2400062084198,
+    -0.01000051200389862
+   ]
+  },
+  {
+   "name": "RightElbowRigAttachment",
+   "position": [
+    0.15585899353027344,
+    -0.30187368392944336,
+    -0.2109682708978653
+   ],
+   "parent": "RightUpperArm",
+   "originalPosition": [
+    0.15585899353027344,
+    -0.30187368392944336,
+    -0.2109682708978653
+   ],
+   "world": [
+    2.0199995040893555,
+    4.49070405960083,
+    -0.26000121235847473
+   ]
+  },
+  {
+   "name": "RightShoulderRigAttachment",
+   "position": [
+    -0.18414092063903809,
+    0.5574283599853516,
+    0.04903152585029602
+   ],
+   "parent": "RightUpperArm",
+   "originalPosition": [
+    -0.18414092063903809,
+    0.5574283599853516,
+    0.04903152585029602
+   ],
+   "world": [
+    1.679999589920044,
+    5.350006103515625,
+    -1.4156103134155273e-06
+   ]
+  },
+  {
+   "name": "JointRotation",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "parent": "RightShoulderRigAttachment",
+   "originalPosition": [
+    -0.18414092063903809,
+    0.5574283599853516,
+    0.04903152585029602
+   ],
+   "world": [
+    1.679999589920044,
+    5.350006103515625,
+    -1.4156103134155273e-06
+   ]
+  },
+  {
+   "name": "RightKneeRigAttachment",
+   "position": [
+    0.09499877691268921,
+    -0.6049995422363281,
+    0.009999498724937439
+   ],
+   "parent": "RightUpperLeg",
+   "originalPosition": [
+    0.09499877691268921,
+    -0.6049995422363281,
+    0.009999498724937439
+   ],
+   "world": [
+    0.9999988079071045,
+    2.2400062084198,
+    -0.01000051200389862
+   ]
+  },
+  {
+   "name": "RightHipRigAttachment",
+   "position": [
+    -0.1250002384185791,
+    0.5350000858306885,
+    0.01999923586845398
+   ],
+   "parent": "RightUpperLeg",
+   "originalPosition": [
+    -0.1250002384185791,
+    0.5350000858306885,
+    0.01999923586845398
+   ],
+   "world": [
+    0.7799997925758362,
+    3.3800058364868164,
+    -7.748603820800781e-07
+   ]
+  },
+  {
+   "name": "NeckRigAttachment",
+   "position": [
+    -3.916540549653291e-07,
+    1.0250000953674316,
+    0.14499861001968384
+   ],
+   "parent": "UpperTorso",
+   "originalPosition": [
+    -3.916540549653291e-07,
+    1.0250000953674316,
+    0.14499861001968384
+   ],
+   "world": [
+    -3.916540549653291e-07,
+    5.480005741119385,
+    -1.4603137969970703e-06
+   ]
+  },
+  {
+   "name": "RightShoulderRigAttachment",
+   "position": [
+    1.679999589920044,
+    0.8950004577636719,
+    0.14499865472316742
+   ],
+   "parent": "UpperTorso",
+   "originalPosition": [
+    1.679999589920044,
+    0.8950004577636719,
+    0.14499865472316742
+   ],
+   "world": [
+    1.679999589920044,
+    5.350006103515625,
+    -1.4156103134155273e-06
+   ]
+  },
+  {
+   "name": "JointRotation",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "parent": "RightShoulderRigAttachment",
+   "originalPosition": [
+    1.679999589920044,
+    0.8950004577636719,
+    0.14499865472316742
+   ],
+   "world": [
+    1.679999589920044,
+    5.350006103515625,
+    -1.4156103134155273e-06
+   ]
+  },
+  {
+   "name": "LeftShoulderRigAttachment",
+   "position": [
+    -1.6800003051757812,
+    0.8949999809265137,
+    0.14499865472316742
+   ],
+   "parent": "UpperTorso",
+   "originalPosition": [
+    -1.6800003051757812,
+    0.8949999809265137,
+    0.14499865472316742
+   ],
+   "world": [
+    -1.6800003051757812,
+    5.350005626678467,
+    -1.4156103134155273e-06
+   ]
+  },
+  {
+   "name": "JointRotation",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "parent": "LeftShoulderRigAttachment",
+   "originalPosition": [
+    -1.6800003051757812,
+    0.8949999809265137,
+    0.14499865472316742
+   ],
+   "world": [
+    -1.6800003051757812,
+    5.350005626678467,
+    -1.4156103134155273e-06
+   ]
+  },
+  {
+   "name": "WaistRigAttachment",
+   "position": [
+    -2.18556948539117e-07,
+    -0.9549999237060547,
+    0.14499925076961517
+   ],
+   "parent": "UpperTorso",
+   "originalPosition": [
+    -2.18556948539117e-07,
+    -0.9549999237060547,
+    0.14499925076961517
+   ],
+   "world": [
+    -2.18556948539117e-07,
+    3.5000057220458984,
+    -8.195638656616211e-07
+   ]
+  },
+  {
+   "name": "RootRigAttachment",
+   "position": [
+    -2.080662255821153e-07,
+    -1,
+    -7.755024853395298e-07
+   ],
+   "parent": "HumanoidRootPart",
+   "originalPosition": [
+    -2.080662255821153e-07,
+    -1,
+    -7.755024853395298e-07
+   ],
+   "world": [
+    -2.080662255821153e-07,
+    3.3800058364868164,
+    -7.755024853395298e-07
+   ]
+  }
+ ],
+ "joints": [
+  {
+   "enabled": true,
+   "part1": "HumanoidRootPart",
+   "name": "HumanoidRootPartNoCollision",
+   "parent": "Head",
+   "class": "NoCollisionConstraint",
+   "part0": "Head"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftUpperArm",
+   "name": "LeftUpperArmNoCollision",
+   "parent": "Head",
+   "class": "NoCollisionConstraint",
+   "part0": "Head"
+  },
+  {
+   "enabled": true,
+   "part1": "RightUpperArm",
+   "name": "RightUpperArmNoCollision",
+   "parent": "Head",
+   "class": "NoCollisionConstraint",
+   "part0": "Head"
+  },
+  {
+   "enabled": true,
+   "part1": "Head",
+   "parent": "Head",
+   "class": "AnimationConstraint",
+   "att1": "NeckRigAttachment",
+   "att0": "NeckRigAttachment",
+   "name": "Neck",
+   "part0": "UpperTorso",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "name": "NeckBallSocket",
+   "gap": 0,
+   "parent": "Head",
+   "class": "BallSocketConstraint",
+   "att1": "NeckRigAttachment",
+   "att0": "NeckRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftFoot",
+   "parent": "LeftFoot",
+   "class": "AnimationConstraint",
+   "att1": "LeftAnkleRigAttachment",
+   "att0": "LeftAnkleRigAttachment",
+   "name": "LeftAnkle",
+   "part0": "LeftLowerLeg",
+   "gap": 5.587935447692871e-09
+  },
+  {
+   "enabled": true,
+   "name": "LeftAnkleBallSocket",
+   "gap": 5.587935447692871e-09,
+   "parent": "LeftFoot",
+   "class": "BallSocketConstraint",
+   "att1": "LeftAnkleRigAttachment",
+   "att0": "LeftAnkleRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftHand",
+   "parent": "LeftHand",
+   "class": "AnimationConstraint",
+   "att1": "LeftWristRigAttachment",
+   "att0": "LeftWristRigAttachment",
+   "name": "LeftWrist",
+   "part0": "LeftLowerArm",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "name": "LeftWristBallSocket",
+   "gap": 0,
+   "parent": "LeftHand",
+   "class": "BallSocketConstraint",
+   "att1": "LeftWristRigAttachment",
+   "att0": "LeftWristRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftLowerArm",
+   "parent": "LeftLowerArm",
+   "class": "AnimationConstraint",
+   "att1": "LeftElbowRigAttachment",
+   "att0": "LeftElbowRigAttachment",
+   "name": "LeftElbow",
+   "part0": "LeftUpperArm",
+   "gap": 4.267803888069466e-10
+  },
+  {
+   "enabled": true,
+   "name": "LeftElbowBallSocket",
+   "gap": 4.267803888069466e-10,
+   "parent": "LeftLowerArm",
+   "class": "BallSocketConstraint",
+   "att1": "LeftElbowRigAttachment",
+   "att0": "LeftElbowRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftLowerLeg",
+   "parent": "LeftLowerLeg",
+   "class": "AnimationConstraint",
+   "att1": "LeftKneeRigAttachment",
+   "att0": "LeftKneeRigAttachment",
+   "name": "LeftKnee",
+   "part0": "LeftUpperLeg",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "name": "LeftKneeBallSocket",
+   "gap": 0,
+   "parent": "LeftLowerLeg",
+   "class": "BallSocketConstraint",
+   "att1": "LeftKneeRigAttachment",
+   "att0": "LeftKneeRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftHand",
+   "name": "LeftHandNoCollision",
+   "parent": "LeftUpperArm",
+   "class": "NoCollisionConstraint",
+   "part0": "LeftUpperArm"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftUpperArm",
+   "parent": "LeftUpperArm",
+   "class": "AnimationConstraint",
+   "att1": "LeftShoulderRigAttachment",
+   "att0": "LeftShoulderRigAttachment",
+   "name": "LeftShoulder",
+   "part0": "UpperTorso",
+   "gap": 1.7996626411331818e-09
+  },
+  {
+   "enabled": true,
+   "name": "LeftShoulderBallSocket",
+   "gap": 1.7996626411331818e-09,
+   "parent": "LeftUpperArm",
+   "class": "BallSocketConstraint",
+   "att1": "JointRotation",
+   "att0": "JointRotation"
+  },
+  {
+   "enabled": true,
+   "part1": "RightUpperLeg",
+   "name": "RightUpperLegNoCollision",
+   "parent": "LeftUpperLeg",
+   "class": "NoCollisionConstraint",
+   "part0": "LeftUpperLeg"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftFoot",
+   "name": "LeftFootNoCollision",
+   "parent": "LeftUpperLeg",
+   "class": "NoCollisionConstraint",
+   "part0": "LeftUpperLeg"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftUpperLeg",
+   "parent": "LeftUpperLeg",
+   "class": "AnimationConstraint",
+   "att1": "LeftHipRigAttachment",
+   "att0": "LeftHipRigAttachment",
+   "name": "LeftHip",
+   "part0": "LowerTorso",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "name": "LeftHipBallSocket",
+   "gap": 0,
+   "parent": "LeftUpperLeg",
+   "class": "BallSocketConstraint",
+   "att1": "LeftHipRigAttachment",
+   "att0": "LeftHipRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftUpperArm",
+   "name": "LeftUpperArmNoCollision",
+   "parent": "LowerTorso",
+   "class": "NoCollisionConstraint",
+   "part0": "LowerTorso"
+  },
+  {
+   "enabled": true,
+   "part1": "RightUpperArm",
+   "name": "RightUpperArmNoCollision",
+   "parent": "LowerTorso",
+   "class": "NoCollisionConstraint",
+   "part0": "LowerTorso"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftLowerLeg",
+   "name": "LeftLowerLegNoCollision",
+   "parent": "LowerTorso",
+   "class": "NoCollisionConstraint",
+   "part0": "LowerTorso"
+  },
+  {
+   "enabled": true,
+   "part1": "RightLowerLeg",
+   "name": "RightLowerLegNoCollision",
+   "parent": "LowerTorso",
+   "class": "NoCollisionConstraint",
+   "part0": "LowerTorso"
+  },
+  {
+   "enabled": true,
+   "part1": "LowerTorso",
+   "parent": "LowerTorso",
+   "class": "AnimationConstraint",
+   "att1": "RootRigAttachment",
+   "att0": "RootRigAttachment",
+   "name": "Root",
+   "part0": "HumanoidRootPart",
+   "gap": 6.421032594516873e-10
+  },
+  {
+   "enabled": true,
+   "part1": "RightFoot",
+   "parent": "RightFoot",
+   "class": "AnimationConstraint",
+   "att1": "RightAnkleRigAttachment",
+   "att0": "RightAnkleRigAttachment",
+   "name": "RightAnkle",
+   "part0": "RightLowerLeg",
+   "gap": 1.1934018573356298e-07
+  },
+  {
+   "enabled": true,
+   "name": "RightAnkleBallSocket",
+   "gap": 1.1934018573356298e-07,
+   "parent": "RightFoot",
+   "class": "BallSocketConstraint",
+   "att1": "RightAnkleRigAttachment",
+   "att0": "RightAnkleRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "RightHand",
+   "parent": "RightHand",
+   "class": "AnimationConstraint",
+   "att1": "RightWristRigAttachment",
+   "att0": "RightWristRigAttachment",
+   "name": "RightWrist",
+   "part0": "RightLowerArm",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "name": "RightWristBallSocket",
+   "gap": 0,
+   "parent": "RightHand",
+   "class": "BallSocketConstraint",
+   "att1": "RightWristRigAttachment",
+   "att0": "RightWristRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "RightLowerArm",
+   "parent": "RightLowerArm",
+   "class": "AnimationConstraint",
+   "att1": "RightElbowRigAttachment",
+   "att0": "RightElbowRigAttachment",
+   "name": "RightElbow",
+   "part0": "RightUpperArm",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "name": "RightElbowBallSocket",
+   "gap": 0,
+   "parent": "RightLowerArm",
+   "class": "BallSocketConstraint",
+   "att1": "RightElbowRigAttachment",
+   "att0": "RightElbowRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "RightLowerLeg",
+   "parent": "RightLowerLeg",
+   "class": "AnimationConstraint",
+   "att1": "RightKneeRigAttachment",
+   "att0": "RightKneeRigAttachment",
+   "name": "RightKnee",
+   "part0": "RightUpperLeg",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "name": "RightKneeBallSocket",
+   "gap": 0,
+   "parent": "RightLowerLeg",
+   "class": "BallSocketConstraint",
+   "att1": "RightKneeRigAttachment",
+   "att0": "RightKneeRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "RightHand",
+   "name": "RightHandNoCollision",
+   "parent": "RightUpperArm",
+   "class": "NoCollisionConstraint",
+   "part0": "RightUpperArm"
+  },
+  {
+   "enabled": true,
+   "part1": "RightUpperArm",
+   "parent": "RightUpperArm",
+   "class": "AnimationConstraint",
+   "att1": "RightShoulderRigAttachment",
+   "att0": "RightShoulderRigAttachment",
+   "name": "RightShoulder",
+   "part0": "UpperTorso",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "name": "RightShoulderBallSocket",
+   "gap": 0,
+   "parent": "RightUpperArm",
+   "class": "BallSocketConstraint",
+   "att1": "JointRotation",
+   "att0": "JointRotation"
+  },
+  {
+   "enabled": true,
+   "part1": "RightFoot",
+   "name": "RightFootNoCollision",
+   "parent": "RightUpperLeg",
+   "class": "NoCollisionConstraint",
+   "part0": "RightUpperLeg"
+  },
+  {
+   "enabled": true,
+   "part1": "RightUpperLeg",
+   "parent": "RightUpperLeg",
+   "class": "AnimationConstraint",
+   "att1": "RightHipRigAttachment",
+   "att0": "RightHipRigAttachment",
+   "name": "RightHip",
+   "part0": "LowerTorso",
+   "gap": 0
+  },
+  {
+   "enabled": true,
+   "name": "RightHipBallSocket",
+   "gap": 0,
+   "parent": "RightUpperLeg",
+   "class": "BallSocketConstraint",
+   "att1": "RightHipRigAttachment",
+   "att0": "RightHipRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "HumanoidRootPart",
+   "name": "HumanoidRootPartNoCollision",
+   "parent": "UpperTorso",
+   "class": "NoCollisionConstraint",
+   "part0": "UpperTorso"
+  },
+  {
+   "enabled": true,
+   "part1": "RightUpperLeg",
+   "name": "RightUpperLegNoCollision",
+   "parent": "UpperTorso",
+   "class": "NoCollisionConstraint",
+   "part0": "UpperTorso"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftUpperLeg",
+   "name": "LeftUpperLegNoCollision",
+   "parent": "UpperTorso",
+   "class": "NoCollisionConstraint",
+   "part0": "UpperTorso"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftLowerLeg",
+   "name": "LeftLowerLegNoCollision",
+   "parent": "UpperTorso",
+   "class": "NoCollisionConstraint",
+   "part0": "UpperTorso"
+  },
+  {
+   "enabled": true,
+   "part1": "RightLowerLeg",
+   "name": "RightLowerLegNoCollision",
+   "parent": "UpperTorso",
+   "class": "NoCollisionConstraint",
+   "part0": "UpperTorso"
+  },
+  {
+   "enabled": true,
+   "part1": "LeftLowerArm",
+   "name": "LeftLowerArmNoCollision",
+   "parent": "UpperTorso",
+   "class": "NoCollisionConstraint",
+   "part0": "UpperTorso"
+  },
+  {
+   "enabled": true,
+   "part1": "RightLowerArm",
+   "name": "RightLowerArmNoCollision",
+   "parent": "UpperTorso",
+   "class": "NoCollisionConstraint",
+   "part0": "UpperTorso"
+  },
+  {
+   "enabled": true,
+   "part1": "UpperTorso",
+   "parent": "UpperTorso",
+   "class": "AnimationConstraint",
+   "att1": "WaistRigAttachment",
+   "att0": "WaistRigAttachment",
+   "name": "Waist",
+   "part0": "LowerTorso",
+   "gap": 5.587935447692871e-09
+  },
+  {
+   "enabled": true,
+   "name": "WaistBallSocket",
+   "gap": 5.587935447692871e-09,
+   "parent": "UpperTorso",
+   "class": "BallSocketConstraint",
+   "att1": "WaistRigAttachment",
+   "att0": "WaistRigAttachment"
+  },
+  {
+   "enabled": true,
+   "part1": "Headset",
+   "name": "HeadsetMount",
+   "parent": "Headset",
+   "class": "WeldConstraint",
+   "part0": "Head"
+  },
+  {
+   "enabled": true,
+   "part1": "EnergyCan",
+   "name": "CanGrip",
+   "parent": "EnergyCan",
+   "class": "WeldConstraint",
+   "part0": "RightHand"
+  }
+ ],
+ "other": [
+  {
+   "parent": "GamerDad_R15",
+   "class": "Folder",
+   "name": "InitialPoses",
+   "children": 48
+  },
+  {
+   "parent": "GamerDad_R15",
+   "class": "Humanoid",
+   "name": "Humanoid",
+   "children": 7
+  },
+  {
+   "parent": "GamerDad_R15",
+   "class": "Folder",
+   "name": "HoldCanPose",
+   "children": 18
+  },
+  {
+   "parent": "GamerDad_R15",
+   "class": "Folder",
+   "name": "NeutralPose",
+   "children": 18
+  },
+  {
+   "parent": "GamerDad_R15",
+   "class": "ModuleScript",
+   "name": "PoseController",
+   "children": 0
+  }
+ ],
+ "comparison_to_blender": [
+  {
+   "part": "Head",
+   "class": "MeshPart",
+   "size": [
+    2.27,
+    2,
+    1.89221
+   ],
+   "expected_size": [
+    2.27,
+    2.0,
+    1.89221
+   ],
+   "max_size_diff": 2.0332717896032193e-06,
+   "centre": [
+    -0.0,
+    6.35001,
+    -0.18389
+   ],
+   "expected_centre": [
+    -0.0,
+    5.35,
+    -0.18389
+   ],
+   "max_centre_diff": 1.0000056266784672,
+   "anchored": false
+  },
+  {
+   "part": "LeftFoot",
+   "class": "MeshPart",
+   "size": [
+    1.52287,
+    0.88,
+    1.88884
+   ],
+   "expected_size": [
+    1.52287,
+    0.88,
+    1.88884
+   ],
+   "max_size_diff": 3.05953979484741e-06,
+   "centre": [
+    -1.13749,
+    1.44001,
+    -0.26119
+   ],
+   "expected_centre": [
+    -1.13749,
+    0.44,
+    -0.26119
+   ],
+   "max_centre_diff": 1.000005660057068,
+   "anchored": false
+  },
+  {
+   "part": "LeftHand",
+   "class": "MeshPart",
+   "size": [
+    0.74,
+    0.72,
+    0.65
+   ],
+   "expected_size": [
+    0.74,
+    0.72,
+    0.65
+   ],
+   "max_size_diff": 2.0980834958272965e-07,
+   "centre": [
+    -1.96,
+    3.39153,
+    -0.085
+   ],
+   "expected_centre": [
+    -1.96,
+    2.39153,
+    -0.085
+   ],
+   "max_centre_diff": 1.0000060900421142,
+   "anchored": false
+  },
+  {
+   "part": "LeftLowerArm",
+   "class": "MeshPart",
+   "size": [
+    0.86414,
+    0.86381,
+    0.82201
+   ],
+   "expected_size": [
+    0.86414,
+    0.86381,
+    0.82201
+   ],
+   "max_size_diff": 4.944381713833934e-06,
+   "centre": [
+    -1.88425,
+    4.03998,
+    -0.01101
+   ],
+   "expected_centre": [
+    -1.88425,
+    3.03997,
+    -0.01101
+   ],
+   "max_centre_diff": 1.000006411529541,
+   "anchored": false
+  },
+  {
+   "part": "LeftLowerLeg",
+   "class": "MeshPart",
+   "size": [
+    1.48,
+    0.52,
+    1.16
+   ],
+   "expected_size": [
+    1.48,
+    0.52,
+    1.16
+   ],
+   "max_size_diff": 1.597404479802833e-07,
+   "centre": [
+    -1,
+    2.00001,
+    -0.02
+   ],
+   "expected_centre": [
+    -1.0,
+    1.0,
+    -0.02
+   ],
+   "max_centre_diff": 1.0000057220458984,
+   "anchored": false
+  },
+  {
+   "part": "LeftUpperArm",
+   "class": "MeshPart",
+   "size": [
+    0.99411,
+    1.1672,
+    0.92
+   ],
+   "expected_size": [
+    0.99411,
+    1.1672,
+    0.92
+   ],
+   "max_size_diff": 3.206863403271143e-06,
+   "centre": [
+    -1.72988,
+    4.91862,
+    -0.0
+   ],
+   "expected_centre": [
+    -1.72988,
+    3.91861,
+    0.0
+   ],
+   "max_centre_diff": 1.0000056327209474,
+   "anchored": false
+  },
+  {
+   "part": "LeftUpperLeg",
+   "class": "MeshPart",
+   "size": [
+    1.67,
+    1.25,
+    1.22
+   ],
+   "expected_size": [
+    1.67,
+    1.25,
+    1.22
+   ],
+   "max_size_diff": 3.5762786865234375e-07,
+   "centre": [
+    -0.905,
+    2.84501,
+    -0.02
+   ],
+   "expected_centre": [
+    -0.905,
+    1.845,
+    -0.02
+   ],
+   "max_centre_diff": 1.000005750656128,
+   "anchored": false
+  },
+  {
+   "part": "LowerTorso",
+   "class": "MeshPart",
+   "size": [
+    2.98,
+    0.45,
+    1.32
+   ],
+   "expected_size": [
+    2.98,
+    0.45,
+    1.32
+   ],
+   "max_size_diff": 5.245208740123353e-07,
+   "centre": [
+    0,
+    3.32501,
+    -0.025
+   ],
+   "expected_centre": [
+    -0.0,
+    2.325,
+    -0.025
+   ],
+   "max_centre_diff": 1.000005531311035,
+   "anchored": false
+  },
+  {
+   "part": "RightFoot",
+   "class": "MeshPart",
+   "size": [
+    1.52287,
+    0.88,
+    1.88884
+   ],
+   "expected_size": [
+    1.52287,
+    0.88,
+    1.88884
+   ],
+   "max_size_diff": 3.05953979484741e-06,
+   "centre": [
+    1.13749,
+    1.44001,
+    -0.26119
+   ],
+   "expected_centre": [
+    1.13749,
+    0.44,
+    -0.26119
+   ],
+   "max_centre_diff": 1.000005660057068,
+   "anchored": false
+  },
+  {
+   "part": "RightHand",
+   "class": "MeshPart",
+   "size": [
+    0.7,
+    0.82,
+    0.81
+   ],
+   "expected_size": [
+    0.7,
+    0.82,
+    0.81
+   ],
+   "max_size_diff": 1.716613770019748e-07,
+   "centre": [
+    2.12,
+    4.74001,
+    -1.185
+   ],
+   "expected_centre": [
+    2.12,
+    3.74,
+    -1.185
+   ],
+   "max_centre_diff": 1.0000054931640623,
+   "anchored": false
+  },
+  {
+   "part": "RightLowerArm",
+   "class": "MeshPart",
+   "size": [
+    0.9969,
+    1.20111,
+    1.13508
+   ],
+   "expected_size": [
+    0.9969,
+    1.20111,
+    1.13508
+   ],
+   "max_size_diff": 4.166946411032768e-06,
+   "centre": [
+    2.02991,
+    4.51068,
+    -0.51393
+   ],
+   "expected_centre": [
+    2.02991,
+    3.51067,
+    -0.51393
+   ],
+   "max_centre_diff": 1.00000615234375,
+   "anchored": false
+  },
+  {
+   "part": "RightLowerLeg",
+   "class": "MeshPart",
+   "size": [
+    1.48,
+    0.52,
+    1.16
+   ],
+   "expected_size": [
+    1.48,
+    0.52,
+    1.16
+   ],
+   "max_size_diff": 1.597404479802833e-07,
+   "centre": [
+    1,
+    2.00001,
+    -0.02
+   ],
+   "expected_centre": [
+    1.0,
+    1.0,
+    -0.02
+   ],
+   "max_centre_diff": 1.0000057220458984,
+   "anchored": false
+  },
+  {
+   "part": "RightUpperArm",
+   "class": "MeshPart",
+   "size": [
+    1.24791,
+    1.7649,
+    1.09172
+   ],
+   "expected_size": [
+    1.24791,
+    1.7649,
+    1.09172
+   ],
+   "max_size_diff": 1.884613037184124e-06,
+   "centre": [
+    1.86414,
+    4.79258,
+    -0.04903
+   ],
+   "expected_centre": [
+    1.86414,
+    3.79257,
+    -0.04903
+   ],
+   "max_centre_diff": 1.0000057435302736,
+   "anchored": false
+  },
+  {
+   "part": "RightUpperLeg",
+   "class": "MeshPart",
+   "size": [
+    1.67,
+    1.25,
+    1.22
+   ],
+   "expected_size": [
+    1.67,
+    1.25,
+    1.22
+   ],
+   "max_size_diff": 3.5762786865234375e-07,
+   "centre": [
+    0.905,
+    2.84501,
+    -0.02
+   ],
+   "expected_centre": [
+    0.905,
+    1.845,
+    -0.02
+   ],
+   "max_centre_diff": 1.000005750656128,
+   "anchored": false
+  },
+  {
+   "part": "UpperTorso",
+   "class": "MeshPart",
+   "size": [
+    3.08,
+    2.13,
+    1.63
+   ],
+   "expected_size": [
+    3.08,
+    2.13,
+    1.63
+   ],
+   "max_size_diff": 1.1444091807533141e-07,
+   "centre": [
+    0,
+    4.45501,
+    -0.145
+   ],
+   "expected_centre": [
+    -0.0,
+    3.455,
+    -0.145
+   ],
+   "max_centre_diff": 1.000005645751953,
+   "anchored": false
+  },
+  {
+   "part": "Headset",
+   "class": "MeshPart",
+   "size": [
+    2.72827,
+    1.665,
+    1.7174
+   ],
+   "expected_size": [
+    2.72827,
+    1.665,
+    1.7174
+   ],
+   "max_size_diff": 4.4760894777340354e-06,
+   "centre": [
+    0,
+    6.56751,
+    -0.3313
+   ],
+   "expected_centre": [
+    -0.0,
+    5.5675,
+    -0.3313
+   ],
+   "max_centre_diff": 1.0000058364868165,
+   "anchored": false
+  },
+  {
+   "part": "EnergyCan",
+   "class": "MeshPart",
+   "size": [
+    0.62,
+    1.44,
+    0.62
+   ],
+   "expected_size": [
+    0.62,
+    1.44,
+    0.62
+   ],
+   "max_size_diff": 1.239776611372534e-07,
+   "centre": [
+    1.62,
+    4.86001,
+    -1.32
+   ],
+   "expected_centre": [
+    1.62,
+    3.86,
+    -1.32
+   ],
+   "max_centre_diff": 1.0000053787231447,
+   "anchored": false
+  }
+ ],
+ "max_size_diff": 4.944381713833934e-06,
+ "max_centre_diff": 1.000006411529541,
+ "attachments_vs_bones": [
+  {
+   "joint": "Neck",
+   "parent": "Head",
+   "world": [
+    -0.0,
+    5.48001,
+    -0.0
+   ],
+   "expected_bone_head": [
+    -0.0,
+    4.48,
+    0.0
+   ],
+   "diff": 1.0000057411193843,
+   "position": [
+    -3.320494101899385e-07,
+    -0.869999885559082,
+    0.1838926374912262
+   ],
+   "originalPosition": [
+    -3.320494101899385e-07,
+    -0.869999885559082,
+    0.1838926374912262
+   ]
+  },
+  {
+   "joint": "LeftAnkle",
+   "parent": "LeftFoot",
+   "world": [
+    -1.02,
+    1.66001,
+    -0.0
+   ],
+   "expected_bone_head": [
+    -1.02,
+    0.66,
+    0.0
+   ],
+   "diff": 1.0000058078765868,
+   "position": [
+    0.11749553680419922,
+    0.22000014781951904,
+    0.2611893117427826
+   ],
+   "originalPosition": [
+    0.11749553680419922,
+    0.22000014781951904,
+    0.2611893117427826
+   ]
+  },
+  {
+   "joint": "LeftWrist",
+   "parent": "LeftHand",
+   "world": [
+    -1.94,
+    3.69153,
+    -0.04
+   ],
+   "expected_bone_head": [
+    -1.94,
+    2.69153,
+    -0.04
+   ],
+   "diff": 1.0000040423583982,
+   "position": [
+    0.01999950408935547,
+    0.2999999523162842,
+    0.04499924182891846
+   ],
+   "originalPosition": [
+    0.01999950408935547,
+    0.2999999523162842,
+    0.04499924182891846
+   ]
+  },
+  {
+   "joint": "LeftElbow",
+   "parent": "LeftLowerArm",
+   "world": [
+    -1.84,
+    4.40343,
+    -0.0
+   ],
+   "expected_bone_head": [
+    -1.84,
+    3.40343,
+    0.0
+   ],
+   "diff": 1.0000028460693358,
+   "position": [
+    0.044246673583984375,
+    0.363452672958374,
+    0.011004817672073841
+   ],
+   "originalPosition": [
+    0.044246673583984375,
+    0.363452672958374,
+    0.011004817672073841
+   ]
+  },
+  {
+   "joint": "LeftKnee",
+   "parent": "LeftLowerLeg",
+   "world": [
+    -1.0,
+    2.24001,
+    -0.01
+   ],
+   "expected_bone_head": [
+    -1.0,
+    1.24,
+    -0.01
+   ],
+   "diff": 1.0000059700012207,
+   "position": [
+    9.5367431640625e-07,
+    0.24000036716461182,
+    0.009999468922615051
+   ],
+   "originalPosition": [
+    9.5367431640625e-07,
+    0.24000036716461182,
+    0.009999468922615051
+   ]
+  },
+  {
+   "joint": "LeftShoulder",
+   "parent": "LeftUpperArm",
+   "world": [
+    -1.68,
+    5.35001,
+    -0.0
+   ],
+   "expected_bone_head": [
+    -1.68,
+    4.35,
+    0.0
+   ],
+   "diff": 1.0000056266784672,
+   "position": [
+    0.049877047538757324,
+    0.43138599395751953,
+    -1.4025088148628129e-06
+   ],
+   "originalPosition": [
+    0.049877047538757324,
+    0.43138599395751953,
+    -1.4025088148628129e-06
+   ]
+  },
+  {
+   "joint": "LeftHip",
+   "parent": "LeftUpperLeg",
+   "world": [
+    -0.78,
+    3.38001,
+    -0.0
+   ],
+   "expected_bone_head": [
+    -0.78,
+    2.38,
+    0.0
+   ],
+   "diff": 1.0000058364868165,
+   "position": [
+    0.12499982118606567,
+    0.5350000858306885,
+    0.01999923586845398
+   ],
+   "originalPosition": [
+    0.12499982118606567,
+    0.5350000858306885,
+    0.01999923586845398
+   ]
+  },
+  {
+   "joint": "RightAnkle",
+   "parent": "RightFoot",
+   "world": [
+    1.02,
+    1.66001,
+    -0.0
+   ],
+   "expected_bone_head": [
+    1.02,
+    0.66,
+    0.0
+   ],
+   "diff": 1.0000059270858763,
+   "position": [
+    -0.11749577522277832,
+    0.22000029683113098,
+    0.2611893117427826
+   ],
+   "originalPosition": [
+    -0.11749577522277832,
+    0.22000029683113098,
+    0.2611893117427826
+   ]
+  },
+  {
+   "joint": "RightWrist",
+   "parent": "RightHand",
+   "world": [
+    2.06,
+    4.6907,
+    -0.95051
+   ],
+   "expected_bone_head": [
+    2.06,
+    3.6907,
+    -0.95051
+   ],
+   "diff": 1.0000033920288085,
+   "position": [
+    -0.06000041961669922,
+    -0.049302101135253906,
+    0.2344920039176941
+   ],
+   "originalPosition": [
+    -0.06000041961669922,
+    -0.049302101135253906,
+    0.2344920039176941
+   ]
+  },
+  {
+   "joint": "RightElbow",
+   "parent": "RightLowerArm",
+   "world": [
+    2.02,
+    4.4907,
+    -0.26
+   ],
+   "expected_bone_head": [
+    2.02,
+    3.4907,
+    -0.26
+   ],
+   "diff": 1.0000040596008302,
+   "position": [
+    -0.009907722473144531,
+    -0.019977092742919922,
+    0.2539254128932953
+   ],
+   "originalPosition": [
+    -0.009907722473144531,
+    -0.019977092742919922,
+    0.2539254128932953
+   ]
+  },
+  {
+   "joint": "RightKnee",
+   "parent": "RightLowerLeg",
+   "world": [
+    1.0,
+    2.24001,
+    -0.01
+   ],
+   "expected_bone_head": [
+    1.0,
+    1.24,
+    -0.01
+   ],
+   "diff": 1.0000062084197998,
+   "position": [
+    -1.1920928955078125e-06,
+    0.24000048637390137,
+    0.009999468922615051
+   ],
+   "originalPosition": [
+    -1.1920928955078125e-06,
+    0.24000048637390137,
+    0.009999468922615051
+   ]
+  },
+  {
+   "joint": "RightShoulder",
+   "parent": "RightUpperArm",
+   "world": [
+    1.68,
+    5.35001,
+    -0.0
+   ],
+   "expected_bone_head": [
+    1.68,
+    4.35,
+    0.0
+   ],
+   "diff": 1.0000061035156254,
+   "position": [
+    -0.18414092063903809,
+    0.5574283599853516,
+    0.04903152585029602
+   ],
+   "originalPosition": [
+    -0.18414092063903809,
+    0.5574283599853516,
+    0.04903152585029602
+   ]
+  },
+  {
+   "joint": "RightHip",
+   "parent": "RightUpperLeg",
+   "world": [
+    0.78,
+    3.38001,
+    -0.0
+   ],
+   "expected_bone_head": [
+    0.78,
+    2.38,
+    0.0
+   ],
+   "diff": 1.0000058364868165,
+   "position": [
+    -0.1250002384185791,
+    0.5350000858306885,
+    0.01999923586845398
+   ],
+   "originalPosition": [
+    -0.1250002384185791,
+    0.5350000858306885,
+    0.01999923586845398
+   ]
+  },
+  {
+   "joint": "Waist",
+   "parent": "UpperTorso",
+   "world": [
+    -0.0,
+    3.50001,
+    -0.0
+   ],
+   "expected_bone_head": [
+    -0.0,
+    2.5,
+    0.0
+   ],
+   "diff": 1.0000057220458984,
+   "position": [
+    -2.18556948539117e-07,
+    -0.9549999237060547,
+    0.14499925076961517
+   ],
+   "originalPosition": [
+    -2.18556948539117e-07,
+    -0.9549999237060547,
+    0.14499925076961517
+   ]
+  }
+ ],
+ "max_attachment_diff": 1.0000062084197998,
+ "joint_gap_max": 1.1934018573356298e-07,
+ "anchored_parts": []
+}
