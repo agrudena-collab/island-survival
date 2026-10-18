@@ -1,0 +1,491 @@
+{
+ "bounds_body": {
+  "min": [
+   -2.956,
+   -1.9912,
+   -0.0
+  ],
+  "max": [
+   2.4877,
+   1.502,
+   6.3893
+  ],
+  "height": 6.3893
+ },
+ "head_bounds": {
+  "min": [
+   -0.9928,
+   -1.3494,
+   4.3392
+  ],
+  "max": [
+   0.9765,
+   1.0752,
+   6.3893
+  ]
+ },
+ "feet_min_h": -0.0,
+ "tris_body": 6212,
+ "tris_props": {
+  "Phone": 344
+ },
+ "tris_total": 6556,
+ "per_part_bounds_blender": {
+  "UpperTorso": [
+   [
+    -1.4616,
+    -0.8572,
+    2.6827
+   ],
+   [
+    1.4616,
+    0.684,
+    4.607
+   ]
+  ],
+  "LowerTorso": [
+   [
+    -1.6,
+    -0.7774,
+    2.25
+   ],
+   [
+    1.6,
+    0.6726,
+    2.8799
+   ]
+  ],
+  "RightUpperLeg": [
+   [
+    -1.4888,
+    -0.7038,
+    1.3
+   ],
+   [
+    -0.1112,
+    0.69,
+    2.46
+   ]
+  ],
+  "RightLowerLeg": [
+   [
+    -1.5014,
+    -0.7222,
+    0.6
+   ],
+   [
+    -0.0986,
+    0.6854,
+    1.45
+   ]
+  ],
+  "RightFoot": [
+   [
+    -1.6311,
+    -1.5562,
+    -0.0
+   ],
+   [
+    -0.07,
+    0.6967,
+    0.79
+   ]
+  ],
+  "LeftUpperLeg": [
+   [
+    0.1112,
+    -0.7038,
+    1.3
+   ],
+   [
+    1.4888,
+    0.69,
+    2.46
+   ]
+  ],
+  "LeftLowerLeg": [
+   [
+    0.0986,
+    -0.7222,
+    0.6
+   ],
+   [
+    1.5014,
+    0.6854,
+    1.45
+   ]
+  ],
+  "LeftFoot": [
+   [
+    0.07,
+    -1.5562,
+    -0.0
+   ],
+   [
+    1.6311,
+    0.6967,
+    0.79
+   ]
+  ],
+  "RightUpperArm": [
+   [
+    -2.956,
+    -0.6958,
+    3.1239
+   ],
+   [
+    -0.7418,
+    1.502,
+    4.9
+   ]
+  ],
+  "RightLowerArm": [
+   [
+    -2.956,
+    -0.4251,
+    2.3816
+   ],
+   [
+    -1.3628,
+    1.502,
+    3.8811
+   ]
+  ],
+  "LeftUpperArm": [
+   [
+    0.638,
+    -0.67,
+    2.0659
+   ],
+   [
+    2.4827,
+    0.7244,
+    4.5787
+   ]
+  ],
+  "LeftLowerArm": [
+   [
+    1.2643,
+    -1.1758,
+    2.0659
+   ],
+   [
+    2.4827,
+    0.7244,
+    4.0548
+   ]
+  ],
+  "RightHand": [
+   [
+    -1.9066,
+    -0.4549,
+    2.393
+   ],
+   [
+    -0.7887,
+    0.5538,
+    2.9795
+   ]
+  ],
+  "LeftHand": [
+   [
+    1.4822,
+    -1.9912,
+    3.0079
+   ],
+   [
+    2.4877,
+    -0.729,
+    4.4311
+   ]
+  ],
+  "Head": [
+   [
+    -0.9928,
+    -1.3494,
+    4.3392
+   ],
+   [
+    0.9765,
+    1.0752,
+    6.3893
+   ]
+  ],
+  "Phone": [
+   [
+    1.8019,
+    -1.732,
+    4.0242
+   ],
+   [
+    2.5063,
+    -1.308,
+    5.1758
+   ]
+  ]
+ },
+ "audit": {
+  "UpperTorso": {
+   "verts": 277,
+   "tris": 490,
+   "open_edges": 0,
+   "nonmanifold_edges": 2,
+   "zero_area": 0,
+   "signed_volume": 6.3863,
+   "uv_in_range": true,
+   "components": 16
+  },
+  "LowerTorso": {
+   "verts": 195,
+   "tris": 330,
+   "open_edges": 0,
+   "nonmanifold_edges": 4,
+   "zero_area": 0,
+   "signed_volume": 2.5143,
+   "uv_in_range": true,
+   "components": 15
+  },
+  "RightUpperLeg": {
+   "verts": 40,
+   "tris": 72,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 2.0842,
+   "uv_in_range": true,
+   "components": 2
+  },
+  "RightLowerLeg": {
+   "verts": 72,
+   "tris": 132,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 2.1635,
+   "uv_in_range": true,
+   "components": 3
+  },
+  "RightFoot": {
+   "verts": 110,
+   "tris": 200,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 2.1026,
+   "uv_in_range": true,
+   "components": 5
+  },
+  "LeftUpperLeg": {
+   "verts": 40,
+   "tris": 72,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 2.0842,
+   "uv_in_range": true,
+   "components": 2
+  },
+  "LeftLowerLeg": {
+   "verts": 72,
+   "tris": 132,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 2.1635,
+   "uv_in_range": true,
+   "components": 3
+  },
+  "LeftFoot": {
+   "verts": 110,
+   "tris": 200,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 2.1026,
+   "uv_in_range": true,
+   "components": 5
+  },
+  "RightUpperArm": {
+   "verts": 32,
+   "tris": 60,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 2.0066,
+   "uv_in_range": true,
+   "components": 1
+  },
+  "RightLowerArm": {
+   "verts": 80,
+   "tris": 144,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.1422,
+   "uv_in_range": true,
+   "components": 4
+  },
+  "LeftUpperArm": {
+   "verts": 32,
+   "tris": 60,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 2.0066,
+   "uv_in_range": true,
+   "components": 1
+  },
+  "LeftLowerArm": {
+   "verts": 80,
+   "tris": 144,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.1421,
+   "uv_in_range": true,
+   "components": 4
+  },
+  "RightHand": {
+   "verts": 40,
+   "tris": 76,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.3796,
+   "uv_in_range": true,
+   "components": 1
+  },
+  "LeftHand": {
+   "verts": 312,
+   "tris": 528,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 1.0117,
+   "uv_in_range": true,
+   "components": 24
+  },
+  "Head": {
+   "verts": 1860,
+   "tris": 3572,
+   "open_edges": 0,
+   "nonmanifold_edges": 8,
+   "zero_area": 0,
+   "signed_volume": 8.1065,
+   "uv_in_range": true,
+   "components": 37
+  },
+  "Phone": {
+   "verts": 192,
+   "tris": 344,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "zero_area": 0,
+   "signed_volume": 0.0824,
+   "uv_in_range": true,
+   "components": 10
+  }
+ },
+ "symmetry": {
+  "UpperLeg_mirror_dev": 0.0,
+  "LowerLeg_mirror_dev": 0.0,
+  "Foot_mirror_dev": 0.0
+ },
+ "arm_lengths": {
+  "Right": {
+   "shoulder_elbow": 1.3,
+   "elbow_wrist": 1.18
+  },
+  "Left": {
+   "shoulder_elbow": 1.3,
+   "elbow_wrist": 1.18
+  }
+ },
+ "axes": {
+  "head_centre_x": -0.00816,
+  "pelvis_centre_x": 0.0
+ },
+ "clearance": {
+  "Phone": {
+   "UpperTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_distance": 1.0678,
+    "allowed_hidden_contact": null
+   },
+   "Head": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_distance": 1.4546,
+    "allowed_hidden_contact": null
+   },
+   "LeftLowerArm": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_distance": 0.5946,
+    "allowed_hidden_contact": null
+   },
+   "LeftUpperArm": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_distance": 0.8662,
+    "allowed_hidden_contact": null
+   },
+   "LeftHand": {
+    "overlapping_triangle_pairs": 127,
+    "min_vertex_distance": 0.001,
+    "allowed_hidden_contact": "lower phone edge sits inside the closed fist (hidden, allowed)"
+   },
+   "RightHand": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_distance": 3.2389,
+    "allowed_hidden_contact": null
+   },
+   "LowerTorso": {
+    "overlapping_triangle_pairs": 0,
+    "min_vertex_distance": 1.5832,
+    "allowed_hidden_contact": null
+   }
+  }
+ },
+ "joint_overlaps": {
+  "RightElbow": {
+   "overlap_pairs": 53,
+   "joint_to_surface_a": 0.0,
+   "joint_to_surface_b": 0.0
+  },
+  "RightWrist": {
+   "overlap_pairs": 72,
+   "joint_to_surface_a": 0.04,
+   "joint_to_surface_b": 0.0576
+  },
+  "RightKnee": {
+   "overlap_pairs": 30,
+   "joint_to_surface_a": 0.1,
+   "joint_to_surface_b": 0.05
+  },
+  "RightAnkle": {
+   "overlap_pairs": 92,
+   "joint_to_surface_a": 0.06,
+   "joint_to_surface_b": 0.06466
+  },
+  "LeftElbow": {
+   "overlap_pairs": 92,
+   "joint_to_surface_a": 0.0,
+   "joint_to_surface_b": 0.0
+  },
+  "LeftWrist": {
+   "overlap_pairs": 92,
+   "joint_to_surface_a": 0.04,
+   "joint_to_surface_b": 0.0288
+  },
+  "LeftKnee": {
+   "overlap_pairs": 30,
+   "joint_to_surface_a": 0.1,
+   "joint_to_surface_b": 0.05
+  },
+  "LeftAnkle": {
+   "overlap_pairs": 99,
+   "joint_to_surface_a": 0.06,
+   "joint_to_surface_b": 0.06466
+  }
+ },
+ "pose_bones_identity": true,
+ "meshes": 16
+}

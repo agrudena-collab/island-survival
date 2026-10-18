@@ -1,0 +1,19 @@
+{
+ "overlays": [],
+ "phoneRel": "-0.1691722869873047, 0.8805084228515625, -0.159912109375",
+ "soleY": 0,
+ "phoneWeld": "LeftHand>Phone enabled=true",
+ "scripts": [],
+ "preview": true,
+ "animators": 0,
+ "maxDrift4s": 0,
+ "meshparts": 16,
+ "def": "BusinessDad ModelAsset=BusinessDadFinal Rarity=Epic Cost=900 Income=15",
+ "found": true,
+ "feetOffset": 3.3000004291534424,
+ "phoneFlags": "collide=false query=false touch=false massless=true anchored=true",
+ "height": 6.38929557800293,
+ "unanchored": 0,
+ "nameTag": true,
+ "hrpY": 3.3000004291534424
+}

@@ -1,0 +1,172 @@
+{
+ "pose": "static pocket/phone pose (rest pose == pose)",
+ "joints_logical_XFH": {
+  "Root": [
+   0,
+   0,
+   2.4
+  ],
+  "Waist": [
+   0,
+   0,
+   2.88
+  ],
+  "Neck": [
+   0,
+   0,
+   4.6
+  ],
+  "RightShoulder": [
+   -1.22,
+   0,
+   4.18
+  ],
+  "RightWrist": [
+   -1.8,
+   0.05,
+   2.72
+  ],
+  "LeftShoulder": [
+   1.22,
+   0,
+   4.18
+  ],
+  "LeftWrist": [
+   1.95,
+   0.95,
+   3.6
+  ],
+  "RightHip": [
+   -0.8,
+   0,
+   2.3
+  ],
+  "LeftHip": [
+   0.8,
+   0,
+   2.3
+  ],
+  "RightKnee": [
+   -0.8,
+   0.02,
+   1.4
+  ],
+  "LeftKnee": [
+   0.8,
+   0.02,
+   1.4
+  ],
+  "RightAnkle": [
+   -0.8,
+   0.02,
+   0.72
+  ],
+  "LeftAnkle": [
+   0.8,
+   0.02,
+   0.72
+  ],
+  "RightElbow": [
+   -2.159379482269287,
+   -0.6709880828857422,
+   3.582219362258911
+  ],
+  "LeftElbow": [
+   1.8735036849975586,
+   -0.0965808629989624,
+   3.060354709625244
+  ]
+ },
+ "joints_blender": {
+  "Root": [
+   0.0,
+   0.0,
+   2.4
+  ],
+  "Waist": [
+   0.0,
+   0.0,
+   2.88
+  ],
+  "Neck": [
+   0.0,
+   0.0,
+   4.6
+  ],
+  "RightShoulder": [
+   -1.22,
+   0.0,
+   4.18
+  ],
+  "RightWrist": [
+   -1.8,
+   -0.05,
+   2.72
+  ],
+  "LeftShoulder": [
+   1.22,
+   0.0,
+   4.18
+  ],
+  "LeftWrist": [
+   1.95,
+   -0.95,
+   3.6
+  ],
+  "RightHip": [
+   -0.8,
+   0.0,
+   2.3
+  ],
+  "LeftHip": [
+   0.8,
+   0.0,
+   2.3
+  ],
+  "RightKnee": [
+   -0.8,
+   -0.02,
+   1.4
+  ],
+  "LeftKnee": [
+   0.8,
+   -0.02,
+   1.4
+  ],
+  "RightAnkle": [
+   -0.8,
+   -0.02,
+   0.72
+  ],
+  "LeftAnkle": [
+   0.8,
+   -0.02,
+   0.72
+  ],
+  "RightElbow": [
+   -2.159379,
+   0.670988,
+   3.582219
+  ],
+  "LeftElbow": [
+   1.873504,
+   0.096581,
+   3.060355
+  ]
+ },
+ "grips": {
+  "PhoneGrip": {
+   "from": "LeftHand",
+   "to": "Phone",
+   "centre_logical_XFH": [
+    2.15,
+    1.52,
+    4.6
+   ],
+   "yaw_deg": 28.0,
+   "roll_deg": 10.0
+  }
+ },
+ "right_hand": "RightHand is built along the forearm direction and rests at the trouser pocket (part of the RightHand mesh, no prop)",
+ "watch": "gold watch baked into the LeftHand mesh (bracelet + bezel + dial), cannot detach"
+}

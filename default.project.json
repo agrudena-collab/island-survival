@@ -42,6 +42,9 @@
       },
       "GymDadFinal": {
         "$path": "assets/characters/GymDad_Final/model/GymDad_Final.rbxm"
+      },
+      "BusinessDadFinal": {
+        "$path": "assets/characters/BusinessDad_Final/model/BusinessDad_Final.rbxm"
       }
     }
   }

@@ -120,6 +120,8 @@ local DadCatalog: { DadDefinition } = {
 	},
 	{
 		Id = "BusinessDad",
+		-- Final approved art: ServerStorage.BusinessDadFinal (assets/characters/BusinessDad_Final). The overlay fields below are unused for it.
+		ModelAsset = "BusinessDadFinal",
 		DisplayName = "Business Dad",
 		Rarity = "Epic",
 		Cost = 900,

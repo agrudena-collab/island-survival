@@ -1,0 +1,8 @@
+{
+ "droppedCloneMaxDrift": 2.204468501076917e-06,
+ "droppedSoleY": 4.839897155761719e-05,
+ "droppedHumanoidState": "Enum.HumanoidStateType.Running",
+ "droppedHealth": 100,
+ "anchoredMoveTurnLiftMaxDrift": 7.688984624110162e-06,
+ "droppedPhoneStillWelded": true
+}

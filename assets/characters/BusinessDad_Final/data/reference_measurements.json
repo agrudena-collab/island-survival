@@ -1,0 +1,940 @@
+{
+ "source": "assets/characters/BusinessDad_Review/source/inputs/BusinessDad_Original_Reference.png (1536x1024 sheet, bottom row, third character)",
+ "crop_bounds_on_sheet": {
+  "x0": 750,
+  "x1": 1135,
+  "y0": 525,
+  "y1": 950,
+  "width": 385,
+  "height": 425
+ },
+ "crop_file": "data/BusinessDad_Reference_Crop.png",
+ "scale": {
+  "px_per_stud": 63.6,
+  "note": "hair top y13 .. sole y420 = 6.40 studs (design height); body axis x192 (legs centre); X positive = character LEFT (phone side)"
+ },
+ "method": "visual landmark reading on a 3x gridded enlargement (+-3..8 px). Single perspective illustration: side/back geometry is extrapolated, depth values are NOT measured.",
+ "landmarks": [
+  {
+   "name": "hair_top",
+   "px": [
+    213,
+    13
+   ],
+   "sheet_px": [
+    963,
+    538
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.33,
+    "H": 6.399
+   }
+  },
+  {
+   "name": "scalp_side_left_of_image",
+   "px": [
+    115,
+    45
+   ],
+   "sheet_px": [
+    865,
+    570
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": -1.211,
+    "H": 5.896
+   }
+  },
+  {
+   "name": "scalp_side_right_of_image",
+   "px": [
+    240,
+    45
+   ],
+   "sheet_px": [
+    990,
+    570
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.755,
+    "H": 5.896
+   }
+  },
+  {
+   "name": "brow_line_y",
+   "px": [
+    200,
+    61
+   ],
+   "sheet_px": [
+    950,
+    586
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.126,
+    "H": 5.645
+   }
+  },
+  {
+   "name": "eye_left_of_image",
+   "px": [
+    193,
+    73
+   ],
+   "sheet_px": [
+    943,
+    598
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.016,
+    "H": 5.456
+   }
+  },
+  {
+   "name": "eye_right_of_image",
+   "px": [
+    223,
+    70
+   ],
+   "sheet_px": [
+    973,
+    595
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.487,
+    "H": 5.503
+   }
+  },
+  {
+   "name": "nose_tip",
+   "px": [
+    213,
+    88
+   ],
+   "sheet_px": [
+    963,
+    613
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.33,
+    "H": 5.22
+   }
+  },
+  {
+   "name": "moustache_centre",
+   "px": [
+    207,
+    94
+   ],
+   "sheet_px": [
+    957,
+    619
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.236,
+    "H": 5.126
+   }
+  },
+  {
+   "name": "chin",
+   "px": [
+    190,
+    118
+   ],
+   "sheet_px": [
+    940,
+    643
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": -0.031,
+    "H": 4.748
+   }
+  },
+  {
+   "name": "ear_image_left",
+   "px": [
+    126,
+    90
+   ],
+   "sheet_px": [
+    876,
+    615
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": -1.038,
+    "H": 5.189
+   }
+  },
+  {
+   "name": "grey_temple_patch",
+   "px": [
+    150,
+    68
+   ],
+   "sheet_px": [
+    900,
+    593
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": -0.66,
+    "H": 5.535
+   }
+  },
+  {
+   "name": "jacket_shoulder_tip_image_left",
+   "px": [
+    50,
+    112
+   ],
+   "sheet_px": [
+    800,
+    637
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": -2.233,
+    "H": 4.843
+   }
+  },
+  {
+   "name": "jacket_shoulder_tip_image_right",
+   "px": [
+    300,
+    113
+   ],
+   "sheet_px": [
+    1050,
+    638
+   ],
+   "status": "inferred",
+   "stud": {
+    "X_char_left_positive": 1.698,
+    "H": 4.827
+   }
+  },
+  {
+   "name": "elbow_outer_tip_image_left",
+   "px": [
+    9,
+    195
+   ],
+   "sheet_px": [
+    759,
+    720
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": -2.877,
+    "H": 3.538
+   }
+  },
+  {
+   "name": "cuff_image_left",
+   "px": [
+    88,
+    253
+   ],
+   "sheet_px": [
+    838,
+    778
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": -1.635,
+    "H": 2.626
+   }
+  },
+  {
+   "name": "hand_in_pocket",
+   "px": [
+    98,
+    262
+   ],
+   "sheet_px": [
+    848,
+    787
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": -1.478,
+    "H": 2.484
+   }
+  },
+  {
+   "name": "jacket_hem",
+   "px": [
+    200,
+    280
+   ],
+   "sheet_px": [
+    950,
+    805
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.126,
+    "H": 2.201
+   }
+  },
+  {
+   "name": "belt_centre",
+   "px": [
+    218,
+    248
+   ],
+   "sheet_px": [
+    968,
+    773
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.409,
+    "H": 2.704
+   }
+  },
+  {
+   "name": "buckle_centre",
+   "px": [
+    221,
+    249
+   ],
+   "sheet_px": [
+    971,
+    774
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.456,
+    "H": 2.689
+   }
+  },
+  {
+   "name": "tie_knot_top",
+   "px": [
+    213,
+    132
+   ],
+   "sheet_px": [
+    963,
+    657
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.33,
+    "H": 4.528
+   }
+  },
+  {
+   "name": "tie_bar",
+   "px": [
+    217,
+    180
+   ],
+   "sheet_px": [
+    967,
+    705
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.393,
+    "H": 3.774
+   }
+  },
+  {
+   "name": "tie_tip",
+   "px": [
+    227,
+    245
+   ],
+   "sheet_px": [
+    977,
+    770
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.55,
+    "H": 2.752
+   }
+  },
+  {
+   "name": "pocket_square",
+   "px": [
+    275,
+    164
+   ],
+   "sheet_px": [
+    1025,
+    689
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 1.305,
+    "H": 4.025
+   }
+  },
+  {
+   "name": "crotch",
+   "px": [
+    198,
+    297
+   ],
+   "sheet_px": [
+    948,
+    822
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.094,
+    "H": 1.934
+   }
+  },
+  {
+   "name": "knee_left_of_image",
+   "px": [
+    133,
+    335
+   ],
+   "sheet_px": [
+    883,
+    860
+   ],
+   "status": "inferred",
+   "stud": {
+    "X_char_left_positive": -0.928,
+    "H": 1.336
+   }
+  },
+  {
+   "name": "knee_right_of_image",
+   "px": [
+    251,
+    335
+   ],
+   "sheet_px": [
+    1001,
+    860
+   ],
+   "status": "inferred",
+   "stud": {
+    "X_char_left_positive": 0.928,
+    "H": 1.336
+   }
+  },
+  {
+   "name": "trouser_cuff_bottom_left_of_image",
+   "px": [
+    133,
+    378
+   ],
+   "sheet_px": [
+    883,
+    903
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": -0.928,
+    "H": 0.66
+   }
+  },
+  {
+   "name": "trouser_cuff_bottom_right_of_image",
+   "px": [
+    251,
+    376
+   ],
+   "sheet_px": [
+    1001,
+    901
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 0.928,
+    "H": 0.692
+   }
+  },
+  {
+   "name": "shoe_toe_left_of_image",
+   "px": [
+    85,
+    405
+   ],
+   "sheet_px": [
+    835,
+    930
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": -1.682,
+    "H": 0.236
+   }
+  },
+  {
+   "name": "shoe_toe_right_of_image",
+   "px": [
+    340,
+    410
+   ],
+   "sheet_px": [
+    1090,
+    935
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 2.327,
+    "H": 0.157
+   }
+  },
+  {
+   "name": "sole_bottom",
+   "px": [
+    190,
+    420
+   ],
+   "sheet_px": [
+    940,
+    945
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": -0.031,
+    "H": 0.0
+   }
+  },
+  {
+   "name": "phone_top_left_corner",
+   "px": [
+    312,
+    85
+   ],
+   "sheet_px": [
+    1062,
+    610
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 1.887,
+    "H": 5.267
+   }
+  },
+  {
+   "name": "phone_top_right_corner",
+   "px": [
+    358,
+    90
+   ],
+   "sheet_px": [
+    1108,
+    615
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 2.61,
+    "H": 5.189
+   }
+  },
+  {
+   "name": "phone_bottom_right_corner",
+   "px": [
+    350,
+    123
+   ],
+   "sheet_px": [
+    1100,
+    648
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 2.484,
+    "H": 4.67
+   }
+  },
+  {
+   "name": "phone_bottom_left_corner",
+   "px": [
+    305,
+    132
+   ],
+   "sheet_px": [
+    1055,
+    657
+   ],
+   "status": "inferred",
+   "stud": {
+    "X_char_left_positive": 1.777,
+    "H": 4.528
+   }
+  },
+  {
+   "name": "phone_camera_lens_1",
+   "px": [
+    323,
+    97
+   ],
+   "sheet_px": [
+    1073,
+    622
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 2.06,
+    "H": 5.079
+   }
+  },
+  {
+   "name": "phone_camera_lens_2",
+   "px": [
+    320,
+    104
+   ],
+   "sheet_px": [
+    1070,
+    629
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 2.013,
+    "H": 4.969
+   }
+  },
+  {
+   "name": "phone_grip_fist_centre",
+   "px": [
+    335,
+    157
+   ],
+   "sheet_px": [
+    1085,
+    682
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 2.248,
+    "H": 4.135
+   }
+  },
+  {
+   "name": "watch_centre",
+   "px": [
+    357,
+    175
+   ],
+   "sheet_px": [
+    1107,
+    700
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 2.594,
+    "H": 3.852
+   }
+  },
+  {
+   "name": "cuff_image_right",
+   "px": [
+    336,
+    190
+   ],
+   "sheet_px": [
+    1086,
+    715
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 2.264,
+    "H": 3.616
+   }
+  },
+  {
+   "name": "elbow_image_right",
+   "px": [
+    320,
+    240
+   ],
+   "sheet_px": [
+    1070,
+    765
+   ],
+   "status": "visible",
+   "stud": {
+    "X_char_left_positive": 2.013,
+    "H": 2.83
+   }
+  }
+ ],
+ "colour_sampling": {
+  "jacket_sleeve": {
+   "box_px": [
+    40,
+    150,
+    80,
+    190
+   ],
+   "criterion": "median",
+   "rgb": [
+    43,
+    55,
+    94
+   ],
+   "hex": "#2B375E"
+  },
+  "trouser": {
+   "box_px": [
+    110,
+    310,
+    160,
+    350
+   ],
+   "criterion": "median",
+   "rgb": [
+    46,
+    54,
+    90
+   ],
+   "hex": "#2E365A"
+  },
+  "shirt": {
+   "box_px": [
+    160,
+    150,
+    260,
+    235
+   ],
+   "criterion": "bright",
+   "rgb": [
+    254,
+    251,
+    242
+   ],
+   "hex": "#FEFBF2"
+  },
+  "tie": {
+   "box_px": [
+    212,
+    200,
+    240,
+    225
+   ],
+   "criterion": "median",
+   "rgb": [
+    137,
+    51,
+    64
+   ],
+   "hex": "#893340"
+  },
+  "tie_bar_gold": {
+   "box_px": [
+    200,
+    174,
+    232,
+    186
+   ],
+   "criterion": "yellow",
+   "rgb": [
+    215,
+    168,
+    76
+   ],
+   "hex": "#D7A84C"
+  },
+  "belt": {
+   "box_px": [
+    180,
+    238,
+    255,
+    258
+   ],
+   "criterion": "dark",
+   "rgb": [
+    9,
+    7,
+    12
+   ],
+   "hex": "#09070C"
+  },
+  "buckle_silver": {
+   "box_px": [
+    205,
+    238,
+    238,
+    260
+   ],
+   "criterion": "bright",
+   "rgb": [
+    182,
+    168,
+    164
+   ],
+   "hex": "#B6A8A4"
+  },
+  "skin_cheek": {
+   "box_px": [
+    135,
+    95,
+    165,
+    110
+   ],
+   "criterion": "median",
+   "rgb": [
+    220,
+    140,
+    103
+   ],
+   "hex": "#DC8C67"
+  },
+  "skin_hand": {
+   "box_px": [
+    310,
+    140,
+    350,
+    175
+   ],
+   "criterion": "median",
+   "rgb": [
+    232,
+    148,
+    105
+   ],
+   "hex": "#E89469"
+  },
+  "hair_top": {
+   "box_px": [
+    180,
+    14,
+    240,
+    40
+   ],
+   "criterion": "dark",
+   "rgb": [
+    31,
+    17,
+    12
+   ],
+   "hex": "#1F110C"
+  },
+  "hair_grey": {
+   "box_px": [
+    138,
+    50,
+    163,
+    87
+   ],
+   "criterion": "bright",
+   "rgb": [
+    201,
+    181,
+    176
+   ],
+   "hex": "#C9B5B0"
+  },
+  "moustache": {
+   "box_px": [
+    177,
+    85,
+    237,
+    102
+   ],
+   "criterion": "dark",
+   "rgb": [
+    32,
+    13,
+    6
+   ],
+   "hex": "#200D06"
+  },
+  "brow": {
+   "box_px": [
+    180,
+    55,
+    230,
+    68
+   ],
+   "criterion": "dark",
+   "rgb": [
+    42,
+    27,
+    16
+   ],
+   "hex": "#2A1B10"
+  },
+  "shoe": {
+   "box_px": [
+    90,
+    385,
+    170,
+    415
+   ],
+   "criterion": "median",
+   "rgb": [
+    45,
+    41,
+    40
+   ],
+   "hex": "#2D2928"
+  },
+  "watch_gold": {
+   "box_px": [
+    340,
+    150,
+    375,
+    200
+   ],
+   "criterion": "yellow",
+   "rgb": [
+    218,
+    158,
+    53
+   ],
+   "hex": "#DA9E35"
+  },
+  "phone_back": {
+   "box_px": [
+    312,
+    86,
+    355,
+    120
+   ],
+   "criterion": "dark",
+   "rgb": [
+    33,
+    25,
+    24
+   ],
+   "hex": "#211918"
+  },
+  "cuff_white": {
+   "box_px": [
+    58,
+    233,
+    120,
+    273
+   ],
+   "criterion": "bright",
+   "rgb": [
+    255,
+    249,
+    236
+   ],
+   "hex": "#FFF9EC"
+  }
+ },
+ "colour_note": "mean of 5x5 pixels; the input has baked lighting/shadows, so these are shaded samples, not material colours",
+ "derived": {
+  "head_width_px_incl_ears": 127,
+  "head_width_studs_incl_ears": 1.997,
+  "shoulder_to_shoulder_px": 250,
+  "figure_width_px": 366,
+  "figure_width_studs": 5.755
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "107648683727435": {
+  "name": "base_color_texture",
+  "assetTypeId": 1,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "111652887937600": {
+  "name": "RightUpperLeg_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "112895850206035": {
+  "name": "Head_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "114822421614968": {
+  "name": "LowerTorso_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "114998300758718": {
+  "name": "LeftLowerArm_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "119295892822542": {
+  "name": "Phone_Geo.001",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "120747407266704": {
+  "name": "RightFoot_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "122559891517891": {
+  "name": "LeftUpperArm_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "129651980637346": {
+  "name": "RightUpperArm_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "131872091323945": {
+  "name": "LeftHand_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "78416413933598": {
+  "name": "LeftLowerLeg_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "79407999116357": {
+  "name": "UpperTorso_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "80015172199585": {
+  "name": "RightLowerArm_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "88377406455371": {
+  "name": "RightLowerLeg_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "90053110193706": {
+  "name": "LeftFoot_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "94936684217306": {
+  "name": "RightHand_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "97245711129102": {
+  "name": "LeftUpperLeg_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "90010007756356": {
+  "name": "TexturePack",
+  "assetTypeId": 63,
+  "creatorId": 3938337813,
+  "isPublicDomain": false,
+  "note": "SurfaceAppearance.TexturePack created by the Studio importer (not a mesh or colour map)"
+ }
+}

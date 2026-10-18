@@ -1,0 +1,13 @@
+{
+ "builder": "source/build_business_dad.py (parts b00..b08, assemble.sh)",
+ "check": "rebuilt in a temporary folder with blender -b --factory-startup --python source/build_business_dad.py -- <tmp> --norender and compared with source/BusinessDad_Final.blend",
+ "meshes_compared": 16,
+ "worst_vertex_difference": 0.0,
+ "uv_identical": true,
+ "atlas_png_byte_identical": true,
+ "not_claimed": "FBX files are not claimed to be byte-identical (exporter header differs); geometry/UV hashes are identical",
+ "review_rbxm_sha256": "cd2e8aa79ae0753783f14f53b76c6bad6f3420eabcd900bc91bfe1e96dc05a86",
+ "final_rbxm_sha256": "cd2e8aa79ae0753783f14f53b76c6bad6f3420eabcd900bc91bfe1e96dc05a86",
+ "review_equals_final": true,
+ "note": "BusinessDad_Final.blend is BusinessDad_Review.blend renamed; the builder still writes the review file names (BusinessDad_Review.blend, BusinessDad_Body.fbx, BusinessDad_Props.fbx)"
+}
