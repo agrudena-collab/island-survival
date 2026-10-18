@@ -1,0 +1,71 @@
+{
+ "Head": {
+  "MeshId": "rbxassetid://83207042519414",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "LeftFoot": {
+  "MeshId": "rbxassetid://129873649266001",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "LeftHand": {
+  "MeshId": "rbxassetid://113352712792025",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "LeftLowerArm": {
+  "MeshId": "rbxassetid://108813861318851",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "LeftLowerLeg": {
+  "MeshId": "rbxassetid://135288974528651",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "LeftUpperArm": {
+  "MeshId": "rbxassetid://119281934671551",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "LeftUpperLeg": {
+  "MeshId": "rbxassetid://93519783844364",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "LowerTorso": {
+  "MeshId": "rbxassetid://130346443724862",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "RightFoot": {
+  "MeshId": "rbxassetid://117299475500711",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "RightHand": {
+  "MeshId": "rbxassetid://123354348260506",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "RightLowerArm": {
+  "MeshId": "rbxassetid://78247187950304",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "RightLowerLeg": {
+  "MeshId": "rbxassetid://72099754481989",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "RightUpperArm": {
+  "MeshId": "rbxassetid://82758554139318",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "RightUpperLeg": {
+  "MeshId": "rbxassetid://82081043384367",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "UpperTorso": {
+  "MeshId": "rbxassetid://118408624119751",
+  "ColorMap": "rbxassetid://124288595284550"
+ },
+ "HumanoidRootPart": {},
+ "Dumbbell": {
+  "MeshId": "rbxassetid://89130233795946",
+  "TextureID": "rbxassetid://124288595284550"
+ },
+ "GymBag": {
+  "MeshId": "rbxassetid://124533019424799",
+  "TextureID": "rbxassetid://124288595284550"
+ }
+}

@@ -39,6 +39,9 @@
       },
       "GamerDadFinal": {
         "$path": "assets/characters/GamerDad_Final/model/GamerDad_Final.rbxm"
+      },
+      "GymDadFinal": {
+        "$path": "assets/characters/GymDad_Final/model/GymDad_Final.rbxm"
       }
     }
   }

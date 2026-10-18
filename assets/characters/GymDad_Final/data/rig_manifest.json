@@ -1,0 +1,682 @@
+{
+ "asset": "GymDad_Review",
+ "frame": {
+  "logical": "(X,F,H) anatomical RIGHT = -X, forward = +F",
+  "blender": "(X,-F,H)",
+  "roblox_position": "(-X, H, -F)"
+ },
+ "bones": [
+  {
+   "name": "Root",
+   "parent": null,
+   "head_logical": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "tail_logical": [
+    0.0,
+    -0.0,
+    1.0
+   ],
+   "head_roblox": [
+    -0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "HumanoidRootNode",
+   "parent": "Root",
+   "head_logical": [
+    0.0,
+    -0.0,
+    2.6
+   ],
+   "tail_logical": [
+    0.0,
+    -0.0,
+    3.1
+   ],
+   "head_roblox": [
+    -0.0,
+    2.6,
+    0.0
+   ]
+  },
+  {
+   "name": "LowerTorso",
+   "parent": "HumanoidRootNode",
+   "head_logical": [
+    0.0,
+    -0.0,
+    2.6
+   ],
+   "tail_logical": [
+    0.0,
+    -0.0,
+    2.85
+   ],
+   "head_roblox": [
+    -0.0,
+    2.6,
+    0.0
+   ]
+  },
+  {
+   "name": "UpperTorso",
+   "parent": "LowerTorso",
+   "head_logical": [
+    0.0,
+    -0.0,
+    2.85
+   ],
+   "tail_logical": [
+    0.0,
+    -0.0,
+    5.02
+   ],
+   "head_roblox": [
+    -0.0,
+    2.85,
+    0.0
+   ]
+  },
+  {
+   "name": "Head",
+   "parent": "UpperTorso",
+   "head_logical": [
+    0.0,
+    -0.0,
+    5.02
+   ],
+   "tail_logical": [
+    0.0,
+    -0.0,
+    6.4
+   ],
+   "head_roblox": [
+    -0.0,
+    5.02,
+    0.0
+   ]
+  },
+  {
+   "name": "RightUpperArm",
+   "parent": "UpperTorso",
+   "head_logical": [
+    -2.2,
+    -0.0,
+    4.95
+   ],
+   "tail_logical": [
+    -2.2459,
+    0.6212,
+    3.6962
+   ],
+   "head_roblox": [
+    2.2,
+    4.95,
+    0.0
+   ]
+  },
+  {
+   "name": "RightLowerArm",
+   "parent": "RightUpperArm",
+   "head_logical": [
+    -2.2459,
+    0.6212,
+    3.6962
+   ],
+   "tail_logical": [
+    -2.05,
+    1.63,
+    2.9
+   ],
+   "head_roblox": [
+    2.2459,
+    3.6962,
+    -0.6212
+   ]
+  },
+  {
+   "name": "RightHand",
+   "parent": "RightLowerArm",
+   "head_logical": [
+    -2.05,
+    1.63,
+    2.9
+   ],
+   "tail_logical": [
+    -2.05,
+    1.63,
+    2.22
+   ],
+   "head_roblox": [
+    2.05,
+    2.9,
+    -1.63
+   ]
+  },
+  {
+   "name": "RightUpperLeg",
+   "parent": "LowerTorso",
+   "head_logical": [
+    -0.9,
+    -0.0,
+    2.2
+   ],
+   "tail_logical": [
+    -0.98,
+    0.02,
+    1.35
+   ],
+   "head_roblox": [
+    0.9,
+    2.2,
+    0.0
+   ]
+  },
+  {
+   "name": "RightLowerLeg",
+   "parent": "RightUpperLeg",
+   "head_logical": [
+    -0.98,
+    0.02,
+    1.35
+   ],
+   "tail_logical": [
+    -1.04,
+    0.02,
+    0.72
+   ],
+   "head_roblox": [
+    0.98,
+    1.35,
+    -0.02
+   ]
+  },
+  {
+   "name": "RightFoot",
+   "parent": "RightLowerLeg",
+   "head_logical": [
+    -1.04,
+    0.02,
+    0.72
+   ],
+   "tail_logical": [
+    -1.04,
+    0.8,
+    0.12
+   ],
+   "head_roblox": [
+    1.04,
+    0.72,
+    -0.02
+   ]
+  },
+  {
+   "name": "LeftUpperArm",
+   "parent": "UpperTorso",
+   "head_logical": [
+    2.03,
+    -0.0,
+    4.86
+   ],
+   "tail_logical": [
+    2.4612,
+    -0.5916,
+    3.6666
+   ],
+   "head_roblox": [
+    -2.03,
+    4.86,
+    0.0
+   ]
+  },
+  {
+   "name": "LeftLowerArm",
+   "parent": "LeftUpperArm",
+   "head_logical": [
+    2.4612,
+    -0.5916,
+    3.6666
+   ],
+   "tail_logical": [
+    2.25,
+    0.15,
+    2.62
+   ],
+   "head_roblox": [
+    -2.4612,
+    3.6666,
+    0.5916
+   ]
+  },
+  {
+   "name": "LeftHand",
+   "parent": "LeftLowerArm",
+   "head_logical": [
+    2.25,
+    0.15,
+    2.62
+   ],
+   "tail_logical": [
+    2.25,
+    0.15,
+    1.94
+   ],
+   "head_roblox": [
+    -2.25,
+    2.62,
+    -0.15
+   ]
+  },
+  {
+   "name": "LeftUpperLeg",
+   "parent": "LowerTorso",
+   "head_logical": [
+    0.9,
+    -0.0,
+    2.2
+   ],
+   "tail_logical": [
+    0.98,
+    0.02,
+    1.35
+   ],
+   "head_roblox": [
+    -0.9,
+    2.2,
+    0.0
+   ]
+  },
+  {
+   "name": "LeftLowerLeg",
+   "parent": "LeftUpperLeg",
+   "head_logical": [
+    0.98,
+    0.02,
+    1.35
+   ],
+   "tail_logical": [
+    1.04,
+    0.02,
+    0.72
+   ],
+   "head_roblox": [
+    -0.98,
+    1.35,
+    -0.02
+   ]
+  },
+  {
+   "name": "LeftFoot",
+   "parent": "LeftLowerLeg",
+   "head_logical": [
+    1.04,
+    0.02,
+    0.72
+   ],
+   "tail_logical": [
+    1.04,
+    0.8,
+    0.12
+   ],
+   "head_roblox": [
+    -1.04,
+    0.72,
+    -0.02
+   ]
+  }
+ ],
+ "joints_logical": {
+  "Root": [
+   0,
+   0,
+   2.6
+  ],
+  "Waist": [
+   0,
+   0,
+   2.85
+  ],
+  "Neck": [
+   0,
+   0,
+   5.02
+  ],
+  "RightShoulder": [
+   -2.2,
+   0,
+   4.95
+  ],
+  "RightWrist": [
+   -2.05,
+   1.6300000000000003,
+   2.9
+  ],
+  "LeftShoulder": [
+   2.03,
+   0,
+   4.86
+  ],
+  "LeftWrist": [
+   2.25,
+   0.15,
+   2.62
+  ],
+  "RightHip": [
+   -0.9,
+   0,
+   2.2
+  ],
+  "LeftHip": [
+   0.9,
+   0,
+   2.2
+  ],
+  "RightKnee": [
+   -0.98,
+   0.02,
+   1.35
+  ],
+  "LeftKnee": [
+   0.98,
+   0.02,
+   1.35
+  ],
+  "RightAnkle": [
+   -1.04,
+   0.02,
+   0.72
+  ],
+  "LeftAnkle": [
+   1.04,
+   0.02,
+   0.72
+  ],
+  "RightElbow": [
+   -2.2458794116973877,
+   0.6211885213851929,
+   3.696197509765625
+  ],
+  "LeftElbow": [
+   2.4612040519714355,
+   -0.5915743708610535,
+   3.666642427444458
+  ]
+ },
+ "grips": {
+  "DumbbellGrip": {
+   "joint": "RightHand -> Dumbbell",
+   "centre_logical": [
+    -2.05,
+    2.2,
+    2.85
+   ],
+   "axis": "X"
+  },
+  "BagGrip": {
+   "joint": "LeftHand -> GymBag",
+   "point_logical": [
+    2.25,
+    0.15,
+    2.0
+   ]
+  }
+ },
+ "weights": "100% own bone (rigid); Dumbbell -> RightHand, GymBag -> LeftHand (props exported as separate meshes without armature)",
+ "part_origin_logical": {
+  "UpperTorso": [
+   0.0,
+   -0.0,
+   2.85
+  ],
+  "LowerTorso": [
+   0.0,
+   -0.0,
+   2.6
+  ],
+  "RightUpperLeg": [
+   -0.9,
+   -0.0,
+   2.2
+  ],
+  "RightLowerLeg": [
+   -0.98,
+   0.02,
+   1.35
+  ],
+  "RightFoot": [
+   -1.04,
+   0.02,
+   0.72
+  ],
+  "LeftUpperLeg": [
+   0.9,
+   -0.0,
+   2.2
+  ],
+  "LeftLowerLeg": [
+   0.98,
+   0.02,
+   1.35
+  ],
+  "LeftFoot": [
+   1.04,
+   0.02,
+   0.72
+  ],
+  "RightUpperArm": [
+   -2.2,
+   -0.0,
+   4.95
+  ],
+  "RightLowerArm": [
+   -2.2459,
+   0.6212,
+   3.6962
+  ],
+  "LeftUpperArm": [
+   2.03,
+   -0.0,
+   4.86
+  ],
+  "LeftLowerArm": [
+   2.4612,
+   -0.5916,
+   3.6666
+  ],
+  "RightHand": [
+   -2.05,
+   1.63,
+   2.9
+  ],
+  "LeftHand": [
+   2.25,
+   0.15,
+   2.62
+  ],
+  "Head": [
+   0.0,
+   -0.0,
+   5.02
+  ],
+  "Dumbbell": [
+   -2.05,
+   2.2,
+   2.85
+  ],
+  "GymBag": [
+   2.62,
+   0.0,
+   0.95
+  ]
+ },
+ "part_bbox_centres_blender": {
+  "UpperTorso": [
+   0.0,
+   -0.09,
+   4.0
+  ],
+  "LowerTorso": [
+   0.0,
+   -0.095,
+   2.4575
+  ],
+  "RightUpperLeg": [
+   -0.905636,
+   -0.015,
+   1.79
+  ],
+  "RightLowerLeg": [
+   -1.005,
+   -0.02,
+   1.02
+  ],
+  "RightFoot": [
+   -1.069249,
+   -0.258211,
+   0.525
+  ],
+  "LeftUpperLeg": [
+   0.905636,
+   -0.015,
+   1.79
+  ],
+  "LeftLowerLeg": [
+   1.005,
+   -0.02,
+   1.02
+  ],
+  "LeftFoot": [
+   1.069249,
+   -0.258211,
+   0.525
+  ],
+  "RightUpperArm": [
+   -2.213723,
+   -0.207464,
+   4.313405
+  ],
+  "RightLowerArm": [
+   -2.22475,
+   -1.035549,
+   3.326379
+  ],
+  "LeftUpperArm": [
+   2.214812,
+   0.264358,
+   4.479279
+  ],
+  "LeftLowerArm": [
+   2.461204,
+   0.389874,
+   3.122033
+  ],
+  "RightHand": [
+   -1.96,
+   -2.08,
+   2.8
+  ],
+  "LeftHand": [
+   2.14,
+   -0.1545,
+   2.25
+  ],
+  "Head": [
+   0.0,
+   -0.1746,
+   5.56875
+  ],
+  "Dumbbell": [
+   -2.05,
+   -2.2,
+   2.85
+  ],
+  "GymBag": [
+   2.62,
+   0.0,
+   1.22251
+  ]
+ },
+ "joints_blender": {
+  "Root": [
+   0.0,
+   0.0,
+   2.6
+  ],
+  "Waist": [
+   0.0,
+   0.0,
+   2.85
+  ],
+  "Neck": [
+   0.0,
+   0.0,
+   5.02
+  ],
+  "RightShoulder": [
+   -2.2,
+   0.0,
+   4.95
+  ],
+  "RightWrist": [
+   -2.05,
+   -1.63,
+   2.9
+  ],
+  "LeftShoulder": [
+   2.03,
+   0.0,
+   4.86
+  ],
+  "LeftWrist": [
+   2.25,
+   -0.15,
+   2.62
+  ],
+  "RightHip": [
+   -0.9,
+   0.0,
+   2.2
+  ],
+  "LeftHip": [
+   0.9,
+   0.0,
+   2.2
+  ],
+  "RightKnee": [
+   -0.98,
+   -0.02,
+   1.35
+  ],
+  "LeftKnee": [
+   0.98,
+   -0.02,
+   1.35
+  ],
+  "RightAnkle": [
+   -1.04,
+   -0.02,
+   0.72
+  ],
+  "LeftAnkle": [
+   1.04,
+   -0.02,
+   0.72
+  ],
+  "RightElbow": [
+   -2.245879,
+   -0.621189,
+   3.696198
+  ],
+  "LeftElbow": [
+   2.461204,
+   0.591574,
+   3.666642
+  ]
+ },
+ "pose": "HoldWeights == rest pose (built directly, pose bones identity)"
+}

@@ -101,6 +101,8 @@ local DadCatalog: { DadDefinition } = {
 	},
 	{
 		Id = "GymDad",
+		-- Final approved art: ServerStorage.GymDadFinal (assets/characters/GymDad_Final). The overlay fields below are unused for it.
+		ModelAsset = "GymDadFinal",
 		DisplayName = "Gym Dad",
 		Rarity = "Rare",
 		Cost = 550,

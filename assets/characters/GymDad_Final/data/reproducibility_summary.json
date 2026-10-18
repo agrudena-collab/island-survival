@@ -1,0 +1,24 @@
+{
+ "blend": {
+  "objects": 17,
+  "vertex_hash_equal": true,
+  "uv_hash_equal": true,
+  "tris": 4702
+ },
+ "fbx": {
+  "objects": 17,
+  "vertex_hash_equal": true,
+  "uv_hash_equal": true,
+  "tris": 4702
+ },
+ "data/rig_manifest.json": true,
+ "data/part_bboxes_blender.json": true,
+ "data/component_registry.json": true,
+ "data/palette_uv_map.json": true,
+ "data/joints_pose_grips.json": true,
+ "data/deviations_from_prompt.json": true,
+ "data/actual_mesh_statistics.json": true,
+ "textures/GymDad_Atlas.png": true,
+ "export/GymDad_V2_Body.fbx_byte_identical": false,
+ "export/GymDad_V2_Props.fbx_byte_identical": false
+}

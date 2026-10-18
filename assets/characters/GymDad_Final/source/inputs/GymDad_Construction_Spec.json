@@ -1,0 +1,2100 @@
+{
+  "title": "Gym Dad: assigned construction plan, not measured original geometry",
+  "reference": "visuals/GymDad_Original_Poster.jpg",
+  "crop_box_xyxy": [
+    360,
+    520,
+    800,
+    950
+  ],
+  "coordinate_system": {
+    "X": "anatomical left positive",
+    "F": "forward positive",
+    "H": "up, sole floor=0",
+    "Blender_xyz": [
+      "X",
+      "-F",
+      "H"
+    ],
+    "Roblox_xyz": [
+      "X",
+      "H",
+      "-F"
+    ],
+    "units": "1 logical unit = 1 Roblox stud; Blender scene1unit maps1stud after verified export"
+  },
+  "height": 6.4,
+  "palette": {
+    "Skin": "#F3A36B",
+    "SkinLight": "#FFBA80",
+    "SkinShadow": "#D78051",
+    "SkinDeep": "#B66742",
+    "Nose": "#EC9160",
+    "NoseLight": "#FFA773",
+    "EarInner": "#CE7950",
+    "Beard": "#242020",
+    "BeardLight": "#342D2A",
+    "BeardShadow": "#171719",
+    "Brow": "#201C1B",
+    "EyeWhite": "#FFF4DC",
+    "Iris": "#50382A",
+    "Pupil": "#171719",
+    "EyeGlint": "#FFFFFF",
+    "Mouth": "#542C24",
+    "Teeth": "#FFF8E8",
+    "Lip": "#B86C48",
+    "Tank": "#FF7717",
+    "TankLight": "#FF902A",
+    "TankShadow": "#E45A0D",
+    "TankEdge": "#F16A10",
+    "Shorts": "#333237",
+    "ShortsLight": "#434147",
+    "ShortsShadow": "#24242A",
+    "SideStripe": "#B4B0B0",
+    "Sole": "#F3EEE7",
+    "SoleShadow": "#CBC7C2",
+    "ShoeBlack": "#222328",
+    "ShoeGray": "#4B4B50",
+    "ShoeOrange": "#F77D18",
+    "Dumbbell": "#28292F",
+    "DumbbellLight": "#41424A",
+    "DumbbellDark": "#191B20",
+    "Grip": "#35363C",
+    "Steel": "#7F8085",
+    "BagOrange": "#ED7415",
+    "BagLight": "#FF9129",
+    "BagDark": "#26262B",
+    "BagEdge": "#3B393C",
+    "Zipper": "#737078",
+    "Backdrop": "#F0E8DC"
+  },
+  "joints_XFH": {
+    "Root": [
+      0,
+      0,
+      2.6
+    ],
+    "Waist": [
+      0,
+      0,
+      2.85
+    ],
+    "Neck": [
+      0,
+      0,
+      4.99
+    ],
+    "RightShoulder": [
+      -1.62,
+      0,
+      4.62
+    ],
+    "RightElbow": [
+      -2.1914874426645135,
+      0.34015034468791217,
+      3.502995145093152
+    ],
+    "RightWrist": [
+      -1.72,
+      1.43,
+      3.33
+    ],
+    "LeftShoulder": [
+      1.62,
+      0,
+      4.62
+    ],
+    "LeftElbow": [
+      2.5271785556058113,
+      -0.06023669593360366,
+      3.690807550228718
+    ],
+    "LeftWrist": [
+      2.22,
+      0.15,
+      2.55
+    ],
+    "RightHip": [
+      -0.73,
+      0,
+      2.23
+    ],
+    "LeftHip": [
+      0.73,
+      0,
+      2.23
+    ],
+    "RightKnee": [
+      -0.81,
+      0.02,
+      1.3
+    ],
+    "LeftKnee": [
+      0.81,
+      0.02,
+      1.3
+    ],
+    "RightAnkle": [
+      -0.88,
+      0.02,
+      0.64
+    ],
+    "LeftAnkle": [
+      0.88,
+      0.02,
+      0.64
+    ]
+  },
+  "arm_joint_lengths": [
+    1.3,
+    1.2
+  ],
+  "grips_XFH": {
+    "DumbbellGrip": [
+      -1.72,
+      1.78,
+      3.31
+    ],
+    "BagGrip": [
+      2.23,
+      0.17,
+      2.04
+    ]
+  },
+  "torso_rows_H_W_Ffront_Fback": [
+    [
+      2.3,
+      2.7,
+      0.74,
+      -0.69
+    ],
+    [
+      2.48,
+      2.92,
+      0.88,
+      -0.76
+    ],
+    [
+      2.85,
+      3.08,
+      0.99,
+      -0.8
+    ],
+    [
+      3.35,
+      3.16,
+      1.0,
+      -0.82
+    ],
+    [
+      3.95,
+      3.1,
+      0.87,
+      -0.79
+    ],
+    [
+      4.45,
+      2.92,
+      0.74,
+      -0.71
+    ],
+    [
+      4.78,
+      2.74,
+      0.63,
+      -0.62
+    ]
+  ],
+  "components": [
+    {
+      "name": "Torso_Shell",
+      "parent": "UpperTorso",
+      "center_XFH": [
+        0,
+        0.09,
+        3.54
+      ],
+      "size_WDH": [
+        3.16,
+        1.82,
+        2.48
+      ],
+      "material": "Tank",
+      "shape": "section_loft",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Use section table, split at H=2.85 without visible step; no printed horizontal stripes"
+    },
+    {
+      "name": "Waist_Hem",
+      "parent": "LowerTorso",
+      "center_XFH": [
+        0,
+        0.05,
+        2.37
+      ],
+      "size_WDH": [
+        2.77,
+        1.53,
+        0.13
+      ],
+      "material": "TankEdge",
+      "shape": "beveled_ring",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Thickness .035, follows tank perimeter"
+    },
+    {
+      "name": "Neck_Skin",
+      "parent": "Head",
+      "center_XFH": [
+        0,
+        0,
+        4.94
+      ],
+      "size_WDH": [
+        0.9,
+        0.8,
+        0.46
+      ],
+      "material": "Skin",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Mostly hidden by beard and chest; bevel .10"
+    },
+    {
+      "name": "Chest_Exposed",
+      "parent": "UpperTorso",
+      "center_XFH": [
+        0,
+        0.61,
+        4.52
+      ],
+      "size_WDH": [
+        1.58,
+        0.17,
+        0.56
+      ],
+      "material": "Skin",
+      "shape": "beveled_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Between neckline straps; merges into shoulder skin"
+    },
+    {
+      "name": "Back_Exposed",
+      "parent": "UpperTorso",
+      "center_XFH": [
+        0,
+        -0.58,
+        4.62
+      ],
+      "size_WDH": [
+        1.42,
+        0.13,
+        0.34
+      ],
+      "material": "Skin",
+      "shape": "beveled_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Back scoop shallower than front"
+    },
+    {
+      "name": "Right_TankStrap",
+      "parent": "UpperTorso",
+      "center_XFH": [
+        -1.04,
+        0.02,
+        4.69
+      ],
+      "size_WDH": [
+        0.51,
+        1.23,
+        0.26
+      ],
+      "material": "Tank",
+      "shape": "curved_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Bridges front/back shoulder, smooth bevel .05; neckline endpoints in text"
+    },
+    {
+      "name": "Right_ArmholeRim",
+      "parent": "UpperTorso",
+      "center_XFH": [
+        -1.39,
+        0.0,
+        4.48
+      ],
+      "size_WDH": [
+        0.065,
+        1.32,
+        0.72
+      ],
+      "material": "TankEdge",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Follow armhole contour, not solid cuboid; cross-section .055 x .045"
+    },
+    {
+      "name": "Left_TankStrap",
+      "parent": "UpperTorso",
+      "center_XFH": [
+        1.04,
+        0.02,
+        4.69
+      ],
+      "size_WDH": [
+        0.51,
+        1.23,
+        0.26
+      ],
+      "material": "Tank",
+      "shape": "curved_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Bridges front/back shoulder, smooth bevel .05; neckline endpoints in text"
+    },
+    {
+      "name": "Left_ArmholeRim",
+      "parent": "UpperTorso",
+      "center_XFH": [
+        1.39,
+        0.0,
+        4.48
+      ],
+      "size_WDH": [
+        0.065,
+        1.32,
+        0.72
+      ],
+      "material": "TankEdge",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Follow armhole contour, not solid cuboid; cross-section .055 x .045"
+    },
+    {
+      "name": "Head_Base",
+      "parent": "Head",
+      "center_XFH": [
+        0,
+        0.015,
+        5.68
+      ],
+      "size_WDH": [
+        2.0,
+        1.49,
+        1.42
+      ],
+      "material": "Skin",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "H=4.97..6.39; bevel .16, subtly domed bald scalp to H=6.40"
+    },
+    {
+      "name": "Scalp_Top",
+      "parent": "Head",
+      "center_XFH": [
+        0,
+        0.015,
+        6.315
+      ],
+      "size_WDH": [
+        1.72,
+        1.22,
+        0.17
+      ],
+      "material": "SkinLight",
+      "shape": "integrated_cap",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Join with head; maximum H6.40, no seam or hair"
+    },
+    {
+      "name": "Right_Ear",
+      "parent": "Head",
+      "center_XFH": [
+        -1.025,
+        -0.015,
+        5.63
+      ],
+      "size_WDH": [
+        0.3,
+        0.42,
+        0.53
+      ],
+      "material": "Skin",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Bevel .07; attach .125 inside head"
+    },
+    {
+      "name": "Right_EarConcha",
+      "parent": "Head",
+      "center_XFH": [
+        -1.12,
+        0.05,
+        5.64
+      ],
+      "size_WDH": [
+        0.085,
+        0.23,
+        0.29
+      ],
+      "material": "EarInner",
+      "shape": "inset_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Inset .025 on ear outer visible face; no literal hole"
+    },
+    {
+      "name": "Right_EyeWhite",
+      "parent": "Head",
+      "center_XFH": [
+        -0.39,
+        0.775,
+        5.82
+      ],
+      "size_WDH": [
+        0.37,
+        0.024,
+        0.205
+      ],
+      "material": "EyeWhite",
+      "shape": "rounded_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Flattened eye, top partly covered by brow"
+    },
+    {
+      "name": "Right_Iris",
+      "parent": "Head",
+      "center_XFH": [
+        -0.355,
+        0.793,
+        5.805
+      ],
+      "size_WDH": [
+        0.13,
+        0.012,
+        0.145
+      ],
+      "material": "Iris",
+      "shape": "oval_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Looking forward/slightly inward"
+    },
+    {
+      "name": "Right_Pupil",
+      "parent": "Head",
+      "center_XFH": [
+        -0.352,
+        0.803,
+        5.805
+      ],
+      "size_WDH": [
+        0.078,
+        0.008,
+        0.105
+      ],
+      "material": "Pupil",
+      "shape": "oval_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": ""
+    },
+    {
+      "name": "Right_EyeGlint",
+      "parent": "Head",
+      "center_XFH": [
+        -0.37,
+        0.81,
+        5.835
+      ],
+      "size_WDH": [
+        0.024,
+        0.004,
+        0.026
+      ],
+      "material": "EyeGlint",
+      "shape": "patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": ""
+    },
+    {
+      "name": "Right_Brow",
+      "parent": "Head",
+      "center_XFH": [
+        -0.4,
+        0.812,
+        6.015
+      ],
+      "size_WDH": [
+        0.57,
+        0.105,
+        0.19
+      ],
+      "material": "Brow",
+      "shape": "beveled_wedge",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Inner end H5.95, outer H6.08; bevel .025; slope follows face, not eyeball"
+    },
+    {
+      "name": "Left_Ear",
+      "parent": "Head",
+      "center_XFH": [
+        1.025,
+        -0.015,
+        5.63
+      ],
+      "size_WDH": [
+        0.3,
+        0.42,
+        0.53
+      ],
+      "material": "Skin",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Bevel .07; attach .125 inside head"
+    },
+    {
+      "name": "Left_EarConcha",
+      "parent": "Head",
+      "center_XFH": [
+        1.12,
+        0.05,
+        5.64
+      ],
+      "size_WDH": [
+        0.085,
+        0.23,
+        0.29
+      ],
+      "material": "EarInner",
+      "shape": "inset_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Inset .025 on ear outer visible face; no literal hole"
+    },
+    {
+      "name": "Left_EyeWhite",
+      "parent": "Head",
+      "center_XFH": [
+        0.39,
+        0.775,
+        5.82
+      ],
+      "size_WDH": [
+        0.37,
+        0.024,
+        0.205
+      ],
+      "material": "EyeWhite",
+      "shape": "rounded_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Flattened eye, top partly covered by brow"
+    },
+    {
+      "name": "Left_Iris",
+      "parent": "Head",
+      "center_XFH": [
+        0.355,
+        0.793,
+        5.805
+      ],
+      "size_WDH": [
+        0.13,
+        0.012,
+        0.145
+      ],
+      "material": "Iris",
+      "shape": "oval_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Looking forward/slightly inward"
+    },
+    {
+      "name": "Left_Pupil",
+      "parent": "Head",
+      "center_XFH": [
+        0.352,
+        0.803,
+        5.805
+      ],
+      "size_WDH": [
+        0.078,
+        0.008,
+        0.105
+      ],
+      "material": "Pupil",
+      "shape": "oval_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": ""
+    },
+    {
+      "name": "Left_EyeGlint",
+      "parent": "Head",
+      "center_XFH": [
+        0.33399999999999996,
+        0.81,
+        5.835
+      ],
+      "size_WDH": [
+        0.024,
+        0.004,
+        0.026
+      ],
+      "material": "EyeGlint",
+      "shape": "patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": ""
+    },
+    {
+      "name": "Left_Brow",
+      "parent": "Head",
+      "center_XFH": [
+        0.4,
+        0.812,
+        6.015
+      ],
+      "size_WDH": [
+        0.57,
+        0.105,
+        0.19
+      ],
+      "material": "Brow",
+      "shape": "beveled_wedge",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Inner end H5.95, outer H6.08; bevel .025; slope follows face, not eyeball"
+    },
+    {
+      "name": "Nose",
+      "parent": "Head",
+      "center_XFH": [
+        0,
+        0.9,
+        5.6
+      ],
+      "size_WDH": [
+        0.47,
+        0.46,
+        0.37
+      ],
+      "material": "Nose",
+      "shape": "beveled_wedge",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Front F1.13, low-poly rounded bottom .08 bevel, no giant protrusion"
+    },
+    {
+      "name": "Right_Nostril",
+      "parent": "Head",
+      "center_XFH": [
+        -0.125,
+        1.112,
+        5.482
+      ],
+      "size_WDH": [
+        0.07,
+        0.008,
+        0.035
+      ],
+      "material": "SkinDeep",
+      "shape": "patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "On lower nose face, very subtle"
+    },
+    {
+      "name": "Left_Nostril",
+      "parent": "Head",
+      "center_XFH": [
+        0.125,
+        1.112,
+        5.482
+      ],
+      "size_WDH": [
+        0.07,
+        0.008,
+        0.035
+      ],
+      "material": "SkinDeep",
+      "shape": "patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "On lower nose face, very subtle"
+    },
+    {
+      "name": "Beard_U_Solid",
+      "parent": "Head",
+      "center_XFH": [
+        0,
+        0.78,
+        5.245
+      ],
+      "size_WDH": [
+        2.04,
+        0.62,
+        1.13
+      ],
+      "material": "Beard",
+      "shape": "closed_U_volume",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Use explicit outer/inner outline in section; front max F1.09; cheeks/back meet skin, no hanging cubes"
+    },
+    {
+      "name": "Mouth_CavityPatch",
+      "parent": "Head",
+      "center_XFH": [
+        0,
+        0.91,
+        5.345
+      ],
+      "size_WDH": [
+        1.17,
+        0.024,
+        0.36
+      ],
+      "material": "Mouth",
+      "shape": "curved_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Inside beard opening, skin-supported, no collision"
+    },
+    {
+      "name": "Smile_Teeth",
+      "parent": "Head",
+      "center_XFH": [
+        0,
+        0.936,
+        5.385
+      ],
+      "size_WDH": [
+        1.01,
+        0.022,
+        0.17
+      ],
+      "material": "Teeth",
+      "shape": "curved_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "One continuous teeth band, corners turn up .035; no individual tooth cubes"
+    },
+    {
+      "name": "Lower_Lip",
+      "parent": "Head",
+      "center_XFH": [
+        0,
+        0.946,
+        5.215
+      ],
+      "size_WDH": [
+        0.7,
+        0.018,
+        0.045
+      ],
+      "material": "Lip",
+      "shape": "patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": ""
+    },
+    {
+      "name": "Right_Moustache",
+      "parent": "Head",
+      "center_XFH": [
+        -0.245,
+        1.015,
+        5.565
+      ],
+      "size_WDH": [
+        0.55,
+        0.16,
+        0.21
+      ],
+      "material": "BeardLight",
+      "shape": "tapered_wedge",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Meets under nose, tapers toward smile corners; bevel .035"
+    },
+    {
+      "name": "Left_Moustache",
+      "parent": "Head",
+      "center_XFH": [
+        0.245,
+        1.015,
+        5.565
+      ],
+      "size_WDH": [
+        0.55,
+        0.16,
+        0.21
+      ],
+      "material": "BeardLight",
+      "shape": "tapered_wedge",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Meets under nose, tapers toward smile corners; bevel .035"
+    },
+    {
+      "name": "Pelvis_Shorts",
+      "parent": "LowerTorso",
+      "center_XFH": [
+        0,
+        0,
+        2.25
+      ],
+      "size_WDH": [
+        2.64,
+        1.46,
+        0.37
+      ],
+      "material": "Shorts",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Hidden upper edge under orange hem, center X0"
+    },
+    {
+      "name": "Shorts_Waistband",
+      "parent": "LowerTorso",
+      "center_XFH": [
+        0,
+        0.005,
+        2.385
+      ],
+      "size_WDH": [
+        2.7,
+        1.47,
+        0.11
+      ],
+      "material": "ShortsShadow",
+      "shape": "surface_band",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Partly occluded by tank; no buckle"
+    },
+    {
+      "name": "Right_ShortLeg",
+      "parent": "RightUpperLeg",
+      "center_XFH": [
+        -0.77,
+        0.015,
+        1.79
+      ],
+      "size_WDH": [
+        1.22,
+        1.42,
+        1.1
+      ],
+      "material": "Shorts",
+      "shape": "tapered_beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Top width1.28, bottom1.18; inner crotch gap .28; bevel .06"
+    },
+    {
+      "name": "Right_ShortSideStripe",
+      "parent": "RightUpperLeg",
+      "center_XFH": [
+        -1.372,
+        0.03,
+        1.8
+      ],
+      "size_WDH": [
+        0.018,
+        0.15,
+        0.94
+      ],
+      "material": "SideStripe",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Outer lateral face; lower .10 margin; not broad white front stripe"
+    },
+    {
+      "name": "Right_KneeSkin",
+      "parent": "RightLowerLeg",
+      "center_XFH": [
+        -0.82,
+        0.02,
+        1.27
+      ],
+      "size_WDH": [
+        0.91,
+        0.91,
+        0.3
+      ],
+      "material": "Skin",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Partly inside shorts, no isolated ball"
+    },
+    {
+      "name": "Right_ShinSkin",
+      "parent": "RightLowerLeg",
+      "center_XFH": [
+        -0.855,
+        0.02,
+        0.96
+      ],
+      "size_WDH": [
+        0.83,
+        0.85,
+        0.67
+      ],
+      "material": "Skin",
+      "shape": "tapered_beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Bottom .73x.77; hidden .03 in shoe"
+    },
+    {
+      "name": "Right_Sole",
+      "parent": "RightFoot",
+      "center_XFH": [
+        -0.88,
+        0.25,
+        0.135
+      ],
+      "size_WDH": [
+        1.28,
+        1.98,
+        0.27
+      ],
+      "material": "Sole",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Bevel .07; bottom H0; FOOT LOCAL frame yaw outward 7deg"
+    },
+    {
+      "name": "Right_Outsole",
+      "parent": "RightFoot",
+      "center_XFH": [
+        -0.88,
+        0.25,
+        0.035
+      ],
+      "size_WDH": [
+        1.22,
+        1.91,
+        0.07
+      ],
+      "material": "SoleShadow",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Bevel .025; integrated lower band"
+    },
+    {
+      "name": "Right_ShoeUpper",
+      "parent": "RightFoot",
+      "center_XFH": [
+        -0.88,
+        0.22,
+        0.405
+      ],
+      "size_WDH": [
+        1.13,
+        1.76,
+        0.46
+      ],
+      "material": "ShoeBlack",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Front toe F1.10; bevel .12, broad low toe"
+    },
+    {
+      "name": "Right_ToeBumper",
+      "parent": "RightFoot",
+      "center_XFH": [
+        -0.88,
+        1.075,
+        0.3
+      ],
+      "size_WDH": [
+        1.12,
+        0.19,
+        0.33
+      ],
+      "material": "Sole",
+      "shape": "curved_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Wrap front corners, black central sole notch W.40 H.16"
+    },
+    {
+      "name": "Right_ToeNotch",
+      "parent": "RightFoot",
+      "center_XFH": [
+        -0.88,
+        1.178,
+        0.115
+      ],
+      "size_WDH": [
+        0.4,
+        0.012,
+        0.16
+      ],
+      "material": "ShoeBlack",
+      "shape": "trapezoid_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Front outsole notch, bottom flush H.035"
+    },
+    {
+      "name": "Right_Tongue",
+      "parent": "RightFoot",
+      "center_XFH": [
+        -0.88,
+        0.22,
+        0.665
+      ],
+      "size_WDH": [
+        0.55,
+        0.58,
+        0.15
+      ],
+      "material": "ShoeGray",
+      "shape": "beveled_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Rear edge H.74; front edge H.59; footprint behind toe"
+    },
+    {
+      "name": "Right_OrangeLoop",
+      "parent": "RightFoot",
+      "center_XFH": [
+        -0.88,
+        -0.005,
+        0.755
+      ],
+      "size_WDH": [
+        0.28,
+        0.12,
+        0.23
+      ],
+      "material": "ShoeOrange",
+      "shape": "inverted_U_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Outer .28x.23, hole .14x.11, thickness .06; rear tongue"
+    },
+    {
+      "name": "Right_LaceBand_1",
+      "parent": "RightFoot",
+      "center_XFH": [
+        -0.88,
+        0.38,
+        0.636
+      ],
+      "size_WDH": [
+        0.55,
+        0.075,
+        0.035
+      ],
+      "material": "Sole",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Two broad flat laces, follow upper slope, not long white straps"
+    },
+    {
+      "name": "Right_LaceBand_2",
+      "parent": "RightFoot",
+      "center_XFH": [
+        -0.88,
+        0.61,
+        0.546
+      ],
+      "size_WDH": [
+        0.55,
+        0.075,
+        0.035
+      ],
+      "material": "Sole",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Two broad flat laces, follow upper slope, not long white straps"
+    },
+    {
+      "name": "Right_OrangeSideTrim",
+      "parent": "RightFoot",
+      "center_XFH": [
+        -1.435,
+        0.2,
+        0.475
+      ],
+      "size_WDH": [
+        0.025,
+        1.04,
+        0.075
+      ],
+      "material": "ShoeOrange",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Outer side only, follows shoe contour"
+    },
+    {
+      "name": "Left_ShortLeg",
+      "parent": "LeftUpperLeg",
+      "center_XFH": [
+        0.77,
+        0.015,
+        1.79
+      ],
+      "size_WDH": [
+        1.22,
+        1.42,
+        1.1
+      ],
+      "material": "Shorts",
+      "shape": "tapered_beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Top width1.28, bottom1.18; inner crotch gap .28; bevel .06"
+    },
+    {
+      "name": "Left_ShortSideStripe",
+      "parent": "LeftUpperLeg",
+      "center_XFH": [
+        1.372,
+        0.03,
+        1.8
+      ],
+      "size_WDH": [
+        0.018,
+        0.15,
+        0.94
+      ],
+      "material": "SideStripe",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Outer lateral face; lower .10 margin; not broad white front stripe"
+    },
+    {
+      "name": "Left_KneeSkin",
+      "parent": "LeftLowerLeg",
+      "center_XFH": [
+        0.82,
+        0.02,
+        1.27
+      ],
+      "size_WDH": [
+        0.91,
+        0.91,
+        0.3
+      ],
+      "material": "Skin",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Partly inside shorts, no isolated ball"
+    },
+    {
+      "name": "Left_ShinSkin",
+      "parent": "LeftLowerLeg",
+      "center_XFH": [
+        0.855,
+        0.02,
+        0.96
+      ],
+      "size_WDH": [
+        0.83,
+        0.85,
+        0.67
+      ],
+      "material": "Skin",
+      "shape": "tapered_beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Bottom .73x.77; hidden .03 in shoe"
+    },
+    {
+      "name": "Left_Sole",
+      "parent": "LeftFoot",
+      "center_XFH": [
+        0.88,
+        0.25,
+        0.135
+      ],
+      "size_WDH": [
+        1.28,
+        1.98,
+        0.27
+      ],
+      "material": "Sole",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Bevel .07; bottom H0; FOOT LOCAL frame yaw outward 7deg"
+    },
+    {
+      "name": "Left_Outsole",
+      "parent": "LeftFoot",
+      "center_XFH": [
+        0.88,
+        0.25,
+        0.035
+      ],
+      "size_WDH": [
+        1.22,
+        1.91,
+        0.07
+      ],
+      "material": "SoleShadow",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Bevel .025; integrated lower band"
+    },
+    {
+      "name": "Left_ShoeUpper",
+      "parent": "LeftFoot",
+      "center_XFH": [
+        0.88,
+        0.22,
+        0.405
+      ],
+      "size_WDH": [
+        1.13,
+        1.76,
+        0.46
+      ],
+      "material": "ShoeBlack",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Front toe F1.10; bevel .12, broad low toe"
+    },
+    {
+      "name": "Left_ToeBumper",
+      "parent": "LeftFoot",
+      "center_XFH": [
+        0.88,
+        1.075,
+        0.3
+      ],
+      "size_WDH": [
+        1.12,
+        0.19,
+        0.33
+      ],
+      "material": "Sole",
+      "shape": "curved_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Wrap front corners, black central sole notch W.40 H.16"
+    },
+    {
+      "name": "Left_ToeNotch",
+      "parent": "LeftFoot",
+      "center_XFH": [
+        0.88,
+        1.178,
+        0.115
+      ],
+      "size_WDH": [
+        0.4,
+        0.012,
+        0.16
+      ],
+      "material": "ShoeBlack",
+      "shape": "trapezoid_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Front outsole notch, bottom flush H.035"
+    },
+    {
+      "name": "Left_Tongue",
+      "parent": "LeftFoot",
+      "center_XFH": [
+        0.88,
+        0.22,
+        0.665
+      ],
+      "size_WDH": [
+        0.55,
+        0.58,
+        0.15
+      ],
+      "material": "ShoeGray",
+      "shape": "beveled_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Rear edge H.74; front edge H.59; footprint behind toe"
+    },
+    {
+      "name": "Left_OrangeLoop",
+      "parent": "LeftFoot",
+      "center_XFH": [
+        0.88,
+        -0.005,
+        0.755
+      ],
+      "size_WDH": [
+        0.28,
+        0.12,
+        0.23
+      ],
+      "material": "ShoeOrange",
+      "shape": "inverted_U_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Outer .28x.23, hole .14x.11, thickness .06; rear tongue"
+    },
+    {
+      "name": "Left_LaceBand_1",
+      "parent": "LeftFoot",
+      "center_XFH": [
+        0.88,
+        0.38,
+        0.636
+      ],
+      "size_WDH": [
+        0.55,
+        0.075,
+        0.035
+      ],
+      "material": "Sole",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Two broad flat laces, follow upper slope, not long white straps"
+    },
+    {
+      "name": "Left_LaceBand_2",
+      "parent": "LeftFoot",
+      "center_XFH": [
+        0.88,
+        0.61,
+        0.546
+      ],
+      "size_WDH": [
+        0.55,
+        0.075,
+        0.035
+      ],
+      "material": "Sole",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Two broad flat laces, follow upper slope, not long white straps"
+    },
+    {
+      "name": "Left_OrangeSideTrim",
+      "parent": "LeftFoot",
+      "center_XFH": [
+        1.435,
+        0.2,
+        0.475
+      ],
+      "size_WDH": [
+        0.025,
+        1.04,
+        0.075
+      ],
+      "material": "ShoeOrange",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Outer side only, follows shoe contour"
+    },
+    {
+      "name": "Right_UpperArmSkin",
+      "parent": "RightUpperArm",
+      "center_XFH": [
+        -1.9057437213322568,
+        0.17007517234395608,
+        4.0614975725465765
+      ],
+      "size_WDH": [
+        1.08,
+        1.03,
+        1.38
+      ],
+      "material": "Skin",
+      "shape": "segment_loft",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Long axis Shoulder->Elbow, nominal joint length1.30; mesh end overlap .04 each; section table in text"
+    },
+    {
+      "name": "Right_LowerArmSkin",
+      "parent": "RightLowerArm",
+      "center_XFH": [
+        -1.9557437213322566,
+        0.885075172343956,
+        3.416497572546576
+      ],
+      "size_WDH": [
+        0.91,
+        0.88,
+        1.28
+      ],
+      "material": "Skin",
+      "shape": "segment_loft",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Long axis Elbow->Wrist, joint length1.20; mesh end overlap .04 each; section table in text"
+    },
+    {
+      "name": "Left_UpperArmSkin",
+      "parent": "LeftUpperArm",
+      "center_XFH": [
+        2.0735892778029057,
+        -0.03011834796680183,
+        4.155403775114359
+      ],
+      "size_WDH": [
+        1.08,
+        1.03,
+        1.38
+      ],
+      "material": "Skin",
+      "shape": "segment_loft",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Long axis Shoulder->Elbow, nominal joint length1.30; mesh end overlap .04 each; section table in text"
+    },
+    {
+      "name": "Left_LowerArmSkin",
+      "parent": "LeftLowerArm",
+      "center_XFH": [
+        2.373589277802906,
+        0.04488165203319817,
+        3.120403775114359
+      ],
+      "size_WDH": [
+        0.91,
+        0.88,
+        1.28
+      ],
+      "material": "Skin",
+      "shape": "segment_loft",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Long axis Elbow->Wrist, joint length1.20; mesh end overlap .04 each; section table in text"
+    },
+    {
+      "name": "Right_Palm",
+      "parent": "RightHand",
+      "center_XFH": [
+        -1.72,
+        1.635,
+        3.31
+      ],
+      "size_WDH": [
+        0.73,
+        0.8,
+        0.72
+      ],
+      "material": "Skin",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Center differs from wrist; bevel .07; back access for hidden grip channel"
+    },
+    {
+      "name": "Right_Thumb",
+      "parent": "RightHand",
+      "center_XFH": [
+        -1.34,
+        1.71,
+        3.49
+      ],
+      "size_WDH": [
+        0.24,
+        0.39,
+        0.3
+      ],
+      "material": "SkinLight",
+      "shape": "beveled_wedge",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Integrated curved block, overlaps palm .06, contacts handle"
+    },
+    {
+      "name": "Left_Palm",
+      "parent": "LeftHand",
+      "center_XFH": [
+        2.23,
+        0.17,
+        2.285
+      ],
+      "size_WDH": [
+        0.73,
+        0.72,
+        0.71
+      ],
+      "material": "Skin",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Bottom H1.93; bevel .07, bag loops held below center"
+    },
+    {
+      "name": "Left_Thumb",
+      "parent": "LeftHand",
+      "center_XFH": [
+        1.855,
+        0.27,
+        2.32
+      ],
+      "size_WDH": [
+        0.23,
+        0.33,
+        0.29
+      ],
+      "material": "SkinLight",
+      "shape": "beveled_wedge",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Integrated on inner side of palm; no hand slicing"
+    },
+    {
+      "name": "Right_FingerLine_1",
+      "parent": "RightHand",
+      "center_XFH": [
+        -1.72,
+        2.04,
+        3.24
+      ],
+      "size_WDH": [
+        0.42,
+        0.006,
+        0.012
+      ],
+      "material": "SkinShadow",
+      "shape": "patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Flat narrow creases only, no deep cuts"
+    },
+    {
+      "name": "Right_FingerLine_2",
+      "parent": "RightHand",
+      "center_XFH": [
+        -1.72,
+        2.04,
+        3.38
+      ],
+      "size_WDH": [
+        0.42,
+        0.006,
+        0.012
+      ],
+      "material": "SkinShadow",
+      "shape": "patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Flat narrow creases only, no deep cuts"
+    },
+    {
+      "name": "Left_FingerLine_1",
+      "parent": "LeftHand",
+      "center_XFH": [
+        2.23,
+        0.535,
+        2.2150000000000003
+      ],
+      "size_WDH": [
+        0.42,
+        0.006,
+        0.012
+      ],
+      "material": "SkinShadow",
+      "shape": "patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Flat narrow creases only, no deep cuts"
+    },
+    {
+      "name": "Left_FingerLine_2",
+      "parent": "LeftHand",
+      "center_XFH": [
+        2.23,
+        0.535,
+        2.355
+      ],
+      "size_WDH": [
+        0.42,
+        0.006,
+        0.012
+      ],
+      "material": "SkinShadow",
+      "shape": "patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Flat narrow creases only, no deep cuts"
+    },
+    {
+      "name": "Dumbbell_Grip",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -1.72,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        1.1,
+        0.205,
+        0.205
+      ],
+      "material": "Grip",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 12 radial sides; visible gap between stacks1.00; skin occludes central .73"
+    },
+    {
+      "name": "Dumbbell_Axle",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -1.72,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        2.5,
+        0.13,
+        0.13
+      ],
+      "material": "DumbbellDark",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 12 sides, hidden through plates and grip; visible only in narrow interplate seams"
+    },
+    {
+      "name": "Dumbbell_Outer_Plate_1",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -2.355,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.27,
+        1.52,
+        1.52
+      ],
+      "material": "Dumbbell",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 16 sides, bevel .035; largest disk faces grip, stepped smaller toward end"
+    },
+    {
+      "name": "Dumbbell_Outer_Plate_2",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -2.61,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.22,
+        1.36,
+        1.36
+      ],
+      "material": "Dumbbell",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 16 sides, bevel .035; largest disk faces grip, stepped smaller toward end"
+    },
+    {
+      "name": "Dumbbell_Outer_Plate_3",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -2.815,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.18,
+        1.1,
+        1.1
+      ],
+      "material": "Dumbbell",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 16 sides, bevel .035; largest disk faces grip, stepped smaller toward end"
+    },
+    {
+      "name": "Dumbbell_Outer_Collar",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -2.235,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.08,
+        0.34,
+        0.34
+      ],
+      "material": "DumbbellDark",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 12 sides"
+    },
+    {
+      "name": "Dumbbell_Outer_Cap",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -2.9450000000000003,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.08,
+        0.39,
+        0.39
+      ],
+      "material": "DumbbellDark",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 12 sides, shallow central .13 boss, no text"
+    },
+    {
+      "name": "Dumbbell_Outer_Boss",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -2.992,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.018,
+        0.13,
+        0.13
+      ],
+      "material": "DumbbellLight",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 12 sides"
+    },
+    {
+      "name": "Dumbbell_Inner_Plate_1",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -1.085,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.27,
+        1.52,
+        1.52
+      ],
+      "material": "Dumbbell",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 16 sides, bevel .035; largest disk faces grip, stepped smaller toward end"
+    },
+    {
+      "name": "Dumbbell_Inner_Plate_2",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -0.83,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.22,
+        1.36,
+        1.36
+      ],
+      "material": "Dumbbell",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 16 sides, bevel .035; largest disk faces grip, stepped smaller toward end"
+    },
+    {
+      "name": "Dumbbell_Inner_Plate_3",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -0.625,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.18,
+        1.1,
+        1.1
+      ],
+      "material": "Dumbbell",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 16 sides, bevel .035; largest disk faces grip, stepped smaller toward end"
+    },
+    {
+      "name": "Dumbbell_Inner_Collar",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -1.205,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.08,
+        0.34,
+        0.34
+      ],
+      "material": "DumbbellDark",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 12 sides"
+    },
+    {
+      "name": "Dumbbell_Inner_Cap",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -0.4949999999999999,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.08,
+        0.39,
+        0.39
+      ],
+      "material": "DumbbellDark",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 12 sides, shallow central .13 boss, no text"
+    },
+    {
+      "name": "Dumbbell_Inner_Boss",
+      "parent": "Dumbbell",
+      "center_XFH": [
+        -0.44799999999999995,
+        1.78,
+        3.31
+      ],
+      "size_WDH": [
+        0.018,
+        0.13,
+        0.13
+      ],
+      "material": "DumbbellLight",
+      "shape": "cylinder",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Axis X, 12 sides"
+    },
+    {
+      "name": "Bag_Body",
+      "parent": "GymBag",
+      "center_XFH": [
+        2.56,
+        0,
+        0.95
+      ],
+      "size_WDH": [
+        1.32,
+        1.02,
+        1.24
+      ],
+      "material": "BagDark",
+      "shape": "rounded_beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "H.33..1.57, bevel .16, broad flat bottom"
+    },
+    {
+      "name": "Bag_FrontOrange",
+      "parent": "GymBag",
+      "center_XFH": [
+        2.56,
+        0.521,
+        0.96
+      ],
+      "size_WDH": [
+        1.03,
+        0.028,
+        0.95
+      ],
+      "material": "BagOrange",
+      "shape": "rounded_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Inset .14 from outside; corner radius .12"
+    },
+    {
+      "name": "Bag_BackOrange",
+      "parent": "GymBag",
+      "center_XFH": [
+        2.56,
+        -0.521,
+        0.96
+      ],
+      "size_WDH": [
+        1.03,
+        0.028,
+        0.95
+      ],
+      "material": "BagOrange",
+      "shape": "rounded_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Back unseen in source: design interpretation"
+    },
+    {
+      "name": "Bag_InnerEnd",
+      "parent": "GymBag",
+      "center_XFH": [
+        1.905,
+        0,
+        0.95
+      ],
+      "size_WDH": [
+        0.035,
+        0.8,
+        0.98
+      ],
+      "material": "BagOrange",
+      "shape": "rounded_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "End panel follows body side"
+    },
+    {
+      "name": "Bag_OuterEnd",
+      "parent": "GymBag",
+      "center_XFH": [
+        3.215,
+        0,
+        0.95
+      ],
+      "size_WDH": [
+        0.035,
+        0.8,
+        0.98
+      ],
+      "material": "BagOrange",
+      "shape": "rounded_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "End panel follows body side"
+    },
+    {
+      "name": "Bag_CenterBand",
+      "parent": "GymBag",
+      "center_XFH": [
+        2.56,
+        0.54,
+        0.98
+      ],
+      "size_WDH": [
+        0.29,
+        0.028,
+        0.94
+      ],
+      "material": "BagDark",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Vertical charcoal band, partly from reference dark panel"
+    },
+    {
+      "name": "Bag_Bottom",
+      "parent": "GymBag",
+      "center_XFH": [
+        2.56,
+        0,
+        0.4
+      ],
+      "size_WDH": [
+        1.25,
+        0.97,
+        0.14
+      ],
+      "material": "BagDark",
+      "shape": "beveled_box",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Joined seam with body, not second floating base"
+    },
+    {
+      "name": "Bag_ZipperTrack",
+      "parent": "GymBag",
+      "center_XFH": [
+        2.56,
+        0,
+        1.575
+      ],
+      "size_WDH": [
+        0.93,
+        0.038,
+        0.016
+      ],
+      "material": "Zipper",
+      "shape": "surface_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Top length along X"
+    },
+    {
+      "name": "Bag_ZipperPull",
+      "parent": "GymBag",
+      "center_XFH": [
+        2.91,
+        0.01,
+        1.6
+      ],
+      "size_WDH": [
+        0.09,
+        0.045,
+        0.025
+      ],
+      "material": "Steel",
+      "shape": "patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "No fine engraving, no logo"
+    },
+    {
+      "name": "Bag_FrontHandle",
+      "parent": "GymBag",
+      "center_XFH": [
+        2.26,
+        0.29,
+        1.825
+      ],
+      "size_WDH": [
+        0.71,
+        0.075,
+        0.59
+      ],
+      "material": "BagDark",
+      "shape": "arched_rect_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Use explicit 5-point handle path; width .095, thickness .075; top runs inside left fist"
+    },
+    {
+      "name": "Bag_Front_Anchor_1",
+      "parent": "GymBag",
+      "center_XFH": [
+        1.95,
+        0.29,
+        1.52
+      ],
+      "size_WDH": [
+        0.17,
+        0.1,
+        0.17
+      ],
+      "material": "BagEdge",
+      "shape": "beveled_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Below handle endpoints, integrates into top body"
+    },
+    {
+      "name": "Bag_Front_Anchor_2",
+      "parent": "GymBag",
+      "center_XFH": [
+        2.57,
+        0.29,
+        1.52
+      ],
+      "size_WDH": [
+        0.17,
+        0.1,
+        0.17
+      ],
+      "material": "BagEdge",
+      "shape": "beveled_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Below handle endpoints, integrates into top body"
+    },
+    {
+      "name": "Bag_BackHandle",
+      "parent": "GymBag",
+      "center_XFH": [
+        2.26,
+        -0.29,
+        1.825
+      ],
+      "size_WDH": [
+        0.71,
+        0.075,
+        0.59
+      ],
+      "material": "BagDark",
+      "shape": "arched_rect_strip",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Use explicit 5-point handle path; width .095, thickness .075; top runs inside left fist"
+    },
+    {
+      "name": "Bag_Back_Anchor_1",
+      "parent": "GymBag",
+      "center_XFH": [
+        1.95,
+        -0.29,
+        1.52
+      ],
+      "size_WDH": [
+        0.17,
+        0.1,
+        0.17
+      ],
+      "material": "BagEdge",
+      "shape": "beveled_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Below handle endpoints, integrates into top body"
+    },
+    {
+      "name": "Bag_Back_Anchor_2",
+      "parent": "GymBag",
+      "center_XFH": [
+        2.57,
+        -0.29,
+        1.52
+      ],
+      "size_WDH": [
+        0.17,
+        0.1,
+        0.17
+      ],
+      "material": "BagEdge",
+      "shape": "beveled_patch",
+      "orientation": "world X/F/H; exceptions described in note",
+      "note": "Below handle endpoints, integrates into top body"
+    }
+  ]
+}

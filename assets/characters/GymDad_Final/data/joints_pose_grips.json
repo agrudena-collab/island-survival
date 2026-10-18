@@ -1,0 +1,200 @@
+{
+ "pose": "HoldWeights (rest pose == pose)",
+ "joints_logical_XFH": {
+  "Root": [
+   0,
+   0,
+   2.6
+  ],
+  "Waist": [
+   0,
+   0,
+   2.85
+  ],
+  "Neck": [
+   0,
+   0,
+   5.02
+  ],
+  "RightShoulder": [
+   -2.2,
+   0,
+   4.95
+  ],
+  "RightWrist": [
+   -2.05,
+   1.6300000000000003,
+   2.9
+  ],
+  "LeftShoulder": [
+   2.03,
+   0,
+   4.86
+  ],
+  "LeftWrist": [
+   2.25,
+   0.15,
+   2.62
+  ],
+  "RightHip": [
+   -0.9,
+   0,
+   2.2
+  ],
+  "LeftHip": [
+   0.9,
+   0,
+   2.2
+  ],
+  "RightKnee": [
+   -0.98,
+   0.02,
+   1.35
+  ],
+  "LeftKnee": [
+   0.98,
+   0.02,
+   1.35
+  ],
+  "RightAnkle": [
+   -1.04,
+   0.02,
+   0.72
+  ],
+  "LeftAnkle": [
+   1.04,
+   0.02,
+   0.72
+  ],
+  "RightElbow": [
+   -2.2458794116973877,
+   0.6211885213851929,
+   3.696197509765625
+  ],
+  "LeftElbow": [
+   2.4612040519714355,
+   -0.5915743708610535,
+   3.666642427444458
+  ]
+ },
+ "joints_blender": {
+  "Root": [
+   0.0,
+   0.0,
+   2.6
+  ],
+  "Waist": [
+   0.0,
+   0.0,
+   2.85
+  ],
+  "Neck": [
+   0.0,
+   0.0,
+   5.02
+  ],
+  "RightShoulder": [
+   -2.2,
+   0.0,
+   4.95
+  ],
+  "RightWrist": [
+   -2.05,
+   -1.63,
+   2.9
+  ],
+  "LeftShoulder": [
+   2.03,
+   0.0,
+   4.86
+  ],
+  "LeftWrist": [
+   2.25,
+   -0.15,
+   2.62
+  ],
+  "RightHip": [
+   -0.9,
+   0.0,
+   2.2
+  ],
+  "LeftHip": [
+   0.9,
+   0.0,
+   2.2
+  ],
+  "RightKnee": [
+   -0.98,
+   -0.02,
+   1.35
+  ],
+  "LeftKnee": [
+   0.98,
+   -0.02,
+   1.35
+  ],
+  "RightAnkle": [
+   -1.04,
+   -0.02,
+   0.72
+  ],
+  "LeftAnkle": [
+   1.04,
+   -0.02,
+   0.72
+  ],
+  "RightElbow": [
+   -2.245879,
+   -0.621189,
+   3.696198
+  ],
+  "LeftElbow": [
+   2.461204,
+   0.591574,
+   3.666642
+  ]
+ },
+ "grips": {
+  "DumbbellGrip": {
+   "from": "RightHand",
+   "to": "Dumbbell",
+   "centre_logical_XFH": [
+    -2.05,
+    2.2,
+    2.85
+   ],
+   "axis": "X"
+  },
+  "BagGrip": {
+   "from": "LeftHand",
+   "to": "GymBag",
+   "point_logical_XFH": [
+    2.25,
+    0.15,
+    2.0
+   ]
+  }
+ },
+ "wrist_vs_hand_centre": {
+  "RightWrist": [
+   -2.05,
+   1.6300000000000003,
+   2.9
+  ],
+  "RightHandCentre": [
+   -2.05,
+   2.08,
+   2.8
+  ],
+  "LeftWrist": [
+   2.25,
+   0.15,
+   2.62
+  ],
+  "LeftHandCentre": [
+   2.25,
+   0.15,
+   2.25
+  ]
+ }
+}
