@@ -1,0 +1,77 @@
+{
+  "source": "Original_Character_Sheet.jpeg, bottom-right character",
+  "source_pixels": [
+    1536,
+    1024
+  ],
+  "classification": "manual approximate 2D contour landmarks, not 3D dimensions",
+  "uncertainty_px": [
+    5,
+    10
+  ],
+  "pairs": {
+    "projected_height": [
+      [
+        1128,
+        535
+      ],
+      [
+        1128,
+        943
+      ]
+    ],
+    "outer_shoulder_sleeve_span": [
+      [
+        1190,
+        645
+      ],
+      [
+        1495,
+        645
+      ]
+    ],
+    "visible_head_face_span": [
+      [
+        1280,
+        620
+      ],
+      [
+        1435,
+        620
+      ]
+    ],
+    "case_visible_width": [
+      [
+        1133,
+        823
+      ],
+      [
+        1283,
+        823
+      ]
+    ],
+    "case_visible_height": [
+      [
+        1288,
+        826
+      ],
+      [
+        1288,
+        931
+      ]
+    ]
+  },
+  "lengths_px": {
+    "height": 408,
+    "shoulder_span": 305,
+    "head_face_span": 155,
+    "case_width": 150,
+    "case_height": 105
+  },
+  "ratios_2d": {
+    "shoulder_to_head": 1.967741935483871,
+    "case_width_to_height": 0.36764705882352944,
+    "case_height_to_height": 0.25735294117647056
+  },
+  "case_note": "excludes handle; shoulder and head are perspective slice landmarks"
+}

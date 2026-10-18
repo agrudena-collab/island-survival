@@ -1,0 +1,121 @@
+{
+ "109537234894599": {
+  "name": "LeftLowerArm_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "109876868614446": {
+  "name": "LeftUpperLeg_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "111884795624907": {
+  "name": "RightLowerArm_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "113604898944263": {
+  "name": "RightFoot_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "118182450247281": {
+  "name": "Head_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "130446121850014": {
+  "name": "RightHand_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "131034216877645": {
+  "name": "LeftLowerLeg_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "133651261906458": {
+  "name": "Case_Geo.001",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "137969904588035": {
+  "name": "LeftUpperArm_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "139384918943850": {
+  "name": "base_color_texture",
+  "assetTypeId": 1,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "139756072616211": {
+  "name": "RightLowerLeg_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "73105585794893": {
+  "name": "LeftHand_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "77791289729557": {
+  "name": "LeftFoot_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "79932497279036": {
+  "name": "UpperTorso_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "91589817470020": {
+  "name": "RightUpperArm_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "91784239936301": {
+  "name": "LowerTorso_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ },
+ "95928735595974": {
+  "name": "RightUpperLeg_Geo",
+  "assetTypeId": 4,
+  "creatorId": 3938337813,
+  "creatorType": "User",
+  "isPublicDomain": false
+ }
+}

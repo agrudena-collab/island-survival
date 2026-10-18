@@ -1,0 +1,1 @@
+{"azimuth_deg": -42.0, "elevation_deg": 0.0, "shift_x": 0.0165, "fit_source": "data/camera_fit.json: grid search on the measured 2D landmarks B..E and height A (az -42, el 0); shift aligns the case left edge to crop x=23 (7 px / 425)"}

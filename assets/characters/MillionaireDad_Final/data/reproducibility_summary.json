@@ -1,0 +1,13 @@
+{
+ "builder": "source/build_millionaire_dad.py (parts m00..m08, assemble.sh)",
+ "check": "rebuilt in a temporary folder with blender -b --factory-startup --python source/build_millionaire_dad.py -- <tmp> --norender and compared with source/MillionaireDad_Final.blend",
+ "meshes_compared": 16,
+ "worst_vertex_difference": 0.0,
+ "uv_identical": true,
+ "atlas_png_byte_identical": true,
+ "not_claimed": "FBX files are not claimed to be byte-identical (exporter header differs); geometry/UV hashes are identical",
+ "review_rbxm_sha256": "3df51ec5f3a7154e9b8ee5a7964b01c98202ef2945b3db40527697d9cea3ae84",
+ "final_rbxm_sha256": "3df51ec5f3a7154e9b8ee5a7964b01c98202ef2945b3db40527697d9cea3ae84",
+ "review_equals_final": true,
+ "note": "MillionaireDad_Final.blend is MillionaireDad_Review.blend renamed; the builder still writes the review file names (MillionaireDad_Review.blend, MillionaireDad_Body.fbx, MillionaireDad_Props.fbx)"
+}

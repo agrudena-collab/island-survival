@@ -45,6 +45,9 @@
       },
       "BusinessDadFinal": {
         "$path": "assets/characters/BusinessDad_Final/model/BusinessDad_Final.rbxm"
+      },
+      "MillionaireDadFinal": {
+        "$path": "assets/characters/MillionaireDad_Final/model/MillionaireDad_Final.rbxm"
       }
     }
   }

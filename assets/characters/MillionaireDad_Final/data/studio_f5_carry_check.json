@@ -1,0 +1,18 @@
+{
+ "droppedCaseWelded": true,
+ "droppedSoleY": -4.76837158203125e-07,
+ "droppedHealth": 100,
+ "droppedHumanoidState": "Enum.HumanoidStateType.Running",
+ "humanoidState": "Enum.HumanoidStateType.Running",
+ "caseBottomY": 0.16001242399215698,
+ "freeStandMaxDrift5s": 2.5458999516558833e-05,
+ "weld": "RightHand>Case",
+ "droppedCloneMaxDrift": 3.5207126529712696e-06,
+ "found": true,
+ "health": 100,
+ "caseFlags": "collide=false query=false touch=false massless=true",
+ "height": 6.405722618103027,
+ "carryAnchoredMoveTurnLiftMaxDrift": 1.3260032361017693e-05,
+ "caseHandDriftStanding": 3.5762786865234375e-07,
+ "soleY": 1.0728836059570312e-05
+}

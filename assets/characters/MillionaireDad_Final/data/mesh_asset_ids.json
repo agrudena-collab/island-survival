@@ -1,0 +1,66 @@
+{
+ "Case": {
+  "MeshId": "rbxassetid://133651261906458",
+  "TextureID": "rbxassetid://139384918943850"
+ },
+ "Head": {
+  "MeshId": "rbxassetid://118182450247281",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "LeftFoot": {
+  "MeshId": "rbxassetid://77791289729557",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "LeftHand": {
+  "MeshId": "rbxassetid://73105585794893",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "LeftLowerArm": {
+  "MeshId": "rbxassetid://109537234894599",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "LeftLowerLeg": {
+  "MeshId": "rbxassetid://131034216877645",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "LeftUpperArm": {
+  "MeshId": "rbxassetid://137969904588035",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "LeftUpperLeg": {
+  "MeshId": "rbxassetid://109876868614446",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "LowerTorso": {
+  "MeshId": "rbxassetid://91784239936301",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "RightFoot": {
+  "MeshId": "rbxassetid://113604898944263",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "RightHand": {
+  "MeshId": "rbxassetid://130446121850014",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "RightLowerArm": {
+  "MeshId": "rbxassetid://111884795624907",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "RightLowerLeg": {
+  "MeshId": "rbxassetid://139756072616211",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "RightUpperArm": {
+  "MeshId": "rbxassetid://91589817470020",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "RightUpperLeg": {
+  "MeshId": "rbxassetid://95928735595974",
+  "ColorMap": "rbxassetid://139384918943850"
+ },
+ "UpperTorso": {
+  "MeshId": "rbxassetid://79932497279036",
+  "ColorMap": "rbxassetid://139384918943850"
+ }
+}

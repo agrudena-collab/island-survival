@@ -1,0 +1,17 @@
+109537234894599 LeftLowerArm_Geo type=4 creator=3938337813 public=False
+109876868614446 LeftUpperLeg_Geo type=4 creator=3938337813 public=False
+111884795624907 RightLowerArm_Geo type=4 creator=3938337813 public=False
+113604898944263 RightFoot_Geo type=4 creator=3938337813 public=False
+118182450247281 Head_Geo type=4 creator=3938337813 public=False
+130446121850014 RightHand_Geo type=4 creator=3938337813 public=False
+131034216877645 LeftLowerLeg_Geo type=4 creator=3938337813 public=False
+133651261906458 Case_Geo.001 type=4 creator=3938337813 public=False
+137969904588035 LeftUpperArm_Geo type=4 creator=3938337813 public=False
+139384918943850 base_color_texture type=1 creator=3938337813 public=False
+139756072616211 RightLowerLeg_Geo type=4 creator=3938337813 public=False
+73105585794893 LeftHand_Geo type=4 creator=3938337813 public=False
+77791289729557 LeftFoot_Geo type=4 creator=3938337813 public=False
+79932497279036 UpperTorso_Geo type=4 creator=3938337813 public=False
+91589817470020 RightUpperArm_Geo type=4 creator=3938337813 public=False
+91784239936301 LowerTorso_Geo type=4 creator=3938337813 public=False
+95928735595974 RightUpperLeg_Geo type=4 creator=3938337813 public=False

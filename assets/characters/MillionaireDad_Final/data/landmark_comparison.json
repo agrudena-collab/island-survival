@@ -1,0 +1,97 @@
+{
+ "camera": {
+  "type": "ORTHO",
+  "azimuth_deg": -42,
+  "elevation_deg": 0,
+  "ortho_scale": 6.6667,
+  "target_H": 3.15,
+  "px_per_stud": 63.75,
+  "frame_px": [
+   422,
+   425
+  ],
+  "shift_x_fraction": 0.0165,
+  "note": "fitted by scripts/fit_camera.py on the measured 2D landmarks; 6.40 studs = PROJECT CONVENTION"
+ },
+ "source_landmarks_px_crop_frame": {
+  "A_height": [
+   [
+    18,
+    5
+   ],
+   [
+    18,
+    413
+   ]
+  ],
+  "B_shoulder_span_y115": [
+   [
+    80,
+    115
+   ],
+   [
+    385,
+    115
+   ]
+  ],
+  "C_head_span_y90": [
+   [
+    170,
+    90
+   ],
+   [
+    325,
+    90
+   ]
+  ],
+  "D_case_width_y293": [
+   [
+    23,
+    293
+   ],
+   [
+    173,
+    293
+   ]
+  ],
+  "E_case_height_x178": [
+   [
+    178,
+    296
+   ],
+   [
+    178,
+    401
+   ]
+  ]
+ },
+ "reference_px": {
+  "B": 305,
+  "C": 155,
+  "D": 150,
+  "E": 105,
+  "A": 408
+ },
+ "render_px": {
+  "B": 293,
+  "C": 164,
+  "D": 144,
+  "E": 102,
+  "A": 407
+ },
+ "error_px": {
+  "B": -12,
+  "C": 9,
+  "D": -6,
+  "E": -3,
+  "A": -1
+ },
+ "error_pct": {
+  "B": -3.9,
+  "C": 5.8,
+  "D": -4.0,
+  "E": -2.9,
+  "A": -0.2
+ },
+ "note": "source endpoints are manual (+-5..10 px); render values are measured on the alpha mask of the real Blender mesh at the fitted camera (case rendered alone for D and E)"
+}

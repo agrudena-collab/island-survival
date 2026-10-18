@@ -139,6 +139,8 @@ local DadCatalog: { DadDefinition } = {
 	},
 	{
 		Id = "MillionaireDad",
+		-- Final approved art: ServerStorage.MillionaireDadFinal (assets/characters/MillionaireDad_Final). The overlay fields below are unused for it.
+		ModelAsset = "MillionaireDadFinal",
 		DisplayName = "Millionaire Dad",
 		Rarity = "Legendary",
 		Cost = 1500,

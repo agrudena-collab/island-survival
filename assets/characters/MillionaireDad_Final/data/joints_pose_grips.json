@@ -1,0 +1,175 @@
+{
+ "pose": "static: case in the right hand, left hand at the hip (rest pose == pose)",
+ "joints_logical_XFH": {
+  "Root": [
+   0,
+   0,
+   2.35
+  ],
+  "Waist": [
+   0,
+   0,
+   2.8
+  ],
+  "Neck": [
+   0,
+   0,
+   4.55
+  ],
+  "RightShoulder": [
+   -1.85,
+   0,
+   4.25
+  ],
+  "RightWrist": [
+   -2.5,
+   0.1,
+   2.7
+  ],
+  "LeftShoulder": [
+   1.85,
+   0,
+   4.25
+  ],
+  "LeftWrist": [
+   1.95,
+   0.75,
+   2.95
+  ],
+  "RightHip": [
+   -0.88,
+   0,
+   2.25
+  ],
+  "LeftHip": [
+   0.88,
+   0,
+   2.25
+  ],
+  "RightKnee": [
+   -0.88,
+   0.02,
+   1.3
+  ],
+  "LeftKnee": [
+   0.88,
+   0.02,
+   1.3
+  ],
+  "RightAnkle": [
+   -0.88,
+   0.02,
+   0.8
+  ],
+  "LeftAnkle": [
+   0.88,
+   0.02,
+   0.8
+  ],
+  "RightElbow": [
+   -2.5544300079345703,
+   -0.015246469527482986,
+   3.5403900146484375
+  ],
+  "LeftElbow": [
+   2.344212532043457,
+   0.14034655690193176,
+   3.3920624256134033
+  ]
+ },
+ "joints_blender": {
+  "Root": [
+   0.0,
+   0.0,
+   2.35
+  ],
+  "Waist": [
+   0.0,
+   0.0,
+   2.8
+  ],
+  "Neck": [
+   0.0,
+   0.0,
+   4.55
+  ],
+  "RightShoulder": [
+   -1.85,
+   0.0,
+   4.25
+  ],
+  "RightWrist": [
+   -2.5,
+   -0.1,
+   2.7
+  ],
+  "LeftShoulder": [
+   1.85,
+   0.0,
+   4.25
+  ],
+  "LeftWrist": [
+   1.95,
+   -0.75,
+   2.95
+  ],
+  "RightHip": [
+   -0.88,
+   0.0,
+   2.25
+  ],
+  "LeftHip": [
+   0.88,
+   0.0,
+   2.25
+  ],
+  "RightKnee": [
+   -0.88,
+   -0.02,
+   1.3
+  ],
+  "LeftKnee": [
+   0.88,
+   -0.02,
+   1.3
+  ],
+  "RightAnkle": [
+   -0.88,
+   -0.02,
+   0.8
+  ],
+  "LeftAnkle": [
+   0.88,
+   -0.02,
+   0.8
+  ],
+  "RightElbow": [
+   -2.55443,
+   0.015246,
+   3.54039
+  ],
+  "LeftElbow": [
+   2.344213,
+   -0.140347,
+   3.392062
+  ]
+ },
+ "grips": {
+  "CaseGrip": {
+   "from": "RightHand",
+   "to": "Case",
+   "centre_logical_XFH": [
+    -2.4573,
+    0.1905,
+    0.965
+   ],
+   "handle_bar_logical_XFH": [
+    -2.4573,
+    0.1905,
+    2.04
+   ]
+  }
+ },
+ "left_hand": "LeftHand rests at the hip",
+ "watch": "gold watch with black strap baked into the LeftHand mesh, cannot detach"
+}

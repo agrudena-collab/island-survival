@@ -1,0 +1,177 @@
+{
+ "humanoid": true,
+ "animationConstraints": 15,
+ "bbox": "6.579 x 6.406 x 3.013",
+ "anchored": 0,
+ "welds": [
+  "CaseGrip:RightHand>Case"
+ ],
+ "partNames": [
+  "Case",
+  "Head",
+  "LeftFoot",
+  "LeftHand",
+  "LeftLowerArm",
+  "LeftLowerLeg",
+  "LeftUpperArm",
+  "LeftUpperLeg",
+  "LowerTorso",
+  "RightFoot",
+  "RightHand",
+  "RightLowerArm",
+  "RightLowerLeg",
+  "RightUpperArm",
+  "RightUpperLeg",
+  "UpperTorso"
+ ],
+ "soleY": -2.384185791015625e-07,
+ "sizes": {
+  "Case": "0.900,1.974,2.760",
+  "LeftLowerArm": "1.829,1.525,1.648",
+  "LowerTorso": "3.000,1.010,1.503",
+  "Head": "2.609,2.116,2.443",
+  "UpperTorso": "3.250,1.750,1.609",
+  "RightHand": "1.045,1.077,1.022",
+  "RightUpperLeg": "1.480,1.170,1.520",
+  "RightUpperArm": "2.101,1.729,1.559",
+  "LeftUpperArm": "2.168,1.769,1.648",
+  "RightLowerArm": "1.530,1.261,1.342",
+  "LeftHand": "1.294,1.606,1.431",
+  "LeftFoot": "1.821,0.880,2.640",
+  "RightFoot": "1.821,0.880,2.640",
+  "RightLowerLeg": "1.530,0.640,1.530",
+  "LeftUpperLeg": "1.480,1.170,1.520",
+  "LeftLowerLeg": "1.530,0.640,1.530"
+ },
+ "ids": {
+  "Case": {
+   "colorMap": "",
+   "tex": "rbxassetid://139384918943850",
+   "massless": true,
+   "mesh": "rbxassetid://133651261906458",
+   "collide": false
+  },
+  "LeftLowerArm": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://109537234894599",
+   "collide": false
+  },
+  "LowerTorso": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://91784239936301",
+   "collide": true
+  },
+  "Head": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://118182450247281",
+   "collide": true
+  },
+  "UpperTorso": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://79932497279036",
+   "collide": true
+  },
+  "RightHand": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://130446121850014",
+   "collide": false
+  },
+  "RightUpperLeg": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://95928735595974",
+   "collide": false
+  },
+  "RightUpperArm": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://91589817470020",
+   "collide": false
+  },
+  "LeftUpperArm": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://137969904588035",
+   "collide": false
+  },
+  "RightLowerArm": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://111884795624907",
+   "collide": false
+  },
+  "LeftHand": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://73105585794893",
+   "collide": false
+  },
+  "LeftFoot": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://77791289729557",
+   "collide": false
+  },
+  "RightFoot": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://113604898944263",
+   "collide": false
+  },
+  "RightLowerLeg": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://139756072616211",
+   "collide": false
+  },
+  "LeftUpperLeg": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://109876868614446",
+   "collide": false
+  },
+  "LeftLowerLeg": {
+   "colorMap": "rbxassetid://139384918943850",
+   "tex": "",
+   "massless": false,
+   "mesh": "rbxassetid://131034216877645",
+   "collide": false
+  }
+ },
+ "rootMotorNames": [
+  "RightWrist:AnimationConstraint",
+  "LeftWrist:AnimationConstraint",
+  "RightElbow:AnimationConstraint",
+  "LeftElbow:AnimationConstraint",
+  "RightShoulder:AnimationConstraint",
+  "LeftShoulder:AnimationConstraint",
+  "Neck:AnimationConstraint",
+  "Waist:AnimationConstraint"
+ ],
+ "meshparts": 16,
+ "unanchored": 17,
+ "caseFlags": "collide=false query=false touch=false massless=true",
+ "caseRelRightHand": "-0.001978635787963867, -1.1282039880752563, -0.011715471744537354",
+ "hasHRP": true,
+ "pivot": "1.1920928955078125e-07, 3.25, 5.960464477539062e-07",
+ "found": true
+}

@@ -1,0 +1,61 @@
+{
+ "place": "MillionaireDadFinal_test.rbxl (rojo build default.project.json)",
+ "studio_id": "a8e89df5-7828-45c9-ac10-7c6896f6ff12",
+ "date": "2026-10-18",
+ "edit": {
+  "meshes": 16,
+  "ids": {
+   "Case": "rbxassetid://133651261906458|rbxassetid://139384918943850",
+   "LeftLowerArm": "rbxassetid://109537234894599|rbxassetid://139384918943850",
+   "LowerTorso": "rbxassetid://91784239936301|rbxassetid://139384918943850",
+   "Head": "rbxassetid://118182450247281|rbxassetid://139384918943850",
+   "UpperTorso": "rbxassetid://79932497279036|rbxassetid://139384918943850",
+   "RightHand": "rbxassetid://130446121850014|rbxassetid://139384918943850",
+   "RightUpperLeg": "rbxassetid://95928735595974|rbxassetid://139384918943850",
+   "RightUpperArm": "rbxassetid://91589817470020|rbxassetid://139384918943850",
+   "LeftUpperArm": "rbxassetid://137969904588035|rbxassetid://139384918943850",
+   "RightLowerArm": "rbxassetid://111884795624907|rbxassetid://139384918943850",
+   "LeftHand": "rbxassetid://73105585794893|rbxassetid://139384918943850",
+   "LeftFoot": "rbxassetid://77791289729557|rbxassetid://139384918943850",
+   "RightFoot": "rbxassetid://113604898944263|rbxassetid://139384918943850",
+   "RightLowerLeg": "rbxassetid://139756072616211|rbxassetid://139384918943850",
+   "LeftUpperLeg": "rbxassetid://109876868614446|rbxassetid://139384918943850",
+   "LeftLowerLeg": "rbxassetid://131034216877645|rbxassetid://139384918943850"
+  },
+  "scripts": 0,
+  "animConstraints": 15,
+  "className": "Model",
+  "found": true,
+  "welds": [
+   "CaseGrip:RightHand>Case"
+  ],
+  "mesh_asset_ids_match_data_file": true
+ },
+ "play_spawn_DadPreview": {
+  "meshParts": 16,
+  "pos": "32.45927810668945, 2.2750792503356934, 9.82121467590332",
+  "anchored": [
+   true,
+   true,
+   true
+  ],
+  "nonMeshParts": [],
+  "attrFeet": 3.250000238418579,
+  "drift4s": 0,
+  "soleY": 5.960464477539063e-08,
+  "weld": "RightHand>Case",
+  "scripts": 0,
+  "floorY": 2.8875091075897217,
+  "preview": true,
+  "found": true,
+  "caseDrift": 0
+ },
+ "qa_drop_with_temp_floor": {
+  "state": "Enum.HumanoidStateType.Running",
+  "soleY": -2.980232238769531e-07,
+  "weld": "RightHand>Case",
+  "caseBottomY": 0.15999990701675415,
+  "caseDrift": 3.5762786865234375e-07
+ },
+ "output": "only DataStore unavailable (unpublished place) and UIBlox FoundationProvider warnings; no errors from the model/catalog change"
+}

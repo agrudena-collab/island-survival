@@ -1,0 +1,145 @@
+{
+ "pairs_with_overlap_or_coplanar": [
+  {
+   "a": "LowerTorso_Geo",
+   "b": "UpperTorso_Geo",
+   "overlapping_triangle_pairs": 83,
+   "coplanar_candidate_faces": 21,
+   "coplanar_area": 8.1682
+  },
+  {
+   "a": "LeftLowerArm_Geo",
+   "b": "LeftUpperArm_Geo",
+   "overlapping_triangle_pairs": 83,
+   "coplanar_candidate_faces": 12,
+   "coplanar_area": 4.3288
+  },
+  {
+   "a": "RightLowerArm_Geo",
+   "b": "RightUpperArm_Geo",
+   "overlapping_triangle_pairs": 34,
+   "coplanar_candidate_faces": 12,
+   "coplanar_area": 3.8632
+  },
+  {
+   "a": "LeftLowerLeg_Geo",
+   "b": "LeftUpperLeg_Geo",
+   "overlapping_triangle_pairs": 46,
+   "coplanar_candidate_faces": 2,
+   "coplanar_area": 0.0225
+  },
+  {
+   "a": "RightLowerLeg_Geo",
+   "b": "RightUpperLeg_Geo",
+   "overlapping_triangle_pairs": 47,
+   "coplanar_candidate_faces": 2,
+   "coplanar_area": 0.0225
+  },
+  {
+   "a": "Case_Geo",
+   "b": "RightHand_Geo",
+   "overlapping_triangle_pairs": 141,
+   "coplanar_candidate_faces": 4,
+   "coplanar_area": 0.0074
+  },
+  {
+   "a": "Head_Geo",
+   "b": "UpperTorso_Geo",
+   "overlapping_triangle_pairs": 46,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "LeftFoot_Geo",
+   "b": "LeftLowerLeg_Geo",
+   "overlapping_triangle_pairs": 87,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "LeftHand_Geo",
+   "b": "LeftLowerArm_Geo",
+   "overlapping_triangle_pairs": 120,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "LeftHand_Geo",
+   "b": "LeftUpperArm_Geo",
+   "overlapping_triangle_pairs": 4,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "LeftHand_Geo",
+   "b": "LeftUpperLeg_Geo",
+   "overlapping_triangle_pairs": 7,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "LeftHand_Geo",
+   "b": "LowerTorso_Geo",
+   "overlapping_triangle_pairs": 35,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "LeftHand_Geo",
+   "b": "UpperTorso_Geo",
+   "overlapping_triangle_pairs": 6,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "LeftLowerArm_Geo",
+   "b": "UpperTorso_Geo",
+   "overlapping_triangle_pairs": 40,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "LeftUpperArm_Geo",
+   "b": "UpperTorso_Geo",
+   "overlapping_triangle_pairs": 72,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "LeftUpperLeg_Geo",
+   "b": "LowerTorso_Geo",
+   "overlapping_triangle_pairs": 97,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "LowerTorso_Geo",
+   "b": "RightUpperLeg_Geo",
+   "overlapping_triangle_pairs": 96,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "RightFoot_Geo",
+   "b": "RightLowerLeg_Geo",
+   "overlapping_triangle_pairs": 81,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "RightHand_Geo",
+   "b": "RightLowerArm_Geo",
+   "overlapping_triangle_pairs": 22,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  },
+  {
+   "a": "RightUpperArm_Geo",
+   "b": "UpperTorso_Geo",
+   "overlapping_triangle_pairs": 28,
+   "coplanar_candidate_faces": 0,
+   "coplanar_area": 0.0
+  }
+ ],
+ "n_meshes": 16
+}
