@@ -1,6 +1,7 @@
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local DataStoreService = game:GetService("DataStoreService")
+local RunService = game:GetService("RunService")
 
 local Config = require(ReplicatedStorage:WaitForChild("Shared"):WaitForChild("Config"))
 
@@ -11,7 +12,18 @@ local saving = {}
 local removing = {}
 local pendingRemovals = 0
 local initialized = false
-local dataStore = DataStoreService:GetDataStore("StealADad_PlayerData_v1")
+-- An unpublished Studio place cannot open a DataStore: GetDataStore itself throws. Only there do we
+-- fall back to an unsaved in-memory profile; in a live server the error still propagates as before.
+local dataStoreOk, dataStore = pcall(function()
+	return DataStoreService:GetDataStore("StealADad_PlayerData_v1")
+end)
+if not dataStoreOk then
+	if not RunService:IsStudio() then
+		error(dataStore, 0)
+	end
+	warn("PlayerDataService: no DataStore in this Studio place, profiles will not be saved: " .. tostring(dataStore))
+	dataStore = nil
+end
 
 local MAX_DATASTORE_ATTEMPTS = 3
 local RETRY_DELAY_SECONDS = 1
@@ -82,6 +94,14 @@ local function loadProfile(player)
 	end
 	loading[userId] = true
 
+	if not dataStore then
+		local profile = { Version = 1, Cash = Config.StartingCash, OwnedDads = {}, BaseId = nil }
+		profiles[userId] = profile
+		createLeaderstats(player, profile.Cash)
+		loading[userId] = nil
+		return profile
+	end
+
 	local key = "player_" .. tostring(userId)
 	local success, storedValue = retryDataStoreOperation(function()
 		return dataStore:GetAsync(key)
@@ -131,7 +151,7 @@ local function saveProfile(player)
 		return inFlightSave.Success
 	end
 	local profile = profiles[userId]
-	if not profile then
+	if not profile or not dataStore then
 		return true
 	end
 	local saveState = { Done = false, Success = false }
