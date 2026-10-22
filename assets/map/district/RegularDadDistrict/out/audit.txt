@@ -1,0 +1,75 @@
+ISSUES 0
+
+
+EMPTY CELLS 609 of 3844 (cell 8 studs), lawn-only cells 280
+............................------............................
+............................------............................
+............................------............................
+....oooooooooooooooooooooooo------.ooooooooooooooooooooooo....
+...otttttttttttttttttttttttto----o.tttttttttttttttttttttttot..
+...o######################..oo---o########################ot..
+...o######################..oo---o########################ot..
+...o######################..o----o########################ot..
+...o######################..------########################ot..
+...o######################..o----o########################ot..
+...o######################..------########################ot..
+...-o###oo#o#o###o###o#o#oo-------#o###o#oo#o###o###o#o#o#--..
+...---------------------------------------------------------..
+...---------------------------------------------------------..
+...-o-#-oo-o-o-#-o---o-o-oo--------o-#-o-oo-o-#-o-#-o-o-o---..
+.....###########ooo=ooo#####oo---o..==o==oo==o==oo==o==ooo=...
+...ot###########ooo=ooo######----#t.=oo=oo=oo=oo=oo=oo=oooot..
+...ot###########o====o=#####------t.=oo=oo=oo=oo=oo=oo=oo=ot..
+...oo###########ooooooo#####------..======================ot..
+...oooooooooooao######o=....o----o..======================ot..
+...ooo#######oao######.######-----..########.##############t..
+...ooo#########t######t#####o----ot.########.##############t..
+...ooo#########.#############-----t.########.##############t..
+...ooo#######too######o#####o----o..########.##############t..
+...ooopppppp#tooppoopoopp#ppoo---o.p########p##############t..
+...ooopppppppoooppoopoooppppoo---otpppppppppppppppppooooopot..
+...oooopppppptooopppooo##ppp#----#tpppppppppppppppppppppppot..
+...oooopppppp#t...o....##ppp------.pppppppppppppppppppppppot..
+----oooooo--#-oo#ooo-o-ooo#-o----o-oooo-o-#-ooo#oo-oo-oo#-----
+-----oo--------o--------ooo--o--o#--o--------oo--------o------
+--------------------------------------------------------------
+--------------------------------------------------------------
+-----------------------------o--o-----------------------------
+----oooooo--#-oo#ooo-o-ooo#--#---#ooooo-o-##ooo#oo-oo-oo#-----
+......tpppppppppppppppppppp.o-----,ppppppppt,,ttpppppppptt....
+...ot.oppooppoppppppppppppp.oo---o,#######p,,,,,#######p,,ot..
+...oooopppppppppppppppppppp.oo---o,#######,,,,,,#######,,,ot..
+...ofoo##########ppp#######.o----ot#######,,,,,,#######,,,ot..
+...oooo##########fff#######.------t#######,,,,,,#######,,,ot..
+...offf###########o########.------,#######t,,,,,#######oopot..
+...oooo###########o########.o----o,p,,,,,t#,,,,,,,,,,,#oopot..
+...offf##########fff#######a------to,,,tt,,,,,,,,,,tt,ooopot..
+...ooof#############aoooaoaa#----#to,,,#t,,,,,,,,of#foooopot..
+...of#######################------to,##,,,,,,ooo,o#ff#ooopot..
+...ot#######################o----o,o,##,,,,ooooooofffoooopot..
+...ot#######################oo---o,o,,,,,,,ooooooofffo,,,pot..
+...ot#######################oo---oto,,,,,,o,oooooo,,,,,,,pot..
+...-o###oo#o#o###o###o#o#oo##----#tp,,,,,,,oooooo,,,,,,,,pot..
+...-o---oo---o---o---o---oo-------,oooo,,,,ooooooooo##,,,pot..
+...-------------------------------,ooo,,,,,,,ooo,oooof,,,pot..
+...-o-#-oo-o-o-#-o-#-o-o-oo-------,o,ttt,tt,,,,,,oooof,,,pot..
+...--#######################o----oto,t#t,##,,,,,,ffoof#,,pot..
+...ot#######################o----oto,,,,,t#,,,,,,,,,,t#,,pot..
+...ot#######################------,o,,,tttt,,,,,,,oooooo,pot..
+...ot#######################o----o,oooo#t,,,,,,,,,oooooo,pot..
+...ot#######################oo---o,ooooot,,,,,,,,,oooooo,pot..
+...ot########################----#tooooo,,o,,,o,,ooooooo,pot..
+...ot#######################------toooooppppppppppppppppppot..
+....oooooooooooooooooooooooo------.ooooooooooooooooooooooo....
+....tttttttttttttttttttttttt------.ttttttttttttttttttttttt....
+............................------............................
+............................------............................
+
+=== GEOMETRY AUDIT (69471 primitives) ===
+ITEM-IN-COLLIDER: 0
+CANOPY-FURNITURE: 0
+ON-ROAD: 0
+OVERHANG: 0
+OUT-OF-BOUNDS: 0
+Z-FIGHT: 0
+FLOATING: 0

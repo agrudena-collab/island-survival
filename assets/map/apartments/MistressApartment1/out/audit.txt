@@ -1,0 +1,10 @@
+COLLIDER-OVERLAP: 0
+ITEM-IN-COLLIDER: 4
+   None item (16.0,-14.1) y2.5..4.4 inside armchair (17.0,-13.0)
+   kcounter item (-20.4,-10.5) y3.6..4.3 inside kbase (-20.7,-12.1)
+   kcounter item (-20.4,-13.4) y3.6..4.3 inside kbase (-20.7,-12.1)
+   kcounter item (-21.3,-11.9) y3.6..4.3 inside kbase (-20.7,-12.1)
+OUT-OF-ROOM: 0
+FLOATING: 0
+Z-FIGHT: 0
+DOOR-BLOCKED: 0
