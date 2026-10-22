@@ -7,6 +7,9 @@ local Remotes = {
 		StealDad = "StealDad",
 		BaseUpdated = "BaseUpdated",
 		DataUpdated = "DataUpdated",
+		SetCrouch = "SetCrouch",
+		DialogueNode = "DialogueNode",
+		DialogueChoose = "DialogueChoose",
 	},
 	Functions = {
 		GetPlayerData = "GetPlayerData",

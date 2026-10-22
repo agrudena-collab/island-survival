@@ -4,6 +4,12 @@ local controllerNames = {
 	"UIController",
 	"PromptController",
 	"CameraController",
+	"FamilyAnimationController",
+	"FamilyAlertController",
+	"CrouchController",
+	"HeistNotebookController",
+	"TreadmillController",
+	"DialogueController",
 }
 
 for _, controllerName in ipairs(controllerNames) do

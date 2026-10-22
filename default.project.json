@@ -20,6 +20,12 @@
         "$path": "src/shared"
       }
     },
+    "Workspace": {
+      "$className": "Workspace",
+      "RegularDadDistrict": {
+        "$path": "assets/map/district/RegularDadDistrict/model/RegularDadDistrict.rbxm"
+      }
+    },
     "ServerStorage": {
       "$className": "ServerStorage",
       "DadBaseRig": {
@@ -48,6 +54,18 @@
       },
       "MillionaireDadFinal": {
         "$path": "assets/characters/MillionaireDad_Final/model/MillionaireDad_Final.rbxm"
+      },
+      "RegularDadHouseFinal": {
+        "$path": "assets/map/houses/RegularDadHouse_V2_Final/model/RegularDadHouse_V2_Final.rbxm"
+      },
+      "FamilyNpcModels": {
+        "$className": "Folder",
+        "Wife": {
+          "$path": "assets/characters/FamilyRegularDad_Review/model/RegularMom_Review.rbxm"
+        },
+        "Son": {
+          "$path": "assets/characters/FamilyRegularDad_Review/model/RegularSon_Review.rbxm"
+        }
       }
     }
   }
