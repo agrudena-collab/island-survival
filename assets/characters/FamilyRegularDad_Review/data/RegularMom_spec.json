@@ -1,0 +1,221 @@
+{
+ "name": "RegularMom",
+ "scale": 0.93,
+ "height": 5.812,
+ "tris": 2504,
+ "parts": {
+  "LowerTorso": {
+   "tris": 132,
+   "joint": [
+    0.0,
+    0.0,
+    2.3715
+   ]
+  },
+  "UpperTorso": {
+   "tris": 264,
+   "joint": [
+    0.0,
+    0.0,
+    2.883
+   ]
+  },
+  "Head": {
+   "tris": 1096,
+   "joint": [
+    0.0,
+    0.0,
+    3.999
+   ]
+  },
+  "RightUpperArm": {
+   "tris": 44,
+   "joint": [
+    -1.4415,
+    0.0,
+    3.7944
+   ]
+  },
+  "RightLowerArm": {
+   "tris": 132,
+   "joint": [
+    -1.4415,
+    0.0,
+    3.2431
+   ]
+  },
+  "RightHand": {
+   "tris": 176,
+   "joint": [
+    -1.4415,
+    0.0,
+    2.7342
+   ]
+  },
+  "RightUpperLeg": {
+   "tris": 44,
+   "joint": [
+    -0.5766,
+    0.0,
+    2.3715
+   ]
+  },
+  "RightLowerLeg": {
+   "tris": 88,
+   "joint": [
+    -0.5766,
+    0.0,
+    1.302
+   ]
+  },
+  "RightFoot": {
+   "tris": 88,
+   "joint": [
+    -0.5766,
+    0.0,
+    0.279
+   ]
+  },
+  "LeftUpperArm": {
+   "tris": 44,
+   "joint": [
+    1.4415,
+    0.0,
+    3.7944
+   ]
+  },
+  "LeftLowerArm": {
+   "tris": 132,
+   "joint": [
+    1.4415,
+    0.0,
+    3.2431
+   ]
+  },
+  "LeftHand": {
+   "tris": 44,
+   "joint": [
+    1.4415,
+    0.0,
+    2.7342
+   ]
+  },
+  "LeftUpperLeg": {
+   "tris": 44,
+   "joint": [
+    0.5766,
+    0.0,
+    2.3715
+   ]
+  },
+  "LeftLowerLeg": {
+   "tris": 88,
+   "joint": [
+    0.5766,
+    0.0,
+    1.302
+   ]
+  },
+  "LeftFoot": {
+   "tris": 88,
+   "joint": [
+    0.5766,
+    0.0,
+    0.279
+   ]
+  }
+ },
+ "joints": {
+  "Root": [
+   0.0,
+   0.0,
+   2.3715
+  ],
+  "Waist": [
+   0.0,
+   0.0,
+   2.883
+  ],
+  "Neck": [
+   0.0,
+   0.0,
+   3.999
+  ],
+  "RightShoulder": [
+   -1.4415,
+   0.0,
+   3.7944
+  ],
+  "RightElbow": [
+   -1.4415,
+   0.0,
+   3.2431
+  ],
+  "RightWrist": [
+   -1.4415,
+   0.0,
+   2.7342
+  ],
+  "RightHip": [
+   -0.5766,
+   0.0,
+   2.3715
+  ],
+  "RightKnee": [
+   -0.5766,
+   0.0,
+   1.302
+  ],
+  "RightAnkle": [
+   -0.5766,
+   0.0,
+   0.279
+  ],
+  "LeftShoulder": [
+   1.4415,
+   0.0,
+   3.7944
+  ],
+  "LeftElbow": [
+   1.4415,
+   0.0,
+   3.2431
+  ],
+  "LeftWrist": [
+   1.4415,
+   0.0,
+   2.7342
+  ],
+  "LeftHip": [
+   0.5766,
+   0.0,
+   2.3715
+  ],
+  "LeftKnee": [
+   0.5766,
+   0.0,
+   1.302
+  ],
+  "LeftAnkle": [
+   0.5766,
+   0.0,
+   0.279
+  ]
+ },
+ "palette": {
+  "top": "#C23B6A",
+  "top_d": "#A8305A",
+  "apron": "#F1E6C8",
+  "apron_d": "#DCCB9C",
+  "pants": "#4C79AE",
+  "cuff": "#3F6697",
+  "shoe": "#EE8FAE",
+  "sole": "#C9627F",
+  "hair": "#6B3E26",
+  "hair_hi": "#86542F",
+  "wood": "#8A5A3A",
+  "metal": "#C4CCD6",
+  "metal_d": "#9AA4AE"
+ },
+ "skin": "#E8B48C"
+}

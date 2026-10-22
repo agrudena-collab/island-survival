@@ -1,0 +1,66 @@
+# Extra furnishing for the strongly empty rooms (hall, upper hall, dining room). Executed inside build_house_v5.py; uses the HQ models.
+
+
+def hq_extra():
+    # ---------------- hall (ground floor): plants at the kitchen door, round table with flowers, picture
+    for (u, v, s, pot) in ((4.0, 24.0, 1.0, 'terra'),):
+        P_(u, v, F0, 0)
+        potted_plant(FGc, s, pot, True, 12)
+        tf_pop()
+    P_(9.5, 31.0, F0, 0)
+    round_table(FGc, 1.45, 2.7, 'wood2')
+    tf_push(0.0, 0.0, 2.7, 0)
+    vase_flowers(FGc, 'orange', 7, 1.0)
+    tf_pop()
+    tf_pop()
+    P_(4.4, 22.9, F0 + 6.4, 0)
+    picture(FGc, 2.4, 3.0, 'teal', 'trim', 'art')
+    tf_pop()
+    # ---------------- upper hall: reading nook, plant (the two benches in the middle were removed)
+    P_(11.3, 26.6, F1, 90)
+    armchair(FUc, 'blue', 'blue')
+    tf_pop()
+    P_(12.6, 24.6, F1, 0)
+    floor_lamp(FUc)
+    tf_pop()
+    P_(11.8, 40.4, F1, 0)
+    potted_plant(FUc, 1.0, 'terra', True, 12)
+    tf_pop()
+    # ---------------- dining room: consoles under the pictures, reading corner, corner plants
+    for (u, base, kind) in ((17.6, 'red', 'lamp'), (30.8, 'blue', 'vase')):
+        P_(u, 20.6, F0, 180)
+        console_table(FGc, 4.0, 1.3, 3.0)
+        tf_push(0.0, 0.0, 3.0, 0)
+        if kind == 'lamp':
+            table_lamp(FGc, base=base)
+        else:
+            vase_flowers(FGc, base, 6, 1.0)
+        tf_pop()
+        tf_pop()
+    P_(31.9, 15.2, F0, 90)
+    armchair(FGc, 'teal', 'teal')
+    tf_pop()
+    P_(32.0, 18.7, F0, 0)
+    side_table(FGc)
+    tf_push(0.0, 0.0, 2.4, 0)
+    table_lamp(FGc, base='yellow')
+    tf_pop()
+    tf_pop()
+    for (u, v, s) in ((20.4, 20.2, 1.0), (32.6, 11.2, 0.9)):
+        P_(u, v, F0, 0)
+        potted_plant(FGc, s, 'terra', True, 12)
+        tf_pop()
+    # ---------------- bathroom: vanity cabinet with towels and a flower, laundry basket
+    P_(9.3, 8.7, F1, 180)
+    cabinet(FUc, 3.2, 1.6, 3.2, 2, 'cab', 'teal')
+    tf_push(-0.6, 0.0, 3.2, 0)
+    rbox(FUc, MT('red'), 0, 0, 0.0, 1.2, 0.25, 0.9, 0.08, 2)
+    rbox(FUc, MT('white'), 0, 0, 0.25, 1.1, 0.25, 0.85, 0.08, 2)
+    tf_pop()
+    tf_push(0.9, 0.0, 3.2, 0)
+    vase_flowers(FUc, 'pink', 5, 0.8)
+    tf_pop()
+    tf_pop()
+    P_(6.6, 8.5, F1, 0)
+    basket(FUc, 'wood2', True)
+    tf_pop()
