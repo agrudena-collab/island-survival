@@ -37,7 +37,7 @@ def fence_all():
     M.fence_line(S_, BACK_GATE[1], LOT_D, LOT_W, LOT_D)
 
 
-CAR_SC = 0.78          # scale of the father's car
+CAR_SC = 1.0           # scale of the father's car
 TREE_LOG = []          # (x, z, crown radius) of the lot trees, checked by the audit
 
 

@@ -7,18 +7,18 @@
   "neon_chunks": 22
  },
  "OfficeDadBiome_V2.fbx": {
-  "meshes": 270,
-  "triangles": 625562,
-  "max_triangles_per_mesh": 8980,
-  "glass_chunks": 50,
-  "neon_chunks": 40
+  "meshes": 267,
+  "triangles": 625770,
+  "max_triangles_per_mesh": 8988,
+  "glass_chunks": 53,
+  "neon_chunks": 37
  },
  "layer_cleanup": {
   "coplanar_overlaps_before": 7477,
   "coplanar_overlaps_after": 0,
   "faces_removed": 2814,
   "faces_cut": 1547,
-  "faces_glued": 1169
+  "faces_glued": 1065
  },
  "collision_house": 275,
  "collision_biome": 28,

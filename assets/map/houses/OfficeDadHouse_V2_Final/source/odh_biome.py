@@ -28,6 +28,7 @@ BZ0, BZ1 = -140.0, 112.0
 
 WALLS = ('stucco', 'stucco_dk', 'wall_hall', 'wall_uph', 'wall_liv', 'siding')
 ROOFS = ('roof', 'roof_dk')
+CAR_SC = 1.0          # parked cars: same size as the father's car (roomy for Roblox characters)
 CARS = ('car', 'red', 'blue', 'white', 'orange', 'teal', 'metal')
 
 
@@ -271,9 +272,9 @@ def office_nb(x0, row, seed, w=None, d=None, floors=None, lot_w=104.0, lot_d=100
     if rnd.random() < 0.7:
         cz = zm(18.0)
         K.tf_push(dw0 + 8.0, cz, 0, 180 if row == 'A' else 0)
-        CAR.dad_car(ORG, rnd.choice(CARS), sc=0.7, trim=False)
+        CAR.dad_car(ORG, rnd.choice(CARS), sc=CAR_SC, trim=False)
         K.tf_pop()
-        K.COLL.append(('box', dw0 + 8.0, cz, 4.4, 10.0, 3.6))
+        K.COLL.append(('box', dw0 + 8.0, cz, 6.6 * CAR_SC, 15.4 * CAR_SC, 4.9 * CAR_SC))
     for ux in (6.0, w - 6.0):
         place(M.flower_patch, X_(ux), Z_(-3.4), 0, 7.0, 2.4, seed + int(ux), c=ORG)
     for ux in (-2.0, w + 2.0):
@@ -432,9 +433,9 @@ def supermarket(x0=0.0):
     rnd = random.Random(33)
     for k in range(7):
         K.tf_push(x0 + 8.6 + k * 10.4, zf + 15.0, 0, 0)
-        CAR.dad_car(ORG, rnd.choice(CARS), sc=0.7, trim=False)
+        CAR.dad_car(ORG, rnd.choice(CARS), sc=CAR_SC, trim=False)
         K.tf_pop()
-        K.COLL.append(('box', x0 + 8.6 + k * 10.4, zf + 15.0, 4.4, 10.0, 3.6))
+        K.COLL.append(('box', x0 + 8.6 + k * 10.4, zf + 15.0, 6.6 * CAR_SC, 15.4 * CAR_SC, 4.9 * CAR_SC))
     AVOID.append((x0, x0 + 104.0, zf - sd_ - 2.0, ROW_B_Z1))
     # delivery dock at the back
     b('concrete', X_(sw_ - 24.0), X_(sw_ - 6.0), 0.0, 3.0, Z_(sd_), Z_(sd_ + 8.0), solid=True)

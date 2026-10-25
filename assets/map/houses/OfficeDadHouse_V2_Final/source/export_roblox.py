@@ -15,7 +15,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, 'out')
 SC = float(os.environ.get('ODH_SCALE', '1.5'))      # uniform world scale: the whole lot, biome and car are made SC times bigger for Roblox characters
-KC = float(os.environ.get('ODH_CAR_EXTRA', '1.1'))  # extra scale of the car (roomy cabin), on top of SC
+KC = float(os.environ.get('ODH_CAR_EXTRA', '1.0'))  # extra scale of the car (roomy cabin), on top of SC
 MAXT = int(os.environ.get('ODH_MAXT', '9000'))
 CELL = float(os.environ.get('ODH_CELL', '30'))
 CELL_HOUSE = float(os.environ.get('ODH_CELL_HOUSE', '18'))
@@ -274,7 +274,7 @@ def _anch(k, v):
     return [x * SC, h * SC, z * SC] + list(v[3:])
 
 
-K.ANCH['work_pass'] = (12.5, 2.45, 30.3, 0.0, 1.0)     # on the dashboard of the car on the driveway (the car-local anchor of the separate car build is not in plot coordinates)
+K.ANCH['work_pass'] = (12.5, 2.45 / 0.78 * _ST.CAR_SC, 34.0 - 3.7 / 0.78 * _ST.CAR_SC, 0.0, 1.0)     # on the dashboard of the car on the driveway (the car-local anchor of the separate car build is not in plot coordinates)
 anch = {k: _anch(k, v) for k, v in K.ANCH.items()}
 cover = [dict(name=n, x=x * SC, y=y * SC, z=z * SC, w=w * SC, d=d * SC, h=h * SC, yaw=yw) for (n, x, y, z, w, d, h, yw) in K.COVER]
 routes = [dict(role=r, i=i, x=x * SC, y=y * SC, z=z * SC, pause=p, activity=a) for (r, i, x, y, z, p, a) in K.ROUTES]

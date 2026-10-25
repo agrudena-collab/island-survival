@@ -98,12 +98,21 @@ local function colour(r, g, b)
 	return Color3.fromRGB(r, g, b)
 end
 
--- 1. furniture / architecture meshes are visual only; collision comes from RDH_Collision
+-- 1. meshes collide with their exact shape (no invisible hulls), full render detail at any distance (no grass/detail popping);
+--    RDH_Collision below adds clean boxes for floors, walls and stairs on top of it
+local function precise(p)
+	p.Anchored, p.CanTouch, p.CanCollide = true, false, true
+	if p:IsA("MeshPart") then
+		p.CollisionFidelity = Enum.CollisionFidelity.PreciseConvexDecomposition
+		p.RenderFidelity = Enum.RenderFidelity.Precise
+		p.DoubleSided = false
+	end
+end
 local house = root:FindFirstChild("RDH_House")
 if house then
 	for _, p in ipairs(house:GetDescendants()) do
 		if p:IsA("BasePart") then
-			p.CanCollide, p.CanTouch, p.Anchored = false, false, true
+			precise(p)
 			if string.sub(p.Name, 1, 2) == "G_" then
 				p.Transparency = 0.7
 			elseif string.sub(p.Name, 1, 2) == "N_" then
@@ -382,9 +391,17 @@ for i, y in ipairs(DATA.yard) do
 		end
 	end
 end
+-- meshes collide with their exact shape (no invisible hulls) and keep full detail at any distance (no grass popping)
 for _, p in ipairs(root:GetDescendants()) do
 	if p:IsA("MeshPart") then
-		p.CanCollide, p.CanTouch, p.Anchored = false, false, true
+		p.Anchored, p.CanTouch, p.CanCollide = true, false, true
+		p.CollisionFidelity = Enum.CollisionFidelity.PreciseConvexDecomposition
+		p.RenderFidelity = Enum.RenderFidelity.Precise
+		if string.sub(p.Name, 1, 2) == "G_" then
+			p.Transparency = 0.7
+		elseif string.sub(p.Name, 1, 2) == "N_" then
+			p.Material = Enum.Material.Neon
+		end
 	end
 end
 print("OfficeDadBiome_V2 collision built")
