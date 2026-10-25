@@ -1,0 +1,202 @@
+{
+ "name": "OfficeDadHouse_V2_Final",
+ "house": 2,
+ "of": 8,
+ "status": "blender_stage_done_studio_not_done",
+ "generator": "Blender bpy 5.2.3",
+ "audit_issues": 0,
+ "meshes": {
+  "house": 145,
+  "biome_with_car": 270
+ },
+ "max_triangles_per_mesh": 9000,
+ "rbxm": null,
+ "committed": false,
+ "files": [
+  {
+   "path": "OfficeDadHouse_V2_review.pdf",
+   "bytes": 3145167,
+   "sha256": "9f4ccae1cdd7f075"
+  },
+  {
+   "path": "README_RU.md",
+   "bytes": 12012,
+   "sha256": "18ac680053b880de"
+  },
+  {
+   "path": "data/audit_report.txt",
+   "bytes": 5766,
+   "sha256": "3877017ec9da1da8"
+  },
+  {
+   "path": "data/collision_boxes.json",
+   "bytes": 12372,
+   "sha256": "51563f21147319e6"
+  },
+  {
+   "path": "data/export_stats.json",
+   "bytes": 785,
+   "sha256": "102a92a12534a656"
+  },
+  {
+   "path": "data/interactive.json",
+   "bytes": 16271,
+   "sha256": "985d136d905307b9"
+  },
+  {
+   "path": "data/yard_colliders.json",
+   "bytes": 6991,
+   "sha256": "14ed34258bfd6786"
+  },
+  {
+   "path": "export/OfficeDadBiome_V2.fbx",
+   "bytes": 10751916,
+   "sha256": "4f44e70d17865908"
+  },
+  {
+   "path": "export/OfficeDadHouse_V2_Final.fbx",
+   "bytes": 5006412,
+   "sha256": "08470c8fd60c9800"
+  },
+  {
+   "path": "previews/01_street_front.jpg",
+   "bytes": 151749,
+   "sha256": "e30bb8e4ffbff3f3"
+  },
+  {
+   "path": "previews/02_back_yard_ladder.jpg",
+   "bytes": 168086,
+   "sha256": "5e236115ce17c914"
+  },
+  {
+   "path": "previews/03_driveway_car_pass.jpg",
+   "bytes": 116471,
+   "sha256": "86f7f2ca8f9e261e"
+  },
+  {
+   "path": "previews/04_biome_overview.jpg",
+   "bytes": 174356,
+   "sha256": "1d1220f89238388d"
+  },
+  {
+   "path": "previews/05_supermarket_bank.jpg",
+   "bytes": 145545,
+   "sha256": "4983b4be19e67d74"
+  },
+  {
+   "path": "previews/10_foyer.jpg",
+   "bytes": 79707,
+   "sha256": "1cfadeeedce83188"
+  },
+  {
+   "path": "previews/12_living.jpg",
+   "bytes": 82618,
+   "sha256": "3481ee230ea2cdbf"
+  },
+  {
+   "path": "previews/13_kitchen.jpg",
+   "bytes": 95664,
+   "sha256": "b9fc70f638b9384a"
+  },
+  {
+   "path": "previews/20_master.jpg",
+   "bytes": 82127,
+   "sha256": "78e89816434af7ad"
+  },
+  {
+   "path": "previews/24_lounge_niche.jpg",
+   "bytes": 116285,
+   "sha256": "4b35b283c13ff5fa"
+  },
+  {
+   "path": "previews/26_office_father.jpg",
+   "bytes": 91300,
+   "sha256": "171e45a1d62491b0"
+  },
+  {
+   "path": "previews/30_plan_ground.jpg",
+   "bytes": 162170,
+   "sha256": "8a6312cf44ada357"
+  },
+  {
+   "path": "previews/31_plan_upper.jpg",
+   "bytes": 146182,
+   "sha256": "ea5a4df7c68a7706"
+  },
+  {
+   "path": "scripts/apply_office_dad_biome.luau",
+   "bytes": 6692,
+   "sha256": "de9b458ed9e15794"
+  },
+  {
+   "path": "scripts/apply_office_dad_house.luau",
+   "bytes": 32583,
+   "sha256": "e6827c6954c0caf7"
+  },
+  {
+   "path": "source/audit_all.py",
+   "bytes": 28695,
+   "sha256": "3b95c8b63d53f767"
+  },
+  {
+   "path": "source/build_odh.py",
+   "bytes": 376,
+   "sha256": "1a930c2bb72f6ee2"
+  },
+  {
+   "path": "source/build_pdf.py",
+   "bytes": 7019,
+   "sha256": "277bccc86c09a537"
+  },
+  {
+   "path": "source/export_roblox.py",
+   "bytes": 11523,
+   "sha256": "7c6a4970d3fa4a75"
+  },
+  {
+   "path": "source/gen_studio_luau.py",
+   "bytes": 16354,
+   "sha256": "d7cd4efb67a73948"
+  },
+  {
+   "path": "source/odh_biome.py",
+   "bytes": 23923,
+   "sha256": "3d2014e174a87d55"
+  },
+  {
+   "path": "source/odh_core.py",
+   "bytes": 23063,
+   "sha256": "4967abbd5498bb13"
+  },
+  {
+   "path": "source/odh_house.py",
+   "bytes": 22703,
+   "sha256": "1ffd6517bab34977"
+  },
+  {
+   "path": "source/odh_models.py",
+   "bytes": 64345,
+   "sha256": "dba4085853dd67d6"
+  },
+  {
+   "path": "source/odh_rooms.py",
+   "bytes": 21151,
+   "sha256": "da373d8f6d5e0cdf"
+  },
+  {
+   "path": "source/odh_scene.py",
+   "bytes": 4893,
+   "sha256": "bda68dbac6873f39"
+  },
+  {
+   "path": "source/odh_site.py",
+   "bytes": 7096,
+   "sha256": "b842bb38e2483593"
+  },
+  {
+   "path": "source/render_review.py",
+   "bytes": 2529,
+   "sha256": "d4f7944e12cd9aae"
+  }
+ ]
+}

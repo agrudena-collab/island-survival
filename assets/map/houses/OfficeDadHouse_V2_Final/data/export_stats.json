@@ -1,0 +1,32 @@
+{
+ "OfficeDadHouse_V2_Final.fbx": {
+  "meshes": 146,
+  "triangles": 296616,
+  "max_triangles_per_mesh": 8998,
+  "glass_chunks": 24,
+  "neon_chunks": 22
+ },
+ "OfficeDadBiome_V2.fbx": {
+  "meshes": 270,
+  "triangles": 625562,
+  "max_triangles_per_mesh": 8980,
+  "glass_chunks": 50,
+  "neon_chunks": 40
+ },
+ "layer_cleanup": {
+  "coplanar_overlaps_before": 7477,
+  "coplanar_overlaps_after": 0,
+  "faces_removed": 2814,
+  "faces_cut": 1547,
+  "faces_glued": 1169
+ },
+ "collision_house": 275,
+ "collision_biome": 28,
+ "doors": 23,
+ "anchors": 25,
+ "cover": 15,
+ "routes": 10,
+ "yard_colliders": 31,
+ "yard_colliders_biome": 109,
+ "room_lights": 16
+}

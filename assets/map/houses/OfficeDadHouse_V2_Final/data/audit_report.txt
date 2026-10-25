@@ -1,0 +1,89 @@
+=== A. architecture boxes (box_audit)
+BOXES 479  INTERPENETRATING 57 (solid-vs-solid only counted as issue when volume > 4 and neither is a frame/trim)
+COPLANAR_DIFFERENT_MATERIAL 49 (box level; resolved in the FBX export: the covered part is cut out of the larger face, see section H)
+
+=== B. furniture intersections (audit_v5)
+furniture vs furniture: 0 intersecting pairs of 235 groups
+furniture vs architecture: 0 hits
+
+=== C. placement (audit_place)
+FLOAT: 0
+SUNK: 0
+curtains misaligned: 0
+
+=== D. coverage per room (furniture footprint / room area)
+COV foyer    area=  196.0 footprint=  23.0 coverage=11.7%
+COV hall     area=  420.0 footprint=  35.1 coverage= 8.4%
+COV wc       area=   56.0 footprint=  10.1 coverage=18.1%
+COV living   area=  960.0 footprint= 142.2 coverage=14.8%
+COV kitchen  area=  400.0 footprint=  83.0 coverage=20.7%
+COV dining   area=  400.0 footprint= 100.0 coverage=25.0%
+COV library  area=  460.0 footprint=  70.0 coverage=15.2%
+COV utility  area=  782.0 footprint=  73.0 coverage= 9.3%
+COV garage   area=  414.0 footprint=  41.7 coverage=10.1%
+COV uphall   area=  938.0 footprint=  29.6 coverage= 3.2%
+COV master   area=  880.0 footprint= 157.2 coverage=17.9%
+COV kid      area=  280.0 footprint=  70.3 coverage=25.1%
+COV bath     area=  280.0 footprint=  41.0 coverage=14.6%
+COV lounge   area=  352.0 footprint=  95.6 coverage=27.2%
+COV guest    area=  288.0 footprint= 119.5 coverage=41.5%
+COV office   area=  600.0 footprint=  86.1 coverage=14.3%
+
+=== E. walkability (grid 0.5, architecture collision only; furniture has no collision in game)
+start = front door anchor; free cells (agent r=1.6): 106241, (passage 5.0): 81489
+  room:dining                  free cells   2280 reachable   2280 reachable via 5-stud passages   1244
+  room:foyer                   free cells   1895 reachable   1895 reachable via 5-stud passages   1496
+  room:garage                  free cells   3879 reachable   3879 reachable via 5-stud passages   3124
+  room:hall                    free cells   3754 reachable   3754 reachable via 5-stud passages   2798
+  room:kitchen                 free cells   3290 reachable   3290 reachable via 5-stud passages   2168
+  room:library                 free cells   4657 reachable   4657 reachable via 5-stud passages   3853
+  room:living                  free cells  10979 reachable  10979 reachable via 5-stud passages   9683
+  room:utility                 free cells   7498 reachable   7498 reachable via 5-stud passages   5724
+  room:wc                      free cells    218 reachable    218 reachable via 5-stud passages     86
+  back_door                    (64.0, 86.5) agent=True passage5=True
+  garage_door                  (19.7, 71.5) agent=True passage5=False
+    note: garage_door passage narrower than 5 (outdoor / threshold)
+  garage_service               (31.0, 86.2) agent=True passage5=True
+  hide_cupboard_enter          (48.5, 78.9) agent=True passage5=True
+  ladder_foot                  (75.0, 90.9) agent=True passage5=True
+  route Dog_01                 (18.0, 90.0) agent=True passage5=True
+  route Dog_02                 (40.0, 92.0) agent=True passage5=True
+  route Dog_03                 (64.0, 90.0) agent=True passage5=True
+  route Son_03                 (72.0, 24.0) agent=True passage5=True
+  route Wife_01                (64.0, 44.5) agent=True passage5=True
+  route Wife_02                (86.5, 44.0) agent=True passage5=True
+  route Wife_03                (70.0, 30.0) agent=True passage5=True
+  stair_foot                   (43.5, 48.0) agent=True passage5=True
+  work_pass_door               (16.8, 35.0) agent=True passage5=True
+upper floor, start = stair top: free cells (agent) 136694, (passage 5) 26788
+  hide_wardrobe_enter          (85.9, 34.0) agent=True passage5=True
+  niche_front                  (64.0, 54.8) agent=True passage5=False
+  room:bath                    free cells   2420 reachable   2420 reachable via 5-stud passages   1844
+  room:guest                   free cells   2540 reachable   2540 reachable via 5-stud passages   1964
+  room:kid                     free cells   2458 reachable   2458 reachable via 5-stud passages   1876
+  room:lounge                  free cells   2799 reachable   2799 reachable via 5-stud passages   1978
+  room:master                  free cells   9933 reachable   9933 reachable via 5-stud passages   8673
+  room:office                  free cells   5589 reachable   5589 reachable via 5-stud passages   4423
+  room:uphall                  free cells   8111 reachable   8111 reachable via 5-stud passages   5826
+  route Son_01                 (64.0, 46.0) agent=True passage5=True
+  route Son_02                 (50.5, 30.0) agent=True passage5=True
+  route Son_04                 (50.5, 30.0) agent=True passage5=True
+doors: 23, min width 5.60
+stairs: width 6.25, riser 0.917, tread 1.20, steps 15
+
+=== G. door sweeps (quarter disc of radius = opening width on the swing side; no furniture inside)
+door sweep hits: 0 (of 23 doors)
+
+=== F. contract
+LowCover: armchair x5, bed x2, bunk_bed x1, folding_table x1, kitchen_island x1, sofa x4, toy_chest x1
+HideSpot cupboard interior 5.75 x 6.25
+HideSpot wardrobe interior 5.35 x 6.60
+niche bookcases: 1 (collision-only box)
+  niche pocket depth 4.55 studs between the north wall and the bookcase, bookcase height 9.0
+route points: Wife_01, Wife_02, Wife_03, Son_01, Son_02, Son_03, Son_04, Dog_01, Dog_02, Dog_03
+H territory: coplanar overlapping face pairs (layers) in the raw model 7858, after the export cleanup 0
+H stray geometry outside the house lot in house collections: 0 groups
+H seam patterns (planks, tiles, roof strips, lawn / driveway stripes): none, surfaces are single-colour
+H lot trees checked against house, garage, driveway, path, shed: 6 trees
+
+ISSUES 0
