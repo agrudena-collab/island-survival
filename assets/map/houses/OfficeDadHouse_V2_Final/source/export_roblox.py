@@ -14,7 +14,7 @@ import math
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, 'out')
-SC = float(os.environ.get('ODH_SCALE', '1.5'))      # uniform world scale: the whole lot, biome and car are made SC times bigger for Roblox characters
+SC = float(os.environ.get('ODH_SCALE', '1.275'))      # uniform world scale: the whole lot, biome and car are made SC times bigger for Roblox characters
 KC = float(os.environ.get('ODH_CAR_EXTRA', '1.0'))  # extra scale of the car (roomy cabin), on top of SC
 MAXT = int(os.environ.get('ODH_MAXT', '9000'))
 CELL = float(os.environ.get('ODH_CELL', '30'))

@@ -6,7 +6,7 @@ import json
 import os
 import sys
 
-SCS = os.environ.get('ODH_SCALE', '1.5')
+SCS = os.environ.get('ODH_SCALE', '1.275')
 PKG = sys.argv[1]
 D = os.path.join(PKG, 'data')
 S = os.path.join(PKG, 'scripts')
