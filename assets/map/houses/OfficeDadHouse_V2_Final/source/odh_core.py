@@ -91,6 +91,10 @@ def coll_for(c, h0):
     return c
 
 
+BIOME_SOLID_COL = ('plinth', 'stone', 'stone_dk', 'concrete', 'trim', 'brick', 'wood', 'wood2', 'metal', 'metal_dk',
+                   'stucco', 'stucco_dk', 'wall_hall', 'wall_uph', 'wall_liv', 'siding')
+
+
 def B(c, color, x0, x1, h0, h1, z0, z1, solid=None):
     """axis aligned box in plot coordinates"""
     if x1 < x0:
@@ -103,6 +107,8 @@ def B(c, color, x0, x1, h0, h1, z0, z1, solid=None):
     c = coll_for(c, h0)
     if solid is None:
         solid = c in ('Ground', 'Upper', 'Roof', 'Site') and color not in ('trim', 'skirt', 'brass', 'lamp', 'parapet_trim')
+        if not solid and c == 'Biome' and h0 < 8.0 and h1 - h0 >= 0.3 and color in BIOME_SOLID_COL:
+            solid = True    # plinths, porch platforms, steps, columns, window sills of the neighbour buildings: the player must not sink into them
     if solid:
         BOXLOG.append((c, color, x0, x1, h0, h1, z0, z1))
     y0, y1 = -z1, -z0

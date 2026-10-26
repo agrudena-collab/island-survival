@@ -42,7 +42,7 @@ def _seat():
 CARS = ('car', 'red', 'blue', 'white', 'orange', 'teal', 'metal')
 
 
-def b(color, x0, x1, h0, h1, z0, z1, solid=False):
+def b(color, x0, x1, h0, h1, z0, z1, solid=None):
     B(BC, color, x0, x1, h0, h1, z0, z1, solid=solid)
 
 
