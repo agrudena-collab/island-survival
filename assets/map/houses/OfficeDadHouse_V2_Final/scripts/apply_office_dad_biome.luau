@@ -40,11 +40,12 @@ for i, y in ipairs(DATA.yard) do
 		end
 	end
 end
--- meshes collide with their exact shape (no invisible hulls) and keep full detail at any distance (no grass popping)
+-- biome meshes are visual only: their convex hulls bridged gaps and made invisible ramps; collision comes from the Collision boxes above
+-- (full detail at any distance: no grass popping)
 for _, p in ipairs(root:GetDescendants()) do
 	if p:IsA("MeshPart") then
-		p.Anchored, p.CanTouch, p.CanCollide = true, false, true
-		p.CollisionFidelity = Enum.CollisionFidelity.PreciseConvexDecomposition
+		p.Anchored, p.CanTouch, p.CanCollide = true, false, false
+		p.CollisionFidelity = Enum.CollisionFidelity.Box
 		p.RenderFidelity = Enum.RenderFidelity.Precise
 		if string.sub(p.Name, 1, 2) == "G_" then
 			p.Transparency = 0.7
