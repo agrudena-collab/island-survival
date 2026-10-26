@@ -296,6 +296,51 @@ def _scaled(t):
 
 yard = [_scaled(t) for t in K.COLL if in_lot(t)]
 yard_biome = [_scaled(t) for t in K.COLL if not in_lot(t)]
+if os.environ.get('ODH_AUDIT'):
+    # collision coverage: exterior geometry above 0.5 studs that lies outside every collision volume (boxes, cylinders, fences)
+    import collections
+    bx = [b for k in col for b in col[k]]
+    cy = [t for t in yard + yard_biome if t[0] == 'cyl']
+    bb = [t for t in yard + yard_biome if t[0] == 'box']
+    fe = [t for t in yard + yard_biome if t[0] == 'fence']
+
+    def covered(x, h, z, m=0.6):
+        for b in bx:
+            if b[0] - m <= x <= b[1] + m and b[2] - m <= h <= b[3] + m and b[4] - m <= z <= b[5] + m:
+                return True
+        for t in cy:
+            if (x - t[1]) ** 2 + (z - t[2]) ** 2 <= (t[3] + m) ** 2 and h <= t[4] + m:
+                return True
+        for t in bb:
+            if abs(x - t[1]) <= t[3] / 2 + m and abs(z - t[2]) <= t[4] / 2 + m and h <= t[5] + m:
+                return True
+        for t in fe:
+            ax, az, bx_, bz = t[1], t[2], t[3], t[4]
+            dx, dz = bx_ - ax, bz - az
+            L2 = dx * dx + dz * dz
+            u = 0.0 if L2 < 1e-9 else max(0.0, min(1.0, ((x - ax) * dx + (z - az) * dz) / L2))
+            if (x - ax - u * dx) ** 2 + (z - az - u * dz) ** 2 <= (0.9 * SC + m) ** 2:
+                return True
+        return False
+    unc = collections.defaultdict(lambda: [0, collections.Counter(), 1e9, -1e9, 1e9, -1e9, 0.0])
+    tot = 0
+    for (c, m), (vs, fs) in acc.items():
+        if c not in ('Biome', 'BiomeOrg', 'Site'):
+            continue
+        for (vx, vy, vh) in vs:
+            x, z, h = vx * SC, -vy * SC, vh * SC
+            if h < 0.5 * SC or h > 7.0 * SC or m in ('lawn', 'leaf', 'leaf2', 'leaf3', 'grass', 'cherry', 'cherry2', 'autumn', 'autumn2', 'orange', 'pink') or 'flower' in m:
+                continue
+            tot += 1
+            if not covered(x, h, z):
+                k = (int(x // 8), int(z // 8))
+                u = unc[k]
+                u[0] += 1
+                u[1][m] += 1
+                u[2], u[3], u[4], u[5], u[6] = min(u[2], x), max(u[3], x), min(u[4], z), max(u[5], z), max(u[6], h)
+    print('COVERAGE vertices checked %d, uncovered %d in %d cells' % (tot, sum(u[0] for u in unc.values()), len(unc)))
+    for k, u in sorted(unc.items(), key=lambda kv: -kv[1][0])[:40]:
+        print('  UNCOVERED n=%d x %.0f..%.0f z %.0f..%.0f h<=%.1f %s' % (u[0], u[2], u[3], u[4], u[5], u[6], dict(u[1].most_common(3))))
 lights = [[t[0], t[1] * SC, t[2] * SC, t[3] * SC] + list(t[4:]) for t in S.ROOM_LIGHTS]
 wins = [list(w) if isinstance(w, tuple) else w for w in K.WINLOG]
 json.dump({'doors': doors, 'anchors': anch, 'cover': cover, 'routes': routes, 'lights': lights}, open(os.path.join(OUT, 'data', 'interactive.json'), 'w'), indent=1)

@@ -26,7 +26,7 @@
  "anchors": 25,
  "cover": 15,
  "routes": 10,
- "yard_colliders": 31,
- "yard_colliders_biome": 109,
+ "yard_colliders": 51,
+ "yard_colliders_biome": 201,
  "room_lights": 16
 }

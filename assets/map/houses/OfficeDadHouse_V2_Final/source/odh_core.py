@@ -8,6 +8,7 @@ import bpy
 import bmesh
 import math
 import random
+import sys
 from mathutils import Vector
 
 # ------------------------------------------------------------------ house frame
@@ -132,8 +133,25 @@ def prism(c, color, pts, x0, x1, solid=False):
 
 
 # ------------------------------------------------------------------ local frame transform for modelled objects
+# yard / street objects that get an auto-fitted collision box from their real geometry: name -> max height counted (None = whole object)
+OBJ_COLL = {'bush': None, 'hedge': None, 'bench': 3.5, 'mailbox': None, 'hydrant': None, 'trash_can': None, 'bbq': 5.5, 'raised_bed': None,
+            'birdbath': 4.5, 'picnic_table': 3.4, 'doghouse': None, 'planter': None, 'bollard': None, 'lamp_post': 6.0, 'stop_sign': 5.0, 'street_sign': 5.0}
+_REC = []           # one entry per open tf_push: None, or [name, [(x, z, h)]] for the outermost frame of a collidable object
+
+
+def _obj_name():
+    f = sys._getframe(2)
+    n = f.f_code.co_name
+    if n in ('place', 'pl'):
+        fn = f.f_locals.get('fn')
+        n = getattr(fn, '__name__', n)
+    return n
+
+
 def tf_push(x, z, y0=0.0, rot=0.0):
     """push a local frame (lx right, h up, lz forward); composes with the current one. rot in degrees about vertical"""
+    nm = _obj_name() if not _TF else None
+    _REC.append([nm, []] if nm in OBJ_COLL else None)
     a = math.radians(rot)
     if _TF:
         px, pz, py, pc, ps = _TF[-1]
@@ -147,6 +165,16 @@ def tf_push(x, z, y0=0.0, rot=0.0):
 
 def tf_pop():
     _TF.pop()
+    rec = _REC.pop() if _REC else None
+    if rec and rec[1]:
+        cap = OBJ_COLL[rec[0]]
+        pts = [p for p in rec[1] if cap is None or p[2] <= cap] or []
+        if pts:
+            x0, x1 = min(p[0] for p in pts), max(p[0] for p in pts)
+            z0, z1 = min(p[1] for p in pts), max(p[1] for p in pts)
+            h = max(p[2] for p in pts)
+            if h >= 0.8:
+                COLL.append(('box', (x0 + x1) / 2, (z0 + z1) / 2, max(x1 - x0, 0.9), max(z1 - z0, 0.9), h))
 
 
 def tf_top():
@@ -163,9 +191,12 @@ def _t(lx, h, lz):
 def emit(c, color, verts, faces, two_sided=False):
     vs, fs = acc.setdefault((c, color), ([], []))
     base = len(vs)
+    rec = _REC[0] if _REC else None
     for (lx, h, lz) in verts:
         px, ph, pz = _t(lx, h, lz)
         vs.append((px, -pz, ph))
+        if rec:
+            rec[1].append((px, pz, ph))
     for f in faces:
         fs.append(tuple(base + i for i in f))
         if two_sided:
