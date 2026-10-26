@@ -85,7 +85,7 @@ def lot():
     # back yard: patio furniture, shed, dog house, raised bed, clothesline
     place(M.picnic_table, 68.0, 90.0, 0, True) if False else None
     place(M.bbq, 58.5, 91.5, 180)
-    place(M.picnic_table, 74.0, 90.8, 90, False)
+    place(M.picnic_table, 68.5, 91.0, 90, False)   # clear of the balcony ladder spot at x 75
     place(M.garden_shed, 90.0, 92.0, 180)
     K.ANCH.pop('shed_door', None)
     K.ANCH.pop('shed_key', None)

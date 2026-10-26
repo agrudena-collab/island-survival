@@ -274,7 +274,7 @@ def _anch(k, v):
     return [x * SC, h * SC, z * SC] + list(v[3:])
 
 
-K.ANCH['work_pass'] = (12.5, 2.45 / 0.78 * _ST.CAR_SC, 34.0 - 3.7 / 0.78 * _ST.CAR_SC, 0.0, 1.0)     # on the dashboard of the car on the driveway (the car-local anchor of the separate car build is not in plot coordinates)
+K.ANCH['work_pass'] = (12.5 + 0.7 * _ST.CAR_SC, 3.35 * _ST.CAR_SC, 34.0 - 2.6 * _ST.CAR_SC, 0.0, 1.0)     # flat on the dashboard of the car on the driveway (car turned 180 deg: local -x -> plot +x, local +z -> plot -z)
 anch = {k: _anch(k, v) for k, v in K.ANCH.items()}
 cover = [dict(name=n, x=x * SC, y=y * SC, z=z * SC, w=w * SC, d=d * SC, h=h * SC, yaw=yw) for (n, x, y, z, w, d, h, yw) in K.COVER]
 routes = [dict(role=r, i=i, x=x * SC, y=y * SC, z=z * SC, pause=p, activity=a) for (r, i, x, y, z, p, a) in K.ROUTES]

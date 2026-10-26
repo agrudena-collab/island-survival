@@ -103,64 +103,68 @@ def wheel(c, sx, z):
     tf_pop()
 
 
-def interior(c):
-    """full interior trim, all on top of the belt line (the body below is solid): carpet, headliner, door cards, pillar trim, dashboard
-    with cluster / screen / vents / glove box, steering wheel, pedals, console with shifter, front seats and rear bench with belts, parcel shelf"""
-    D_, CR, BK = MT('dark'), MT('cream'), MT('black')
-    rbox(MT('burg'), 0, -0.6, 3.3, 4.5, 0.05, 8.4, 0.02, 1, c=c)                      # floor carpet
-    loft(c, 'cream', [(-3.5, 2.0, 4.2, 4.4), (-2.6, 2.1, 4.2, 4.42), (1.0, 2.1, 4.2, 4.42), (1.6, 2.0, 4.2, 4.38)], n=4.0)   # headliner
-    rbox(BK, 0, 1.55, 4.18, 1.2, 0.12, 0.35, 0.04, 1, c=c)                            # sun-visor strip / light
+def interior(c, seat='cream', carpet='burg'):
+    """full cabin INSIDE the closed body shell (floor just above the underside, seats a character can sit in): carpet, headliner,
+    door cards up to the belt line, pillar trim, dashboard with cluster / screen / vents / glove box, upright steering wheel, pedals,
+    console with shifter, front seats and rear bench with headrests and belts, parcel shelf.  The shell is single sided, so every
+    inner surface seen through the glass is covered by a lining part (door cards, headliner, carpet, dash, parcel shelf)."""
+    D_, CR, BK = MT('dark'), MT(seat), MT('black')
+    FL = 1.15                                                                              # cabin floor (underside of the body is ~0.9)
+    rbox(MT(carpet), 0, -0.9, FL, 5.0, 0.1, 7.2, 0.03, 1, c=c)                            # floor carpet
+    loft(c, 'cream' if seat != 'black' else 'dark', [(-3.2, 1.9, 4.3, 4.5), (-2.6, 1.95, 4.38, 4.6), (1.0, 1.95, 4.38, 4.6), (1.5, 1.9, 4.3, 4.5)], n=4.0)   # headliner
+    rbox(BK, 0, 1.55, 4.18, 1.2, 0.12, 0.35, 0.04, 1, c=c)                                # sun-visor strip / light
     for sx in (-1, 1):
-        # door cards: front and rear, armrest, handle, speaker, window switch
-        for (z0, z1) in ((2.1, -0.1), (-0.6, -3.9)):
+        # door cards from the floor to the belt line: front and rear, armrest, handle, speaker
+        for (z0, z1) in ((2.4, -0.1), (-0.6, -4.0)):
             zc, dz = (z0 + z1) / 2, abs(z0 - z1)
-            rbox(CR, sx * 2.14, zc, 3.3, 0.14, 0.8, dz, 0.05, 1, c=c)
-            rbox(D_, sx * 2.02, zc, 3.62, 0.2, 0.14, dz - 0.4, 0.05, 1, c=c)
-            rbox(MT('metal'), sx * 2.0, zc - dz * 0.25, 3.84, 0.12, 0.1, 0.45, 0.03, 1, c=c)
-            sphere(BK, sx * 2.04, zc + dz * 0.2, 3.5, 0.06, 0.2, 0.2, 10, 5, c=c)
+            rbox(D_, sx * 2.45, zc, FL, 0.14, 3.2 - FL, dz, 0.05, 1, c=c)
+            rbox(CR, sx * 2.36, zc, FL + 0.9, 0.06, 0.9, dz - 0.3, 0.04, 1, c=c)          # seat-colour insert
+            rbox(D_, sx * 2.27, zc, 2.25, 0.2, 0.14, dz - 0.5, 0.05, 1, c=c)             # armrest
+            rbox(MT('metal'), sx * 2.33, zc + dz * 0.25, 2.75, 0.06, 0.1, 0.45, 0.03, 1, c=c)
+            sphere(BK, sx * 2.36, zc - dz * 0.25, 1.6, 0.04, 0.22, 0.22, 10, 5, c=c)
         # pillar trim
-        rbox(D_, sx * 2.22, 2.2, 3.35, 0.14, 0.7, 0.3, 0.04, 1, c=c)
-        rbox(D_, sx * 2.2, -4.2, 3.35, 0.14, 0.5, 0.35, 0.04, 1, c=c)
+        rbox(D_, sx * 2.2, -4.2, 3.3, 0.14, 0.6, 0.35, 0.04, 1, c=c)
         # seat belts
-        tube(BK, [(sx * 2.0, 4.15, -0.55), (sx * 0.95 if sx < 0 else sx * 0.8, 3.55, 0.2)], 0.05, 5, c=c)
-    # dashboard
-    rbox(D_, 0, 2.55, 3.3, 4.5, 0.32, 1.15, 0.1, 2, c=c)
-    rbox(D_, 0, 2.2, 3.55, 4.4, 0.18, 0.55, 0.08, 2, c=c)
-    rbox(BK, -0.95, 2.6, 3.62, 1.3, 0.3, 0.45, 0.1, 2, c=c)                            # instrument cluster hood
-    rbox(MT('lamp'), -0.95, 2.37, 3.78, 0.95, 0.1, 0.05, 0.02, 1, c=c)                 # lit gauges
-    rbox(BK, 0.2, 2.65, 3.64, 0.95, 0.42, 0.1, 0.04, 1, c=c)                           # centre screen
-    rbox(MT('blue'), 0.2, 2.6, 3.68, 0.8, 0.3, 0.04, 0.02, 1, c=c)
-    for vx in (-0.9, 0.0, 1.0, 1.9):
-        rbox(MT('metal'), vx, 2.6, 3.5, 0.5, 0.1, 0.06, 0.02, 1, c=c)                  # air vents
-    rbox(CR, 1.45, 2.78, 3.38, 1.5, 0.3, 0.06, 0.03, 1, c=c)                           # glove box lid (colour block, no seam)
-    # steering wheel, column, pedals
-    tf_push(-0.95, 2.05, 3.78, 0)
-    torus(BK, 0, 0, 0, 0.5, 0.07, 'xz', 24, 6, c=c)
-    sphere(BK, 0, 0, 0, 0.16, 0.08, 0.16, 10, 5, c=c)
-    for sa in (0.0, 2.1, 4.2):
-        tube(BK, [(0, 0, 0), (math.cos(sa) * 0.45, 0, math.sin(sa) * 0.45)], 0.05, 4, c=c)
-    tf_pop()
-    tube(BK, [(-0.95, 3.7, 2.4), (-0.95, 3.4, 2.0)], 0.09, 6, c=c)
-    for px in (-1.35, -0.95, -0.55):
-        rbox(MT('metal_dk'), px, 2.35, 3.33, 0.28, 0.14, 0.12, 0.03, 1, c=c)
+        tube(BK, [(sx * 2.2, 4.0, -0.45), (sx * 1.6, 2.2, 0.0)], 0.05, 5, c=c)
+    # dashboard (top just under the windscreen) and the lower dash / firewall lining
+    rbox(D_, 0, 2.75, 2.45, 4.9, 0.85, 1.1, 0.12, 2, c=c)
+    rbox(D_, 0, 3.2, FL, 4.9, 1.3, 0.3, 0.05, 1, c=c)
+    rbox(BK, -0.95, 2.35, 3.15, 1.3, 0.28, 0.5, 0.1, 2, c=c)                              # instrument cluster hood
+    rbox(MT('lamp'), -0.95, 2.18, 2.95, 0.95, 0.18, 0.04, 0.02, 1, c=c)                   # lit gauges
+    rbox(BK, 0.25, 2.22, 2.55, 0.95, 0.6, 0.06, 0.03, 1, c=c)                             # centre screen
+    rbox(MT('blue'), 0.25, 2.18, 2.62, 0.8, 0.45, 0.04, 0.02, 1, c=c)
+    for vx in (-1.95, -0.2, 0.7, 1.95):
+        rbox(MT('metal'), vx, 2.22, 2.95, 0.5, 0.08, 0.06, 0.02, 1, c=c)                  # air vents
+    rbox(CR, 1.5, 2.22, 2.6, 1.4, 0.3, 0.05, 0.03, 1, c=c)                                # glove box lid
+    # steering wheel (upright, facing the driver), column, pedals
+    torus(BK, -1.2, 1.75, 2.75, 0.55, 0.08, 'xy', 24, 6, c=c)
+    sphere(BK, -1.2, 1.78, 2.75, 0.18, 0.18, 0.08, 10, 5, c=c)
+    for sa in (math.pi, 0.0, 1.5 * math.pi):
+        tube(BK, [(-1.2, 2.75, 1.76), (-1.2 + math.cos(sa) * 0.5, 2.75 + math.sin(sa) * 0.5, 1.76)], 0.05, 4, c=c)
+    tube(BK, [(-1.2, 2.75, 1.8), (-1.2, 2.95, 2.3)], 0.1, 6, c=c)
+    for px in (-1.6, -1.2, -0.8):
+        rbox(MT('metal_dk'), px, 2.75, FL + 0.15, 0.28, 0.3, 0.1, 0.03, 1, c=c)
     # centre console with shifter and armrest
-    rbox(D_, 0, 0.5, 3.33, 0.75, 0.38, 2.6, 0.1, 2, c=c)
-    tube(BK, [(0, 3.7, 1.4), (0, 4.0, 1.4)], 0.06, 6, c=c)
-    sphere(BK, 0, 1.4, 4.04, 0.14, 0.14, 0.14, 8, 5, c=c)
-    rbox(CR, 0, -0.55, 3.7, 0.7, 0.16, 1.0, 0.06, 2, c=c)
-    # seats (cushion, backrest, headrest, side bolsters) and the rear bench
+    rbox(D_, 0, 1.2, FL, 0.8, 0.85, 2.1, 0.1, 2, c=c)
+    tube(BK, [(0, 2.0, 1.2), (0, 2.35, 1.2)], 0.06, 6, c=c)
+    sphere(BK, 0, 1.2, 2.4, 0.14, 0.14, 0.14, 8, 5, c=c)
+    rbox(CR, 0, -0.35, FL, 0.8, 1.05, 1.0, 0.08, 2, c=c)
+    # front seats: cushion, backrest, headrest, side bolsters
     for sx in (-1, 1):
-        rbox(CR, sx * 1.15, 0.45, 3.33, 1.55, 0.55, 1.5, 0.14, 2, c=c)
-        rbox(CR, sx * 1.15, -0.2, 3.6, 1.55, 0.72, 0.4, 0.14, 2, c=c)
-        rbox(CR, sx * 1.15, -0.2, 4.05, 0.75, 0.22, 0.32, 0.1, 2, c=c)
-        for bx in (-0.7, 0.7):
-            rbox(MT('beige') if False else CR, sx * 1.15 + bx, 0.2, 3.5, 0.18, 0.4, 1.0, 0.05, 1, c=c)
-    rbox(CR, 0, -2.3, 3.33, 4.5, 0.5, 1.6, 0.14, 2, c=c)
-    rbox(CR, 0, -3.15, 3.55, 4.5, 0.72, 0.4, 0.14, 2, c=c)
-    for sx in (-1, 1):
-        rbox(CR, sx * 1.3, -3.2, 4.0, 0.7, 0.2, 0.3, 0.1, 2, c=c)
-    rbox(D_, 0, -4.0, 3.68, 4.2, 0.12, 0.7, 0.05, 1, c=c)                              # parcel shelf
-    rbox(MT('metal'), 0, 1.05, 4.0, 0.8, 0.2, 0.1, 0.04, 1, c=c)                       # rear-view mirror
+        x = sx * 1.25 if sx > 0 else -1.2
+        rbox(CR, x, 0.55, FL + 0.1, 1.7, 0.65, 1.7, 0.16, 2, c=c)
+        rbox(CR, x, -0.4, FL + 0.6, 1.7, 2.0, 0.45, 0.16, 2, c=c)
+        rbox(CR, x, -0.4, FL + 2.68, 0.85, 0.42, 0.34, 0.12, 2, c=c)
+        for bx in (-0.75, 0.75):
+            rbox(CR, x + bx, 0.45, FL + 0.7, 0.2, 0.3, 1.3, 0.06, 1, c=c)
+    # rear bench with headrests
+    rbox(CR, 0, -2.45, FL + 0.1, 4.6, 0.65, 1.6, 0.16, 2, c=c)
+    rbox(CR, 0, -3.45, FL + 0.6, 4.6, 1.75, 0.45, 0.16, 2, c=c)
+    for sx in (-1, 0, 1):
+        rbox(CR, sx * 1.6, -3.45, FL + 2.4, 0.8, 0.35, 0.32, 0.1, 2, c=c)
+    rbox(D_, 0, -4.15, 3.3, 4.6, 0.12, 0.7, 0.05, 1, c=c)                                # parcel shelf
+    rbox(D_, 0, -4.45, FL, 4.8, 3.3 - FL, 0.12, 0.04, 1, c=c)                            # boot bulkhead behind the bench
+    rbox(MT('metal'), 0, 1.05, 4.0, 0.8, 0.2, 0.1, 0.04, 1, c=c)                         # rear-view mirror
 
 
 def _mono(xs, ys):
@@ -270,7 +274,7 @@ def body_shell(c, body, glass):
         emit(c, MT(col), [verts[v] for v in used], [tuple(rm[v] for v in f) for f in faces])
 
 
-def dad_car(c, body='navy', glass='glass', pass_on_dash=True, sc=1.0, trim=True):
+def dad_car(c, body='navy', glass='glass', pass_on_dash=True, sc=1.0, trim=True, seat='cream', carpet='burg'):
     SC[0] = sc
     B_, D_ = MT(body), MT('dark')
     body_shell(c, body, glass)
@@ -302,12 +306,11 @@ def dad_car(c, body='navy', glass='glass', pass_on_dash=True, sc=1.0, trim=True)
     tube(MT('metal_dk'), [(1.5, 0.95, -7.3), (1.5, 0.9, -7.9)], 0.18, 8, c=c)
     tube(D_, [(-1.2, 3.4, -5.9), (-1.2, 4.3, -6.1)], 0.04, 5, c=c)
     if trim:
-        interior(c)
+        interior(c, seat, carpet)
     if pass_on_dash:
         # work pass (render-only geometry 'PassProxy': Studio builds the SpareKey part from the anchor)
-        rbox(MT('white'), -0.7, 2.3, 3.64, 0.95, 0.07, 1.35, 0.03, 1, c='PassProxy')
-        rbox(MT('navy'), -0.7, 2.3, 3.98, 0.95, 0.075, 0.3, 0.02, 1, c='PassProxy')
-        rbox(MT('skin'), -0.7, 2.3, 4.18, 0.3, 0.08, 0.4, 0.02, 1, c='PassProxy')
-        tube(MT('navy'), [(-0.7, 3.6, 2.3), (-0.7, 3.4, 2.6)], 0.03, 5, c='PassProxy')
-        K.anchor('work_pass', -0.7 * sc, 3.75 * sc, 2.3 * sc)
+        rbox(MT('white'), -0.7, 2.6, 3.3, 0.95, 0.06, 1.35, 0.02, 1, c='PassProxy')       # lies flat on the dashboard top
+        rbox(MT('navy'), -0.7, 2.15, 3.33, 0.95, 0.04, 0.3, 0.01, 1, c='PassProxy')
+        rbox(MT('skin'), -0.7, 2.75, 3.33, 0.3, 0.04, 0.4, 0.01, 1, c='PassProxy')
+        K.anchor('work_pass', -0.7 * sc, 3.35 * sc, 2.6 * sc)
     SC[0] = 1.0

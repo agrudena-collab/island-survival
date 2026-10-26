@@ -160,6 +160,53 @@ end
 
 -- 4. interactive layer
 local inter = fresh("Interactive")
+-- door furniture welded to the leaf (moves with it when a door service turns the leaf): raised panels on both faces,
+-- a lever handle on a back plate near the latch edge; closet fronts get two vertical bar pulls instead
+local function decorate(p, d, colourRgb)
+	local along = (d.axis == "x") and Vector3.new(1, 0, 0) or Vector3.new(0, 0, 1)
+	local across = (d.axis == "x") and Vector3.new(0, 0, 1) or Vector3.new(1, 0, 0)
+	local up = Vector3.new(0, 1, 0)
+	local function vec(a, u, c)
+		return along * a + up * u + across * c
+	end
+	local ha = (d.axis == "x") and d.hinge_pt[1] or d.hinge_pt[3]
+	local ca = (d.axis == "x") and d.centre[1] or d.centre[3]
+	local sl = (ca >= ha) and 1 or -1
+	local w = (d.axis == "x") and d.size[1] or d.size[3]
+	local t = (d.axis == "x") and d.size[3] or d.size[1]
+	local h = d.size[2]
+	local metal = colour(196, 186, 160)
+	local panel = Color3.new(colourRgb.R * 0.86, colourRgb.G * 0.86, colourRgb.B * 0.86)
+	local function part(name, size, offset, col, mat)
+		local q = Instance.new("Part")
+		q.Name, q.Anchored, q.CanCollide, q.CanTouch, q.CanQuery, q.Massless = name, false, false, false, false, true
+		q.Size, q.Color, q.Material = size, col, mat or Enum.Material.SmoothPlastic
+		q.CFrame = p.CFrame * CFrame.new(offset)
+		local wc = Instance.new("WeldConstraint")
+		wc.Part0, wc.Part1 = p, q
+		wc.Parent = q
+		q.Parent = p
+		return q
+	end
+	local hy = (d.y0 + 3.1 * S) - d.centre[2]
+	local latch = sl * (w / 2 - 0.42 * S)
+	for _, side in ipairs({ -1, 1 }) do
+		local f = side * t / 2
+		if d.kind == "hide" then
+			for _, k in ipairs({ -1, 1 }) do
+				part("Pull", vec(0.1 * S, 1.4 * S, 0.1 * S), vec(latch - sl * k * 0.25 * S - sl * 0.25 * S, hy, f + side * 0.12 * S), metal, Enum.Material.Metal)
+			end
+		else
+			part("PanelTop", vec(w - 0.9 * S, h * 0.36, 0.06 * S), vec(0, h * 0.2, f + side * 0.03 * S), panel, Enum.Material.Wood)
+			part("PanelLow", vec(w - 0.9 * S, h * 0.3, 0.06 * S), vec(0, -h * 0.25, f + side * 0.03 * S), panel, Enum.Material.Wood)
+			part("HandlePlate", vec(0.24 * S, 0.8 * S, 0.05 * S), vec(latch, hy, f + side * 0.03 * S), metal, Enum.Material.Metal)
+			part("HandleNeck", vec(0.12 * S, 0.12 * S, 0.16 * S), vec(latch, hy + 0.2 * S, f + side * 0.1 * S), metal, Enum.Material.Metal)
+			part("HandleLever", vec(0.62 * S, 0.11 * S, 0.11 * S), vec(latch - sl * 0.25 * S, hy + 0.2 * S, f + side * 0.2 * S), metal, Enum.Material.Metal)
+			part("Keyhole", vec(0.08 * S, 0.14 * S, 0.06 * S), vec(latch, hy - 0.25 * S, f + side * 0.06 * S), colour(40, 40, 40))
+		end
+	end
+end
+
 local function leaf(model, name, d, colourRgb)
 	local p = Instance.new("Part")
 	p.Name, p.Anchored, p.CanCollide, p.CanTouch, p.CanQuery = name, true, true, false, true
@@ -174,6 +221,7 @@ local function leaf(model, name, d, colourRgb)
 	pm.PassThrough = true
 	pm.Parent = p
 	p.Parent = model
+	decorate(p, d, colourRgb)
 	return p
 end
 
