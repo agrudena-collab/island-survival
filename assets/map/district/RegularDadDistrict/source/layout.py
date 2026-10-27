@@ -452,10 +452,15 @@ for sx in (-1, 1):
     for k in range(6):
         hz = -96 if sx < 0 else -96
 # boundary hedge ring and ornamental fence segments
-for (x0, x1, z0, z1) in ((-SZ - 6, SZ + 6, -SZ - 6, -SZ - 3), (-SZ - 6, SZ + 6, SZ + 3, SZ + 6), (-SZ - 6, -SZ - 3, -SZ - 6, SZ + 6), (SZ + 3, SZ + 6, -SZ - 6, SZ + 6)):
+# the east side has an opening (the forest road to the father district leaves through it, owner decision 2026-10-27):
+# the east avenue is 42 wide (+-21), the opening is +-22
+EAST_GAP = 22
+for (x0, x1, z0, z1) in ((-SZ - 6, SZ + 6, -SZ - 6, -SZ - 3), (-SZ - 6, SZ + 6, SZ + 3, SZ + 6), (-SZ - 6, -SZ - 3, -SZ - 6, SZ + 6),
+                         (SZ + 3, SZ + 6, -SZ - 6, -EAST_GAP), (SZ + 3, SZ + 6, EAST_GAP, SZ + 6)):
     box(x0, x1, GY, GY + 4.6, z0, z1, PAL['green'])
     box(x0 - 0.1, x1 + 0.1, GY + 4.6, GY + 4.9, z0 - 0.1, z1 + 0.1, PAL['grass2'])
 collider(-SZ - 6, SZ + 6, GY, GY + 20, -SZ - 6, -SZ - 3, 'edgeN')
 collider(-SZ - 6, SZ + 6, GY, GY + 20, SZ + 3, SZ + 6, 'edgeS')
 collider(-SZ - 6, -SZ - 3, GY, GY + 20, -SZ - 6, SZ + 6, 'edgeW')
-collider(SZ + 3, SZ + 6, GY, GY + 20, -SZ - 6, SZ + 6, 'edgeE')
+collider(SZ + 3, SZ + 6, GY, GY + 20, -SZ - 6, -EAST_GAP, 'edgeE1')
+collider(SZ + 3, SZ + 6, GY, GY + 20, EAST_GAP, SZ + 6, 'edgeE2')

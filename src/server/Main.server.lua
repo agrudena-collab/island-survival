@@ -9,6 +9,7 @@ local serviceNames = {
 	"EconomyService",
 	"DadService",
 	"BaseService",
+	"FatherDistrictService",
 	"HouseInteractionService",
 	"CrouchService",
 	"FamilyNpcService",

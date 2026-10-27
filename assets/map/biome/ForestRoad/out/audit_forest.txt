@@ -1,0 +1,13 @@
+TRUNK-TRUNK                        0 
+TRUNK-ON-ROAD                      0 
+CROWN-IN-GATE-OR-POST              0 
+TREE-IN-DISTRICT-OR-PLOT           0 
+TRUNK-COLLIDER-IN-GATE-COLLIDER    0 
+WALL-ON-ROAD                       0 
+WALL-IN-DISTRICT-OR-PLOT           0 
+GATE-PILLAR-ON-ROAD                0 
+LAYER-GAP-TOO-SMALL                0 
+GROUND-OVERLAPS-DISTRICT-GROUND    0 
+DUPLICATE-TRUNK-COLLIDERS          0 
+removed while placing: {'near-gate-or-post': 3, 'trunk-spacing': 2, 'cap-wall': 9}
+trees 4743 trunk colliders 1761 walls 544

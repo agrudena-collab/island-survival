@@ -10,7 +10,7 @@ ROADS.append(('driveway', -100, -88, -137, -132))
 LOTS = [('parking', 40, 214, -128, -98), ('courtyard', -124, -66, -128, -96), ('fuel', -118.5, -85.5, 52, 92)]   # cars may stand here, furniture too
 
 JOINTS = ('fence', 'courtfence', 'dogfence')
-SKIP = ('ground', 'edgeN', 'edgeS', 'edgeW', 'edgeE')
+SKIP = ('ground', 'edgeN', 'edgeS', 'edgeW', 'edgeE', 'edgeE1', 'edgeE2')
 cols = [c for c in D.STATS['colliders'] if c[6] not in SKIP]
 
 

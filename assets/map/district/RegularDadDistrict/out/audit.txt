@@ -65,7 +65,7 @@ EMPTY CELLS 609 of 3844 (cell 8 studs), lawn-only cells 280
 ............................------............................
 ............................------............................
 
-=== GEOMETRY AUDIT (69471 primitives) ===
+=== GEOMETRY AUDIT (69473 primitives) ===
 ITEM-IN-COLLIDER: 0
 CANOPY-FURNITURE: 0
 ON-ROAD: 0

@@ -24,6 +24,9 @@
       "$className": "Workspace",
       "RegularDadDistrict": {
         "$path": "assets/map/district/RegularDadDistrict/model/RegularDadDistrict.rbxm"
+      },
+      "ForestRoad": {
+        "$path": "assets/map/biome/ForestRoad/model/ForestRoad.rbxm"
       }
     },
     "ServerStorage": {
