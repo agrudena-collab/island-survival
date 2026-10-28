@@ -138,7 +138,7 @@ for i, y in ipairs(DATA.yard) do
 		local a, b2 = Vector3.new(y[2], 0, y[3]), Vector3.new(y[4], 0, y[5])
 		local len = (b2 - a).Magnitude
 		if len > 0.1 then
-			solid("Y" .. i, CFrame.lookAt((a + b2) / 2 + Vector3.new(0, 2.5 * S, 0), b2 + Vector3.new(0, 2.5 * S, 0)), Vector3.new(0.6 * S, 5 * S, len), col)
+			solid("Y" .. i, CFrame.lookAt((a + b2) / 2 + Vector3.new(0, 1.7 * S, 0), b2 + Vector3.new(0, 1.7 * S, 0)), Vector3.new(0.6 * S, 3.4 * S, len), col)
 		end
 	end
 end
@@ -435,7 +435,7 @@ for i, y in ipairs(DATA.yard) do
 	elseif y[1] == "fence" then
 		local a, b2 = Vector3.new(y[2], 0, y[3]), Vector3.new(y[4], 0, y[5])
 		if (b2 - a).Magnitude > 0.1 then
-			solid("Y" .. i, CFrame.lookAt((a + b2) / 2 + Vector3.new(0, 2.5 * S, 0), b2 + Vector3.new(0, 2.5 * S, 0)), Vector3.new(0.6 * S, 5 * S, (b2 - a).Magnitude))
+			solid("Y" .. i, CFrame.lookAt((a + b2) / 2 + Vector3.new(0, 1.7 * S, 0), b2 + Vector3.new(0, 1.7 * S, 0)), Vector3.new(0.6 * S, 3.4 * S, (b2 - a).Magnitude))
 		end
 	end
 end

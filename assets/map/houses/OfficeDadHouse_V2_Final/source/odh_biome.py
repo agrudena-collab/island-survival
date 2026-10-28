@@ -145,7 +145,6 @@ def streets():
     for x in range(-190, 300, 104):
         place(M.trash_can, x + 6.0, -1.5, 0)
         place(M.trash_can, x + 58.0, -26.5, 0)
-        D.bollard(BC, x + 30.0, -5.2)
 
 
 # ------------------------------------------------------------------ one lot: lawn, fence, driveway, trees
@@ -190,10 +189,6 @@ def tree_row(x0, row, w=104.0, d=100.0, seed=1):
         p = free_spot(rnd, x0 + 6.0, x0 + w - 6.0, z0 + 6.0, z1 - 6.0, 7.0 * sc_ + 1.5)      # crown radius ~ 7 * scale: stays off houses, driveways, parking
         if p:
             D.tree_at(p[0], p[1], sc_, sd_, kind)
-    for k in range(3):
-        p = free_spot(rnd, x0 + 6.0, x0 + w - 6.0, z0 + 6.0, z1 - 6.0, 3.0)
-        if p:
-            place(M.bush, p[0], p[1], 0, rnd.uniform(0.9, 1.3), rnd.randint(1, 20), c=ORG)
 
 
 # ------------------------------------------------------------------ the empty office-style neighbour house
@@ -287,8 +282,6 @@ def office_nb(x0, row, seed, w=None, d=None, floors=None, lot_w=104.0, lot_d=100
         K.COLL.append(('box', dw0 + 8.0, cz, 6.6 * CAR_SC, 15.4 * CAR_SC, 4.9 * CAR_SC))
     for ux in (6.0, w - 6.0):
         place(M.flower_patch, X_(ux), Z_(-3.4), 0, 7.0, 2.4, seed + int(ux), c=ORG)
-    for ux in (-2.0, w + 2.0):
-        place(M.bush, X_(ux), Z_(-2.5), 0, 1.0, seed + int(ux), c=ORG)
     place(M.mailbox, x0 + rnd.uniform(10.0, 30.0), -3.0 if row == 'A' else ROW_B_Z1 + 3.0, 180 if row == 'A' else 0)
     za, zb = sorted((Z_(-6.0), Z_(d + 2.0)))
     AVOID.append((bx - 2.0, bx + w + 2.0, za, zb))
@@ -382,8 +375,8 @@ def bank(x0=-104.0):
     # small parking at the back, benches and trees in front
     for k in range(5):
         b('white', X_(8.0 + k * 10.0), X_(8.2 + k * 10.0), 0.0, 0.03, Z_(bd + 8.0), Z_(bd + 18.0))
-    place(M.bench, X_(10.0), Z_(-14.0), 180)
-    place(M.bench, X_(bw - 10.0), Z_(-14.0), 180)
+    place(M.bench, X_(10.0), Z_(-14.0), 0)          # seat faces the road (+z)
+    place(M.bench, X_(bw - 10.0), Z_(-14.0), 0)
     AVOID.append((bx - 2.0, bx + bw + 2.0, zf - bd - 2.0, zf + 14.0))
     tree_row(x0, 'B', 104.0, 100.0, 61)
 
@@ -437,8 +430,6 @@ def supermarket(x0=0.0):
             K.cyl('dark', sx_ * 0.9, -0.6, 0.0, 0.5, 0.18, 8, c=BC)
             K.cyl('dark', sx_ * 0.9, 0.6, 0.0, 0.5, 0.18, 8, c=BC)
         K.tf_pop()
-    for k in range(4):
-        place(M.lamp_post, x0 + 10.0 + k * 28.0, zf + 25.0, 0) if zf + 25.0 < ROW_B_Z1 else None
     # parked customer cars
     rnd = random.Random(33)
     for k in range(7):
@@ -447,8 +438,6 @@ def supermarket(x0=0.0):
         K.tf_pop()
         K.COLL.append(('box', x0 + 8.6 + k * 10.4, zf + 15.0, 6.6 * CAR_SC, 15.4 * CAR_SC, 4.9 * CAR_SC))
     AVOID.append((x0, x0 + 104.0, zf - sd_ - 2.0, ROW_B_Z1))
-    # delivery dock at the back
-    b('concrete', X_(sw_ - 24.0), X_(sw_ - 6.0), 0.0, 3.0, Z_(sd_), Z_(sd_ + 8.0), solid=True)
 
 
 # ------------------------------------------------------------------ whole biome

@@ -74,8 +74,6 @@ def lot():
                                   (103.0, 97.5, 0.8, 11, 'cherry'), (100.5, 60.0, 0.5, 12, 'oak'), (100.0, 4.0, 1.0, 4, 'autumn')):
         D.tree_at(x, z, s, seed, {'autumn': 'maple'}.get(kind, kind))
         TREE_LOG.append((x, z, 7.0 * s))
-    for (x, z) in ((34.0, 8.0), (56.0, 7.0), (36.0, 12.0)):
-        place(M.bush, x, z, 0, 1.2, int(x), c=D.ORG)
     place(M.flower_patch, 40.0, 5.0, 0, 3.5, 2.0, 5, c=D.ORG)
     place(M.flower_patch, 54.0, 5.0, 0, 3.5, 2.0, 6, c=D.ORG)
     place(M.flower_patch, 37.0, 11.5, 0, 7.0, 2.4, 8, c=D.ORG)
@@ -98,8 +96,8 @@ def lot():
     place(M.swing_set, 84.0, 9.0, 0)
     place(M.sandbox, 94.5, 9.0, 0)
     place(M.birdhouse, 60.0, 12.5, 0)
-    place(M.gnome, 45.5, 3.4, 0)
-    place(M.gnome, 41.5, 3.4, 20)
+    place(M.gnome, 40.0, 7.4, 0)       # in front of the flower bed (z 4..6), facing it
+    place(M.gnome, 54.0, 7.4, 0)
     place(M.clothesline, 27.0, 96.5, 0)
 
 

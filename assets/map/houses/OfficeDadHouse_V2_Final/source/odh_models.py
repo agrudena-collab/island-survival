@@ -1250,8 +1250,28 @@ def garden_shed(c):
     emit(c, MT('red'), [(-6.7, 7.9, 5.1), (6.7, 7.9, 5.1), (6.7, 11.0, 0.0), (-6.7, 11.0, 0.0)], [(0, 1, 2, 3)], True)
     emit(c, MT('red'), [(-6.7, 11.0, 0.0), (6.7, 11.0, 0.0), (6.7, 7.9, -5.1), (-6.7, 7.9, -5.1)], [(0, 1, 2, 3)], True)
     rbox(c, MT('roof_dk'), 0, 0, 10.9, 13.6, 0.35, 0.6, 0.08, 1)
+    # gables: solid stepped boards (the roof overlaps their sloped edge), closed so no dark gap shows through the roof
     for sx in (-1, 1):
-        emit(c, MT('door2'), [(sx * 6.0, 8.0, -4.5), (sx * 6.0, 8.0, 4.5), (sx * 6.0, 10.8, 0.0)], [(0, 1, 2)], True)
+        for k in range(7):
+            ytop = 7.9 + (k + 1) * 0.4
+            wz = 2 * max(0.3, 5.1 * (11.0 - ytop) / 3.1 - 0.3)
+            rbox(c, sd, sx * 5.85, 0.0, 7.9 + k * 0.4, 0.5, 0.42, wz, 0.02, 1)
+    # corner boards, base course, eave fascia, ridge cap: hide every seam and give the walls an outline
+    tr = MT('trim')
+    for sx in (-1, 1):
+        for sz in (-1, 1):
+            rbox(c, tr, sx * 5.85, sz * 4.35, 0.0, 0.7, 8.1, 0.7, 0.06, 1)
+    rbox(c, MT('plinth'), 0, 0, 0.0, 12.5, 0.7, 9.5, 0.06, 1)
+    for sz in (-1, 1):
+        rbox(c, tr, 0, sz * 5.05, 7.5, 13.8, 0.5, 0.22, 0.04, 1)
+    # lap siding lines + battens on every wall (the front keeps the door opening free)
+    wl = MT('wood_dk')
+    for k in range(1, 8):
+        yy = 0.7 + k * 0.95
+        rbox(c, wl, 0, -4.53, yy, 11.4, 0.07, 0.06, 0.02, 1)
+        for sx in (-1, 1):
+            rbox(c, wl, sx * 6.03, 0.0, yy, 0.06, 0.07, 8.4, 0.02, 1)
+            rbox(c, wl, sx * 3.85, 4.53, yy, 3.9, 0.07, 0.06, 0.02, 1)
     # door frame (the leaf itself is an interactive Studio part)
     rbox(c, MT('trim'), -1.85, 4.62, 0.0, 0.3, 6.4, 0.26, 0.05, 1)
     rbox(c, MT('trim'), 1.85, 4.62, 0.0, 0.3, 6.4, 0.26, 0.05, 1)
@@ -1260,6 +1280,14 @@ def garden_shed(c):
     # side window with a flower box
     rbox(c, MT('trim'), -5.98, 0.0, 3.0, 0.2, 2.4, 2.4, 0.06, 2)
     rbox(c, MT('glass'), -5.99, 0.0, 3.2, 0.08, 1.9, 1.9, 0.04, 1)
+    rbox(c, MT('wood_dk'), -6.1, 0.0, 3.0, 0.1, 2.4, 0.14, 0.02, 1)       # mullions
+    rbox(c, MT('wood_dk'), -6.1, 0.0, 4.12, 0.1, 0.14, 2.4, 0.02, 1)
+    rbox(c, MT('trim'), -6.2, 0.0, 2.75, 0.5, 0.18, 2.9, 0.04, 1)          # sill
+    for sz in (-1, 1):
+        rbox(c, MT('shutter'), -6.12, sz * 1.65, 3.0, 0.12, 2.4, 0.9, 0.03, 1)
+    rbox(c, MT('wood2'), -6.35, 0.0, 2.0, 0.6, 0.55, 2.6, 0.05, 1)         # flower box
+    for k in range(5):
+        sphere(c, MT(('pink', 'red', 'yellow', 'pink', 'blue')[k]), -6.35, -1.0 + k * 0.5, 2.75, 0.22, 0.22, 0.22, 8, 5)
     # interior: workbench shelf with tools and the key spot, hanging tools, pots
     rbox(c, MT('wood2'), 3.0, -3.7, 2.6, 5.4, 0.25, 1.3, 0.06, 2)
     for sx in (-1, 1):

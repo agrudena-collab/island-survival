@@ -298,8 +298,6 @@ def uphall():
     art(13.4, 24.0, 90, 2, 3.2, 2.4, 6.4, cover='orange')
     with at(2.7, 4.0, 0, 2) as c:
         M.potted_plant(c, 1.1, 'terra', True)
-    with at(8.5, 33.5, 180, 2) as c:
-        M.bench(c, 4.0)
     with at(10.8, 47.0, 0, 2) as c:
         M.rug(c, 4.2, 13.0, 'burg', 'cream', 'brass')
     with at(12.7, 64.4, 90, 2) as c:
