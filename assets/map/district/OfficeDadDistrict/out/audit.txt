@@ -1,0 +1,75 @@
+ISSUES 0
+
+
+EMPTY CELLS 290 of 3969 (cell 8 studs), lawn-only cells 102
+.########.tt.oo-o.#######tttttttooo--oo....tt...tt,,,,,,tttttt.
+.########.t#.oo-o########ot##ttoooo--oo..ot#t#t.#t,,,,,,t#t###.
+.########.tt.oo-ot#######tttttt#too--oo.ttt.##tttooo###,oooooo.
+.#########t#too-ot#######ot#tot#too--oo.o#o#oo###too###,oooooo.
+.########ttttoo-ot#######ttt.too.oo--oot#######.oooooooooooooo.
+.#########t#too-o.#######o#t.#oo.oo--oot#######ooooooooooooooo.
+.########.t#.oo-o################oo--oo.#################......
+.#########t#.oo-o################oo--oo########o##############.
+.########ttttoo-o################oo--oo########o##############.
+.#########t#too-o################oo--ooo#######o##############.
+.########ttt.oo-o################oo--oo.#######o##############.
+.########.to.oo-o################oo--oo.#######o##############.
+.########.tt.oo-o################oo--oo.#######.##############.
+.########.ootoo-o################oo--oo.....t#t.##############.
+ooooooooooooooo-ooooooooooooooooooo--oooooooooooooooooooooooooo
+ooooooooooooooo-ooooooooooooooooooo--oooooooooooooooooooooooooo
+---------------------------------------------------------------
+ooooooooooooooo-ooooooooooooooooooo--oooooooooooooooooooooooooo
+ooooooooooooooo-ooooooooooooooooooo--oooooooooooooooooooooooooo
+#############oo-oooo,,,,oot#oooo#oo--oot.#t#ttt#.o############.
+#############oo-oooo###,oo,,oooo,oo--oottttt##tt.o############.
+#############oo-o,ooo,,,oo,,oooo,oo--ooooooo###t.o############.
+#############oo-otoo,,oooooooooo,oo--ooooooot#tt.o############.
+#############oo-ot,,,,oooooooooo#oo--oooooo######.############.
+.........####oo-ooooooooooooooooooo--oooooo######......oo......
+#########....oo-ooooooooooooooooooo--oooooo######.ooPPPooPPPoP.
+#########....oo-ot##t,ooooooot,,too--oooooo#######oooooPPooooP.
+#########oooooo-ot#tt,ooooooooo,#oo--oooooo#######oooooPPooooP.
+#########oooooo-oto,o,ooooooooo,too--oooooootttt#tPPooPPPPoPPP.
+#########o...oo-o,,,ooo#oo,,,oo,too--oooooootot#ttoooPPPPooooP.
+#########.t#.oo-o,oo,,oooo,,,,,,#oo--ooooooo......oooPPPPooooP.
+#########.tt.oo-o,#o,,t#oo,ot#o,too--ooooooo##..##ooPPPPPPPPoP.
+ooooooooooooooo-ooooooooooooooooooo--oooooooooooooooooo--ooooo-
+ooooooooooooooo-ooooooooooooooooooo--oooooooooooooooooo--ooooo-
+---------------------------------------------------------------
+---------------------------------------------------------------
+ooooooooooooooo-ooooooooooooooooooo--ooooooooooooooooooooooooo-
+ooooooooooooooo-ooooooooooooooooooo--ooooooooooooooooooooooooo-
+#############oo-o################oo--oo....oo#tt....o...tttooo.
+#############oo-o################oo--oo...o##t##...###..t#tttt.
+#############oo-o################oo--oot#######o#########tt#ttt
+#############oo-o################oo--oo########o##########t#t#t
+#############oo-o################oo--oot#######o#########tttttt
+#############oo-o################oo--oot#######o#########ot#t#t
+##########ooooo-o################oo--oo##################tt#tt.
+##########.otoo-o################oo--oo###################t#to.
+PPooPooPPPPPPoo-o#######tt..oo...oo--oot#######.#########ttttt.
+PoooPoooPoooPoo-ott#.#t##oootoooooo--oot.ooooo..##....t#toto##.
+PPooPoooPPPPPoo-o.#######oootoooooo--oo.t#..tttt..ttt#tttotttt.
+PPoooooooPPoPoo-o.#######oooooooooo--oo.t#..toto..t#t#t#tt####.
+PPooPoooPPPoPoo-o.#######o#ooooo#oo----===========PPPPPPPPPPoP.
+PPooPoooPooPPoo-o########oooooooooo----===========PooooooPoooP.
+PPooPPooPPPPPoo-o########oooooooooo--oo.#########.PooooooPoooP.
+PPPPPPPPPPPPP---o########o#ooooo#oo--oo.#########oPPooPPPPoPPP.
+PoPPPPPPPPPPP---o.#######ooo,oooooo--oo.#########oPPoPPooooooP.
+PPooPoooPooPPoo-ot#######oootoooooo--ooo#########oPPoPPooooooP.
+PPooPPooPooPPoo-ot#######otttootooo--ooo#########oPooooooPPooP.
+PPooPPPPPPPPPoo-o#toto##.ot.t##t.oo--oot#########oPooooooPPooP.
+PPooPooPPoooPoo-ott#tttttt##....too--oo.#########oPPooPPPPoPPP.
+PPoooooPoooPPoo-o#ttt#.ot###oo.##oo--oo.#########.PooooooooooP.
+PPPPPooPPooPPoo-o.ottt.#ttt.tttttoo--oo.#########.oooooooooooP.
+PoPPPPPPPPPoPoo-o.ttto.#tot.tot#ooo--oo.t#..to.#t.PPPPPPPPPPPP.
+.............oo-o................------........tt..............
+
+=== GEOMETRY AUDIT (39061 primitives) ===
+ITEM-IN-COLLIDER: 0
+CANOPY-FURNITURE: 0
+ON-ROAD: 0
+OVERHANG: 0
+OUT-OF-BOUNDS: 0
+Z-FIGHT: 0

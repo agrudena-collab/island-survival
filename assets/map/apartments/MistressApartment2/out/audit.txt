@@ -1,0 +1,14 @@
+COLLIDER-OVERLAP: 0
+OUT-OF-ROOM: 0
+FLOATING: 0
+ITEM-IN-COLLIDER: 0
+COPLANAR: 0
+DOOR-BLOCKED: 0
+NAV: 3
+   agent R=1.6: reachable cells 898
+   5-wide corridor: arrival -> bed side NOT reachable
+   5-wide corridor: reachable cells 601
+UNCOVERED: 0
+CONTRACT: 0
+NORMALS: inverted closed items 0, open (single-sided) items 377
+MESH INTEGRITY: chunks 40, zero-area faces 0, NaN vertices 0, loose vertices 0, over-limit chunks 0, bad names 0
