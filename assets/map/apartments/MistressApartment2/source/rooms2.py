@@ -183,8 +183,10 @@ trim_x(Z1 - TH / 2, -1, -24.0, 24.0, [], [EXITD])
 trim_x(Z1 - TH / 2, -1, 25.0, 45.0, [], [])
 trim_z(X0 + TH / 2, 1, -17.0, 17.0, [])
 trim_z(24.5 - TH / 2, -1, -17.0, 17.0, [(BEDDOOR[0], BEDDOOR[1]), (BATHDOOR[0], BATHDOOR[1])])
-trim_z(24.5 + TH / 2, 1, -17.0, 17.0, [(BEDDOOR[0], BEDDOOR[1]), (BATHDOOR[0], BATHDOOR[1])])
-trim_z(X1 - TH / 2, -1, -17.0, 17.0, [])
+trim_z(24.5 + TH / 2, 1, -17.0, 2.0, [(BEDDOOR[0], BEDDOOR[1])])
+trim_z(24.5 + TH / 2, 1, 3.0, 17.0, [(BATHDOOR[0], BATHDOOR[1])])
+trim_z(X1 - TH / 2, -1, -17.0, 2.0, [])
+trim_z(X1 - TH / 2, -1, 3.0, 17.0, [])
 trim_x(2.5 - TH / 2, -1, 25.0, 45.0, [], [])
 trim_x(2.5 + TH / 2, 1, 25.0, 45.0, [], [])
 
@@ -293,7 +295,7 @@ def skyline():
                 sphere(tx, base + 5, tz, 3, 4, 3, P['leaf'], seg=6, rings=4)
 
 
-skyline()
+exec(compile(open(os.path.join(HERE, 'view2.py'), encoding='utf-8').read(), 'view2.py', 'exec'))     # the real district seen from the tower
 
 # =======================================================================================================================================
 # HALL (SW): console + mirror, shoe bench, coat hooks, umbrella stand, plant
@@ -491,7 +493,7 @@ curtain('S', -4.0, -17.0, 3.2, FY + 1.0, CY - 0.6, P['cream'], 5) if False else 
 curtain('S', 22.1, -17.0, 3.2, FY + 0.5, CY - 0.5, P['cream'], 6)
 pendant(DX - 3.0, DZ, CY - 3.4, P['navy'], 3, r=1.6)
 pendant(DX + 3.0, DZ, CY - 3.4, P['navy'], 4, r=1.6)
-plant(-3.0, -15.2, 6.5, P['pot2'], 'fiddle', 6, 'plant_n')
+plant(-3.4, -3.0, 6.5, P['pot2'], 'fiddle', 6, 'plant_n')
 art('S', -2.0, FY + 5.6, -17.0 + 0.0, 4.0, 3.2, 12) if False else None
 
 # =======================================================================================================================================
@@ -504,7 +506,7 @@ for k in range(3):
     D.sphere(9.6 + math.cos(k * 2.1) * 0.9, FY + 2.3, 11.8 + math.sin(k * 2.1) * 0.9, 0.5, 0.35, 0.5, [P['mustard'], P['white'], P['teal']][k], seg=7, rings=5)
 armchair('E', 4.6, 11.4, P['navy'], P['navy2'], 'armchair')
 floor_lamp(3.6, 5.4)
-plant(4.4, 15.6, 6.0, P['pot'], 'bushy', 7, 'plant_lounge')
+plant(4.1, 15.0, 6.0, P['pot'], 'bushy', 7, 'plant_lounge')
 f = F('N', 12.0, 17.0)                                                              # TV unit on the south wall
 f.b(-6.2, 6.2, FY + 0.5, FY + 2.6, 0.0, 1.9, P['walnut'])
 for s in (-1, 1):
@@ -595,7 +597,7 @@ curtain('S', 41.5, -17.0, 3.0, FY + 1.0, CY - 0.6, P['cream'], 5)
 # =======================================================================================================================================
 # BATHROOM (x 25..45, z 3..17): freestanding tub, toilet, walk-in shower, double vanity with a mirror
 # =======================================================================================================================================
-tb = F('S', 38.0, 3.2)                                                              # tub along the partition wall (long side), head to the east
+tb = F('S', 36.0, 3.2)                                                              # tub along the partition wall (long side), head to the east
 tb.b(-5.2, 5.2, FY + 0.4, FY + 2.6, 0.0, 4.4, P['white'])
 tb.b(-4.8, 4.8, FY + 0.9, FY + 2.65, 0.4, 4.0, '#DCEFF7')
 tb.b(-5.3, 5.3, FY + 2.6, FY + 2.75, -0.05, 4.45, P['white'])
@@ -604,7 +606,7 @@ for (u, w) in ((-4.4, 0.5), (4.4, 0.5), (-4.4, 3.9), (4.4, 3.9)):
 tb.b(4.8, 5.1, FY + 2.75, FY + 4.6, 1.9, 2.3, P['brass'])
 tb.b(4.0, 5.1, FY + 4.4, FY + 4.6, 1.9, 2.3, P['brass'])
 tb.col('tub', -5.3, 5.3, FY, FY + 2.75, -0.05, 4.45)
-tw = F('W', 45.0, 10.5)                                                             # toilet, tank on the far east wall
+tw = F('W', 45.0, 8.8)                                                             # toilet, tank on the far east wall
 tw.b(-1.0, 1.0, FY + 2.6, FY + 5.4, 0.0, 0.9, P['white'])
 tw.lathe(0.0, 1.9, FY, [(0.0, 0), (0.8, 0), (0.95, 0.4), (1.1, 1.8), (0.0, 1.8)], P['white'], seg=16)
 tw.lathe(0.0, 1.9, FY + 1.8, [(1.05, 0), (1.1, 0.12), (0.0, 0.12)], shade(P['white'], -0.05), seg=16)
@@ -613,13 +615,13 @@ tw.b(-0.5, 0.5, FY + 0.9, FY + 2.6, 0.0, 0.8, P['white'])
 tw.col('toilet', -1.2, 1.2, FY, FY + 5.5, 0.0, 3.0)
 # walk-in shower in the SE corner: glass panels, tray, rain head
 box(39.4, 45.0, FY, FY + 0.18, 12.6, 17.0, P['tileG'])
-box(38.9, 39.1, FY, FY + 8.6, 12.6, 14.2, P['sky'], 'G')
+box(38.9, 39.1, FY, FY + 8.6, 12.6, 13.4, P['sky'], 'G')
 box(38.9, 45.0, FY + 8.5, FY + 8.6, 12.5, 12.7, P['sky'], 'G') if False else None
-box(39.0, 45.0, FY, FY + 8.6, 12.4, 12.6, P['sky'], 'G')
-collider(38.85, 39.15, FY, FY + 8.6, 12.4, 14.2, 'shower_glass')
-collider(39.0, 45.0, FY, FY + 8.6, 12.4, 12.7, 'shower_glass')
+box(43.2, 45.0, FY, FY + 8.6, 12.4, 12.6, P['sky'], 'G')
+collider(38.85, 39.15, FY, FY + 8.6, 12.4, 13.4, 'shower_glass')
+collider(43.2, 45.0, FY, FY + 8.6, 12.4, 12.7, 'shower_glass')
 box(38.8, 39.2, FY, FY + 8.7, 12.3, 12.7, P['metal'])
-box(38.8, 39.2, FY + 8.6, FY + 8.7, 12.3, 14.3, P['metal'])
+box(38.8, 39.2, FY + 8.6, FY + 8.7, 12.3, 13.5, P['metal'])
 box(44.6, 45.0, FY + 7.4, FY + 7.6, 14.0, 16.4, P['metal'])
 D.lathe(44.0, 15.2, FY + 7.6, [(0.0, 0), (1.0, 0.0), (1.0, 0.1), (0.0, 0.1)], P['metal'], seg=14)
 box(44.7, 45.0, FY + 3.6, FY + 4.0, 15.0, 15.4, P['brass'])
@@ -643,7 +645,7 @@ rug(37.0, 43.5, 8.0, 11.5, P['sky'], P['tileG'], P['white']) if False else None
 pass
 for k, c in enumerate((P['coral'], P['white'], P['teal'])):                            # towel rail on the partition near the door
     box(25.45, 25.85, FY + 2.6 + k * 0.0, FY + 6.0, 9.2 + k * 1.3, 9.9 + k * 1.3, c) if False else None
-plant(26.6, 4.6, 5.0, P['pot2'], 'fiddle', 9, 'plant_bath')
+plant(27.4, 5.0, 5.0, P['pot2'], 'fiddle', 9, 'plant_bath')
 art('E', 25.0 + TH / 2 - 0.0 + 0.0, FY + 5.5, 6.0, 0.1, 0.1, 17) if False else None
 
 exec(compile(open(os.path.join(HERE, 'details2.py'), encoding='utf-8').read(), 'details2.py', 'exec'))

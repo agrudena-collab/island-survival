@@ -73,37 +73,62 @@ def cyl(cx, cz, y0, y1, r, col, seg=16, kind='O', r2=None, caps=True):
 
 
 def lathe(cx, cz, y0, prof, col, seg=20, kind='O'):
-    """Surface of revolution: prof = [(radius, height), ...] bottom to top (height relative to y0)."""
-    v, f = [], []
-    n = len(prof)
+    """Surface of revolution: prof = [(radius, height), ...] bottom to top (height relative to y0).  Points with radius 0 are ONE vertex (closed surface)."""
+    v, f, idx = [], [], []
     for (r, h) in prof:
-        for i in range(seg):
-            a = 2 * math.pi * i / seg
-            v.append((cx + r * math.cos(a), y0 + h, cz + r * math.sin(a)))
-    for k in range(n - 1):
+        if r < 1e-6:
+            idx.append((True, len(v)))
+            v.append((cx, y0 + h, cz))
+        else:
+            idx.append((False, len(v)))
+            for i in range(seg):
+                a = 2 * math.pi * i / seg
+                v.append((cx + r * math.cos(a), y0 + h, cz + r * math.sin(a)))
+    for k in range(len(prof) - 1):
+        (p0, s0), (p1, s1) = idx[k], idx[k + 1]
         for i in range(seg):
             j = (i + 1) % seg
-            f.append((k * seg + i, k * seg + j, (k + 1) * seg + j, (k + 1) * seg + i))
-    if prof[0][0] > 0:
-        f.append(tuple(range(seg - 1, -1, -1)))
-    if prof[-1][0] > 0:
-        f.append(tuple((n - 1) * seg + i for i in range(seg)))
+            if p0 and p1:
+                continue
+            if p0:
+                f.append((s0, s1 + j, s1 + i))
+            elif p1:
+                f.append((s0 + i, s0 + j, s1))
+            else:
+                f.append((s0 + i, s0 + j, s1 + j, s1 + i))
+    if not idx[0][0]:
+        f.append(tuple(idx[0][1] + i for i in range(seg - 1, -1, -1)))
+    if not idx[-1][0]:
+        f.append(tuple(idx[-1][1] + i for i in range(seg)))
     _add(kind, v, f, col)
 
 
 def sphere(cx, cy, cz, rx, ry, rz, col, seg=12, rings=8, kind='O', jitter=0.0, seed=0):
+    """Closed ellipsoid: one vertex at each pole, triangle fans at the poles (no duplicated pole vertices, so the surface is watertight)."""
     rnd = random.Random(seed)
-    v, f = [], []
-    for k in range(rings + 1):
+    rings = max(2, rings)
+    v = [(cx, cy + ry, cz)]
+    for k in range(1, rings):
         phi = math.pi * k / rings
         for i in range(seg):
             a = 2 * math.pi * i / seg
-            j = 1 + rnd.uniform(-jitter, jitter) if 0 < k < rings else 1
+            j = 1 + rnd.uniform(-jitter, jitter)
             v.append((cx + rx * j * math.sin(phi) * math.cos(a), cy + ry * j * math.cos(phi), cz + rz * j * math.sin(phi) * math.sin(a)))
-    for k in range(rings):
+    v.append((cx, cy - ry, cz))
+    last = len(v) - 1
+    f = []
+    for i in range(seg):
+        j = (i + 1) % seg
+        f.append((0, 1 + j, 1 + i))
+    for k in range(1, rings - 1):
+        a0, b0 = 1 + (k - 1) * seg, 1 + k * seg
         for i in range(seg):
-            j2 = (i + 1) % seg
-            f.append((k * seg + i, (k + 1) * seg + i, (k + 1) * seg + j2, k * seg + j2))
+            j = (i + 1) % seg
+            f.append((a0 + i, a0 + j, b0 + j, b0 + i))
+    base = 1 + (rings - 2) * seg
+    for i in range(seg):
+        j = (i + 1) % seg
+        f.append((last, base + i, base + j))
     _add(kind, v, f, col)
 
 

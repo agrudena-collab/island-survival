@@ -67,13 +67,14 @@ def emit(name, items):
         for (a_, b_) in rng:
             ec = {}
             vol = 0.0
+            o_ = vc[list(pl[a_].vertices)[0]]
             for p in pl[a_:b_]:
                 ids = list(p.vertices)
                 for q in range(len(ids)):
                     key = (min(ids[q], ids[(q + 1) % len(ids)]), max(ids[q], ids[(q + 1) % len(ids)]))
                     ec[key] = ec.get(key, 0) + 1
                 for q in range(1, len(ids) - 1):
-                    vol += vc[ids[0]].dot(vc[ids[q]].cross(vc[ids[q + 1]])) / 6.0
+                    vol += (vc[ids[0]] - o_).dot((vc[ids[q]] - o_).cross(vc[ids[q + 1]] - o_)) / 6.0
             closed = all(c == 2 for c in ec.values())
             if closed and vol < -1e-6:
                 INVERTED.append('%s polys %d..%d vol %.3f' % (nm, a_, b_, vol))
@@ -148,6 +149,10 @@ fence_tris = sum(sum(len(f) - 2 for f in it[3]) for its in FENCE.values() for it
 json.dump({'colliders': D.STATS['colliders'], 'anchors': D.STATS['anchors'], 'signs': [dict(text=s[0], x=round(s[1], 3), y=round(s[2], 3), z=round(s[3], 3), w=round(s[4], 3), h=round(s[5], 3), face=s[6]) for s in SIGNS],
            'lights': [list(map(lambda v: round(v, 2), l)) for l in LIGHTS], 'ground_top': GY, 'tris': tris_total, 'chunks': len(made), 'bbox_blender': bb},
           open(os.path.join(OUT, 'district.json'), 'w'), indent=1)
+json.dump({'buildings': [dict(name=n, x0=x0, x1=x1, z0=z0, z1=z1, top=t, wall=w, floors=fl, front=fr) for (n, x0, x1, z0, z1, t, w, fl, fr) in BLD_INFO],
+           'trees': [[round(t[0], 1), round(t[1], 1), round(t[2], 1)] for t in TREES], 'streets': [dict(name=s_['name'], ew=s_['ew'], c=s_['c'], ah=s_['ah'], sh=s_['sh'], ext=s_['ext']) for s_ in STREETS],
+           'park': list(PK), 'fountain': list(PC), 'gardens': [list(G1), list(G2)], 'lots': [list(l) for l in LOTS], 'plaza': list(PLZ), 'tower': [TW.x0, TW.x1, TW.z0, TW.z1], 'half': HALF,
+           'bus': [BSX, BSZ]}, open(os.path.join(OUT, 'skyline.json'), 'w'))
 print('EXPORTED', FBX, 'colliders', len(D.STATS['colliders']), 'signs', len(SIGNS), 'lights', len(LIGHTS), 'fence tris', fence_tris)
 
 # ---- renders (Workbench, vertex colours)
@@ -212,6 +217,7 @@ if not NORENDER:
         ('detail_tower_corner', (88, 8, -70), (100, 12, -59), 30, None),
         ('detail_curb_corner', (14, 3.5, 14), (30, 1, 26), 40, None),
         ('detail_window', (-80, 14, 40), (-75, 17, 60), 40, None),
+        ('tree_check', (-22, 9, -88), (-30, 11, -98), 32, None),
     ]
     for (nm, loc, tgt, lens, ortho) in SHOTS:
         if ONLY and nm not in ONLY:

@@ -60,7 +60,10 @@ def chair(face, ox, oz, col, seat, name='chair'):
     f.b(-1.1, -0.85, FY + 2.3, FY + 4.7, -1.1, -0.85, P['walnut'])
     f.b(-1.0, 1.0, FY + 2.9, FY + 4.5, -1.05, -0.9, col)
     f.b(1.0, 1.1, FY + 2.3, FY + 4.7, -1.1, -0.85, P['walnut'])
-    f.col(name, -1.1, 1.1, FY, FY + 4.7, -1.1, 1.1)
+    # colliders: backrest + seat block up to the seat surface (z -0.85..1.1); the GuestSeat anchor sits ON the block top (FY + 2.55), not inside a solid
+    # box, so the guest can walk up to the chair from any side and sit on the surface (the old full-height box swallowed the anchor)
+    f.col(name, -1.1, 1.1, FY, FY + 4.7, -1.1, -0.85)
+    f.col(name + '_seat', -1.1, 1.1, FY, FY + 2.55, -0.85, 1.1)
 
 
 def office_chair(face, ox, oz, col, name='office_chair'):
@@ -266,13 +269,13 @@ def plant(x, z, h=6.0, pot=None, kind='fiddle', seed=0, name='plant', y=FY):
     cyl(x, z, y + 2.0 * rr - 0.15, y + 2.0 * rr - 0.05, rr * 0.9, '#5A3E2B', seg=12)
     top = y + 2.0 * rr
     if kind == 'fiddle':
-        D.lathe(x, z, top, [(0.2, 0), (0.13, h * 0.58)], P['walnut'], seg=6)
-        cy_ = top + h * 0.5
-        for k in range(15):
+        D.lathe(x, z, top, [(0.2, 0), (0.13, h * 0.7)], P['walnut'], seg=6)
+        cc_ = top + h * 0.62                                                   # one continuous crown: blobs spiral through an ellipsoid, no gaps between tiers
+        for k in range(20):
+            t_ = (k + 0.5) / 20
             a_ = k * 2.4 + seed
-            rd = 0.15 + 1.25 * ((k * 5) % 7) / 7
-            yy = cy_ + ((k * 3) % 6) * h * 0.085
-            D.sphere(x + math.cos(a_) * rd, yy, z + math.sin(a_) * rd, 0.95, 0.55, 0.8, [P['leaf'], P['green2'], '#3E9E4A'][k % 3], seg=8, rings=5)
+            rd = 0.95 * math.sqrt(t_)
+            D.sphere(x + math.cos(a_) * rd, cc_ + (t_ - 0.5) * h * 0.5, z + math.sin(a_) * rd, 0.95, 0.8, 0.95, [P['leaf'], P['green2'], '#3E9E4A'][k % 3], seg=8, rings=5)
     elif kind == 'snake':
         for k in range(9):
             a = k * 0.7 + seed
@@ -280,10 +283,14 @@ def plant(x, z, h=6.0, pot=None, kind='fiddle', seed=0, name='plant', y=FY):
             hh = h * (0.55 + 0.45 * ((k * 7) % 5) / 4)
             D.lathe(bx, bz, top, [(0.0, 0), (0.28, 0.0), (0.22, hh * 0.9), (0.0, hh)], P['leaf'] if k % 2 else '#7BC96F', seg=5)
     else:                                                                              # bushy
-        for k in range(14):
+        cc_ = top + h * 0.42
+        for k in range(20):
+            t_ = (k + 0.5) / 20
             a_ = k * 2.2 + seed
-            D.sphere(x + math.cos(a_) * (0.3 + 0.9 * ((k * 3) % 5) / 5), top + h * 0.25 + (k % 5) * h * 0.1, z + math.sin(a_) * (0.3 + 0.9 * ((k * 3) % 5) / 5), 0.95, 0.75, 0.95, [P['leaf'], P['green2'], '#3E9E4A'][k % 3], seg=8, rings=5)
-    CY_add(x, y + (top - y + h * 0.5) / 2, z, rr * 2.1, top - y + h * 0.5, name)
+            rd = 0.85 * math.sqrt(t_)
+            D.sphere(x + math.cos(a_) * rd, cc_ + (t_ - 0.5) * h * 0.55, z + math.sin(a_) * rd, 0.9, 0.8, 0.9, [P['leaf'], P['green2'], '#3E9E4A'][k % 3], seg=8, rings=5)
+    ch_ = (top - y) + (h * 0.62 + h * 0.25 + 0.9 if kind != 'snake' else h * 0.5)       # the collider covers the whole crown
+    CY_add(x, y + ch_ / 2, z, rr * 2.1, ch_, name)
 
 
 def floor_lamp(x, z, col=None, name='floor_lamp'):

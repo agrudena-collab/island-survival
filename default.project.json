@@ -27,6 +27,9 @@
       },
       "ForestRoad": {
         "$path": "assets/map/biome/ForestRoad/model/ForestRoad.rbxm"
+      },
+      "OfficeDadDistrict": {
+        "$path": "assets/map/district/OfficeDadDistrict/model/OfficeDadDistrict.rbxm"
       }
     },
     "ServerStorage": {

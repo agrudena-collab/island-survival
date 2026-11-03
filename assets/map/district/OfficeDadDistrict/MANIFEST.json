@@ -1,0 +1,90 @@
+{
+  "name": "OfficeDadDistrict",
+  "description": "District 2 (tower of the mistress 2), Office Dad style. Generated in Blender, set up in Roblox Studio.",
+  "status": {
+    "generated_blender": true,
+    "studio_import_fbx": true,
+    "studio_setup_script_run": true,
+    "studio_checked_edit_mode": true,
+    "studio_checked_play": false,
+    "rbxm_saved": true,
+    "rbxm_content_verified_in_clean_place": false,
+    "default_project_json_mapping": true,
+    "apartment_id_assigned": true,
+    "rbxm_note": "model/*.rbxm written from Studio through tools/studio_bridge (serialized binary, byte sizes match; in-memory round trip of Interior gives 134 meshes and 86 colliders). Not yet inserted into a clean place from disk."
+  },
+  "footprint_studs": {
+    "x": 500,
+    "z": 500,
+    "top_y": 130
+  },
+  "origin": "centre of district, ground top y = 1.0, model turned 180 deg about Y by studio_setup.luau",
+  "sources": {
+    "generator": "source/build_district.py",
+    "fbx": "out/OfficeDadDistrict.fbx",
+    "json": "out/district.json",
+    "setup": "studio_setup.luau",
+    "rbxm": "model/OfficeDadDistrict.rbxm",
+    "project_json_mapping": "default.project.json -> Workspace.OfficeDadDistrict"
+  },
+  "counts_blender": {
+    "meshes": 316,
+    "triangles": 804570,
+    "colliders": 945,
+    "lights": 104,
+    "signs": 2,
+    "anchors": 7
+  },
+  "counts_studio": {
+    "meshes": 316,
+    "colliders": 945,
+    "lights_tagged_DistrictLamp": 104,
+    "tagged_ApartmentEntrance": 1,
+    "fence_folders": 8,
+    "signs": [
+      "APARTMENTS",
+      "BUS"
+    ],
+    "anchors": [
+      "connector_N",
+      "connector_S",
+      "connector_E",
+      "connector_W",
+      "tower_entrance",
+      "tower_exit_arrival",
+      "bus_spawn"
+    ],
+    "setup_return": "O166 G92 N58 fence 8 colliders 945 lights 104 signs 2 anchors 7",
+    "tagged_DistrictSpawn": 1
+  },
+  "studio_checks_done": [
+    "308 meshes in Workspace.OfficeDadDistrict before setup",
+    "bounding box after setup about 504 x 133.5 x 504",
+    "ground top at y = 1.0",
+    "all meshes CanCollide = false",
+    "anchors match district.json after rotation",
+    "PathfindingService Success (R 1.6, H 6, no jump): tower_exit_arrival to tower_entrance, to all 4 connectors, to 20 walkways (doors), to 6 points (P1 centre and aisle, P2, P3, fountain, playground)",
+    "screen check: tower entrance with APARTMENTS sign, BUS stop with BUS sign",
+    "bus_spawn anchor (54.4, 1.27, -15) at the bus stop, tag DistrictSpawn; Pathfinding Success from it to tower_entrance, 4 connectors and 20 walkways",
+    "flat placed at origin (20000, -2000, 0): looking straight up from the district shows only sky, no location in the air (screen check)",
+    "flat view from the window: puffy clouds and soft green hills (screen check)",
+    "audit in Studio: 450 meshes (316 district + 134 flat), no collision on meshes, none unanchored, no NaN or zero-size, glass 0.55 / neon / smooth plastic correct, 937+8 district colliders and 69+17 flat colliders all CanCollide with Transparency 1",
+    "ApartmentId 67 set as an attribute on Workspace.OfficeDadDistrict.MistressBuilding2.Exterior.Entrance (owner decision), verified by round trip",
+    "default.project.json: Workspace.OfficeDadDistrict mapped to model/OfficeDadDistrict.rbxm (same pattern as RegularDadDistrict)"
+  ],
+  "studio_checks_not_done": [
+    "Play test",
+    "PathfindingService with Play mode",
+    "rbxm loaded in a clean place (Insert from file gives the full count check)",
+    "performance on weak devices (about 805k triangles)",
+    "rojo build with the default.project.json line"
+  ],
+  "known_issues": [
+    "In Studio the first run of studio_setup.luau deleted the imported district when the old version was cached in the ModuleScript; the setup now refuses to run twice on the same model (asserts when Meshes exists) and asserts when the district is missing.",
+    "Flat 2 origin in this place is (20000, -2000, 0): far away and under the map so it is never seen from the district. ApartmentService decides the real placement."
+  ],
+  "owner_decisions_pending": [
+    "Commit of the district and flat work to feature/office-dad-district (not done, awaiting owner command)"
+  ],
+  "rebuild": "blender -b --factory-startup --python source/build_district.py -- <abs path to out> [--norender]"
+}

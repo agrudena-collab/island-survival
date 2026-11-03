@@ -10,6 +10,7 @@ occ('bld', TW.x0 - 1.5, TW.x1 + 1.5, TW.z0 - 1.5, TW.z1 + 1.5)
 _tcz = (TW.z0 + TW.z1) / 2                      # door centre line z = -45
 anchor('tower_entrance', 93.5, SWY, _tcz, 1, 0)         # in front of the door, looking at it (the door faces west)
 anchor('tower_exit_arrival', 84.0, SWY, _tcz, -1, 0)    # on the plaza, looking out to the avenue (west)
+anchor('bus_spawn', 54.4, SWY, -15.0, 1, 0)             # player spawn: on the bus stop sidewalk, in front of the shelter, looking east across the plaza to the tower
 
 # ---- plaza: z -82..9 so it joins the avenue crossing; a 10-wide corridor on the door axis stays clear
 PLZ = (61.0, 100.0, -82.0, 9.0)

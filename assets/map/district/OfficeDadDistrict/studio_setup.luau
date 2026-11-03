@@ -16,9 +16,9 @@ return function(source, apartment)
 	if not source:match("^%s*{") then text = HS:GetAsync(source) end
 	local data = HS:JSONDecode(text)
 	local old = workspace:FindFirstChild("OfficeDadDistrict")
-	if old and old ~= workspace:FindFirstChild("OfficeDadDistrictImport") then old:Destroy() end
-	local m = workspace:FindFirstChild("OfficeDadDistrict")
+	local m = old
 	assert(m, "import the FBX first: it must appear as Workspace.OfficeDadDistrict")
+	assert(not m:FindFirstChild("Meshes"), "OfficeDadDistrict is already set up: delete it and import the FBX again")
 	m:PivotTo(CFrame.Angles(0, math.pi, 0))
 
 	local meshes = Instance.new("Folder") meshes.Name = "Meshes"
@@ -83,6 +83,7 @@ return function(source, apartment)
 	for name, a in pairs(data.anchors) do
 		local p = Instance.new("Part") p.Name = name p.Anchored = true p.CanCollide = false p.CanQuery = false p.CanTouch = false p.Transparency = 1 p.Size = Vector3.new(4, 0.2, 4)
 		p.CFrame = CFrame.lookAt(Vector3.new(a[1], a[2], a[3]), Vector3.new(a[1] + a[4], a[2], a[3] + a[5]))
+		if name == "bus_spawn" then CS:AddTag(p, "DistrictSpawn") end      -- player spawn at the bus stop near the mistress tower
 		p.Parent = anc
 	end
 
@@ -102,7 +103,8 @@ return function(source, apartment)
 	end
 	-- the door is 7.2 wide and 9.2 high; the entrance part sits in the doorway just in front of it
 	local ae = anc.tower_entrance.CFrame
-	mk("Entrance", Vector3.new(7, 9, 1.5), ae + ae.LookVector * 6.0 + Vector3.new(0, 4.5, 0), "ApartmentEntrance")
+	local entrance = mk("Entrance", Vector3.new(7, 9, 1.5), ae + ae.LookVector * 6.0 + Vector3.new(0, 4.5, 0), "ApartmentEntrance")
+	entrance:SetAttribute("ApartmentId", 67)      -- owner's decision: the tower's entrance leads to apartment 67
 	mk("ExitArrival", Vector3.new(4, 0.2, 4), anc.tower_exit_arrival.CFrame)
 	b.Parent = m
 	local na = 0

@@ -66,13 +66,14 @@ for kind in D.KINDS:
             for (a_, b_) in rng:
                 ec = {}
                 vol = 0.0
+                o_ = vc[list(pl[a_].vertices)[0]]
                 for p in pl[a_:b_]:
                     ids = list(p.vertices)
                     for q in range(len(ids)):
                         key = (min(ids[q], ids[(q + 1) % len(ids)]), max(ids[q], ids[(q + 1) % len(ids)]))
                         ec[key] = ec.get(key, 0) + 1
                     for q in range(1, len(ids) - 1):
-                        vol += vc[ids[0]].dot(vc[ids[q]].cross(vc[ids[q + 1]])) / 6.0
+                        vol += (vc[ids[0]] - o_).dot((vc[ids[q]] - o_).cross(vc[ids[q + 1]] - o_)) / 6.0
                 if all(c == 2 for c in ec.values()):
                     if vol < -1e-6:
                         INVERTED.append('%s polys %d..%d vol %.3f' % (name, a_, b_, vol))
@@ -164,6 +165,8 @@ if not NORENDER:
         ('bedroom', (26.5, 9, -1.5), (40, 3.5, -9), 22, None, 0.1, None),
         ('bath', (26, 8.5, 6), (38, 3, 14), 22, None, 0.1, None),
         ('entrance_door', (-16, 6.2, 5), (-16, 5, 17), 28, None, 0.1, None),
+        ('plant_check', (-7.5, 8.0, 13.5), (-11.6, 7.2, 8.4), 30, None, 0.1, None),
+        ('plant_check2', (8.0, 8.0, 10.0), (4.4, 7.0, 14.6), 30, None, 0.1, None),
         ('main_wide', (-21, 10.6, 14), (10, 3, -6), 16, None, 0.1, None),
     ]
     for (nm, loc, tgt, lens, ortho, clip, res) in SHOTS:

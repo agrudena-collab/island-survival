@@ -9,6 +9,6 @@ NAV: 2
    agent R=1.6: reachable cells 160063
 BUILDING GAPS < 5: 0
 CONTRACT: 0
-NORMALS: inverted closed items 0, open (single-sided) items 4874
-   open items by polygon count: [(40, 1659), (24, 1634), (8, 648), (28, 568), (21, 106), (48, 104), (32, 104), (61, 33), (64, 12), (85, 4)]
-MESH INTEGRITY: chunks 313, zero-area faces 0, NaN/huge vertices 0, loose vertices 0, over-limit chunks 0
+NORMALS: inverted closed items 0, open (single-sided) items 648
+   open items by polygon count: [(8, 648)]
+MESH INTEGRITY: chunks 316, zero-area faces 0, NaN/huge vertices 0, loose vertices 0, over-limit chunks 0

@@ -7,7 +7,7 @@ ALLC = D.STATS['colliders']
 MARKS = D.STATS['marks']
 STRUCT = ('wall_n', 'wall_s', 'wall_w', 'wall_e', 'wall_far', 'wall_mid', 'floor', 'ceiling', 'glass', 'door_leaf', 'shower_glass')
 ROOMS = [(-24.0, 24.0, -17.0, 17.0, 'main'), (25.0, 45.0, -17.0, 2.0, 'bedroom'), (25.0, 45.0, 3.0, 17.0, 'bath')]
-issues = collections.OrderedDict((k, []) for k in ('COLLIDER-OVERLAP', 'OUT-OF-ROOM', 'FLOATING', 'ITEM-IN-COLLIDER', 'COPLANAR', 'DOOR-BLOCKED', 'NAV', 'UNCOVERED', 'CONTRACT'))
+issues = collections.OrderedDict((k, []) for k in ('COLLIDER-OVERLAP', 'OUT-OF-ROOM', 'FLOATING', 'ITEM-IN-COLLIDER', 'ITEM-IN-WALL', 'COPLANAR', 'DOOR-BLOCKED', 'NAV', 'TIGHT-PASSAGE', 'INVISIBLE-COLLIDER', 'UNCOVERED', 'CONTRACT'))
 
 
 def cbox_of(c):
@@ -273,6 +273,122 @@ _r = reach(A['arrival'][0], A['arrival'][2], 1.6) or set()
 with open(os.path.join(OUT, 'nav_reach.txt'), 'w') as fh:
     for j in range(NZ):
         fh.write(''.join('#' if blocked[j][i] else ('R' if (i, j) in _r else ('+' if DF[j][i] <= 1.6 else '.')) for i in range(NX)) + chr(10))
+
+# ---------------------------------------------------------------------------------------------------------------------------------------
+# objects stick into each other / into walls; colliders bigger than what is seen (invisible walls); solid things without a collider
+# ---------------------------------------------------------------------------------------------------------------------------------------
+FURN_BOXES = [(c[6], cbox_of(c)) for c in ALLC if c[6] not in STRUCT] + [(c[5], cyl_box(c)) for c in CYLC]
+WALL_BOXES = [(c[6], cbox_of(c)) for c in ALLC if c[6] in ('wall_n', 'wall_s', 'wall_w', 'wall_e', 'wall_far', 'wall_mid')]
+
+
+def ov3(a, b):
+    return (min(a[1], b[1]) - max(a[0], b[0]), min(a[3], b[3]) - max(a[2], b[2]), min(a[5], b[5]) - max(a[4], b[4]))
+
+
+def inside_pt(b, x, z, y, m=0.05):
+    return b[0] - m <= x <= b[1] + m and b[2] - m <= z <= b[3] + m and b[4] - m <= y <= b[5] + m
+
+
+vis = collections.defaultdict(list)         # collider name -> visible items belonging to it (centre inside)
+FH = collections.defaultdict(list)
+for k, (nm, b) in enumerate(FURN_BOXES):
+    for i in range(int((b[0] - 1) // 8), int((b[1] + 1) // 8) + 1):
+        for j in range(int((b[2] - 1) // 8), int((b[3] + 1) // 8) + 1):
+            FH[(i, j)].append(k)
+sticks = set()
+inwall = set()
+for (kind, idx, a, it) in BB:
+    if not in_flat(a) or a[4] < FY - 0.5:
+        continue
+    cx, cz, cy = (a[0] + a[1]) / 2, (a[2] + a[3]) / 2, (a[4] + a[5]) / 2
+    # structural items (walls, floor, ceiling, casings, skirting) sit inside / on the wall colliders: not audited here
+    if any(inside_pt(w, cx, cz, cy, 0.05) for (nw, w) in WALL_BOXES):
+        continue
+    owners = []
+    for k in FH.get((int(cx // 8), int(cz // 8)), ()):
+        nm, b = FURN_BOXES[k]
+        if inside_pt(b, cx, cz, cy, 0.3):
+            owners.append(k)
+    for k in owners:
+        vis[k].append(a)
+    cand = set()
+    for i in range(int(a[0] // 8), int(a[1] // 8) + 1):
+        for j in range(int(a[2] // 8), int(a[3] // 8) + 1):
+            cand.update(FH.get((i, j), ()))
+    for k in cand:
+        if k in owners:
+            continue
+        nm, b = FURN_BOXES[k]
+        ox, oz, oy = ov3(a, b)
+        if ox > 0.3 and oz > 0.3 and oy > 0.3:
+            oname = FURN_BOXES[owners[0]][0] if owners else 'loose item'
+            sticks.add('%s item (%.1f,%.1f) y%.1f..%.1f sticks into %s (%.1f,%.1f) by %.2f x %.2f x %.2f' % (oname, cx, cz, a[4], a[5], nm, (b[0] + b[1]) / 2, (b[2] + b[3]) / 2, ox, oz, oy))
+    for (nw, w) in WALL_BOXES:
+        ox, oz, oy = ov3(a, w)
+        if ox > 0.35 and oz > 0.35 and oy > 0.35:
+            inwall.add('%s item (%.1f,%.1f) y%.1f..%.1f inside %s by %.2f x %.2f' % (FURN_BOXES[owners[0]][0] if owners else 'loose', cx, cz, a[4], a[5], nw, ox, oz))
+issues['ITEM-IN-COLLIDER'] = list(sticks)
+issues['ITEM-IN-WALL'] = list(inwall)
+
+# invisible colliders: the collider reaches further than the visible geometry it belongs to
+for k, (nm, b) in enumerate(FURN_BOXES):
+    its = vis.get(k, [])
+    if not its:
+        issues['INVISIBLE-COLLIDER'].append('%s (%.1f,%.1f): no visible geometry inside' % (nm, (b[0] + b[1]) / 2, (b[2] + b[3]) / 2))
+        continue
+    ux0, ux1 = min(i_[0] for i_ in its), max(i_[1] for i_ in its)
+    uz0, uz1 = min(i_[2] for i_ in its), max(i_[3] for i_ in its)
+    uy1 = max(i_[5] for i_ in its)
+    over = (ux0 - b[0], b[1] - ux1, uz0 - b[2], b[3] - uz1, b[5] - uy1)
+    if nm in ('floor', 'ceiling') or nm.startswith('plant'):
+        pass
+    if max(over[:4]) > 0.7 or over[4] > 0.9:
+        issues['INVISIBLE-COLLIDER'].append('%s (%.1f,%.1f): collider reaches beyond the visible parts by W%.1f E%.1f N%.1f S%.1f top%.1f' % (nm, (b[0] + b[1]) / 2, (b[2] + b[3]) / 2, over[0], over[1], over[2], over[3], over[4]))
+
+# solid things (reachable, > 0.8 high) without any collider
+cov_all = [b for (nm, b) in FURN_BOXES] + [b for (nm, b) in WALL_BOXES] + [cbox_of(c) for c in ALLC if c[6] in ('door_leaf', 'shower_glass', 'glass')]
+for (kind, idx, a, it) in BB:
+    if kind != 'O' or not in_flat(a) or a[4] < FY - 0.5:
+        continue
+    if a[5] < FY + 0.9 or a[4] > FY + 3.0 or ((a[1] - a[0]) < 0.3 and (a[3] - a[2]) < 0.3):
+        continue
+    cx, cz, cy = (a[0] + a[1]) / 2, (a[2] + a[3]) / 2, (a[4] + a[5]) / 2
+    if any(inside_pt(b, cx, cz, cy, 0.7) for b in cov_all):
+        continue
+    if any(b[0] - 0.1 <= cx <= b[1] + 0.1 and b[2] - 0.1 <= cz <= b[3] + 0.1 and abs(b[5] - a[4]) <= 0.2 for b in cov_all):
+        continue                                                    # stands on top of a collider (supported)
+    if a[4] <= FY + 0.2 and a[5] < FY + 1.4:
+        continue
+    issues['UNCOVERED'].append('item (%.1f,%.1f) y%.1f..%.1f size %.1fx%.1f col %s' % (cx, cz, a[4], a[5], a[1] - a[0], a[3] - a[2], it[4]))
+
+# tight passages: free cells (distance field) that sit between obstacles closer than 4 studs on the main route, and dead-end pockets
+r16 = reach(A['arrival'][0], A['arrival'][2], 1.0) or set()
+free_all = set((i, j) for j in range(NZ) for i in range(NX) if not blocked[j][i] and 0 < i < NX - 1 and 0 < j < NZ - 1)
+pockets = free_all - r16
+pk_small = [c for c in pockets if DF[c[1]][c[0]] >= 2]
+groups = []
+seenp = set()
+for c in pk_small:
+    if c in seenp:
+        continue
+    st = [c]
+    seenp.add(c)
+    pts = []
+    while st:
+        i, j = st.pop()
+        pts.append((i, j))
+        for (di, dj) in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            n_ = (i + di, j + dj)
+            if n_ in pockets and n_ not in seenp and n_ in free_all and DF[n_[1]][n_[0]] >= 2:
+                seenp.add(n_)
+                st.append(n_)
+    groups.append(pts)
+for pts in groups:
+    if len(pts) >= 4:
+        cx = sum(p[0] for p in pts) / len(pts) - OX
+        cz = sum(p[1] for p in pts) / len(pts) - OZ
+        issues['TIGHT-PASSAGE'].append('pocket of %d free cells around (%.0f, %.0f) is cut off from the rest of the flat (agent R=1.0)' % (len(pts), cx, cz))
+
 # contract
 need = ('arrival', 'exit_door', 'mistress_seat', 'guest_seat', 'table_top')
 for nm in need:

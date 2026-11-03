@@ -243,9 +243,9 @@ towel(28.7, 31.5, FY + 3.9, FY + 5.4, 3.3, 3.55, P['coral'])
 towel(28.7, 31.5, FY + 2.0, FY + 3.5, 3.3, 3.55, P['white'])
 towel(28.7, 31.5, FY + 5.4 - 0.0, FY + 5.9, 3.3, 3.55, P['teal'])
 box(44.2, 45.0, FY + 5.6, FY + 5.8, 12.0, 14.0, P['walnut2']) if False else None
-box(44.0, 45.0, FY + 7.2, FY + 7.45, 9.2, 11.8, P['walnut2'])                                           # shelf over the toilet
-vase(44.5, FY + 7.45, 10.0, P['teal'], 1.3, 0.35)
-book_stack(44.4, FY + 7.45, 11.2, 2, 51, 1.1, 0.8)
+box(44.0, 45.0, FY + 7.2, FY + 7.45, 7.4, 10.0, P['walnut2'])                                           # shelf over the toilet
+vase(44.5, FY + 7.45, 8.2, P['teal'], 1.3, 0.35)
+book_stack(44.4, FY + 7.45, 9.3, 2, 51, 1.1, 0.8)
 box(44.6, 45.0, FY + 4.0, FY + 4.4, 8.4, 8.8, P['metal'])                                              # paper-roll holder
 cyl(44.4, 8.6, FY + 4.0, FY + 4.5, 0.3, P['white'], seg=10) if False else None
 for k, c in enumerate((P['coral'], P['white'], P['teal'])):

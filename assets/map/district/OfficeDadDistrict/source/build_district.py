@@ -24,10 +24,11 @@ GY = 1.0                    # ground top
 SIGNS = []                  # (text, x, y, z, w, h, facing 'N/S/E/W')
 LIGHTS = []                 # (x, y, z, range)
 BLD = []                    # (name, item counts at start, item counts at end) of every building() for the audit
+BLD_INFO = []               # (name, x0, x1, z0, z1, top, wall colour, floors, front) of every building: feeds the view from the mistress flat window (skyline.json)
 TREES = []                  # (x, z, canopy radius) for the audit
 ZONES_OCC = []              # (char, x0, x1, z0, z1) infrastructure that has no collider (paving, paths, lawns) for the audit map
 OCC = []                    # (tag, x0, x1, z0, z1) occupied land: used to place paths, trees and fillers
-TREE_SEG = 8                # canopy sphere resolution (tris budget knob)
+TREE_SEG = 12               # canopy sphere resolution (tris budget knob)
 
 PAL = dict(asphalt='#464B58', asph2='#525763', curb='#D6D4CC', walk='#DAD7CE', walk2='#E4E7EB', walk3='#D3D8DE', gutter='#3B3F47', lane='#F8D030', white='#FFFFFF',
            grass='#5BC247', grass2='#4EB23C', hedge='#2C9A3A', soil='#6A4A30', brick='#C4633F', brick2='#A44C30', stone='#DCD0BB', stone2='#B8AB95', roof='#2D58B0',
@@ -218,6 +219,7 @@ def building(b, floors, wall, trim, fh=11.0, front='S', ground_h=13.0, win_w=3.8
     """Windowed shell of a building: plinth, pilasters, bands, windows on four sides, a ground floor with shop windows/entrance, cornice, flat blue roof."""
     rnd = random.Random(seed)
     BLD.append((name, D.counts(), None))
+    BLD_INFO.append((name, b.x0, b.x1, b.z0, b.z1, GY + ground_h + (floors - 1) * fh + 1.35 + 2.6, wall, floors, front))
     H = ground_h + (floors - 1) * fh
     y0 = GY
     HT = H + 1.35                           # wall up to the cornice top: the parapet stands on it
