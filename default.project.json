@@ -30,6 +30,9 @@
       },
       "OfficeDadDistrict": {
         "$path": "assets/map/district/OfficeDadDistrict/model/OfficeDadDistrict.rbxm"
+      },
+      "FishermanDadDistrict": {
+        "$path": "assets/map/district/FishermanDadDistrict/model/FishermanDadDistrict.rbxm"
       }
     },
     "ServerStorage": {
