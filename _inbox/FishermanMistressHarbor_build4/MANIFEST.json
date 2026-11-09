@@ -1,0 +1,759 @@
+{
+ "asset": "FishermanMistressHarbor",
+ "status": "build 1 (approved plan v2 'Harbour'), awaiting owner review",
+ "game": "Steal a Dad!",
+ "dad": "FishermanDad",
+ "units": {
+  "blender_unit_equals_roblox_studs": 1.0,
+  "scene_scale_length": 0.01
+ },
+ "coordinates": "plan coords: x east, y north (lagoon), z up. District 0..500 x 0..500, ground top z=0. After FBX import: Roblox X = -x, Y = z, Z = y.",
+ "tower": {
+  "footprint": [
+   258.0,
+   398.0,
+   322.0,
+   438.0
+  ],
+  "floors": 8,
+  "floor_h": 11.0,
+  "top": 89.0
+ },
+ "counts": {
+  "meshes": 1053,
+  "triangles": 377928,
+  "by_group": {
+   "Backdrop": {
+    "meshes": 146,
+    "triangles": 51724
+   },
+   "Biome": {
+    "meshes": 163,
+    "triangles": 128526
+   },
+   "Boardwalk": {
+    "meshes": 15,
+    "triangles": 16740
+   },
+   "Boat": {
+    "meshes": 47,
+    "triangles": 33164
+   },
+   "Bridge": {
+    "meshes": 9,
+    "triangles": 3012
+   },
+   "Glass": {
+    "meshes": 14,
+    "triangles": 2916
+   },
+   "Neighbors": {
+    "meshes": 167,
+    "triangles": 32844
+   },
+   "Pier": {
+    "meshes": 29,
+    "triangles": 14940
+   },
+   "Props": {
+    "meshes": 299,
+    "triangles": 49698
+   },
+   "Roads": {
+    "meshes": 37,
+    "triangles": 2028
+   },
+   "Terrain": {
+    "meshes": 41,
+    "triangles": 10440
+   },
+   "Tower": {
+    "meshes": 17,
+    "triangles": 24732
+   },
+   "TowerRoof": {
+    "meshes": 4,
+    "triangles": 84
+   },
+   "Trees": {
+    "meshes": 47,
+    "triangles": 4024
+   },
+   "Water": {
+    "meshes": 18,
+    "triangles": 3056
+   }
+  },
+  "max_tris": 9000
+ },
+ "colliders": 1868,
+ "anchors": 86,
+ "palette": {
+  "Teal": {
+   "rgb": [
+    40,
+    196,
+    180
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "TealDark": {
+   "rgb": [
+    24,
+    150,
+    150
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Mint": {
+   "rgb": [
+    120,
+    224,
+    190
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Sage": {
+   "rgb": [
+    130,
+    200,
+    110
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Butter": {
+   "rgb": [
+    255,
+    210,
+    80
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Blue": {
+   "rgb": [
+    70,
+    140,
+    230
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "WoodDark": {
+   "rgb": [
+    90,
+    58,
+    38
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "WoodMid": {
+   "rgb": [
+    156,
+    98,
+    56
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "WoodLight": {
+   "rgb": [
+    185,
+    133,
+    87
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Plank": {
+   "rgb": [
+    196,
+    136,
+    80
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Rust": {
+   "rgb": [
+    214,
+    70,
+    50
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "RustDark": {
+   "rgb": [
+    176,
+    46,
+    40
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Copper": {
+   "rgb": [
+    232,
+    120,
+    60
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Sand": {
+   "rgb": [
+    252,
+    226,
+    158
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Grass": {
+   "rgb": [
+    92,
+    204,
+    72
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Dirt": {
+   "rgb": [
+    222,
+    190,
+    130
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Stone": {
+   "rgb": [
+    138,
+    141,
+    143
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "StoneDark": {
+   "rgb": [
+    98,
+    101,
+    104
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Glass": {
+   "rgb": [
+    191,
+    227,
+    238
+   ],
+   "roblox_material": "Glass",
+   "transparency": 0.6
+  },
+  "Water": {
+   "rgb": [
+    52,
+    186,
+    232
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.25
+  },
+  "Iron": {
+   "rgb": [
+    60,
+    60,
+    64
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Cream": {
+   "rgb": [
+    255,
+    248,
+    226
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Red": {
+   "rgb": [
+    232,
+    52,
+    52
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Yellow": {
+   "rgb": [
+    255,
+    204,
+    40
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Rope": {
+   "rgb": [
+    205,
+    185,
+    138
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Pine": {
+   "rgb": [
+    40,
+    140,
+    74
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Cloth": {
+   "rgb": [
+    120,
+    150,
+    170
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Fish": {
+   "rgb": [
+    90,
+    160,
+    210
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Lamp": {
+   "rgb": [
+    255,
+    214,
+    130
+   ],
+   "roblox_material": "Neon",
+   "transparency": 0.0
+  },
+  "Black": {
+   "rgb": [
+    30,
+    30,
+    34
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Grass2": {
+   "rgb": [
+    108,
+    214,
+    84
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Sand2": {
+   "rgb": [
+    246,
+    214,
+    140
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Water2": {
+   "rgb": [
+    54,
+    189,
+    233
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.25
+  },
+  "White": {
+   "rgb": [
+    240,
+    240,
+    236
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Pink": {
+   "rgb": [
+    255,
+    120,
+    170
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Brick": {
+   "rgb": [
+    150,
+    82,
+    66
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Moss": {
+   "rgb": [
+    84,
+    168,
+    70
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "PlankB": {
+   "rgb": [
+    180,
+    120,
+    70
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "PlankC": {
+   "rgb": [
+    214,
+    156,
+    98
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Plaster": {
+   "rgb": [
+    236,
+    226,
+    204
+   ],
+   "roblox_material": "Plaster",
+   "transparency": 0.0
+  },
+  "WallA": {
+   "rgb": [
+    255,
+    236,
+    190
+   ],
+   "roblox_material": "Plaster",
+   "transparency": 0.0
+  },
+  "WallB": {
+   "rgb": [
+    190,
+    238,
+    214
+   ],
+   "roblox_material": "Plaster",
+   "transparency": 0.0
+  },
+  "WallD": {
+   "rgb": [
+    224,
+    208,
+    182
+   ],
+   "roblox_material": "Plaster",
+   "transparency": 0.0
+  },
+  "WallE": {
+   "rgb": [
+    170,
+    210,
+    255
+   ],
+   "roblox_material": "Plaster",
+   "transparency": 0.0
+  },
+  "Tile": {
+   "rgb": [
+    228,
+    234,
+    232
+   ],
+   "roblox_material": "CeramicTiles",
+   "transparency": 0.0
+  },
+  "TileB": {
+   "rgb": [
+    150,
+    196,
+    204
+   ],
+   "roblox_material": "CeramicTiles",
+   "transparency": 0.0
+  },
+  "Cobble": {
+   "rgb": [
+    190,
+    180,
+    170
+   ],
+   "roblox_material": "Cobblestone",
+   "transparency": 0.0
+  },
+  "Leather": {
+   "rgb": [
+    112,
+    70,
+    44
+   ],
+   "roblox_material": "Leather",
+   "transparency": 0.0
+  },
+  "Orange": {
+   "rgb": [
+    255,
+    136,
+    30
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Green": {
+   "rgb": [
+    60,
+    180,
+    70
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Gold": {
+   "rgb": [
+    212,
+    172,
+    64
+   ],
+   "roblox_material": "Metal",
+   "transparency": 0.0
+  },
+  "Paper": {
+   "rgb": [
+    236,
+    226,
+    194
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Fire": {
+   "rgb": [
+    255,
+    138,
+    40
+   ],
+   "roblox_material": "Neon",
+   "transparency": 0.0
+  },
+  "Navy": {
+   "rgb": [
+    40,
+    70,
+    160
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Ash": {
+   "rgb": [
+    78,
+    80,
+    92
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "SandWet": {
+   "rgb": [
+    226,
+    192,
+    128
+   ],
+   "roblox_material": "Sand",
+   "transparency": 0.0
+  },
+  "SandLight": {
+   "rgb": [
+    255,
+    238,
+    186
+   ],
+   "roblox_material": "Sand",
+   "transparency": 0.0
+  },
+  "Shell": {
+   "rgb": [
+    240,
+    222,
+    206
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Pebble": {
+   "rgb": [
+    158,
+    150,
+    140
+   ],
+   "roblox_material": "Pebble",
+   "transparency": 0.0
+  },
+  "GrassDark": {
+   "rgb": [
+    70,
+    178,
+    60
+   ],
+   "roblox_material": "Grass",
+   "transparency": 0.0
+  },
+  "GrassLight": {
+   "rgb": [
+    140,
+    226,
+    98
+   ],
+   "roblox_material": "Grass",
+   "transparency": 0.0
+  },
+  "Leaf": {
+   "rgb": [
+    64,
+    182,
+    62
+   ],
+   "roblox_material": "Grass",
+   "transparency": 0.0
+  },
+  "LeafB": {
+   "rgb": [
+    110,
+    210,
+    70
+   ],
+   "roblox_material": "Grass",
+   "transparency": 0.0
+  },
+  "DirtDark": {
+   "rgb": [
+    160,
+    136,
+    100
+   ],
+   "roblox_material": "Ground",
+   "transparency": 0.0
+  },
+  "Skin": {
+   "rgb": [
+    232,
+    190,
+    150
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Purple": {
+   "rgb": [
+    160,
+    90,
+    220
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Lime": {
+   "rgb": [
+    170,
+    230,
+    60
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Sky": {
+   "rgb": [
+    120,
+    210,
+    255
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Foam": {
+   "rgb": [
+    235,
+    250,
+    255
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Cliff": {
+   "rgb": [
+    176,
+    166,
+    170
+   ],
+   "roblox_material": "Slate",
+   "transparency": 0.0
+  },
+  "CliffDark": {
+   "rgb": [
+    148,
+    138,
+    146
+   ],
+   "roblox_material": "Slate",
+   "transparency": 0.0
+  },
+  "Tunnel": {
+   "rgb": [
+    34,
+    30,
+    40
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "TowerPink": {
+   "rgb": [
+    255,
+    176,
+    204
+   ],
+   "roblox_material": "Plaster",
+   "transparency": 0.0
+  },
+  "Coral": {
+   "rgb": [
+    255,
+    112,
+    120
+   ],
+   "roblox_material": "SmoothPlastic",
+   "transparency": 0.0
+  }
+ }
+}

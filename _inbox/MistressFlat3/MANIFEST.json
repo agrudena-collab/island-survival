@@ -1,0 +1,118 @@
+{
+ "asset": "MistressFlat3",
+ "status": "Studio pack v1 (references approved by Ivan 2026-11-08)",
+ "counts": {
+  "meshes": 825,
+  "triangles": 288278,
+  "by_group": {
+   "FlatBalcony": {
+    "meshes": 15,
+    "triangles": 1984
+   },
+   "FlatCeil": {
+    "meshes": 2,
+    "triangles": 84
+   },
+   "FlatFloor": {
+    "meshes": 10,
+    "triangles": 4584
+   },
+   "FlatLamps": {
+    "meshes": 9,
+    "triangles": 2104
+   },
+   "FlatProps": {
+    "meshes": 47,
+    "triangles": 19468
+   },
+   "FlatWalls": {
+    "meshes": 18,
+    "triangles": 6456
+   },
+   "Glass": {
+    "meshes": 3,
+    "triangles": 336
+   },
+   "View": {
+    "meshes": 721,
+    "triangles": 253262
+   }
+  }
+ },
+ "colliders": 119,
+ "lights": 17,
+ "anchors": {
+  "arrival": {
+   "pos": [
+    -23.0,
+    0.0,
+    4.0
+   ],
+   "look": [
+    0,
+    0,
+    1
+   ]
+  },
+  "exit_door": {
+   "pos": [
+    -23.0,
+    4.2,
+    0.2
+   ],
+   "look": [
+    0,
+    0,
+    -1
+   ]
+  },
+  "table_top": {
+   "pos": [
+    -24.5,
+    3.75,
+    33.1
+   ],
+   "look": [
+    0,
+    0,
+    1
+   ]
+  },
+  "mistress_seat": {
+   "pos": [
+    -24.5,
+    2.85,
+    36.7
+   ],
+   "look": [
+    0,
+    0,
+    -1
+   ]
+  },
+  "guest_seat": {
+   "pos": [
+    -24.5,
+    2.85,
+    29.5
+   ],
+   "look": [
+    0,
+    0,
+    1
+   ]
+  }
+ },
+ "mesh_center_rel": [
+  -72.197,
+  -37.016,
+  183.014
+ ],
+ "mesh_size_rel": [
+  722.899,
+  100.833,
+  730.716
+ ],
+ "view_solids": 17726,
+ "dad_id": "GardenerDad (Fisherman Dad art)"
+}

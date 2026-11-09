@@ -1,0 +1,19 @@
+== 1. FLICKER (coplanar overlapping faces, different colours) ==
+FLICKER_PAIRS 0
+== 2. WALKABILITY (agent height 5.5) ==
+  r=1.25: reachable 3565 of 3591 free cells; unreachable targets: none
+    cut-off free cells: 26 e.g. [(2.0, 11.0), (2.0, 11.5), (2.0, 12.0), (2.5, 11.0), (2.5, 11.5), (2.5, 12.0)]
+  r=1.6: reachable 2678 of 2771 free cells; unreachable targets: none
+    cut-off free cells: 93 e.g. [(2.5, 11.5), (3.0, 11.5), (3.5, 11.5), (21.0, 37.5), (21.5, 37.5), (30.0, 18.5)]
+WALK_ISSUES 0
+== 3. DOORS ==
+  arch  x=14 19..28: clear 7.6 OK
+  door  y=16 6..11: clear 5.0 OK
+  door  y=30 3..9: clear 6.0 OK
+  door  y=44 9.5..13.5: clear 4.0 OK
+  door  y=44 22..29: clear 7.0 OK
+  open  y=16 17..39: clear 4.4 OK
+DOOR_ISSUES 0
+== 4. COLLIDERS WITHOUT VISUAL ==
+INVISIBLE_COLLIDERS 0
+SUMMARY flicker 0 walk 0 doors 0 invisible 0

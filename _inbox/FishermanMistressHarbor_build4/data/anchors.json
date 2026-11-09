@@ -1,0 +1,773 @@
+[
+ {
+  "name": "LampLight",
+  "pos": [
+   20,
+   215.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   40,
+   244.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   60,
+   215.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   80,
+   244.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   100,
+   215.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   120,
+   244.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   140,
+   215.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   160,
+   244.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   180,
+   215.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   200,
+   244.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   260,
+   215.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   280,
+   244.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   300,
+   215.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   320,
+   244.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   340,
+   215.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   360,
+   244.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   380,
+   215.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   400,
+   244.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   420,
+   215.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   440,
+   244.5,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   195.5,
+   30,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   195.5,
+   75,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   195.5,
+   120,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   195.5,
+   165,
+   9.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   453.6,
+   320,
+   8.2
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   453.6,
+   360,
+   8.2
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   453.6,
+   400,
+   8.2
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   453.6,
+   440,
+   8.2
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   453.6,
+   480,
+   8.2
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   150.0,
+   317.854,
+   9.3
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   198.0,
+   312.659,
+   9.3
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   246.0,
+   310.017,
+   9.3
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   342.0,
+   316.976,
+   9.3
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   390.0,
+   321.258,
+   9.3
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   438.0,
+   321.521,
+   9.3
+  ],
+  "range": 30
+ },
+ {
+  "name": "PromenadeCenter",
+  "pos": [
+   290,
+   300,
+   0.9
+  ]
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   291.0,
+   287.0,
+   7.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   339.0,
+   287.0,
+   7.7
+  ],
+  "range": 32
+ },
+ {
+  "name": "FishMarket",
+  "pos": [
+   315,
+   270,
+   0.6
+  ],
+  "note": "Fisherman's alibi: he 'sells his catch' here"
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   25,
+   286,
+   2.5
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   70,
+   292,
+   2.5
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   118,
+   288,
+   2.5
+  ],
+  "range": 20
+ },
+ {
+  "name": "BeachBoatMooring",
+  "pos": [
+   12,
+   306.901,
+   0.738
+  ],
+  "note": "static boat; owner/colleague defines the passage stage"
+ },
+ {
+  "name": "BeachBoatMooring",
+  "pos": [
+   64,
+   311.429,
+   0.738
+  ],
+  "note": "static boat; owner/colleague defines the passage stage"
+ },
+ {
+  "name": "BeachBoatMooring",
+  "pos": [
+   136,
+   309.648,
+   0.738
+  ],
+  "note": "static boat; owner/colleague defines the passage stage"
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   54.0,
+   444.0,
+   9.7
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   106.0,
+   474.0,
+   9.7
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   54.0,
+   474.0,
+   9.7
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   284.3,
+   319.226,
+   7.7
+  ],
+  "range": 22
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   295.7,
+   319.226,
+   7.7
+  ],
+  "range": 22
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   284.3,
+   340.613,
+   7.7
+  ],
+  "range": 22
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   295.7,
+   340.613,
+   7.7
+  ],
+  "range": 22
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   284.3,
+   363.0,
+   7.7
+  ],
+  "range": 22
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   295.7,
+   363.0,
+   7.7
+  ],
+  "range": 22
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   290.0,
+   418.0,
+   101.2
+  ],
+  "range": 60
+ },
+ {
+  "name": "Sign_APARTMENTS",
+  "pos": [
+   290.0,
+   397.0,
+   14.2
+  ],
+  "text": "APARTMENTS",
+  "face": "S"
+ },
+ {
+  "name": "tower_entrance",
+  "pos": [
+   290.0,
+   395.5,
+   0.75
+  ],
+  "face": "N",
+  "note": "ApartmentEntrance, ApartmentId assigned by owner"
+ },
+ {
+  "name": "tower_exit_arrival",
+  "pos": [
+   290.0,
+   384.0,
+   0.35
+  ],
+  "face": "S"
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   255.5,
+   440.5,
+   9.05
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   324.5,
+   440.5,
+   9.05
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   255.5,
+   389.5,
+   9.05
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   324.5,
+   389.5,
+   9.05
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   229.8,
+   416.8,
+   8.1
+  ],
+  "range": 30
+ },
+ {
+  "name": "FishermanBoatAtMistressMooring",
+  "pos": [
+   218.5,
+   418,
+   -1.546
+  ],
+  "note": "static boat; owner/colleague defines the passage stage"
+ },
+ {
+  "name": "FishermanBoatDock",
+  "pos": [
+   218.5,
+   418,
+   0.9
+  ],
+  "note": "where Fisherman Dad moors his boat at the mistress (boat stage: colleague)"
+ },
+ {
+  "name": "tower_back_door",
+  "pos": [
+   256.0,
+   417,
+   0.35
+  ],
+  "face": "E",
+  "note": "secret entrance from the boat pier (REQUIRES SRC INTEGRATION if used)"
+ },
+ {
+  "name": "MarinaBoatMooring",
+  "pos": [
+   371,
+   361,
+   -1.546
+  ],
+  "note": "static boat; owner/colleague defines the passage stage"
+ },
+ {
+  "name": "MarinaBoatMooring",
+  "pos": [
+   389,
+   361,
+   -1.592
+  ],
+  "note": "static boat; owner/colleague defines the passage stage"
+ },
+ {
+  "name": "MarinaBoatMooring",
+  "pos": [
+   407,
+   361,
+   -1.523
+  ],
+  "note": "static boat; owner/colleague defines the passage stage"
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   371.0,
+   330.8,
+   7.3
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   407.0,
+   330.8,
+   7.3
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   404.0,
+   453.0,
+   44.5
+  ],
+  "range": 60
+ },
+ {
+  "name": "YardBoatMooring",
+  "pos": [
+   82,
+   27.0,
+   0.127
+  ],
+  "note": "static boat; owner/colleague defines the passage stage"
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   370.0,
+   80.0,
+   8.7
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   400.0,
+   56.0,
+   8.7
+  ],
+  "range": 30
+ },
+ {
+  "name": "Sign_BUS",
+  "pos": [
+   324.2,
+   212.7,
+   10.5
+  ],
+  "text": "BUS",
+  "face": "N"
+ },
+ {
+  "name": "BusStop",
+  "pos": [
+   315.0,
+   213.0,
+   0.45
+  ]
+ },
+ {
+  "name": "connector_W",
+  "pos": [
+   0,
+   230.0,
+   0.2
+  ]
+ },
+ {
+  "name": "connector_E",
+  "pos": [
+   500,
+   230.0,
+   0.2
+  ]
+ },
+ {
+  "name": "connector_S",
+  "pos": [
+   210.0,
+   0,
+   0.2
+  ]
+ },
+ {
+  "name": "connector_N",
+  "pos": [
+   463.0,
+   500,
+   0.2
+  ]
+ },
+ {
+  "name": "PlayerStart",
+  "pos": [
+   210.0,
+   14,
+   0.5
+  ]
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   191.0,
+   9.0,
+   16
+  ],
+  "range": 24
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   229.0,
+   9.0,
+   16
+  ],
+  "range": 24
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   64.0,
+   254.5,
+   23.5
+  ],
+  "range": 22
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   76.0,
+   254.5,
+   23.5
+  ],
+  "range": 22
+ }
+]

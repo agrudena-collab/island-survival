@@ -1,0 +1,36 @@
+== 1. Z-FIGHTING (coplanar same-direction faces, different materials) ==
+     1 x  Backdrop/-/Cliff  vs  Backdrop/-/Grass2  axis X  e.g. at (-110.4, 539.9, 14.8, 'plane', -110.41, '-', [-110.41, 539.9, -9.38, 610.22, 620.22, 15.55], [-110.41, 539.62, 14.81, 610.05, 620.2, 16.41])
+FLICKER_PAIRS 1 (boxes checked: 22297 )
+note: prisms/roofs/lofts (non-box solids) are not covered by this check; checked visually in previews
+
+== 2. DOOR OPENINGS ==
+  tower entrance         OK
+  tower back door        OK
+DOOR_ISSUES 0
+
+== 3. WALKABILITY (voxel 0.5 stud, agent height 5.5, max step 1.0) ==
+
+-- agent r=1.25 (avatar): reachable cells 1793295
+  all target spots reachable
+  island 5152 sq studs: x 254..322  y 398..438  z 47.0..48.0
+  island 3192 sq studs: x 410..448  y 256..284  z 14.0..15.5
+  island 2520 sq studs: x 226..256  y 256..284  z 14.0..15.5
+  island 2520 sq studs: x 140..170  y 256..284  z 14.0..15.5
+  island 2352 sq studs: x 378..406  y 256..284  z 14.0..15.5
+  island 2352 sq studs: x 346..374  y 256..284  z 14.0..15.5
+  island 2160 sq studs: x 335..365  y 168..192  z 14.0..15.5
+  island 2160 sq studs: x 285..315  y 168..192  z 14.0..15.5
+
+-- agent r=2.0 (with bag): reachable cells 1641908
+  all target spots reachable
+  island 5152 sq studs: x 254..322  y 398..438  z 47.0..48.0
+  island 3192 sq studs: x 410..448  y 256..284  z 14.0..15.5
+  island 2520 sq studs: x 226..256  y 256..284  z 14.0..15.5
+  island 2520 sq studs: x 140..170  y 256..284  z 14.0..15.5
+  island 2352 sq studs: x 378..406  y 256..284  z 14.0..15.5
+  island 2352 sq studs: x 346..374  y 256..284  z 14.0..15.5
+  island 2160 sq studs: x 335..365  y 168..192  z 14.0..15.5
+  island 2160 sq studs: x 285..315  y 168..192  z 14.0..15.5
+
+WALK_ISSUES 0
+SUMMARY flicker_pairs 1 door_issues 0 walk_issues 0
