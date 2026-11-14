@@ -1,0 +1,36 @@
+== 1. Z-FIGHTING ==
+FLICKER_PAIRS 0 (boxes: 20146 )
+
+== 2. DOOR OPENINGS (Grill Dad's house) ==
+  front door         OK
+  back door          OK
+  kitchen side door  OK
+  hall-trophy        OK
+  hall-dining        OK
+  hall-living        OK
+  hall-kitchen       OK
+  trophy-dining      OK
+  living-kitchen     OK
+  2F master door     OK
+  2F kid door        OK
+  2F cinema door     OK
+  2F bath door       OK
+  2F balcony door    OK
+DOOR_ISSUES 0
+
+== 3. WALKABILITY (voxel 0.5, height 5.5, step 1.0) ==
+
+-- agent r=1.25 (avatar): reachable cells 2222183
+  all 40 target spots reachable
+
+-- agent r=2.0 (carrying dad): reachable cells 2050268
+  all 40 target spots reachable
+
+WALK_ISSUES 0
+
+== 4. CLOSED FACADES / CAMERA ==
+  neighbour houses with a full solid collider: 10 of 10
+  Grill Dad's house: wall, floor, ceiling and roof colliders present: 141
+  camera rule is enforced in Studio by scripts/camera_block.luau (PopperCam ignores invisible colliders)
+
+SUMMARY flicker_pairs 0 door_issues 0 walk_issues 0 neighbour_solid 10
