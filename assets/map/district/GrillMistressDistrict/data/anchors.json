@@ -1,0 +1,825 @@
+[
+ {
+  "name": "LampLight",
+  "pos": [
+   231.0,
+   7.5,
+   18.4
+  ],
+  "range": 40
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   269.0,
+   7.5,
+   18.4
+  ],
+  "range": 40
+ },
+ {
+  "name": "PlayerStart",
+  "pos": [
+   250,
+   24,
+   1.5
+  ]
+ },
+ {
+  "name": "DistrictEntrance",
+  "pos": [
+   250,
+   2,
+   0.2
+  ],
+  "note": "south gate: connector to the city / forest road (to be wired by the owner)"
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   250.0,
+   253.0,
+   8.0
+  ],
+  "range": 26
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   250.0,
+   277.0,
+   60.72
+  ],
+  "range": 40
+ },
+ {
+  "name": "ApartmentEntrance",
+  "pos": [
+   250.0,
+   244.0,
+   0.55
+  ],
+  "note": "teleport pad: Exterior.Entrance (tag ApartmentEntrance, prompt \u00ab\u0412\u043e\u0439\u0442\u0438\u00bb)"
+ },
+ {
+  "name": "ExitArrival",
+  "pos": [
+   250.0,
+   236.0,
+   0.3
+  ],
+  "note": "where the flat's exit door brings the player (facing south)"
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   250.0,
+   244.0,
+   8.0
+  ],
+  "range": 22
+ },
+ {
+  "name": "BusStop",
+  "pos": [
+   196.0,
+   177.5,
+   0.3
+  ]
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   304.0,
+   229.5,
+   6.0
+  ],
+  "range": 24
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   242.0,
+   180.0,
+   13.5
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   258.0,
+   180.0,
+   13.5
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   242.0,
+   236.0,
+   13.5
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   258.0,
+   236.0,
+   13.5
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   230.0,
+   252.0,
+   13.5
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   270.0,
+   252.0,
+   13.5
+  ],
+  "range": 36
+ },
+ {
+  "name": "FoodTruckWindow",
+  "pos": [
+   213,
+   389.0,
+   0.2
+  ]
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   213,
+   386.5,
+   8.0
+  ],
+  "range": 30
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   205,
+   444,
+   11.0
+  ],
+  "range": 44
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   242.0,
+   372.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   258.0,
+   372.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   242.0,
+   400.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   258.0,
+   400.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   242.0,
+   432.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   258.0,
+   432.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   242.0,
+   460.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   258.0,
+   460.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   112.4,
+   200.8,
+   7.4
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   128.8,
+   204.2,
+   2.4
+  ],
+  "range": 12
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   112.4,
+   283.6,
+   7.4
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   128.8,
+   287.0,
+   2.4
+  ],
+  "range": 12
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   387.6,
+   216.4,
+   7.4
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   371.2,
+   213.0,
+   2.4
+  ],
+  "range": 12
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   387.6,
+   299.2,
+   7.4
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   371.2,
+   295.8,
+   2.4
+  ],
+  "range": 12
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   79.4,
+   112.4,
+   7.4
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   76.0,
+   128.8,
+   2.4
+  ],
+  "range": 12
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   427.4,
+   112.4,
+   7.4
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   424.0,
+   128.8,
+   2.4
+  ],
+  "range": 12
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   63.0,
+   387.6,
+   7.4
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   66.4,
+   371.2,
+   2.4
+  ],
+  "range": 12
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   420.6,
+   387.6,
+   7.4
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   424.0,
+   371.2,
+   2.4
+  ],
+  "range": 12
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   214.4,
+   77.6,
+   7.4
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   224.8,
+   81.0,
+   2.4
+  ],
+  "range": 12
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   285.6,
+   93.6,
+   7.4
+  ],
+  "range": 20
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   275.2,
+   90.2,
+   2.4
+  ],
+  "range": 12
+ },
+ {
+  "name": "WaterTower",
+  "pos": [
+   458,
+   458,
+   36.0
+  ]
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   458,
+   458,
+   30.0
+  ],
+  "range": 50
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   48,
+   464.0,
+   44.0
+  ],
+  "range": 50
+ },
+ {
+  "name": "ConnectorS1",
+  "pos": [
+   158.0,
+   3.0,
+   0.2
+  ],
+  "note": "road connector (closed by a barrier for now)"
+ },
+ {
+  "name": "ConnectorN1",
+  "pos": [
+   158.0,
+   497.0,
+   0.2
+  ],
+  "note": "road connector (closed by a barrier for now)"
+ },
+ {
+  "name": "ConnectorS2",
+  "pos": [
+   342.0,
+   3.0,
+   0.2
+  ],
+  "note": "road connector (closed by a barrier for now)"
+ },
+ {
+  "name": "ConnectorN2",
+  "pos": [
+   342.0,
+   497.0,
+   0.2
+  ],
+  "note": "road connector (closed by a barrier for now)"
+ },
+ {
+  "name": "ConnectorW1",
+  "pos": [
+   3.0,
+   158.0,
+   0.2
+  ],
+  "note": "road connector (closed by a barrier for now)"
+ },
+ {
+  "name": "ConnectorE1",
+  "pos": [
+   497.0,
+   158.0,
+   0.2
+  ],
+  "note": "road connector (closed by a barrier for now)"
+ },
+ {
+  "name": "ConnectorW2",
+  "pos": [
+   3.0,
+   342.0,
+   0.2
+  ],
+  "note": "road connector (closed by a barrier for now)"
+ },
+ {
+  "name": "ConnectorE2",
+  "pos": [
+   497.0,
+   342.0,
+   0.2
+  ],
+  "note": "road connector (closed by a barrier for now)"
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   250.0,
+   478.0,
+   3.0
+  ],
+  "range": 34
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   250.0,
+   489.0,
+   33.0
+  ],
+  "range": 26
+ },
+ {
+  "name": "Waterfall",
+  "pos": [
+   250.0,
+   462.0,
+   0.3
+  ]
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   235.0,
+   34,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   265.0,
+   34,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   235.0,
+   74,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   265.0,
+   74,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   235.0,
+   114,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   265.0,
+   114,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   196,
+   173.2,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   196,
+   326.8,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   173.2,
+   196,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   326.8,
+   196,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   304,
+   173.2,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   304,
+   326.8,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   173.2,
+   304,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   326.8,
+   304,
+   14.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   40,
+   143.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   40,
+   357.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   143.0,
+   40,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   357.0,
+   40,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   100,
+   143.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   100,
+   357.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   143.0,
+   100,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   357.0,
+   100,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   400,
+   143.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   400,
+   357.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   143.0,
+   400,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   357.0,
+   400,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   460,
+   143.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   460,
+   357.0,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   143.0,
+   460,
+   13.2
+  ],
+  "range": 36
+ },
+ {
+  "name": "LampLight",
+  "pos": [
+   357.0,
+   460,
+   13.2
+  ],
+  "range": 36
+ }
+]

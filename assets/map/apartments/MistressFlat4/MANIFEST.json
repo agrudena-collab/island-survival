@@ -1,0 +1,78 @@
+{
+ "asset": "MistressFlat4",
+ "status": "build 1, awaiting owner review",
+ "game": "Steal a Dad!",
+ "dad": "GrillDad",
+ "size_studs": [
+  84.0,
+  56.0,
+  13.0
+ ],
+ "rooms": [
+  "vestibule",
+  "living room",
+  "dining (MistressDesk)",
+  "kitchen with indoor grill",
+  "bedroom",
+  "bathroom",
+  "dressing room",
+  "sun lounge with bar"
+ ],
+ "counts": {
+  "meshes": 204,
+  "triangles": 43872,
+  "by_group": {
+   "FlatCeil": {
+    "meshes": 1,
+    "triangles": 12
+   },
+   "FlatFloor": {
+    "meshes": 9,
+    "triangles": 4512
+   },
+   "FlatProps": {
+    "meshes": 56,
+    "triangles": 30076
+   },
+   "FlatWalls": {
+    "meshes": 9,
+    "triangles": 2940
+   },
+   "Glass": {
+    "meshes": 2,
+    "triangles": 336
+   },
+   "Props": {
+    "meshes": 4,
+    "triangles": 156
+   },
+   "Smoke": {
+    "meshes": 1,
+    "triangles": 48
+   },
+   "View": {
+    "meshes": 120,
+    "triangles": 5420
+   },
+   "Water": {
+    "meshes": 2,
+    "triangles": 372
+   }
+  },
+  "max_tris": 3500
+ },
+ "colliders": 120,
+ "lights": 15,
+ "anchors": [
+  "arrival",
+  "exit_door",
+  "guest_seat",
+  "mistress_seat",
+  "table_top"
+ ],
+ "hidden_origin": [
+  -16000,
+  300,
+  16000
+ ]
+}
